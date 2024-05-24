@@ -139,6 +139,8 @@ http://148.135.93.213:81/PLTV/bestv.php?id=hainanwshd8m/8000000
 http://148.135.93.213:81/PLTV/bestv.php?id=ynwshd8m/8000000
 #EXTINF:-1,tvg-id="" tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png" group-title="卫视IPV4",贵州卫视
 http://148.135.93.213:81/PLTV/bestv.php?id=gzwshd8m/8000000
+#EXTINF:-1,tvg-id="" tvg-name="海峡卫视" tvg-logo="https://live.fanmingming.com/tv/海峡卫视.png" group-title="卫视IPV4",海峡卫视
+http://116.162.6.192/sxbuv52.live.bestvcdn.com.cn/live/hxwshd4m/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="央视-4K",CCTV4K
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视-4K",CCTV16-4K
@@ -254,7 +256,9 @@ http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000316/ind
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000317/index.m3u8?IAS
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://live.fanmingming.com/tv/厦门卫视.png" group-title="卫视IPV6",厦门卫视
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000193/index.m3u8?IAS
-#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="数字频道",五星体育
+#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://live.fanmingming.com/tv/劲爆体育.png" group-title="SiTV系列",劲爆体育
+http://116.162.6.192/sxbuv52.live.bestvcdn.com.cn/live/jbtyhd8m/8000000/mnf.m3u8
+#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="SiTV系列",五星体育
 http://[2409:8087:5e08:24::15]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19594820240419041339000523
 #EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K"  group-title="数字频道",爱上4K
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
@@ -370,30 +374,37 @@ http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000010/index.m3u8?
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1,tvg-id="浙江求索生活" tvg-name="浙江求索生活" tvg-logo="https://live.fanmingming.com/tv/浙江求索生活.png" group-title="IHOT",求索生活
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" group-title="SiTV系列" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png",都市剧场
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000204/index.m3u8?IAS
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000204/index.m3u8?IAS
-http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000204/index.m3u8?IAS
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000204/index.m3u8?IAS
-#EXTINF:-1 tvg-id="七彩戏剧" tvg-name="七彩戏剧" group-title="SiTV系列" tvg-logo="https://live.fanmingming.com/tv/七彩戏剧.png",七彩戏剧
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000199/index.m3u8?IAS
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000199/index.m3u8?IAS
-http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000199/index.m3u8?IAS
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000199/index.m3u8?IAS
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="SiTV系列" tvg-logo="https://live.fanmingming.com/tv/东方财经.png",东方财经
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000181/index.m3u8?IAS
-http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000181/index.m3u8?IAS
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000181/index.m3u8?IAS
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000181/index.m3u8?IAS
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" group-title="SiTV系列" tvg-logo="https://live.fanmingming.com/tv/法治天地.png",法治天地
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000340/index.m3u8?IAS
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000340/index.m3u8?IAS
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000340/index.m3u8?IAS
-http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000340/index.m3u8?IAS
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" group-title="SiTV系列" tvg-logo="https://live.fanmingming.com/tv/生活时尚.png",生活时尚
-http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000194/index.m3u8?IAS
-http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000194/index.m3u8?IAS
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000194/index.m3u8?IAS
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000194/index.m3u8?IAS
-#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" group-title="SiTV系列" tvg-logo="https://live.fanmingming.com/tv/劲爆体育.png",劲爆体育
-http://116.162.6.192/sxbuv52.live.bestvcdn.com.cn/live/jbtyhd8m/8000000/mnf.m3u8
+#EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://epg.112114.xyz/logo/TVBS.png" group-title="Youtube",TVBS HD
+https://youtube.livednow.com/stream/YvdcZ_jpLXE
+#EXTINF:-1,tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://epg.112114.xyz/logo/TVBS新闻台.png" group-title="Youtube",TVBS新闻
+https://youtube.livednow.com/stream/2mCSYvcfhtc
+#EXTINF:-1,tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://epg.112114.xyz/logo/中天新闻台.png" group-title="Youtube",中天新闻
+https://youtube.livednow.com/stream/oIgbl7t0S_w
+#EXTINF:-1,tvg-id="台视新闻台" tvg-name="台视新闻台" tvg-logo="https://epg.112114.xyz/logo/台视新闻台.png" group-title="Youtube",台视新闻
+https://youtube.livednow.com/stream/xL0ch83RAK8
+#EXTINF:-1,tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="https://epg.112114.xyz/logo/中视新闻.png" group-title="Youtube",中视新闻
+https://youtube.livednow.com/stream/TCnaIE_SAtM
+#EXTINF:-1,tvg-id="三立海外" tvg-name="三立海外" tvg-logo="https://epg.112114.xyz/logo/三立海外.png" group-title="Youtube",三立海外
+https://youtube.livednow.com/stream/FoBfXvlOR6I
+#EXTINF:-1,tvg-id="三立新闻台" tvg-name="三立新闻台" tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" group-title="Youtube",三立新闻
+https://youtube.livednow.com/stream/oZdzzvxTfUY
+#EXTINF:-1,tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="https://epg.112114.xyz/logo/镜新闻.png" group-title="Youtube",镜新闻
+https://youtube.livednow.com/stream/5n0y6b0Q25o
+#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://epg.112114.xyz/logo/民视新闻台.png" group-title="Youtube",民视新闻
+https://youtube.livednow.com/stream/ylYJSBUgaMA
+#EXTINF:-1,tvg-id="台湾PLUS+" tvg-name="台湾PLUS+" tvg-logo="https://epg.112114.xyz/logo/台湾PLUS+.png" group-title="Youtube",台湾PLUS+
+https://youtube.livednow.com/stream/ovzTfk5CmIE
+#EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://epg.112114.xyz/logo/TVBS.png" group-title="Youtube",TVBS NEWS
+https://youtube.livednow.com/stream/m_dhMSvUCIc
+#EXTINF:-1,tvg-id="中视" tvg-name="中视" tvg-logo="https://epg.112114.xyz/logo/中视.png" group-title="Youtube",中视经典综艺
+https://youtube.livednow.com/stream/ADDSmXoPDY8
+#EXTINF:-1,tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://epg.112114.xyz/logo/东森新闻台.png" group-title="Youtube",东森新闻
+https://youtube.livednow.com/stream/2dfAzcDf8Zg_
+#EXTINF:-1,tvg-id="寰宇新聞" tvg-name="寰宇新聞" tvg-logo="https://epg.112114.xyz/logo/寰宇新聞.png" group-title="Youtube",寰宇新聞
+https://youtube.livednow.com/stream/6IquAgfvYmc
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="Youtube",凤凰资讯
+https://youtube.livednow.com/stream/0K6C6Rv4RR4_
+#EXTINF:-1,tvg-id="中天新闻2" tvg-name="中天新闻2" tvg-logo="https://epg.112114.xyz/logo/中天新闻2.png" group-title="Youtube",中天新闻2
+https://youtube.livednow.com/stream/WPfPjbOLNfE
+#EXTINF:-1,tvg-id="公视" tvg-name="公视" tvg-logo="https://epg.112114.xyz/logo/公视.png" group-title="Youtube",公视新闻
+https://youtube.livednow.com/stream/quwqlazU-c8
