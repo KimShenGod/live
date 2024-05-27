@@ -410,9 +410,9 @@ http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000008/index.m3u8?
 #EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://live.fanmingming.com/tv/重庆新闻.png" group-title="地方·重庆",重庆新闻
 https://sjlivecdn9.cbg.cn/202906282314/app_2/_definst_/ls_3.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://live.fanmingming.com/tv/重庆影视.png" group-title="地方·重庆",重庆影视
-http://27.11.53.32:8001/udp/225.0.4.192:7980
+https://php.ntnas.top/api/cqyx.php?id=cqyingshiHD
 #EXTINF:-1 tvg-id="重庆社会与法" tvg-name="重庆社会与法" tvg-logo="https://live.fanmingming.com/tv/重庆社会与法.png" group-title="地方·重庆",重庆社会与法
-https://live.imxd.top/live.php?id=CQTVTrendyHD
+https://php.ntnas.top/api/cqyx.php?id=CQTVTrendyHD
 #EXTINF:-1 tvg-id="重庆时尚生活" tvg-name="重庆时尚生活" tvg-logo="https://live.fanmingming.com/tv/重庆时尚生活.png" group-title="地方·重庆",重庆时尚生活
 https://live.imxd.top/live.php?id=cqssgwHD
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://live.fanmingming.com/tv/重庆文体娱乐.png" group-title="地方·重庆",重庆文体娱乐
