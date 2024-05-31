@@ -269,6 +269,8 @@ http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000316/ind
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000317/index.m3u8?IAS
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://live.fanmingming.com/tv/厦门卫视.png" group-title="卫视IPV6",厦门卫视
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000193/index.m3u8?IAS
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://live.fanmingming.com/tv/大湾区卫视.png" group-title="卫视IPV6",大湾区卫视
+http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226442/index.m3u8
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://live.fanmingming.com/tv/劲爆体育.png" group-title="SiTV系列",劲爆体育
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="SiTV系列",五星体育
@@ -361,8 +363,6 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
 #EXTINF:-1 tvg-id="NewTV农业致富" tvg-name="NewTV农业致富" tvg-logo="https://live.fanmingming.com/tv/NewTV农业致富.png" group-title="数字频道",农业致富
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="NewTV明星大片" tvg-name="NewTV明星大片" tvg-logo="https://live.fanmingming.com/tv/NewTV明星大片.png" group-title="数字频道",明星大片
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
 #EXTINF:-1 tvg-id="NewTV武搏世界" tvg-name="NewTV武搏世界" tvg-logo="https://live.fanmingming.com/tv/NewTV武搏世界.png" group-title="数字频道",武搏世界
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
 #EXTINF:-1 tvg-id="NewTV爱情喜剧" tvg-name="NewTV爱情喜剧" tvg-logo="https://live.fanmingming.com/tv/NewTV爱情喜剧.png" group-title="数字频道",爱情喜剧
@@ -551,8 +551,10 @@ https://z88.ubtvfans.com/live/rx1/72/45683d738c0c0f8cc659cb4126f5dad3/index.m3u8
 https://epg.pw/stream/4b1dd593dbef7dda5679ff12ddcb296b1b4aacaa6180c8e3f386de5a3c60f5e7.m3u8
 #EXTINF:-1 tvg-name="ViuTVsix" tvg-id="10954" tvg-country="香港" tvg-language="英文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720193559298867_98.png" group-title="港澳台",[BD]viutv six
 https://epg.pw/stream/c395b926a5e83070548c5c2bdf771e4325d8d259761b159db32616931f47e247.ctv
-#EXTINF:-1,tvg-id="HOY资讯台" group-title="港澳台",HOY资讯台
-https://z88.ubtvfans.com/live/rx1/395/2afff7b9574d72ee839084fcdde78ff7/index.m3u8
+#EXTINF:-1,tvg-id="HOY 77台" group-title="港澳台",HOY 77台
+https://z88.ubtvfans.com/live/rx1/401/2ab2599cd56cdf8db12d3cbd9fc24006/index.m3u8
+#EXTINF:-1,tvg-id="HOY资讯台" group-title="港澳台",HOY 78台
+https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 #EXTINF:-1,tvg-id="TVB经典" group-title="港澳台",TVB经典
 https://z88.ubtvfans.com/live/rx4/1083/067958a5c51d052f7bcc3f3bd1a3a8ff/index.m3u8
 #EXTINF:-1,tvg-id="TVB粤语" group-title="港澳台",TVB粤语
@@ -574,11 +576,11 @@ https://z88.ubtvfans.com/live/rx3/1246/9368c3093c58aa8b9de729b09b3a03e3/index.m3
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映频道" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="港澳台",天映频道
 https://z88.ubtvfans.com/live/rx3/441/4b02ebfe67b0d934aaae5b94f25d1b95/index.m3u8
 #EXTINF:-1,tvg-id="天映经典" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台",天映经典
-https://z88.ubtvfans.com/live/rx3/2289/2976c22827abb434e323d7c73ca72ba0/index.m3u8
+https://z88.ubtvfans.com/live/rx3/1438/3614bb0fc967e939fd949c912841148a/index.m3u8
 #EXTINF:-1,tvg-id="凤凰电影" group-title="港澳台",凤凰电影
 https://z88.ubtvfans.com/live/rx1/2814/8eecf538c9b2cfe2100b15b04bfabfc0/index.m3u8
 #EXTINF:-1 tvg-name="鳳凰香港" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720101153992346_85.png" group-title="港澳台",[HD]凤凰香港
-https://epg.pw/stream/b3ab43b2415df405226d5b25f38e51432ca7d32b5a240e0aa1f3e201d181442f.m3u8
+https://z88.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
 
 #EXTINF:-1,tvg-id="东森新闻" group-title="港澳台",东森新闻
 https://epg.pw/stream/54221319de813f4675b6ccd9ab958d744ed33570caa663c854e9727240d7cbdb.m3u8
@@ -608,8 +610,6 @@ https://z88.ubtvfans.com/live/rx1/371/0fd95cba4794f8bed187c2bcfa9c47d1/index.m3u
 https://z88.ubtvfans.com/live/rx1/2273/d72f24016c5ba7087527fb648d02969a/index.m3u8
 #EXTINF:-1,tvg-id="TVBS NEWS" group-title="港澳台",TVBS NEWS
 https://z88.ubtvfans.com/live/rx2/2/04c1c443d4f9f5983c9e9a491ba05f05/index.m3u8
-#EXTINF:-1 tvg-id="TVBSNews.tw" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="港澳台",TVBS News (TVBS新聞台)
-https://ythls.armelin.one/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
 #EXTINF:-1,tvg-id="TVBS新闻" group-title="港澳台",TVBS新闻
 https://z88.ubtvfans.com/live/rx5/2736/be2d52910873cb20d510f4f1ef0804ba/index.m3u8
 #EXTINF:-1,tvg-id="TVBS欢乐 HD" group-title="港澳台",TVBS欢乐 HD
@@ -669,7 +669,7 @@ https://z88.ubtvfans.com/live/rx1/351/1db9ab4c9c436100d700384de733dd09/index.m3u
 #EXTINF:-1,tvg-id="ELTA影剧" group-title="港澳台",ELTA影剧
 https://z88.ubtvfans.com/live/rx1/500/5f8bfd4a17c22bcd9d1840894929112c/index.m3u8
 #EXTINF:-1,tvg-id="八大戏剧" group-title="港澳台",八大戏剧
-https://epg.pw/stream/502ec7a7075f723ec1288fb463708460e8fa0d4f7932812fe508aee001ccc04a.m3u8
+https://z88.ubtvfans.com/live/rx1/81/724862d1a0b9c0b5154368d271f4789e/index.m3u8
 #EXTINF:-1,tvg-id="八大第一" group-title="港澳台",八大第一
 https://z88.ubtvfans.com/live/rx1/318/caf30fed70d5227d71cf045a1d212005/index.m3u8
 #EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
@@ -717,7 +717,7 @@ https://z88.ubtvfans.com/live/rx2/185/94060233eb32d5a55eb8658fe1f3f0e2/index.m3u
 #EXTINF:-1,tvg-id="中视经典综艺" group-title="港澳台",中视经典综艺
 
 #EXTINF:-1,tvg-id="民视" group-title="港澳台",民视
-https://z88.ubtvfans.com/live/rx1/336/a355146f49dc8ec7fb97ab46e4c9857d/index.m3u8
+
 #EXTINF:-1,tvg-id="民视综艺" group-title="港澳台",民视综艺
 
 #EXTINF:-1,tvg-id="民视第一台" group-title="港澳台",民视第一台
@@ -726,6 +726,8 @@ https://z88.ubtvfans.com/live/rx1/336/a355146f49dc8ec7fb97ab46e4c9857d/index.m3u
 
 #EXTINF:-1,tvg-id="民视新闻" group-title="港澳台",民视新闻
 https://ythls.armelin.one/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
+#EXTINF:-1,tvg-id="民视新闻 HD" group-title="港澳台",民视新闻 HD
+https://epg.pw/stream/37de02efb12a4dc05e13814405a580e6f46b091c993c411e7a95bcac4c41e9b0.m3u8
 #EXTINF:-1,tvg-id="民视台湾" group-title="港澳台",民视台湾
 https://z88.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
 #EXTINF:-1,tvg-id="公视" group-title="港澳台",公视
