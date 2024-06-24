@@ -272,7 +272,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010119/1.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://live.fanmingming.com/tv/三沙卫视.png" group-title="卫视IPV6",三沙卫视
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000208/index.m3u8?IAS
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视IPV6",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=63cf437e1591689484
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视.png" group-title="卫视IPV6",甘肃卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://live.fanmingming.com/tv/三沙卫视.png" group-title="卫视IPV6",三沙卫视
@@ -284,7 +284,7 @@ http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000317/ind
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://live.fanmingming.com/tv/厦门卫视.png" group-title="卫视IPV6",厦门卫视
 http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000193/index.m3u8?IAS
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://live.fanmingming.com/tv/大湾区卫视.png" group-title="卫视IPV6",大湾区卫视
-http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226442/index.m3u8
+http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="卫视IPV6",兵团卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
 #EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://live.fanmingming.com/tv/香港卫视.png" group-title="卫视IPV6",香港卫视
@@ -558,11 +558,11 @@ https://youtube.livednow.com/stream/quwqlazU-c8
 #EXTINF:-1,tvg-id="星空卫视" group-title="港澳台",星空卫视
 https://z88.ubtvfans.com/live/rx1/56/58a02d1ccbf9a135d9f58c4ad3ce6e04/index.m3u8
 #EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="港澳台",翡翠台
-https://z88.ubtvfans.com/live/rx1/390/207eb167765508c920915d1ce02433f0/index.m3u8
+http://php.jdshipin.com:8880/smt.php?id=jade_twn
 #EXTINF:-1 tvg-name="TVB娛樂新聞" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="港澳台",[HD]tvb娱乐新闻
 https://epg.pw/stream/57737ed82a70288e90bca3ef3b9e7ed3e8b896445947908bd76d4ed3c4ba6c43.m3u8
 #EXTINF:-1,tvg-id="TVB明珠" group-title="港澳台",TVB明珠
-https://epg.pw/stream/54002a9a388d258c0dcd77400740fda0b51e9fccf0ff89731ee2abf06bf12e89.ctv
+http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 #EXTINF:-1 tvg-name="香港衛視" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720203020466405_42.png" group-title="港澳台",[SD]香港卫视
 https://epg.pw/stream/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
 #EXTINF:-1 tvg-name="環球電視臺" tvg-id="11040" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/03/18/large/20220318090803853591_56.png" group-title="港澳台",[SD]环球电视台
@@ -570,17 +570,21 @@ https://epg.pw/stream/b4dc9c6994b988ed1e17cd22e6574f578b8d43a534a2e4d07049f711b3
 #EXTINF:-1 tvg-name="港臺電影" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2019/04/05/large/20190405224938849843_83.jpg" group-title="港澳台",[HD]港台电影
 https://epg.pw/stream/9733a9faedac1ecb653defe0c92c8c29c8e1f07b0869bd241b1b2ad7737c1dde.ctv
 #EXTINF:-1 tvg-name="RTHK31" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719083758215404_92.png" group-title="港澳台",[HD]rthk 31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/streamPlaylist.m3u8
+http://php.jdshipin.com:8880/smt.php?id=rhk31_twn
 #EXTINF:-1 tvg-name="RTHK32" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719083827856598_33.png" group-title="港澳台",[HD]rthk 32
-https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
+http://php.jdshipin.com:8880/smt.php?id=rhk32_twn
 #EXTINF:-1 tvg-name="RTHK34" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/08/22/large/20220822225312895053_10.png" group-title="港澳台",[HD]rthk 34
 https://epg.pw/stream/16e85bed392dd123c9d057343c09e2310c6975d4866da8c92f7b0127fa865523.m3u8
 #EXTINF:-1,tvg-id="VIU TV" group-title="港澳台",VIU TV
-https://z88.ubtvfans.com/live/rx1/2334/fba30fd4af785fb0451bcccfdf475e79/index.m3u8
+http://php.jdshipin.com:8880/smt.php?id=viu1_twn
 #EXTINF:-1 tvg-name="ViuTV HD" tvg-id="10957" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720193225282526_84.png" group-title="港澳台",[BD]viutv
 https://epg.pw/stream/4b1dd593dbef7dda5679ff12ddcb296b1b4aacaa6180c8e3f386de5a3c60f5e7.m3u8
 #EXTINF:-1 tvg-name="ViuTVsix" tvg-id="10954" tvg-country="香港" tvg-language="英文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720193559298867_98.png" group-title="港澳台",[BD]viutv six
 https://epg.pw/stream/c395b926a5e83070548c5c2bdf771e4325d8d259761b159db32616931f47e247.ctv
+#EXTINF:-1,tvg-id="无线新闻台" group-title="港澳台",无线新闻台
+http://php.jdshipin.com:8880/smt.php?id=inews_twn
+#EXTINF:-1,tvg-id="财经资讯台" group-title="港澳台",财经资讯台
+http://php.jdshipin.com:8880/smt.php?id=tvbcaijing_twn
 #EXTINF:-1,tvg-id="HOY 77台" group-title="港澳台",HOY 77台
 https://z88.ubtvfans.com/live/rx1/401/2ab2599cd56cdf8db12d3cbd9fc24006/index.m3u8
 #EXTINF:-1,tvg-id="HOY资讯台" group-title="港澳台",HOY 78台
@@ -593,20 +597,22 @@ https://z88.ubtvfans.com/live/rx4/1083/067958a5c51d052f7bcc3f3bd1a3a8ff/index.m3
 https://z88.ubtvfans.com/live/rx1/1589/f69ec211e7b1001aba0bab74ae0b038f/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台",TVB直播
 https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist.m3u8
-#EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台",[HD]tvb星河
+#EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="粤語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台",[HD]tvb星河
 https://epg.pw/stream/186dab52eabcdf6b47765bf93dc370a250af463f1759ce68025a20c01a9ba0d8.m3u8
+#EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台",[HD]tvb星河(国)
+http://php.jdshipin.com:8880/smt.php?id=Xinhe
+#EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="粤語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台",[HD]tvb星河(粤)
+https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/playlist.m3u8
 #EXTINF:-1,tvg-id="TVB亚洲剧" group-title="港澳台",TVB亚洲剧
 https://z88.ubtvfans.com/live/rx1/1048/1fca2f643298a4e188bbe00ad6d7b60e/index.m3u8
 #EXTINF:-1,tvg-id="TVB功夫台" group-title="港澳台",TVB功夫台
-https://z88.ubtvfans.com/live/rx1/168/83b003eeef5ee14257bc64c8a32eb617/index.m3u8
+http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 #EXTINF:-1,tvg-id="TVB PLUS" group-title="港澳台",TVB PLUS
 https://z88.ubtvfans.com/live/rx1/394/ea3bdc0ef72944ed9e0438db99e557f2/index.m3u8
-#EXTINF:-1,tvg-id="TVB" group-title="港澳台",TVB
-https://z88.ubtvfans.com/live/rx1/392/a8eb3028c1ce9d8eb38d3bdb55b4c171/index.m3u8
 #EXTINF:-1,tvg-id="TVB J1" group-title="港澳台",TVB J1
 
 #EXTINF:-1,tvg-id="TVB J2" group-title="港澳台",TVB J2
-https://z88.ubtvfans.com/live/rx1/2834/c4e8a90ec43d655efcd7a5b1f05120d1/index.m3u8
+http://php.jdshipin.com:8880/smt.php?id=j2_twn
 #EXTINF:-1,tvg-id="NOW TV" group-title="港澳台",NOW TV
 https://z88.ubtvfans.com/live/rx3/1246/9368c3093c58aa8b9de729b09b3a03e3/index.m3u8
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映频道" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="港澳台",天映频道
