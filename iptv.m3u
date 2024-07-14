@@ -260,7 +260,7 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="卫视IPV6",黑龙江卫视
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000175/index.m3u8?IAS
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://live.fanmingming.com/tv/内蒙古卫视.png" group-title="卫视IPV6",内蒙古卫视
-http://120.87.97.246:8114/GD.m3u8?Authinfo=F8UQ%2BEevMmd%2FnekE5YOOKtadjOJg8CbeqsqTgzJiG7FM7k1u027nYSb3VMtNVHOm&p=GITV&area=GD_CUCC&partnerCode=GD_CUCC&token=0C760427464F16BC52147D30B20FE4AFCF076375187B56B35E8BDB02A2F6902DE9292062EA71D873A44BBEEB2412BDB1EC6FB05780A8EA269429663960F75A0E38AD629F8C7EE56B792DC687DBB007AA5A7E6BA759697151C58F0015A49D684681688F54CF181FEA9885C669F98E6157C28D65F01F79AD703ABEC36AB5501CEAAAA270038E8B9D34B33962FE84B6D2A996DBE32DF2BA88F913DE2ED98DD12A30&version=0.0.0.0&apkVersion=4.2.33&mac=fc:57:03:56:49:16&multicast=0&platform=LIVE&gAreaId=CHN&gAppChannel=DEFAULT&gSoftTermId=TERMINAL&gManufacturer=Hisense&gModel=IP108H&gMac=fc:57:03:56:49:16&gStbId=00000444000710800001FC5703564916&gOsType=android&gOsVersion=4.4.2&gApiLevel=19&gAppVersionCode=4233&gAppVersionName=4.2.33&gDowngrade=EMERGENCY&gProductLineCode=LIVOD&gRomVersion=3.17.2.4602&gTimestamp=1715182669897&gRequests=1&gThirdPartyCDN=0&gGroupCode=&gUserId=002040101532912&isIty=1&gCityCode=DEFAULT&verType=0&Fsv_Tgid=517e5e9d43853283&FvSeid=77fd5578ee7139f9&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=3106&Fsv_chan_hls_se_idx=24&Fsv_TBt=2287296&Fsv_ShiftEnable=1&Fsv_ShiftTsp=120&Fsv_SV_PARAM1=0&Fsv_otype=0&Provider_id=GD_CUCC&Pcontent_id=G_NEIMENGGU&Fsv_CMSID=GD_CUCC
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000014080/1.m3u8
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://live.fanmingming.com/tv/宁夏卫视.png" group-title="卫视IPV6",宁夏卫视
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000309/index.m3u8?IAS
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png" group-title="卫视IPV6",陕西卫视
@@ -337,7 +337,7 @@ http://[2409:8087:1a0b:df::4014]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
 #EXTINF:-1 tvg-id="newtv超级电影" tvg-name="newtv超级电影" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级电影.png" group-title="数字频道",超级电影
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-id="NewTV动作电影" tvg-name="NewTV动作电影" tvg-logo="https://live.fanmingming.com/tv/NewTV动作电影.png",group-title="数字频道",动作电影
+#EXTINF:-1 tvg-id="newtv动作电影" tvg-name="NewTV动作电影" tvg-logo="https://live.fanmingming.com/tv/NewTV动作电影.png" group-title="数字频道",动作电影
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
 #EXTINF:-1 tvg-id="newtv超级电视剧" tvg-name="newtv超级电视剧" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级电视剧.png" group-title="数字频道",超级视剧
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
@@ -381,7 +381,7 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
 #EXTINF:-1 tvg-id="newtv农业致富" tvg-name="newtv农业致富" tvg-logo="https://live.fanmingming.com/tv/NEWTV农业致富.png" group-title="数字频道",农业致富
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="newtv武搏世界" tvg-name="newtv武搏世界" tvg-logo="https://live.fanmingming.com/tv/NEWwTV武搏世界.png" group-title="数字频道",武搏世界
+#EXTINF:-1 tvg-id="newtv武搏世界" tvg-name="newtv武搏世界" tvg-logo="https://live.fanmingming.com/tv/NEWTV武搏世界.png" group-title="数字频道",武搏世界
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
 #EXTINF:-1 tvg-id="newtv爱情喜剧" tvg-name="newtv爱情喜剧" tvg-logo="https://live.fanmingming.com/tv/NEWTV爱情喜剧.png" group-title="数字频道",爱情喜剧
 http://[2409:8087:1a01:df::405f]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
@@ -423,7 +423,7 @@ http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000009/index.m3u8?
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000010&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1,tvg-id="求索科学" tvg-name="求索科学" tvg-logo="https://live.fanmingming.com/tv/求索科学.png" group-title="IHOT",求索科学
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1,tvg-id="浙江求索生活" tvg-name="浙江求索生活" tvg-logo="https://live.fanmingming.com/tv/浙江求索生活.png" group-title="IHOT",求索生活
+#EXTINF:-1,tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://live.fanmingming.com/tv/求索生活.png" group-title="IHOT",求索生活
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://live.fanmingming.com/tv/重庆新闻.png" group-title="地方·重庆",重庆新闻
 https://live.goodiptv.club/api/cqyx.php?id=CQTVNewsHD
@@ -449,19 +449,19 @@ http://qxlmlive9.cbg.cn/app_2/ls_57.stream/chunklist.m3u8
 https://live.goodiptv.club/api/cqyx.php?id=cqrongmei
 #EXTINF:-1 tvg-id="爱看导视" tvg-name="爱看导视" tvg-logo="https://live.fanmingming.com/tv/爱看导视.png" group-title="地方·重庆",爱看导视
 https://live.goodiptv.club/api/cqyx.php?id=aikanHD
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="地方·重庆",「重庆」璧山综合
+#EXTINF:-1 tvg-id="璧山综合" tvg-name="璧山综合" tvg-logo="" group-title="地方·重庆",璧山综合
 http://222.179.42.129:8181/hls1.m3u8?zzhongqd
-#EXTINF:-1 tvg-name="东方财经" group-title="地方·其它",东方财经
+#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" group-title="地方·其它",东方财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 tvg-name="第一财经" tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png" group-title="地方·其它",第一财经
+#EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png" group-title="地方·其它",第一财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 tvg-name="东方影视" tvg-logo="https://live.fanmingming.com/tv/东方影视.png" group-title="地方·其它",东方影视
+#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" tvg-logo="https://live.fanmingming.com/tv/东方影视.png" group-title="地方·其它",东方影视
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 tvg-name="上海都市" tvg-logo="https://live.fanmingming.com/tv/上海都市.png" group-title="地方·其它",上海都市
+#EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://live.fanmingming.com/tv/上海都市.png" group-title="地方·其它",上海都市
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 tvg-name="上海新闻" tvg-logo="https://live.fanmingming.com/tv/上视新闻.png" group-title="地方·其它",上海新综
+#EXTINF:-1 tvg-id="上海新闻" tvg-name="上海新闻" tvg-logo="https://live.fanmingming.com/tv/上视新闻.png" group-title="地方·其它",上海新综
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 tvg-name="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png" group-title="地方·其它",上海外语
+#EXTINF:-1 tvg-id="上海外语" tvg-name="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png" group-title="地方·其它",上海外语
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000001/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000001&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实.png" group-title="地方·其它",金鹰纪实
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN4766929BESTVSMGSMG/index.m3u8?m3u8_level=2
@@ -481,17 +481,17 @@ http://222.241.154.37:9901/tsfile/live/23020_1.m3u8
 http://222.241.154.37:9901/tsfile/live/23023_1.m3u8
 #EXTINF:-1 tvg-id="湖南教育" tvg-name="湖南教育台" tvg-logo="https://live.fanmingming.com/tv/湖南教育.png" group-title="地方·其它",湖南教育
 http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
-#EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北综合.png" group-title="地方·其它",湖北综合
+#EXTINF:-1 tvg-id="湖北综合" tvg-name="湖北综合" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/HUBEI4.png" group-title="地方·其它",湖北综合
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072216f7da/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLx3R3LdIBdA5q61lut1LwZcw4SC2tJubc%2Bq5t%2F61jvWCtjrJL0x%2BHncPgdmcbBW9I
-#EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北影视.png" group-title="地方·其它",湖北影视
+#EXTINF:-1 tvg-id="湖北影视" tvg-name="湖北影视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/HUBEI5.png" group-title="地方·其它",湖北影视
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380728abccd2/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKU1xiiKGJYFBZK9RpEkaggogtHJZW6nJQqLppbEYE%2BqJ9kJW%2FMvKldfS2dCii9VSI
-#EXTINF:-1 tvg-id="湖北生活" tvg-name="湖北生活" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北生活.png" group-title="地方·其它",湖北生活
+#EXTINF:-1 tvg-id="湖北生活" tvg-name="湖北生活" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/HUBEI2.png" group-title="地方·其它",湖北生活
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072c62e405/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKJPodw5BcDirSOw7egztI5bUvJjqPzSNAhrA37GrbRBIAjGQpzP0QmgsmuHnQyd2c
-#EXTINF:-1 tvg-id="湖北公共" tvg-name="湖北公共" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北公共新闻.png" group-title="地方·其它",湖北公共
+#EXTINF:-1 tvg-id="湖北公共" tvg-name="湖北公共" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/HUBEI6.png" group-title="地方·其它",湖北公共
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380726d0ee3b/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKgjpyhD%2FJd6SZjkcHAKXbsjwotAY57dianC4%2ByY7artm7J7F4GFO6G99D0bYMJRxI
-#EXTINF:-1 tvg-id="湖北经视" tvg-name="湖北经视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北经视.png" group-title="地方·其它",湖北经视
+#EXTINF:-1 tvg-id="湖北经视" tvg-name="湖北经视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/HUBEI7.png" group-title="地方·其它",湖北经视
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807203543e3/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLVCQ3pDe4nBySab%2B3xPL123aTSCRugzF2ABe36IIJw2evZbYdWUo0ffUw53bflDgU
-#EXTINF:-1 tvg-id="HB03" tvg-name="湖北教育" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei3.png" group-title="地方·其它",湖北教育
+#EXTINF:-1 tvg-id="湖北教育" tvg-name="湖北教育" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Hubei3.png" group-title="地方·其它",湖北教育
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072a6cbbf6/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKTFQuOKNd5i0HMa3ydMWIQ6kJ2fBJGJ77BLTXK72CqUYQsX3ZguYt0954s9hfZTfc
 #EXTINF:-1 tvg-name="黑龙江都市" group-title="地方·其它",黑龙江都市
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
