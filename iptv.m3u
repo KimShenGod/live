@@ -163,13 +163,13 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m
 #EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC动作电影.png" group-title="央视IPV6",CHC动作电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
-rtsp://[2409:8087:2001:20:2800:0:df6e:eb18]:554/ott.mobaibox.com/000000400000001/H265_8000k_1080P_cctv1_CR
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018602/1.m3u8
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视IPV6",CCTV2
-rtsp://[2409:8087:2001:20:2800:0:df6e:eb1a]:554/ott.mobaibox.com/000000400000001/H265_8000k_1080P_cctv2_CR
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000012442/1.m3u8
 #EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV3.png" group-title="央视IPV6",CCTV3
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000011218/1.m3u8
 #EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4.png" group-title="央视IPV6",CCTV4
-rtsp://[2409:8087:2001:20:2800:0:df6e:eb18]:554/ott.mobaibox.com/000000400000001/H265_8000k_1080P_cctv4_CR
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000031664/1.m3u8
 #EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5.png" group-title="央视IPV6",CCTV5
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000004794/1.m3u8
 #EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5+.png" group-title="央视IPV6",CCTV5+
@@ -195,9 +195,9 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000008170/1.m3u8
 #EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV15.png" group-title="央视IPV6",CCTV15
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000008163/1.m3u8
 #EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV16.png" group-title="央视IPV6",CCTV16
-rtsp://[2409:8087:2001:20:2800:0:df6e:eb1a]:554/ott.mobaibox.com/000000400000001/HD_8000k_1080P_cctv16_CR
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000006000233001/1.m3u8
 #EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV17.png" group-title="央视IPV6",CCTV17
-http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000494/index.m3u8?IAS
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000056836/1.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CGTN纪录.png" group-title="央视IPV6",CGTN记录
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="央视IPV6",兵器科技
