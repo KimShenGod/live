@@ -732,7 +732,7 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
 #EXTINF:-1,tvg-id="6054" tvg-name="中天综合台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiVariety.png" group-title="港澳台",中天综合
 https://z02.ubtvfans.com/live/rx3/54/b8751095c9d94abc7d87c8593fad2300/index.m3u8
 #EXTINF:-1,tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiEntertainment.png" group-title="港澳台",中天娱乐
-https://bsex.serv00.net/Smart.php?id=ctient
+http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1,tvg-id="中天亚洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中天亚洲台.png" group-title="港澳台",中天亚洲
 https://bsex.serv00.net/Smart.php?id=ctiasia_twn
 #EXTINF:-1,tvg-id="6030" tvg-name="华视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视.png" group-title="港澳台",华视
@@ -861,6 +861,8 @@ https://z02.ubtvfans.com/live/rx2/1127/fb9c792790b1ed7dd6ccccbd5895b458/index.m3
 https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台",GOOD劉三講古
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch24-2.m3u8
+#EXTINF:-1,tvg-id="中华小当家" tvg-logo="" group-title="港澳台",中华小当家
+http://61.221.215.25:8800/hls/40/index.m3u8
 #EXTINF:-1,tvg-id="6035" tvg-name="客家电视台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HakkaTV.png" group-title="港澳台",客家电视
 https://z02.ubtvfans.com/live/rx3/76/fa5b120431ea76968b2a7363017a2025/index.m3u8
 #EXTINF:-1,tvg-id="6096" tvg-name="国兴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GoldSunTV.png" group-title="港澳台",国兴卫视
@@ -970,73 +972,49 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/32212
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/咪咕体育.png" group-title="IPV6·网络",咪咕体育
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225895/index.m3u8
 
-#EXTINF:-1,tvg-id="八大娱乐1" group-title="港澳台",八大娱乐1
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐2" group-title="港澳台",八大娱乐2
-http://61.221.215.25:8800/hls/46/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐3" group-title="港澳台",八大娱乐3
-http://61.221.215.25:8800/hls/45/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐4" group-title="港澳台",八大娱乐4
-http://61.221.215.25:8800/hls/44/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐5" group-title="港澳台",八大娱乐5
-http://61.221.215.25:8800/hls/42/index.m3u8
-#EXTINF:-1,tvg-id="中华小当家" group-title="港澳台",中华小当家
-http://61.221.215.25:8800/hls/40/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐7" group-title="港澳台",八大娱乐7
-http://61.221.215.25:8800/hls/38/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐8" group-title="港澳台",八大娱乐8
-http://61.221.215.25:8800/hls/37/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐48" group-title="港澳台",八大娱乐48
+http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐52" group-title="港澳台",八大娱乐52
+http://61.221.215.25:8800/hls/52/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐53" group-title="港澳台",八大娱乐53
+http://61.221.215.25:8800/hls/53/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐54" group-title="港澳台",八大娱乐54
+http://61.221.215.25:8800/hls/54/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐59" group-title="港澳台",八大娱乐59
+http://61.221.215.25:8800/hls/59/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐60" group-title="港澳台",八大娱乐60
+http://61.221.215.25:8800/hls/60/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐61" group-title="港澳台",八大娱乐61
+http://61.221.215.25:8800/hls/61/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐62" group-title="港澳台",八大娱乐62
+http://61.221.215.25:8800/hls/62/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐63" group-title="港澳台",八大娱乐63
+http://61.221.215.25:8800/hls/63/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐64" group-title="港澳台",八大娱乐64
+http://61.221.215.25:8800/hls/64/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐65" group-title="港澳台",八大娱乐65
+http://61.221.215.25:8800/hls/65/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐66" group-title="港澳台",八大娱乐66
+http://61.221.215.25:8800/hls/66/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐67" group-title="港澳台",八大娱乐67
+http://61.221.215.25:8800/hls/67/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐68" group-title="港澳台",八大娱乐68
+http://61.221.215.25:8800/hls/68/index.m3u8
 #EXTINF:-1,tvg-id="八大娱乐9" group-title="港澳台",八大娱乐9
-http://61.221.215.25:8800/hls/36/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐35" group-title="港澳台",八大娱乐35
-http://61.221.215.25:8800/hls/35/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐34" group-title="港澳台",八大娱乐34
-http://61.221.215.25:8800/hls/34/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐33" group-title="港澳台",八大娱乐33
-http://61.221.215.25:8800/hls/33/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐32" group-title="港澳台",八大娱乐32
-http://61.221.215.25:8800/hls/32/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐31" group-title="港澳台",八大娱乐31
-http://61.221.215.25:8800/hls/31/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐30" group-title="港澳台",八大娱乐30
-http://61.221.215.25:8800/hls/30/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐29" group-title="港澳台",八大娱乐29
-http://61.221.215.25:8800/hls/29/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐28" group-title="港澳台",八大娱乐28
-http://61.221.215.25:8800/hls/28/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐27" group-title="港澳台",八大娱乐27
-http://61.221.215.25:8800/hls/27/index.m3u8
-#EXTINF:-1,tvg-id="中华小当家26" group-title="港澳台",中华小当家26
-http://61.221.215.25:8800/hls/26/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐25" group-title="港澳台",八大娱乐25
-http://61.221.215.25:8800/hls/25/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐24" group-title="港澳台",八大娱乐24
-http://61.221.215.25:8800/hls/24/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐23" group-title="港澳台",八大娱乐23
-http://61.221.215.25:8800/hls/23/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐22" group-title="港澳台",八大娱乐22
-http://61.221.215.25:8800/hls/22/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐21" group-title="港澳台",八大娱乐21
-http://61.221.215.25:8800/hls/21/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐20" group-title="港澳台",八大娱乐20
-http://61.221.215.25:8800/hls/20/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐19" group-title="港澳台",八大娱乐19
-http://61.221.215.25:8800/hls/19/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐18" group-title="港澳台",八大娱乐18
-http://61.221.215.25:8800/hls/18/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐17" group-title="港澳台",八大娱乐17
-http://61.221.215.25:8800/hls/17/index.m3u8
-#EXTINF:-1,tvg-id="中华小当家16" group-title="港澳台",中华小当家16
-http://61.221.215.25:8800/hls/16/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐15" group-title="港澳台",八大娱乐15
-http://61.221.215.25:8800/hls/15/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐14" group-title="港澳台",八大娱乐14
-http://61.221.215.25:8800/hls/14/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐13" group-title="港澳台",八大娱乐13
-http://61.221.215.25:8800/hls/13/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐12" group-title="港澳台",八大娱乐12
-http://61.221.215.25:8800/hls/12/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐11" group-title="港澳台",八大娱乐11
-http://61.221.215.25:8800/hls/11/index.m3u8
-#EXTINF:-1,tvg-id="八大娱乐10" group-title="港澳台",八大娱乐10
-http://61.221.215.25:8800/hls/10/index.m3u8
+http://61.221.215.25:8800/hls/9/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐8" group-title="港澳台",八大娱乐8
+http://61.221.215.25:8800/hls/8/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐7" group-title="港澳台",八大娱乐7
+http://61.221.215.25:8800/hls/7/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐6" group-title="港澳台",八大娱乐6
+http://61.221.215.25:8800/hls/6/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐5" group-title="港澳台",八大娱乐5
+http://61.221.215.25:8800/hls/5/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐4" group-title="港澳台",八大娱乐4
+http://61.221.215.25:8800/hls/4/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐3" group-title="港澳台",八大娱乐3
+http://61.221.215.25:8800/hls/3/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐2" group-title="港澳台",八大娱乐2
+http://61.221.215.25:8800/hls/2/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐1" group-title="港澳台",八大娱乐1
+http://61.221.215.25:8800/hls/1/index.m3u8
