@@ -684,7 +684,7 @@ https://z02.ubtvfans.com/live/rx3/339/85339de3283d33f46d4735db2f4cac1a/index.m3u
 #EXTINF:-1,tvg-id="纬来育乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandMaxTV.png" group-title="港澳台",纬来育乐
 https://z02.ubtvfans.com/live/rx1/338/24e3230f2c9205c6307b25e118377967/index.m3u8
 #EXTINF:-1,tvg-id="7197" tvg-name="纬来精采" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纬来精彩台.png" group-title="港澳台",纬来精采
-https://z02.ubtvfans.com/live/rx1/2280/17f9da1e268588dea07c1369bbf9b09c/index.m3u8
+http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1,tvg-id="ELTA体育1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eata_sports1.png" group-title="港澳台",ELTA体育1
 https://bsex.serv00.net/Smart.php?id=eltasport_twn
 #EXTINF:-1,tvg-id="ELTA体育2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_sports2.png" group-title="港澳台",ELTA体育2
@@ -698,19 +698,19 @@ https://z02.ubtvfans.com/live/rx1/351/1db9ab4c9c436100d700384de733dd09/index.m3u
 #EXTINF:-1,tvg-id="7201" tvg-name="爱尔达影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_yingju.png" group-title="港澳台",ELTA影剧
 https://bsex.serv00.net/Smart.php?id=eltayingju_twn
 #EXTINF:-1,tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="港澳台",八大戏剧
-https://z02.ubtvfans.com/live/rx1/81/724862d1a0b9c0b5154368d271f4789e/index.m3u8
+http://61.221.215.25:8800/hls/39/index.m3u8
 #EXTINF:-1,tvg-id="6045" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVOneHD.png" group-title="港澳台",八大第一
-https://z02.ubtvfans.com/live/rx1/318/caf30fed70d5227d71cf045a1d212005/index.m3u8
+http://61.221.215.25:8800/hls/55/index.m3u8
 #EXTINF:-1,tvg-id="6133" tvg-name="八大娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVEntertainment.png" group-title="港澳台",八大娱乐
 https://z02.ubtvfans.com/live/rx1/105/18d99bf74ef856f47b3fee019df5b5ea/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大电视.png" group-title="港澳台",八大电视
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV75.m3u8
 #EXTINF:-1,tvg-id="6046" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVVarietyHD.png" group-title="港澳台",八大综合
-https://z02.ubtvfans.com/live/rx1/2286/9e0b6a5f3fd84c07dd7288d97fefe1be/index.m3u8
+http://61.221.215.25:8800/hls/56/index.m3u8
 #EXTINF:-1,tvg-id="6046" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVVarietyHD.png" group-title="港澳台",八大综合(备)
 https://epg.pw/stream/e7df67a1a8400d4741889391ccc7e8a2b3f623a4f19544ae0863ae2c184bbe2c.m3u8
 #EXTINF:-1,tvg-id="7221" tvg-name="三立戏剧" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/setxiju.png" group-title="港澳台",三立戏剧
-https://bsex.serv00.net/Smart.php?id=sanlixiju_twn
+http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1,tvg-id="三立国际" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SET international.png" group-title="港澳台",三立国际
 https://z02.ubtvfans.com/live/rx3/2285/6a8add031ee3407648e3eb8731932206/index.m3u8
 #EXTINF:-1,tvg-id="6047" tvg-name="三立台湾台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETTaiwan.png" group-title="港澳台",三立台湾
@@ -811,6 +811,8 @@ https://bsex.serv00.net/Smart.php?id=hollywoodmovies_twn
 https://z02.ubtvfans.com/live/rx1/83/5c9c7abe023c4753d66d39ce23a7ba5b/index.m3u8
 #EXTINF:-1,tvg-id="145" tvg-name="美亚高清电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台",美亚电影
 https://bsex.serv00.net/Smart.php?id=meiyamovie_twn
+#EXTINF:-1,tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台",AMC电影台
+http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1,tvg-id="卫星剧场" tvg-logo="" group-title="港澳台",卫星剧场
 https://z02.ubtvfans.com/live/rx3/2345/35579bf9a6e28c16c606bda562bd77dd/index.m3u8
 #EXTINF:-1,tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/欢笑剧场.png" group-title="港澳台",CBN欢笑剧场
@@ -824,7 +826,7 @@ https://z02.ubtvfans.com/live/rx1/1035/0081cba3900d45c5a31c20b53ef72e28/index.m3
 #EXTINF:-1,tvg-id="6164" tvg-name="EVE" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EVE.png" group-title="港澳台",探索EVE
 https://z02.ubtvfans.com/live/rx3/1036/05e8b60c96fd3d3c8a88389976a9612b/index.m3u8
 #EXTINF:-1,tvg-id="6166" tvg-name="DiscoveryAsia" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Discovery-Asia.png" group-title="港澳台",探索亚洲
-https://z02.ubtvfans.com/live/rx1/306/a17e3a975f7614f8cc365f8591ca87a0/index.m3u8
+http://61.221.215.25:8800/hls/50/index.m3u8
 #EXTINF:-1,tvg-id="6165" tvg-name="Discovery科学" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Discovery科学.png" group-title="港澳台",探索科学
 https://z02.ubtvfans.com/live/rx1/343/1c96e35ab1e56f9d6c5ba0a2ff98e47e/index.m3u8
 #EXTINF:-1,tvg-id="6170" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DMAX.png" group-title="港澳台",探索动力DMAX
@@ -864,7 +866,7 @@ https://z02.ubtvfans.com/live/rx3/76/fa5b120431ea76968b2a7363017a2025/index.m3u8
 #EXTINF:-1,tvg-id="6096" tvg-name="国兴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GoldSunTV.png" group-title="港澳台",国兴卫视
 https://z02.ubtvfans.com/live/rx1/65/512600edc0968aef5fac5f0cc1195023/index.m3u8
 #EXTINF:-1,tvg-id="6039" tvg-name="动物星球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/动物星球.png" group-title="港澳台",动物星球
-https://z02.ubtvfans.com/live/rx1/367/ec2a5cc942ff9cd56dfea2aa478c5f35/index.m3u8
+http://61.221.215.25:8800/hls/57/index.m3u8
 #EXTINF:-1,tvg-id="7216" tvg-name="美食星球" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fooldplanet.png" group-title="港澳台",美食星球
 https://z02.ubtvfans.com/live/rx1/1360/87ea76a8fc524eb8b7d3bd41b531f834/index.m3u8
 #EXTINF:-1,tvg-id="城市电视" group-title="港澳台",城市电视
@@ -968,16 +970,73 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/32212
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/咪咕体育.png" group-title="IPV6·网络",咪咕体育
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225895/index.m3u8
 
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
-#EXTINF:-1,tvg-id="八大娱乐" group-title="港澳台",八大娱乐
+#EXTINF:-1,tvg-id="八大娱乐1" group-title="港澳台",八大娱乐1
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐2" group-title="港澳台",八大娱乐2
+http://61.221.215.25:8800/hls/46/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐3" group-title="港澳台",八大娱乐3
+http://61.221.215.25:8800/hls/45/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐4" group-title="港澳台",八大娱乐4
+http://61.221.215.25:8800/hls/44/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐5" group-title="港澳台",八大娱乐5
+http://61.221.215.25:8800/hls/42/index.m3u8
+#EXTINF:-1,tvg-id="中华小当家" group-title="港澳台",中华小当家
+http://61.221.215.25:8800/hls/40/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐7" group-title="港澳台",八大娱乐7
+http://61.221.215.25:8800/hls/38/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐8" group-title="港澳台",八大娱乐8
+http://61.221.215.25:8800/hls/37/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐9" group-title="港澳台",八大娱乐9
+http://61.221.215.25:8800/hls/36/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐35" group-title="港澳台",八大娱乐35
+http://61.221.215.25:8800/hls/35/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐34" group-title="港澳台",八大娱乐34
+http://61.221.215.25:8800/hls/34/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐33" group-title="港澳台",八大娱乐33
+http://61.221.215.25:8800/hls/33/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐32" group-title="港澳台",八大娱乐32
+http://61.221.215.25:8800/hls/32/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐31" group-title="港澳台",八大娱乐31
+http://61.221.215.25:8800/hls/31/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐30" group-title="港澳台",八大娱乐30
+http://61.221.215.25:8800/hls/30/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐29" group-title="港澳台",八大娱乐29
+http://61.221.215.25:8800/hls/29/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐28" group-title="港澳台",八大娱乐28
+http://61.221.215.25:8800/hls/28/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐27" group-title="港澳台",八大娱乐27
+http://61.221.215.25:8800/hls/27/index.m3u8
+#EXTINF:-1,tvg-id="中华小当家26" group-title="港澳台",中华小当家26
+http://61.221.215.25:8800/hls/26/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐25" group-title="港澳台",八大娱乐25
+http://61.221.215.25:8800/hls/25/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐24" group-title="港澳台",八大娱乐24
+http://61.221.215.25:8800/hls/24/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐23" group-title="港澳台",八大娱乐23
+http://61.221.215.25:8800/hls/23/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐22" group-title="港澳台",八大娱乐22
+http://61.221.215.25:8800/hls/22/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐21" group-title="港澳台",八大娱乐21
+http://61.221.215.25:8800/hls/21/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐20" group-title="港澳台",八大娱乐20
+http://61.221.215.25:8800/hls/20/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐19" group-title="港澳台",八大娱乐19
+http://61.221.215.25:8800/hls/19/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐18" group-title="港澳台",八大娱乐18
+http://61.221.215.25:8800/hls/18/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐17" group-title="港澳台",八大娱乐17
+http://61.221.215.25:8800/hls/17/index.m3u8
+#EXTINF:-1,tvg-id="中华小当家16" group-title="港澳台",中华小当家16
+http://61.221.215.25:8800/hls/16/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐15" group-title="港澳台",八大娱乐15
+http://61.221.215.25:8800/hls/15/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐14" group-title="港澳台",八大娱乐14
+http://61.221.215.25:8800/hls/14/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐13" group-title="港澳台",八大娱乐13
+http://61.221.215.25:8800/hls/13/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐12" group-title="港澳台",八大娱乐12
+http://61.221.215.25:8800/hls/12/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐11" group-title="港澳台",八大娱乐11
+http://61.221.215.25:8800/hls/11/index.m3u8
+#EXTINF:-1,tvg-id="八大娱乐10" group-title="港澳台",八大娱乐10
+http://61.221.215.25:8800/hls/10/index.m3u8
