@@ -232,7 +232,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010221/1.m3u8
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/广西卫视.png" group-title="卫视IPV6",广西卫视
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/江苏卫视.png" group-title="卫视IPV6",江苏卫视
-rtsp://[2409:8087:2001:20:2800:0:df6e:eb18]:554/ott.mobaibox.com/000000400000001/H265_8000k_1080P_jiangsustv_CR
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001828/1.m3u8
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/江西卫视.png" group-title="卫视IPV6",江西卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/河北卫视.png" group-title="卫视IPV6",河北卫视
@@ -240,7 +240,7 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000017118/1.m3u8
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/河南卫视.png" group-title="卫视IPV6",河南卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/浙江卫视.png" group-title="卫视IPV6",浙江卫视
-rtsp://[2409:8087:2001:20:2800:0:df6e:eb21]:554/ott.mobaibox.com/000000400000001/H265_8000k_1080P_zhejiangstv_CR
+http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南卫视.png" group-title="卫视IPV6",海南卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/深圳卫视.png" group-title="卫视IPV6",深圳卫视
