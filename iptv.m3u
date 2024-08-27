@@ -159,11 +159,11 @@ http://116.162.6.191/1301-txt.otvstream.otvcloud.com/otv/skcc/live/channel55/ind
 http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
 
 #EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC家庭影院
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNRxu2SqX2RKsLT0S7AyQ8XopIVrD6IJGxdajeuKy4iZqZ4tkZuiEpwSRPszF6PIvg4
+http://118.81.28.22:8084/rtp/226.0.2.240:9820
 #EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="央视IPV6",CHC影迷电影
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNS8qWmEGeaUedzcFVVumqf9cm8lJoOcrIZueLbqOJTuoPV%2FwBk6CoHYGFV14SkLW04
+http://nas.tuyuannet.cn:8800/rtp/239.37.0.187:5540
 #EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC动作电影.png" group-title="央视IPV6",CHC动作电影
-http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
+http://118.81.226.58:8084/rtp/226.0.2.94:8012
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018602/1.m3u8
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视IPV6",CCTV2
@@ -630,6 +630,8 @@ https://test.zapi.us.kg/?id=now-sports-5
 https://test.zapi.us.kg/?id=now-sports-7
 #EXTINF:-1,tvg-id="NOW Sports Plus" group-title="港澳台",NOW Sports Plus
 https://test.zapi.us.kg/?id=now-sports-plus
+#EXTINF:-1,tvg-id="NOW 财经台" group-title="港澳台",NOW 财经台
+http://php.jdshipin.com:8880/xsj.php?id=now-finance
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映频道" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="港澳台",天映频道
 http://23.26.147.19:1258/proxy/Smartv.php?id=Celestial
 #EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台",天映经典
