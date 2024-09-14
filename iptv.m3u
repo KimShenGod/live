@@ -288,7 +288,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/甘肃卫视.png" group-title="卫视IPV6",甘肃卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/三沙卫视.png" group-title="卫视IPV6",三沙卫视
-http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
+https://epg.pw/stream/2cd4144297abc1ff362c335b2277ea95807b098d03e76dc36a28f27c9bf89c47.ctv
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/新疆卫视.png" group-title="卫视IPV6",新疆卫视
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/西藏卫视.png" group-title="卫视IPV6",西藏卫视
