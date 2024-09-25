@@ -205,7 +205,7 @@ https://epg.pw/stream/5786b35cc03d1123a37e180495579c6e0fbd339c32542307be9a2e4388
 #EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="央视IPV6",CCTV女性时尚
 https://epg.pw/stream/1077cc124885bf8775068ce65630acf3ef9480488700f3b093314c6070bdb3e0.m3u8
 #EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/怀旧剧场.png" group-title="央视IPV6",CCTV怀旧剧场
-http://110.241.188.38:808/hls/56/index.m3u8
+http://hlslive-tx-cdn.ysp.cctv.cn/ysp/2024171903.m3u8
 #EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/电视指南.png" group-title="央视IPV6",CCTV电视指南
 http://117.161.133.51:81/gitv_live/G_DIANSHIZN-CQ/G_DIANSHIZN-CQ.m3u8
 #EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云剧场.png" group-title="央视IPV6",CCTV风云剧场
@@ -308,9 +308,17 @@ http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/tv/CETV4.png" group-title="卫视IPV6",CETV-4
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
 
-#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/劲爆体育.png" group-title="SiTV系列",劲爆体育
+#EXTINF:-1,tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索动物.png" group-title="数字频道",求索动物
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1,tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索记录.png" group-title="数字频道",求索记录
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000010&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1,tvg-id="求索科学" tvg-name="求索科学" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索科学.png" group-title="数字频道",求索科学
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1,tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索生活.png" group-title="数字频道",求索生活
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/劲爆体育.png" group-title="数字频道",劲爆体育
 http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="SiTV系列",五星体育
+#EXTINF:-1,tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育
 http://[2409:8087:5e08:24::11]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/欢笑剧场.png" group-title="数字频道",欢笑剧场
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000002000009455/1.m3u8
@@ -435,16 +443,8 @@ http://home.isvvv.com:5050/itv/wasusyt/6000000006000150630
 http://home.isvvv.com:5050/itv/wasusyt/6000000006000160630
 #EXTINF:-1,tvg-id="爱动漫" tvg-name="iHOT爱动漫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱动漫.png" group-title="IHOT",iHOT爱动漫
 http://home.isvvv.com:5050/itv/wasusyt/6000000006000280630
-#EXTINF:-1,tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索动物.png" group-title="IHOT",求索动物
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1,tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索记录.png" group-title="IHOT",求索记录
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000010&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1,tvg-id="求索科学" tvg-name="求索科学" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索科学.png" group-title="IHOT",求索科学
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1,tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索生活.png" group-title="IHOT",求索生活
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="地方·重庆",重庆新闻
-https://live.goodiptv.club/api/cqyx.php?id=CQTVNewsHD
+https://sjlivecdn9.cbg.cn/202408101340/app_2/_definst_/ls_3.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="地方·重庆",重庆影视
 https://live.goodiptv.club/api/cqyx.php?id=cqyingshiHD
 #EXTINF:-1 tvg-id="重庆社会与法" tvg-name="重庆社会与法" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="地方·重庆",重庆社会与法
