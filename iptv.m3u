@@ -274,11 +274,11 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江卫视.png" group-title="卫视IPV6",黑龙江卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001925/1.m3u8
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古卫视.png" group-title="卫视IPV6",内蒙古卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000014080/1.m3u8
+http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/宁夏卫视.png" group-title="卫视IPV6",宁夏卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010110/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000006000040022/1.m3u8
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/陕西卫视.png" group-title="卫视IPV6",陕西卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010113/1.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000007495/1.m3u8
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/吉林卫视.png" group-title="卫视IPV6",吉林卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226397/index.m3u8
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/云南卫视.png" group-title="卫视IPV6",云南卫视
@@ -565,6 +565,7 @@ http://vl15191373.imwork.net:8880/udp/239.93.0.156:2193
 http://vl15191373.imwork.net:8880/udp/239.93.0.157:219
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台",翡翠台
 http://php.jdshipin.com:8880/smt.php?id=jade_twn
+http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 #EXTINF:-1 tvg-name="TVB娛樂新聞" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="港澳台",[HD]tvb娱乐新闻
 https://epg.pw/stream/57737ed82a70288e90bca3ef3b9e7ed3e8b896445947908bd76d4ed3c4ba6c43.m3u8
 #EXTINF:-1,tvg-id="127" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/明珠台.png" group-title="港澳台",TVB明珠
@@ -664,6 +665,7 @@ https://test.zapi.us.kg/?id=fairchildtv2
 
 #EXTINF:-1,tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="港澳台",东森新闻
 https://epg.pw/stream/54221319de813f4675b6ccd9ab958d744ed33570caa663c854e9727240d7cbdb.m3u8
+http://shuma004.chunfengyun.top:8080/live/20/hls.m3u8
 #EXTINF:-1,tvg-id="东森美洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲.png" group-title="港澳台",东森美洲
 https://epg.pw/stream/41fd1dc90b335e2c39f811e013a8bc45d966113d4b326afb8bed450591629da1.m3u8
 #EXTINF:-1,tvg-id="东森美洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲卫视.png" group-title="港澳台",东森美洲卫视
@@ -687,13 +689,13 @@ https://ythls.armelin.one/channel/UCiWRSesvSYmY7YOyz0tv_zQ.m3u8
 #EXTINF:-1,tvg-id="东森幼幼 HD" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCYoYoTV.png" group-title="港澳台",东森幼幼 HD
 https://test.zapi.us.kg/?id=ebc-yoyo
 #EXTINF:-1,tvg-id="6074" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS.png" group-title="港澳台",TVBS HD
-https://test.zapi.us.kg/?id=tvbs-hd
+http://shuma004.chunfengyun.top:8080/live/23/hls.m3u8
 #EXTINF:-1,tvg-id="TVBS NEWS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS NEWS.png" group-title="港澳台",TVBS NEWS
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
 #EXTINF:-1,tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS新闻.png" group-title="港澳台",TVBS新闻
-https://test.zapi.us.kg/?id=talentvisiontv
+https://gat.zhoujie218.top/litv/4gtv-4gtv072
 #EXTINF:-1,tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS欢乐.png" group-title="港澳台",TVBS欢乐 HD
-https://z02.ubtvfans.com/live/rx1/40/ab8e4c8b1b495ed575b69c9ed3fe1f72/index.m3u8
+http://shuma004.chunfengyun.top:8080/live/24/hls.m3u8
 #EXTINF:-1 tvg-id="TVBS Asia" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS亚洲.png" group-title="港澳台",TVBS Asia (TVBS亚洲)
 https://epg.pw/stream/1d3fd64401a15fe4c03686bd236262e655ddfa84c99879ae5273532ffd2ae4af.m3u8
 #EXTINF:-1 tvg-id="TVBS Asia" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS亚洲.png" group-title="港澳台",TVBS Asia-2
@@ -703,25 +705,25 @@ https://z02.ubtvfans.com/live/rx1/66/eb0b7ce954370f0a298581ca34110539/index.m3u8
 #EXTINF:-1,tvg-id="7164" tvg-name="靖天电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天电影.png" group-title="港澳台",靖天电影
 https://z02.ubtvfans.com/live/rx1/110/9f1bd22a531aa9ee1549daf10b3f4f72/index.m3u8
 #EXTINF:-1,tvg-id="7159" tvg-name="靖天戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天戏剧.png" group-title="港澳台",靖天戏剧
-https://z02.ubtvfans.com/live/rx1/109/a849bd2093c1a6633490ced0f66c0451/index.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv058
 #EXTINF:-1,tvg-id="6098" tvg-name="靖天综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天综合.png" group-title="港澳台",靖天综合
-https://z02.ubtvfans.com/live/rx1/308/627a8486708e9b56975ce7a3ce565780/index.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv046
 #EXTINF:-1,tvg-id="6116" tvg-name="靖天映画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天映画.png" group-title="港澳台",靖天映画
-https://z02.ubtvfans.com/live/rx1/349/9db2ee2694bb4a6d4135c0c5e0f2762d/index.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv055
 #EXTINF:-1,tvg-id="6192" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天卡通.png" group-title="港澳台",靖天卡通
 https://z02.ubtvfans.com/live/rx1/344/f577021ae68af926ae8d3a80049e4541/index.m3u8
 #EXTINF:-1,tvg-id="7187" tvg-name="靖天国际" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天国际.png" group-title="港澳台",靖天国际
-https://test.zapi.us.kg/?id=jtgj
+https://gat.zhoujie218.top/litv/4gtv-4gtv063
 #EXTINF:-1,tvg-id="6151" tvg-name="靖天育乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天育乐.png" group-title="港澳台",靖天育乐
 https://z02.ubtvfans.com/live/rx1/1029/5649a5194016999565cf8502a498f0d6/index.m3u8
 #EXTINF:-1,tvg-id="6150" tvg-name="靖天欢乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天欢乐.png" group-title="港澳台",靖天欢乐
 https://z02.ubtvfans.com/live/rx1/51/c1fefa044de5d3d4efa196bd6dbf272d/index.m3u8
 #EXTINF:-1,tvg-id="6157" tvg-name="靖天日本台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天日本.png" group-title="港澳台",靖天日本
-https://test.zapi.us.kg/?id=jtrb
+https://gat.zhoujie218.top/litv/4gtv-4gtv047
 #EXTINF:-1,tvg-id="6099" tvg-name="靖天资讯台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天资讯.png" group-title="港澳台",靖天资讯
 https://z02.ubtvfans.com/live/rx2/49/cd7e36a6d9c6bcf592b70b87b37f05be/index.m3u8
 #EXTINF:-1,tvg-id="6101" tvg-name="靖洋戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖洋戏剧.png" group-title="港澳台",靖洋戏剧
-https://z02.ubtvfans.com/live/rx1/319/34284625aac41ea82c5e051aee972bdb/index.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv045
 #EXTINF:-1,tvg-id="6191" tvg-name="靖洋卡通台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖洋卡通.png" group-title="港澳台",靖洋卡通
 https://z02.ubtvfans.com/live/rx1/348/f46f118edd38e34cf5f65affac4835dd/index.m3u8
 #EXTINF:-1,tvg-id="6095" tvg-name="纬来日本台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandJapanese.png" group-title="港澳台",纬来日本
@@ -738,6 +740,8 @@ https://test.zapi.us.kg/?id=videoland-drama
 https://z02.ubtvfans.com/live/rx1/338/24e3230f2c9205c6307b25e118377967/index.m3u8
 #EXTINF:-1,tvg-id="7197" tvg-name="纬来精采" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纬来精彩台.png" group-title="港澳台",纬来精采
 http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="台湾戏剧台" tvg-logo="" group-title="港澳台",台湾戏剧台
+https://gat.zhoujie218.top/litv/litv-longturn22
 #EXTINF:-1,tvg-id="ELTA体育1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eata_sports1.png" group-title="港澳台",ELTA体育1
 https://bsex.serv00.net/Smart.php?id=eltasport_twn
 #EXTINF:-1,tvg-id="ELTA体育2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_sports2.png" group-title="港澳台",ELTA体育2
@@ -749,21 +753,21 @@ https://test.zapi.us.kg/?id=elta-sport4
 #EXTINF:-1,tvg-id="7219" tvg-name="爱尔达综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_zonghehd.png" group-title="港澳台",ELTA综合
 https://z02.ubtvfans.com/live/rx1/1137/455e0be7cd7ab0521eec0689b889ea28/index.m3u8
 #EXTINF:-1,tvg-id="7139" tvg-name="爱尔达娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱尔达娱乐台.png" group-title="港澳台",ELTA娱乐
-https://z02.ubtvfans.com/live/rx1/351/1db9ab4c9c436100d700384de733dd09/index.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv070
 #EXTINF:-1,tvg-id="7201" tvg-name="爱尔达影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_yingju.png" group-title="港澳台",ELTA影剧
 https://bsex.serv00.net/Smart.php?id=eltayingju_twn
 #EXTINF:-1,tvg-id="7201" tvg-name="爱尔达生活旅游" tvg-logo="" group-title="港澳台",ELTA生活旅游
-https://test.zapi.us.kg/?id=elta-lifetravel
+http://shuma004.chunfengyun.top:8080/live/85/hls.m3u8
 #EXTINF:-1,tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="港澳台",八大戏剧
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1,tvg-id="6059" tvg-name="八大戏剧台-2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="港澳台",八大戏剧-2
-https://test.zapi.us.kg/?id=gtv-41
+#EXTINF:-1,tvg-id="6059" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="港澳台",八大精彩
+https://gat.zhoujie218.top/litv/4gtv-4gtv034
 #EXTINF:-1,tvg-id="6045" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVOneHD.png" group-title="港澳台",八大第一
 http://61.221.215.25:8800/hls/55/index.m3u8
 #EXTINF:-1,tvg-id="6133" tvg-name="八大娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVEntertainment.png" group-title="港澳台",八大娱乐
 https://test.zapi.us.kg/?id=gtv-86
 #EXTINF:-1,tvg-id="6133" tvg-name="八大综艺台" tvg-logo="" group-title="港澳台",八大综艺台
-https://test.zapi.us.kg/?id=grt
+https://gat.zhoujie218.top/litv/4gtv-4gtv039
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大电视.png" group-title="港澳台",八大电视
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV75.m3u8
 #EXTINF:-1,tvg-id="6046" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVVarietyHD.png" group-title="港澳台",八大综合
@@ -781,7 +785,7 @@ https://test.zapi.us.kg/?id=settv-taiwan
 #EXTINF:-1,tvg-id="6048" tvg-name="三立都会台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETCity.png" group-title="港澳台",三立都会
 https://test.zapi.us.kg/?id=settv-city
 #EXTINF:-1,tvg-id="6239" tvg-name="三立综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETZonghe.png" group-title="港澳台",三立综合
-https://bsex.serv00.net/Smart.php?id=sanlizhonghe
+http://shuma004.chunfengyun.top:8080/live/31/hls.m3u8
 #EXTINF:-1,tvg-id="LIVE三立" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETLIVE.png" group-title="港澳台",LIVE三立
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 #EXTINF:-1,tvg-id="LIVE三立-2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETLIVE.png" group-title="港澳台",LIVE三立-2
@@ -805,19 +809,23 @@ https://test.zapi.us.kg/?id=cti-asia
 #EXTINF:-1,tvg-id="6030" tvg-name="华视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视.png" group-title="港澳台",华视
 https://epg.pw/stream/2ef08642072574008f65939021951a59fe9fc71369c751393f40a1b2234e18c9.m3u8
 #EXTINF:-1,tvg-id="6030" tvg-name="华视-2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视.png" group-title="港澳台",华视-2
-https://test.zapi.us.kg/?id=cts
+https://gat.zhoujie218.top/litv/4gtv-4gtv041
 #EXTINF:-1,tvg-id="华视新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视新闻.png" group-title="港澳台",华视新闻
-https://z02.ubtvfans.com/live/rx1/2424/87d026787fabefb2b7995a7e7b4f67fc/index.m3u8
+http://shuma004.chunfengyun.top:8080/live/8/hls.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv052
 #EXTINF:-1,tvg-id="6028" tvg-name="中视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视.png" group-title="港澳台",中视
-https://test.zapi.us.kg/?id=ctv
+https://gat.zhoujie218.top/litv/4gtv-4gtv040
 #EXTINF:-1,tvg-id="7176" tvg-name="中视新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视新闻.png" group-title="港澳台",中视新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
+http://shuma004.chunfengyun.top:8080/live/7/hls.m3u8
 #EXTINF:-1,tvg-id="7176" tvg-name="中视新闻-2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视新闻.png" group-title="港澳台",中视新闻-2
 https://test.zapi.us.kg/?id=ctv-news
 #EXTINF:-1,tvg-id="7136" tvg-name="中视菁采台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视菁采.png" group-title="港澳台",中视菁采
-https://test.zapi.us.kg/?id=bravo
+http://shuma004.chunfengyun.top:8080/live/48/hls.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv064
 #EXTINF:-1,tvg-id="7172" tvg-name="中视经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视经典.png" group-title="港澳台",中视经典
-https://test.zapi.us.kg/?id=ctv-classic
+http://shuma004.chunfengyun.top:8080/live/47/hls.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv080
 #EXTINF:-1,tvg-id="Astro" group-title="港澳台",Astro
 https://test.zapi.us.kg/?id=astro-iqiyi
 #EXTINF:-1,tvg-id="Astro AOD粤语" group-title="港澳台",Astro AOD粤语
@@ -827,13 +835,15 @@ https://test.zapi.us.kg/?id=astro-aod
 #EXTINF:-1,tvg-id="Astro欢喜台" group-title="港澳台",Astro欢喜台
 https://test.zapi.us.kg/?id=astro-huaheedai
 #EXTINF:-1,tvg-id="民视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视.png" group-title="港澳台",民视
-https://test.zapi.us.kg/?id=ftv
+http://shuma004.chunfengyun.top:8080/live/6/hls.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv002
 #EXTINF:-1,tvg-id="民视综艺" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视综艺台.png" group-title="港澳台",民视综艺
-
+http://shuma004.chunfengyun.top:8080/live/67/hls.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv004
 #EXTINF:-1,tvg-id="民视第一台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视第一台.png" group-title="港澳台",民视第一台
-https://test.zapi.us.kg/?id=ftv-one
+https://gat.zhoujie218.top/litv/4gtv-4gtv003
 #EXTINF:-1,tvg-id="民视影剧" group-title="港澳台",民视影剧
-https://test.zapi.us.kg/?id=ftv-drama
+https://gat.zhoujie218.top/litv/litv-ftv09
 #EXTINF:-1,tvg-id="民视旅游" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视旅游台.png" group-title="港澳台",民视旅游
 https://test.zapi.us.kg/?id=ftv-travel
 #EXTINF:-1,tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="港澳台",民视新闻
@@ -841,13 +851,14 @@ https://ythls.armelin.one/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
 #EXTINF:-1,tvg-id="民视新闻 HD" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="港澳台",民视新闻 HD
 https://epg.pw/stream/37de02efb12a4dc05e13814405a580e6f46b091c993c411e7a95bcac4c41e9b0.m3u8
 #EXTINF:-1,tvg-id="7134" tvg-name="民视台湾台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视台湾台.png" group-title="港澳台",民视台湾
-https://test.zapi.us.kg/?id=ftv-tw
+http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8
+https://gat.zhoujie218.top/litv/4gtv-4gtv001
 #EXTINF:-1,tvg-id="6031" tvg-name="公视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="港澳台",公视
 https://test.zapi.us.kg/?id=pts
 #EXTINF:-1,tvg-id="6022" tvg-name="公视三台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="港澳台",公视3
 https://test.zapi.us.kg/?id=pts-3
 #EXTINF:-1,tvg-id="公视戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视戏剧台.png" group-title="港澳台",公视戏剧
-https://test.zapi.us.kg/?id=gsxj
+http://shuma004.chunfengyun.top:8080/live/87/hls.m3u8
 #EXTINF:-1,tvg-id="公视台语台" tvg-logo="" group-title="港澳台",公视台语台
 https://test.zapi.us.kg/?id=pts-ty
 #EXTINF:-1,tvg-id="台视1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视.png" group-title="港澳台",台视1
@@ -857,29 +868,48 @@ https://z02.ubtvfans.com/live/rx3/312/df64913fe36fda05394f453b357c8cf8/index.m3u
 #EXTINF:-1,tvg-id="台视综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视综合.png"  group-title="港澳台",台视综合
 
 #EXTINF:-1,tvg-id="台视财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视财经.png"  group-title="港澳台",台视财经
-
+https://gat.zhoujie218.top/litv/4gtv-4gtv056
 #EXTINF:-1,tvg-id="6143" tvg-name="台视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png"  group-title="港澳台",台视新闻
 https://ythls.armelin.one/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 #EXTINF:-1,tvg-id="6143" tvg-name="台视新闻台-2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png"  group-title="港澳台",台视新闻-2
 https://test.zapi.us.kg/?id=ttv-news
 #EXTINF:-1 tvg-id="" group-title="港澳台",天才冲冲冲
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",电视剧
+http://shuma004.chunfengyun.top:8080/live/108/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",电视剧2
+http://shuma004.chunfengyun.top:8080/live/109/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",电视剧3
+http://shuma004.chunfengyun.top:8080/live/111/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",动漫
+http://shuma004.chunfengyun.top:8080/live/105/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",动漫2
+http://shuma004.chunfengyun.top:8080/live/106/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",动画台
+http://shuma004.chunfengyun.top:8080/live/57/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",超人
+http://shuma004.chunfengyun.top:8080/live/110/hls.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="港澳台",影剧
+http://shuma004.chunfengyun.top:8080/live/88/hls.m3u8
+#EXTINF:-1 tvg-id="" group-title="港澳台",MCE
+http://shuma004.chunfengyun.top:8080/live/98/hls.m3u8
 #EXTINF:-1,tvg-id="7180" tvg-name="采昌影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/采昌影剧.png" group-title="港澳台",采昌影剧
 https://z02.ubtvfans.com/live/rx1/62/2a544522f0580be374f34e1823b7b4e5/index.m3u8
 #EXTINF:-1,tvg-id="7128" tvg-name="龙华电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华电影.png" group-title="港澳台",龙华电影
-https://bsex.serv00.net/Smart.php?id=xingwei_movie
+https://gat.zhoujie218.top/litv/litv-longturn03
 #EXTINF:-1,tvg-id="7130" tvg-name="龙华经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华经典.png" group-title="港澳台",龙华经典
-https://bsex.serv00.net/Smart.php?id=lunghuajingdian_t
+https://gat.zhoujie218.top/litv/litv-longturn21
 #EXTINF:-1,tvg-id="7158" tvg-name="龙华日韩台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华日韩.png" group-title="港澳台",龙华日韩
-https://z02.ubtvfans.com/live/rx1/382/897ab118ac4987dd9fb8743cdef65216/index.m3u8
+https://gat.zhoujie218.top/litv/litv-longturn11
 #EXTINF:-1,tvg-id="7126" tvg-name="龙华偶像" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华偶像.png" group-title="港澳台",龙华偶像
 https://bsex.serv00.net/Smart.php?id=lunghuaidol_twn
 #EXTINF:-1,tvg-id="7127" tvg-name="龙华戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华戏剧.png" group-title="港澳台",龙华戏剧
-https://bsex.serv00.net/Smart.php?id=lunghuaxiju_twn
+https://gat.zhoujie218.top/litv/litv-longturn18
 #EXTINF:-1,tvg-id="7132" tvg-name="龙华洋片" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华洋片.png" group-title="港澳台",龙华洋片
 https://bsex.serv00.net/Smart.php?id=lunghuawestern_twn
 #EXTINF:-1,tvg-id="龙华卡通" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/longhuadonghua.png" group-title="港澳台",龙华卡通
-
+https://gat.zhoujie218.top/litv/litv-longturn01
 #EXTINF:-1,tvg-id="龙祥时代" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/LSTIME.png" group-title="港澳台",龙祥时代
 https://test.zapi.us.kg/?id=lstime
 
@@ -894,15 +924,15 @@ https://bsex.serv00.net/Smart.php?id=meiyamovie_twn
 #EXTINF:-1,tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="ROCK Action" tvg-logo="" group-title="港澳台",ROCK Action
-https://test.zapi.us.kg/?id=rock-action
+http://shuma004.chunfengyun.top:8080/live/94/hls.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="Moviemovie" tvg-logo="" group-title="港澳台",Moviemovie
 https://test.zapi.us.kg/?id=moviemovie
 #EXTINF:-1,tvg-id="" tvg-name="HITSMovie" tvg-logo="" group-title="港澳台",HITSMovie
 https://test.zapi.us.kg/?id=hitsmovies
 #EXTINF:-1,tvg-id="" tvg-name="影迷数位纪实台" tvg-logo="" group-title="港澳台",影迷数位纪实台
-https://test.zapi.us.kg/?id=ymswjst
+http://shuma004.chunfengyun.top:8080/live/92/hls.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="影迷数位电影台" tvg-logo="" group-title="港澳台",影迷数位电影台
-https://test.zapi.us.kg/?id=fans-cinema
+https://gat.zhoujie218.top/litv/4gtv-4gtv011
 #EXTINF:-1,tvg-id="Channel 8" tvg-logo="" group-title="港澳台",Channel 8
 https://test.zapi.us.kg/?id=channel8
 #EXTINF:-1,tvg-id="Channel U" tvg-logo="" group-title="港澳台",Channel U
@@ -942,7 +972,7 @@ https://z02.ubtvfans.com/live/rx1/2816/234280df0cd47c152708748c0ec2363e/index.m3
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/AXN.png"  group-title="港澳台",AXN亚洲
 https://test.zapi.us.kg/?id=axn
 #EXTINF:-1,tvg-id="7179" tvg-name="cnex" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/视纳华仁纪实.png" group-title="港澳台",视纳华仁纪实
-https://test.zapi.us.kg/?id=cnex
+https://gat.zhoujie218.top/litv/4gtv-4gtv013
 #EXTINF:-1,tvg-id="7178" tvg-name="CI" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CI罪案侦查频道.png"group-title="港澳台",CI罪案侦察
 https://test.zapi.us.kg/?id=ci
 #EXTINF:-1,tvg-id="国会频道1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/国会频道.png" group-title="港澳台",国会频道1
@@ -956,17 +986,19 @@ https://test.zapi.us.kg/?id=tlc
 #EXTINF:-1,tvg-id="台湾启示录" group-title="港澳台",台湾启示录
 
 #EXTINF:-1,tvg-id="i-Fun动漫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IFUN动漫台.png" group-title="港澳台",i-Fun动漫
-https://z02.ubtvfans.com/live/rx2/1127/fb9c792790b1ed7dd6ccccbd5895b458/index.m3u8
+https://gat.zhoujie218.top/litv/litv-ftv15
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台",Animax卡通
 https://test.zapi.us.kg/?id=animax-cartoon
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GOODTV.png" group-title="港澳台",GOOD卡通
 https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GOODTV.png" group-title="港澳台",GOOD2
+http://shuma004.chunfengyun.top:8080/live/99/hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台",GOOD劉三講古
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch24-2.m3u8
 #EXTINF:-1,tvg-id="中华小当家" tvg-logo="" group-title="港澳台",中华小当家
 http://61.221.215.25:8800/hls/40/index.m3u8
 #EXTINF:-1,tvg-id="6035" tvg-name="客家电视台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HakkaTV.png" group-title="港澳台",客家电视
-https://z02.ubtvfans.com/live/rx3/76/fa5b120431ea76968b2a7363017a2025/index.m3u8
+http://shuma004.chunfengyun.top:8080/live/1/hls.m3u8
 #EXTINF:-1,tvg-id="6096" tvg-name="国兴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GoldSunTV.png" group-title="港澳台",国兴卫视
 https://z02.ubtvfans.com/live/rx1/65/512600edc0968aef5fac5f0cc1195023/index.m3u8
 #EXTINF:-1,tvg-id="6039" tvg-name="动物星球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/动物星球.png" group-title="港澳台",动物星球
@@ -1021,6 +1053,7 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV85.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV54.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DW NEWS.png" group-title="港澳台",「TW」DW News
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV08.m3u8
+http://shuma004.chunfengyun.top:8080/live/46/hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/123golive.png" group-title="港澳台",「TW」123 Go Live
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV58.m3u8
 #EXTINF:-1,tvg-id="6122" tvg-name="Z频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ZChannel.png" group-title="港澳台",Z频道
@@ -1028,7 +1061,7 @@ https://z02.ubtvfans.com/live/rx1/1130/7b09abb359d262a0d47b9c0a204cfc09/index.m3
 #EXTINF:-1,tvg-id="6179" tvg-name="博斯魅力网" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-trendsport.png" group-title="港澳台",博斯魅力
 https://z02.ubtvfans.com/live/rx1/175/bb35c070bb8ce8d1742b24d6f727eac7/index.m3u8
 #EXTINF:-1,tvg-id="6176" tvg-name="博斯无限台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_unlimited.png" group-title="港澳台",博斯无限
-https://z02.ubtvfans.com/live/rx1/2797/ec16777a438d2d0a2072dc4ff7bd1638/index.m3u8
+http://shuma004.chunfengyun.top:8080/live/15/hls.m3u8
 #EXTINF:-1,tvg-id="6181" tvg-name="博斯无限二台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_unlimited2.png" group-title="港澳台",博斯无限2
 https://z02.ubtvfans.com/live/rx1/2798/1b06c0513d0d72e53a2b6af61fe447f6/index.m3u8
 #EXTINF:-1,tvg-id="6180" tvg-name="博斯运动一台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-sports_net.png" group-title="港澳台",博斯运动1
@@ -1038,17 +1071,19 @@ https://bsex.serv00.net/Smart.php?id=bosisport2_twn
 #EXTINF:-1,tvg-id="6177" tvg-name="博斯高球1台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sports-golfch.png" group-title="港澳台",博斯高球1
 https://bsex.serv00.net/Smart.php?id=bosigolf1_twn
 #EXTINF:-1,tvg-id="6178" tvg-name="博斯高球2台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-golfplus.png" group-title="港澳台",博斯高球2
-https://bsex.serv00.net/Smart.php?id=bosigolf2_twn
+https://gat.zhoujie218.top/litv/litv-longturn06
 #EXTINF:-1,tvg-id="6175" tvg-name="博斯网球台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_tennis.png" group-title="港澳台",博斯网球
-https://z02.ubtvfans.com/live/rx1/498/ee7c08a854a5febc4a84dacbd0c23332/index.m3u8
+http://shuma004.chunfengyun.top:8080/live/16/hls.m3u8
 #EXTINF:-1,tvg-id="7215" tvg-name="EUROSPORT" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eurosport.png" group-title="港澳台",欧洲体育
 https://z02.ubtvfans.com/live/rx1/1342/d8fbb3572f00e9fc78e17ae331a15070/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="History" tvg-logo="" group-title="港澳台",History
 https://test.zapi.us.kg/?id=history
 #EXTINF:-1,tvg-id="" tvg-name="Live ABC英语互动" tvg-logo="" group-title="港澳台",Live ABC英语互动
-https://test.zapi.us.kg/?id=liveabc
+http://shuma004.chunfengyun.top:8080/live/54/hls.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="ELTV生活英語台" tvg-logo="" group-title="港澳台",ELTV生活英語台
-https://test.zapi.us.kg/?id=eltv
+http://shuma004.chunfengyun.top:8080/live/56/hls.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="哆啦A梦" tvg-logo="" group-title="港澳台",哆啦A梦
+http://shuma004.chunfengyun.top:8080/live/107/hls.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="BBCEarth" tvg-logo="" group-title="港澳台",BBCEarth
 https://test.zapi.us.kg/?id=bbcearth
 #EXTINF:-1,tvg-id="" tvg-name="Now NBA" tvg-logo="" group-title="港澳台",Now NBA
