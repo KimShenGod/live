@@ -417,7 +417,7 @@ http://home.isvvv.com:5050/itv/wasusyt/6000000006000030630
 http://home.isvvv.com:5050/itv/wasusyt/6000000006000020630
 #EXTINF:-1,tvg-id="爱浪漫" tvg-name="iHOT爱浪漫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱浪漫.png" group-title="IHOT",iHOT爱浪漫
 http://vl15191373.imwork.net:8880/udp/239.93.42.21:5140
-http://home.isvvv.com:5050/itv/wasusyt/6000000006000040630
+http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000040630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000040630&livemode=1&stbId=3
 #EXTINF:-1,tvg-id="爱喜剧" tvg-name="iHOT爱喜剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱喜剧.png" group-title="IHOT",iHOT爱喜剧
 http://home.isvvv.com:5050/itv/wasusyt/6000000006000010630
 #EXTINF:-1,tvg-id="爱悬疑" tvg-name="iHOT爱悬疑" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱悬疑.png" group-title="IHOT",iHOT爱悬疑
