@@ -17,6 +17,10 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010006/1.m3u8
 
 #EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="央视IPV6",重温经典
 http://148.135.93.213:81/live.php?id=重温经典
+#EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="央视IPV6",重温经典备
+http://120.76.248.139/live/bfgd/4200000635.m3u8
+#EXTINF:-1,tvg-id="CHC华诚影视" tvg-name="CHC华诚影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC华诚影视
+http://120.76.248.139/live/bfgd/4200000289.m3u8
 #EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC家庭影院
 http://cg11.hunancatv.cn:9090/live/CHCJTYY_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604316833&srchost=172.16.22.158:8060&gid=c%2BNqgq8pR1ZQ7ZzcmkS8%2BQ%3D%3D
 #EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="央视IPV6",CHC影迷电影
@@ -366,11 +370,13 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/460000100000000057/1.m3u8
 https://epg.pw/stream/f426a12024c3d2a6271d7b4e1514b8da71aeef77a9033c211e1e49a8386a8668.m3u8
 
 #EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/星空卫视.png" group-title="港澳台",星空卫视
-http://vl15191373.imwork.net:8880/udp/239.93.0.156:2193
+
 
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台",翡翠台
 http://php.jdshipin.com:8880/smt.php?id=jade_twn
+#EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台",翡翠台备1
 http://php.jdshipin.com:8880/smt.php?id=Tvbjade
+#EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台",翡翠台备2
 http://cookies.elementfx.com/ublive/ublive.php?id=30
 #EXTINF:-1 tvg-name="TVB娛樂新聞" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="港澳台",[HD]tvb娱乐新闻
 
@@ -381,9 +387,9 @@ https://epg.pw/stream/b4dc9c6994b988ed1e17cd22e6574f578b8d43a534a2e4d07049f711b3
 #EXTINF:-1 tvg-name="港臺電影" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2019/04/05/large/20190405224938849843_83.jpg" group-title="港澳台",[HD]港台电影
 
 #EXTINF:-1 tvg-name="RTHK31" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719083758215404_92.png" group-title="港澳台",[HD]rthk 31
-
+http://50.7.234.10:8278/rhk31_twn/playlist.m3u8?tid=MA6A6225600662256006&ct=19249&tsum=7b0adccccff4fded44e906e9d848ee35
 #EXTINF:-1 tvg-name="RTHK32" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719083827856598_33.png" group-title="港澳台",[HD]rthk 32
-
+http://50.7.234.10:8278/rhk32_twn/playlist.m3u8?tid=MDBD4704174447041744&ct=19249&tsum=763ebe53fc33677d02ebf83b4d558d33
 #EXTINF:-1 tvg-name="RTHK34" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/08/22/large/20220822225312895053_10.png" group-title="港澳台",[HD]rthk 34
 
 #EXTINF:-1,tvg-id="VIU TV" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台",VIU TV
@@ -391,9 +397,9 @@ http://cookies.elementfx.com/ublive/ublive.php?id=72
 #EXTINF:-1,tvg-id="NowViu剧集台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台",NowViu剧集台
 
 #EXTINF:-1 tvg-name="ViuTVsix" tvg-id="10954" tvg-country="香港" tvg-language="英文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720193559298867_98.png" group-title="港澳台",[BD]viutv six
-http://cookies.elementfx.com/ublive/ublive.php?id=176
+http://50.7.234.10:8278/viusix_twn/playlist.m3u8?tid=MF0F4217630642176306&ct=19249&tsum=33becc0fe8466036420dbbb4727dc49e
 #EXTINF:-1,tvg-id="130" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线新闻台.png" group-title="港澳台",无线新闻台
-
+http://50.7.234.10:8278/inews_twn/playlist.m3u8?tid=MD8D9734527497345274&ct=19249&tsum=88c5d57f9fdce89810d61e1001910a80
 #EXTINF:-1,tvg-id="133" tvg-name="无线财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线财经台.png" group-title="港澳台",财经资讯台
 
 #EXTINF:-1,tvg-id="HOY 77台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/HOY 78.png" group-title="港澳台",HOY 77台
