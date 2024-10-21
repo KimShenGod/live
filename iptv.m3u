@@ -432,8 +432,7 @@ http://php.jdshipin.com:8880/smt.php?id=Xinhe
 #EXTINF:-1,tvg-id="TVB J1" group-title="港澳台",TVB J1
 https://epg.pw/stream/57737ed82a70288e90bca3ef3b9e7ed3e8b896445947908bd76d4ed3c4ba6c43.m3u8
 #EXTINF:-1,tvg-id="416" tvg-name="J2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ2.png" group-title="港澳台",TVB J2
-http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
-
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映频道" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="港澳台",天映频道
 
 #EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台",天映经典
