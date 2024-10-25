@@ -403,9 +403,9 @@ https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
 #EXTINF:-1,tvg-id="133" tvg-name="无线财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线财经台.png" group-title="港澳台[HK]",财经资讯台
 
 #EXTINF:-1,tvg-id="HOY 77台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/HOY 78.png" group-title="港澳台[HK]",HOY 77台
-https://epg.pw/stream/1496043c9019ec1e6c21f1257e1f303b901a1f4effc143fb7da3c19cc4de0ecc.m3u8
+
 #EXTINF:-1,tvg-id="HOY资讯台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/HOY 78台.png" group-title="港澳台[HK]",HOY 78台
-https://epg.pw/stream/61c9519e70540235a366f9e5c9f5b4e95ad06ee6cb1edc8647cb99dd28c28960.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台[HK]",香港面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1,tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB 经典台.png" group-title="港澳台[HK]",TVB经典
