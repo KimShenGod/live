@@ -86,7 +86,7 @@ https://epg.pw/stream/568e26b29122e84e3527b97eca553332274777bdf39873fb234fb6581a
 #EXTINF:-1,tvg-id="东森亚洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="港澳台[TW]",东森亚洲
 
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视
-
+http://211.72.65.236:8525/.m3u8
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视34.5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视34.5
 https://epg.pw/stream/bab8065e884e2bdc304409c9cad21b27e7ecfe42e7c3476ffa0ef5a9165647bd.m3u8
 #EXTINF:-1,tvg-id="6058" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="港澳台[TW]",东森戏剧
@@ -318,6 +318,8 @@ http://37.27.111.214:8080/live/19/hls.m3u8
 #EXTINF:-1,tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[TW]",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="" group-title="港澳台[TW]",流行音乐
+http://61.221.215.25:8800/hls/49/index.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="ROCK Action" tvg-logo="" group-title="港澳台[TW]",ROCK Action
 
 
@@ -333,7 +335,7 @@ http://37.27.111.214:8080/live/28/hls.m3u8
 #EXTINF:-1,tvg-id="7222" tvg-name="EYE戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eyexiju.png" group-title="港澳台[TW]",eyetv戏剧
 
 #EXTINF:-1,tvg-id="6037" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DiscoveryHD.png" group-title="港澳台[TW]",探索频道
-
+http://61.221.215.25:8800/hls/1/index.m3u8
 #EXTINF:-1,tvg-id="6164" tvg-name="EVE" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EVE.png" group-title="港澳台[TW]",探索EVE
 
 #EXTINF:-1,tvg-id="6166" tvg-name="DiscoveryAsia" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Discovery-Asia.png" group-title="港澳台[TW]",探索亚洲
@@ -418,7 +420,7 @@ https://ythls.armelin.one/channel/UC4LjkybVKXCDlneVXlKAbmw.m3u8
 #EXTINF:-1,tvg-id="6171" tvg-name="寰宇新闻" tvg-logo="https://epg.112114.xyz/logo/寰宇新聞.png" group-title="港澳台[TW]",寰宇新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
 #EXTINF:-1,tvg-id="6171" tvg-name="寰宇新闻-2" tvg-logo="https://epg.112114.xyz/logo/寰宇新聞.png" group-title="港澳台[TW]",寰宇新闻-2
-
+https://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
 #EXTINF:-1,tvg-id="寰宇台湾" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/寰宇台湾.png" group-title="港澳台[TW]",寰宇台湾
 
 #EXTINF:-1 tvg-id="7204" tvg-name="寰宇财经" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/huanyucaijing.png" group-title="港澳台[TW]",寰宇财经
@@ -491,78 +493,4 @@ https://epg.pw/stream/cddca3be72e1752fa1a211f70007dbf09875073ea2b9ddeb83b2b804a3
 https://epg.pw/stream/de4df17b6bdb5a7ef154d3ebc63b99ed5bb674f249bcf64c88cedc91aa53f0c1.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/澳亚卫视.png" group-title="港澳台[MO]",澳亚卫视
 
-
-http://37.27.111.214:8080/live/26/hls.m3u8
-http://37.27.111.214:8080/live/4/hls.m3u8
-http://37.27.111.214:8080/live/5/hls.m3u8
-http://37.27.111.214:8080/live/5/hls.m3u8
-http://37.27.111.214:8080/live/6/hls.m3u8
-http://37.27.111.214:8080/live/7/hls.m3u8
-http://37.27.111.214:8080/live/8/hls.m3u8
-http://194.87.101.118/live.m3u8?c=8
-http://37.27.111.214:8080/live/10/hls.m3u8
-http://37.27.111.214:8080/live/13/hls.m3u8
-http://37.27.111.214:8080/live/14/hls.m3u8
-http://37.27.111.214:8080/live/15/hls.m3u8
-http://37.27.111.214:8080/live/16/hls.m3u8
-http://37.27.111.214:8080/live/17/hls.m3u8
-http://37.27.111.214:8080/live/18/hls.m3u8
-http://37.27.111.214:8080/live/19/hls.m3u8
-http://37.27.111.214:8080/live/20/hls.m3u8
-http://37.27.111.214:8080/live/21/hls.m3u8
-http://37.27.111.214:8080/live/22/hls.m3u8
-http://37.27.111.214:8080/live/23/hls.m3u8
-http://37.27.111.214:8080/live/24/hls.m3u8
-http://37.27.111.214:8080/live/31/hls.m3u8
-http://37.27.111.214:8080/live/32/hls.m3u8
-http://37.27.111.214:8080/live/33/hls.m3u8
-http://37.27.111.214:8080/live/35/hls.m3u8
-http://37.27.111.214:8080/live/36/hls.m3u8
-http://37.27.111.214:8080/live/37/hls.m3u8
-http://37.27.111.214:8080/live/39/hls.m3u8
-http://37.27.111.214:8080/live/40/hls.m3u8
-http://37.27.111.214:8080/live/41/hls.m3u8
-http://37.27.111.214:8080/live/42/hls.m3u8
-http://37.27.111.214:8080/live/43/hls.m3u8
-http://37.27.111.214:8080/live/47/hls.m3u8
-http://37.27.111.214:8080/live/48/hls.m3u8
-http://37.27.111.214:8080/live/49/hls.m3u8
-http://37.27.111.214:8080/live/50/hls.m3u8
-http://37.27.111.214:8080/live/51/hls.m3u8
-http://37.27.111.214:8080/live/54/hls.m3u8
-http://37.27.111.214:8080/live/56/hls.m3u8
-http://37.27.111.214:8080/live/57/hls.m3u8
-http://37.27.111.214:8080/live/58/hls.m3u8
-http://37.27.111.214:8080/live/59/hls.m3u8
-http://37.27.111.214:8080/live/60/hls.m3u8
-http://37.27.111.214:8080/live/61/hls.m3u8
-http://37.27.111.214:8080/live/62/hls.m3u8
-http://37.27.111.214:8080/live/63/hls.m3u8
-http://37.27.111.214:8080/live/64/hls.m3u8
-http://37.27.111.214:8080/live/65/hls.m3u8
-http://37.27.111.214:8080/live/67/hls.m3u8
-http://37.27.111.214:8080/live/68/hls.m3u8
-http://37.27.111.214:8080/live/69/hls.m3u8
-http://37.27.111.214:8080/live/70/hls.m3u8
-http://37.27.111.214:8080/live/75/hls.m3u8
-http://37.27.111.214:8080/live/76/hls.m3u8
-http://37.27.111.214:8080/live/77/hls.m3u8
-http://37.27.111.214:8080/live/82/hls.m3u8
-http://37.27.111.214:8080/live/84/hls.m3u8
-http://37.27.111.214:8080/live/85/hls.m3u8
-http://37.27.111.214:8080/live/87/hls.m3u8
-http://37.27.111.214:8080/live/88/hls.m3u8
-http://37.27.111.214:8080/live/89/hls.m3u8
-http://37.27.111.214:8080/live/90/hls.m3u8
-http://37.27.111.214:8080/live/91/hls.m3u8
-http://37.27.111.214:8080/live/92/hls.m3u8
-http://37.27.111.214:8080/live/93/hls.m3u8
-http://37.27.111.214:8080/live/95/hls.m3u8
-http://37.27.111.214:8080/live/96/hls.m3u8
-http://37.27.111.214:8080/live/97/hls.m3u8
-http://37.27.111.214:8080/live/99/hls.m3u8
-http://37.27.111.214:8080/live/100/hls.m3u8
-http://37.27.111.214:8080/live/101/hls.m3u8
-http://37.27.111.214:8080/live/103/hls.m3u8
-http://37.27.111.214:8080/live/108/hls.m3u8
 
