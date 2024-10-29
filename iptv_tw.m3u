@@ -8,9 +8,14 @@
 
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台
 http://php.jdshipin.com:8880/smt.php?id=jade_twn
-#EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台2
+#EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台备1
 http://php.jdshipin.com:8880/smt.php?id=Tvbjade
-
+#EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台备2
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+#EXTINF:-1,tvg-id="126" tvg-name="翡翠台2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台2
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
+#EXTINF:-1,tvg-id="126" tvg-name="翡翠台3" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台3
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
 #EXTINF:-1 tvg-name="TVB娛樂新聞" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="港澳台[HK]",[HD]tvb娱乐新闻
 
 #EXTINF:-1,tvg-id="127" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/明珠台.png" group-title="港澳台[HK]",TVB明珠
@@ -42,7 +47,7 @@ https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台[HK]",香港面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1,tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB 经典台.png" group-title="港澳台[HK]",TVB经典
-
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
 #EXTINF:-1,tvg-id="TVB粤语" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB粤语片台.png" group-title="港澳台[HK]",TVB粤语
 
 #EXTINF:-1,tvg-id="TVB1" tvg-logo="" group-title="港澳台[HK]",TVB1
@@ -86,7 +91,7 @@ https://epg.pw/stream/568e26b29122e84e3527b97eca553332274777bdf39873fb234fb6581a
 #EXTINF:-1,tvg-id="东森亚洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="港澳台[TW]",东森亚洲
 
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视
-http://211.72.65.236:8525/.m3u8
+https://stream1.freetv.fun/dong-sen-chao-shi-3.m3u8
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视34.5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视34.5
 https://epg.pw/stream/bab8065e884e2bdc304409c9cad21b27e7ecfe42e7c3476ffa0ef5a9165647bd.m3u8
 #EXTINF:-1,tvg-id="6058" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="港澳台[TW]",东森戏剧
