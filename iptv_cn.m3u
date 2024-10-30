@@ -65,17 +65,26 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000005000056836/1.m3u8
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000009569/1.m3u8
 
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="央视IPV6",CCTV兵器科技
+https://stream1.freetv.fun/71b549dbd2778a0ba23f194c616182edb830b48a2b84b3ce937aef67b7e2f6a8.ctv
 #EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/第一剧场.png" group-title="央视IPV6",CCTV第一剧场
+https://stream1.freetv.fun/d8303715a480adb870a8dcdc15e0c9bd232496b049fc36172e75f1731ab697dd.ctv
 #EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="央视IPV6",CCTV女性时尚
+https://stream1.freetv.fun/f7329021674f9a45438072a00dff547664f68f6d5ba8f767578579caf3e4d549.ctv
 #EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/怀旧剧场.png" group-title="央视IPV6",CCTV怀旧剧场
+https://stream1.freetv.fun/dd90cb646fbaf406fcd2f0c590b7c841fa14344f2c06cd750813c7bfd92929cb.ctv
 #EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/电视指南.png" group-title="央视IPV6",CCTV电视指南
 #EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云剧场.png" group-title="央视IPV6",CCTV风云剧场
+https://stream1.freetv.fun/6f66f28be931eca5b0bb044c5d37154321aff38160474a3b1c4ff21a6bc2c812.ctv
 #EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云足球.png" group-title="央视IPV6",CCTV风云足球
+https://stream1.freetv.fun/1bacacda48e9af387fcb00d491d2ca4d490ea11202fad5b5704561cc8a3b5ba1.ctv
 #EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云音乐.png" group-title="央视IPV6",CCTV风云音乐
+https://stream1.freetv.fun/09e14e241f16954f690e8f2b933e4693dd9ba57ee29af2ab088f58b12939f80b.ctv
 #EXTINF:-1 tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/世界地理.png" group-title="央视IPV6",CCTV世界地理
+https://stream1.freetv.fun/971c6a1409c8eb196f25386b833c9ea79e287f7c4b8cbbafcf0a6ff96557b004.ctv
 #EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视台球.png" group-title="央视IPV6",CCTV央视台球
+https://stream1.freetv.fun/ca026b6958a0523344acabb17d9422525f3e0c289f5b15901d15ccad892067ea.ctv
 #EXTINF:-1 tvg-id="央视高网" tvg-name="央视高网" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视高网.png" group-title="央视IPV6",CCTV央视高网
-
+https://stream1.freetv.fun/8f7a7ed56242db701b1ab9b4769091c30c9f60b55f75545b772f2c501ae99323.ctv
 
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/北京卫视.png" group-title="卫视IPV6",北京卫视
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8
