@@ -31,11 +31,11 @@ http://50.7.234.10:8278/rhk32_twn/playlist.m3u8?tid=MDBD4704174447041744&ct=1924
 #EXTINF:-1 tvg-name="RTHK34" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/08/22/large/20220822225312895053_10.png" group-title="港澳台[HK]",[HD]rthk 34
 
 #EXTINF:-1,tvg-id="VIU TV" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台[HK]",VIU TV
-
+http://grandprix2023.asuscomm.com:8889/bysid/99.m3u8
 #EXTINF:-1,tvg-id="NowViu剧集台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台[HK]",NowViu剧集台
 
 #EXTINF:-1 tvg-name="ViuTVsix" tvg-id="10954" tvg-country="香港" tvg-language="英文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720193559298867_98.png" group-title="港澳台[HK]",[BD]viutv six
-
+http://beishan008.asuscomm.com:8889/bysid/96.m3u8
 #EXTINF:-1,tvg-id="130" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线新闻台.png" group-title="港澳台[HK]",无线新闻台
 https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
 #EXTINF:-1,tvg-id="133" tvg-name="无线财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线财经台.png" group-title="港澳台[HK]",财经资讯台
@@ -50,13 +50,13 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
 #EXTINF:-1,tvg-id="TVB粤语" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB粤语片台.png" group-title="港澳台[HK]",TVB粤语
 
-#EXTINF:-1,tvg-id="TVB1" tvg-logo="" group-title="港澳台[HK]",TVB1
+#EXTINF:-1,tvg-id="TVB1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB1.png" group-title="港澳台[HK]",TVB1
 
-#EXTINF:-1,tvg-id="TVBE" tvg-logo="" group-title="港澳台[HK]",TVBE
+#EXTINF:-1,tvg-id="TVBE" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBe.png" group-title="港澳台[HK]",TVBE
 
-#EXTINF:-1,tvg-id="TVB DRAMA" tvg-logo="" group-title="港澳台[HK]",TVB DRAMA
+#EXTINF:-1,tvg-id="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBDRAMA.png" group-title="港澳台[HK]",TVB DRAMA
 http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-#EXTINF:-1,tvg-id="明珠剧集台" tvg-logo="" group-title="港澳台[HK]",明珠剧集台
+#EXTINF:-1,tvg-id="明珠剧集台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB_Pearl_DRAMA.png" group-title="港澳台[HK]",明珠剧集台
 http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB直播台.png" group-title="港澳台[HK]",TVB直播
 https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist.m3u8
@@ -69,16 +69,16 @@ http://php.jdshipin.com:8880/smt.php?id=Xinhe
 #EXTINF:-1,tvg-id="TVB功夫台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB功夫台.png" group-title="港澳台[HK]",TVB功夫台
 
 #EXTINF:-1,tvg-id="TVB PLUS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB+.png" group-title="港澳台[HK]",TVB PLUS
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
-#EXTINF:-1,tvg-id="TVB J1" group-title="港澳台[HK]",TVB J1
+http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+#EXTINF:-1,tvg-id="TVB J1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ1.png" group-title="港澳台[HK]",TVB J1
 http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
 #EXTINF:-1,tvg-id="416" tvg-name="J2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ2.png" group-title="港澳台[HK]",TVB J2
-
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映频道" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="港澳台[HK]",天映频道
 
 #EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台[HK]",天映经典
 
-#EXTINF:-1,tvg-id="凤凰电影" group-title="港澳台[HK]",凤凰电影
+#EXTINF:-1,tvg-id="凤凰电影" tvg-name="凤凰电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰电影.png" group-title="港澳台[HK]",凤凰电影
 
 
 
@@ -91,7 +91,7 @@ https://epg.pw/stream/568e26b29122e84e3527b97eca553332274777bdf39873fb234fb6581a
 #EXTINF:-1,tvg-id="东森亚洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="港澳台[TW]",东森亚洲
 
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视
-https://stream1.freetv.fun/dong-sen-chao-shi-3.m3u8
+
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视34.5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视34.5
 https://epg.pw/stream/bab8065e884e2bdc304409c9cad21b27e7ecfe42e7c3476ffa0ef5a9165647bd.m3u8
 #EXTINF:-1,tvg-id="6058" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="港澳台[TW]",东森戏剧
@@ -161,7 +161,7 @@ http://37.27.111.214:8080/live/17/hls.m3u8
 #EXTINF:-1,tvg-id="7197" tvg-name="纬来精采" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纬来精彩台.png" group-title="港澳台[TW]",纬来精采
 http://61.221.215.25:8800/hls/48/index.m3u8
 
-#EXTINF:-1,tvg-id="" tvg-name="台湾戏剧台" tvg-logo="" group-title="港澳台[TW]",台湾戏剧台
+#EXTINF:-1,tvg-id="" tvg-name="台湾戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台湾戏剧台.png" group-title="港澳台[TW]",台湾戏剧台
 
 #EXTINF:-1,tvg-id="ELTA体育1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eata_sports1.png" group-title="港澳台[TW]",ELTA体育1
 
@@ -177,7 +177,7 @@ http://61.221.215.25:8800/hls/48/index.m3u8
 
 #EXTINF:-1,tvg-id="7201" tvg-name="爱尔达影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_yingju.png" group-title="港澳台[TW]",ELTA影剧
 
-#EXTINF:-1,tvg-id="7201" tvg-name="爱尔达生活旅游" tvg-logo="" group-title="港澳台[TW]",ELTA生活旅游
+#EXTINF:-1,tvg-id="7201" tvg-name="爱尔达生活旅游" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_生活旅游.png" group-title="港澳台[TW]",ELTA生活旅游
 http://37.27.111.214:8080/live/85/hls.m3u8
 #EXTINF:-1,tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="港澳台[TW]",八大戏剧
 http://61.221.215.25:8800/hls/39/index.m3u8
@@ -189,7 +189,7 @@ http://61.221.215.25:8800/hls/55/index.m3u8
 
 #EXTINF:-1,tvg-id="6133" tvg-name="八大娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVEntertainment.png" group-title="港澳台[TW]",八大娱乐
 
-#EXTINF:-1,tvg-id="6133" tvg-name="八大综艺台" tvg-logo="" group-title="港澳台[TW]",八大综艺台
+#EXTINF:-1,tvg-id="6133" tvg-name="八大综艺台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大综艺.png" group-title="港澳台[TW]",八大综艺台
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大电视.png" group-title="港澳台[TW]",八大电视
 
@@ -255,7 +255,7 @@ http://37.27.111.214:8080/live/6/hls.m3u8
 
 #EXTINF:-1,tvg-id="民视第一台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视第一台.png" group-title="港澳台[TW]",民视第一台
 http://37.27.111.214:8080/live/4/hls.m3u8
-#EXTINF:-1,tvg-id="民视影剧" group-title="港澳台[TW]",民视影剧
+#EXTINF:-1,tvg-id="民视影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视影剧.png" group-title="港澳台[TW]",民视影剧
 
 #EXTINF:-1,tvg-id="民视旅游" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视旅游台.png" group-title="港澳台[TW]",民视旅游
 
@@ -267,11 +267,11 @@ https://epg.pw/stream/37de02efb12a4dc05e13814405a580e6f46b091c993c411e7a95bcac4c
 http://37.27.111.214:8080/live/5/hls.m3u8
 #EXTINF:-1,tvg-id="6031" tvg-name="公视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="港澳台[TW]",公视
 http://50.7.234.10:8278/ctv_taiwan/playlist.m3u8?ct=17990&tid=13765524&tsum=03eb77c1c186944b97737f14e95076c0
-#EXTINF:-1,tvg-id="6022" tvg-name="公视三台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="港澳台[TW]",公视3
+#EXTINF:-1,tvg-id="6022" tvg-name="公视三台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视3.png" group-title="港澳台[TW]",公视3
 
 #EXTINF:-1,tvg-id="公视戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视戏剧台.png" group-title="港澳台[TW]",公视戏剧
 http://37.27.111.214:8080/live/87/hls.m3u8
-#EXTINF:-1,tvg-id="公视台语台" tvg-logo="" group-title="港澳台[TW]",公视台语台
+#EXTINF:-1,tvg-id="公视台语台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视台语台.png" group-title="港澳台[TW]",公视台语台
 
 #EXTINF:-1,tvg-id="台视1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视.png" group-title="港澳台[TW]",台视1
 https://epg.pw/stream/6343a9f5faa4503789d87f9b034c6882454f3a5c47036b35685700a28fd30270.ctv
@@ -288,9 +288,9 @@ https://ythls.armelin.one/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 #EXTINF:-1 tvg-id="" group-title="港澳台[TW]",天才冲冲冲
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="港澳台[TW]",MTV Live
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/MTVLIVE.png" group-title="港澳台[TW]",MTV Live
 http://37.27.111.214:8080/live/25/hls.m3u8
-#EXTINF:-1 tvg-id="" group-title="港澳台[TW]",亚洲旅游
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/亚洲旅游台.png" group-title="港澳台[TW]",亚洲旅游
 http://37.27.111.214:8080/live/10/hls.m3u8
 #EXTINF:-1 tvg-id="" group-title="港澳台[TW]",华数电影
 http://37.27.111.214:8080/live/11/hls.m3u8
@@ -312,7 +312,7 @@ http://37.27.111.214:8080/live/19/hls.m3u8
 
 #EXTINF:-1,tvg-id="龙祥时代" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/LSTIME.png" group-title="港澳台[TW]",龙祥时代
 
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DOX-CINEMAX.png" group-title="港澳台[TW]",CINEMAX
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DOX-CINEMAX.png" group-title="港澳台[TW]",CINEMAX
 
 #EXTINF:-1,tvg-id="好莱坞电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/好莱坞电影.png" group-title="港澳台[TW]",好莱坞电影
 
@@ -320,18 +320,17 @@ http://37.27.111.214:8080/live/19/hls.m3u8
 
 #EXTINF:-1,tvg-id="145" tvg-name="美亚高清电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[TW]",美亚电影
 
-#EXTINF:-1,tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[TW]",AMC电影台
+#EXTINF:-1,tvg-id="AMC电影台" tvg-name="AMC电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/AMC电影台.png" group-title="港澳台[TW]",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 
-#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="" group-title="港澳台[TW]",流行音乐
-http://61.221.215.25:8800/hls/49/index.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="ROCK Action" tvg-logo="" group-title="港澳台[TW]",ROCK Action
+
+#EXTINF:-1,tvg-id="" tvg-name="ROCK Action" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/rockaction.png" group-title="港澳台[TW]",ROCK Action
 
 
-#EXTINF:-1,tvg-id="" tvg-name="HITSMovie" tvg-logo="" group-title="港澳台[TW]",HITSMovie
+#EXTINF:-1,tvg-id="" tvg-name="HITSMovie" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/hitsmovie.png" group-title="港澳台[TW]",HITSMovie
 http://37.27.111.214:8080/live/28/hls.m3u8
 
-#EXTINF:-1,tvg-id="" tvg-name="影迷数位电影台" tvg-logo="" group-title="港澳台[TW]",影迷数位电影台
+#EXTINF:-1,tvg-id="" tvg-name="影迷数位电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/影迷数位电影台.png" group-title="港澳台[TW]",影迷数位电影台
 
 
 
@@ -389,7 +388,7 @@ http://61.221.215.25:8800/hls/40/index.m3u8
 http://61.221.215.25:8800/hls/57/index.m3u8
 #EXTINF:-1,tvg-id="7216" tvg-name="美食星球" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fooldplanet.png" group-title="港澳台[TW]",美食星球
 
-#EXTINF:-1,tvg-id="城市电视" group-title="港澳台[TW]",城市电视
+#EXTINF:-1,tvg-id="城市电视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/城市电视.png" group-title="港澳台[TW]",城市电视
 
 #EXTINF:-1 tvg-id="673" tvg-name="CN卡通频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNCartoon.png" group-title="港澳台[TW]",CN卡通頻道
 
@@ -456,17 +455,17 @@ http://37.27.111.214:8080/live/13/hls.m3u8
 #EXTINF:-1,tvg-id="6175" tvg-name="博斯网球台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_tennis.png" group-title="港澳台[TW]",博斯网球
 
 
-#EXTINF:-1,tvg-id="" tvg-name="History" tvg-logo="" group-title="港澳台[TW]",History
+#EXTINF:-1,tvg-id="" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/HHistory.png" group-title="港澳台[TW]",History
 http://37.27.111.214:8080/live/27/hls.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="Live ABC英语互动" tvg-logo="" group-title="港澳台[TW]",Live ABC英语互动
+#EXTINF:-1,tvg-id="" tvg-name="Live ABC英语互动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/liveABC.png" group-title="港澳台[TW]",Live ABC英语互动
 http://37.27.111.214:8080/live/54/hls.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="ELTV生活英語台" tvg-logo="" group-title="港澳台[TW]",ELTV生活英語台
+#EXTINF:-1,tvg-id="" tvg-name="ELTV生活英語台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/ELTV生活英语台.png" group-title="港澳台[TW]",ELTV生活英語台
 http://37.27.111.214:8080/live/56/hls.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="哆啦A梦" tvg-logo="" group-title="港澳台[TW]",哆啦A梦
 
 
 
-#EXTINF:-1,tvg-id="" tvg-name="cinemaworld" tvg-logo="" group-title="港澳台[TW]",cinemaworld
+#EXTINF:-1,tvg-id="" tvg-name="cinemaworld" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/cinemaworld.png" group-title="港澳台[TW]",cinemaworld
 http://37.27.111.214:8080/live/30/hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/美国中文电视台.png" group-title="港澳台[TW]",美国中文电视
 
@@ -480,7 +479,7 @@ http://37.27.111.214:8080/live/30/hls.m3u8
 
 #EXTINF:-1,tvg-id="" tvg-name="HBO Hits" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOHits.png" group-title="港澳台[TW]",HBO Hits
 
-#EXTINF:-1,tvg-id="澳门卫视" group-title="港澳台[MO]",澳门卫视
+#EXTINF:-1,tvg-id="澳门卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/21/large/20220521144701785913_98.jpeg" group-title="港澳台[MO]",澳门卫视
 http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8
 #EXTINF:-1,tvg-id="澳门莲花" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/澳门莲花.png" group-title="港澳台[MO]",澳门莲花
 
