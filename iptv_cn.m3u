@@ -20,11 +20,11 @@ http://120.76.248.139/live/bfgd/4200000635.m3u8
 #EXTINF:-1,tvg-id="CHC华诚影视" tvg-name="CHC华诚影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC华诚影视
 http://120.76.248.139/live/bfgd/4200000289.m3u8
 #EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC家庭影院
-http://118.76.104.14:8888/rtp/226.0.2.240:9820
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002028/index.m3u8?IASHttpSessionId=
 #EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="央视IPV6",CHC影迷电影
-
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002029/index.m3u8?IASHttpSessionId=
 #EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC动作电影.png" group-title="央视IPV6",CHC动作电影
-
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002030/index.m3u8?IASHttpSessionId=
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000018602/1.m3u8
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视IPV6",CCTV2
@@ -194,8 +194,8 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031113/1.m3u8
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031114/1.m3u8
 #EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/生活时尚.png" group-title="数字频道",生活时尚
 http://60.164.128.167:8029/udp/239.255.29.18:8231
-
-
+#EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://live.fanmingming.com/tv/环球旅游.png" group-title="数字频道",环球旅游
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000643/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/都市剧场.png" group-title="数字频道",都市剧场
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031111/1.m3u8
 #EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金色学堂.png" group-title="数字频道",金色学堂
@@ -363,7 +363,7 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000006000040024/1.m3u8
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/快乐垂钓.png" group-title="地方·其它",快乐垂钓
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031206/1.m3u8
 #EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/茶.png" group-title="地方·其它",茶
-http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031209/1.m3u8
+http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000649/index.m3u8?IASHttpSessionId=
 
 #EXTINF:-1 tvg-id="黑龙江都市" tvg-name="黑龙江都市" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江都市.png" group-title="地方·其它",黑龙江都市
 #EXTINF:-1 tvg-id="黑龙江少儿" tvg-name="黑龙江少儿" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江少儿.png" group-title="地方·其它",黑龙江少儿
