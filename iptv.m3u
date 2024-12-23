@@ -9,7 +9,7 @@
 
 
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4K.png" group-title="4K",CCTV4K「IPV6」
-
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/CCTV4K/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-name="纯享4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纯享4K.png" group-title="4K",纯享 4K「IPV6」
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010006/1.m3u8
 #EXTINF:-1 tvg-id="A20" tvg-name="CCTV8K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8K.png" group-title="4K",CCTV-8K 超高清
@@ -20,11 +20,11 @@ http://120.76.248.139/live/bfgd/4200000635.m3u8
 #EXTINF:-1,tvg-id="CHC华诚影视" tvg-name="CHC华诚影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC华诚影视
 http://120.76.248.139/live/bfgd/4200000289.m3u8
 #EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC家庭影院
-http://[2001:250:5800:1005::155]:80/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="央视IPV6",CHC影迷电影
-http://111.20.40.171/PLTV/88888893/224/3221226463/index.m3u8
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC动作电影.png" group-title="央视IPV6",CHC动作电影
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000106/index.m3u
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000001/index.m3u8
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视IPV6",CCTV2
@@ -58,24 +58,32 @@ http://[2409:8087:74d9:21::6]:80/270000001128/9900000511/index.m3u8
 #EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV15.png" group-title="央视IPV6",CCTV15
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000512/index.m3u8
 #EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV16.png" group-title="央视IPV6",CCTV16
-http://[2409:8087:74d9:21::6]:80/270000001128/9900000016/index.m3u8
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/CCTV16_4K/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV17.png" group-title="央视IPV6",CCTV17
 http://[2409:8087:74d9:21::9]:80/270000001128/9900000513/index.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CGTN纪录.png" group-title="央视IPV6",CGTN记录
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000009569/1.m3u8
 
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="央视IPV6",CCTV兵器科技
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/第一剧场.png" group-title="央视IPV6",CCTV第一剧场
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="央视IPV6",CCTV女性时尚
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/nvxing/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/怀旧剧场.png" group-title="央视IPV6",CCTV怀旧剧场
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/电视指南.png" group-title="央视IPV6",CCTV电视指南
 #EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云剧场.png" group-title="央视IPV6",CCTV风云剧场
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云足球.png" group-title="央视IPV6",CCTV风云足球
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
 #EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云音乐.png" group-title="央视IPV6",CCTV风云音乐
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/世界地理.png" group-title="央视IPV6",CCTV世界地理
 #EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视台球.png" group-title="央视IPV6",CCTV央视台球
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-id="央视高网" tvg-name="央视高网" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视高网.png" group-title="央视IPV6",CCTV央视高网
-
+http://113.194.51.14:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/golfHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/北京卫视.png" group-title="卫视IPV6",北京卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000516/index.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南卫视.png" group-title="卫视IPV6",湖南卫视
@@ -312,15 +320,25 @@ http://[2409:8087:74d9:21::6]:80/270000001128/9900000120/index.m3u8
 #EXTINF:-1,tvg-id="爱动漫" tvg-name="iHOT爱动漫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱动漫.png" group-title="IHOT",iHOT爱动漫
 
 #EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="地方·重庆",重庆新闻
+http://113.205.167.56:8012/udp/225.0.4.188:7980
 #EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="地方·重庆",重庆影视
+http://113.205.167.56:8012/udp/225.0.4.62:7980
 #EXTINF:-1 tvg-id="重庆社会与法" tvg-name="重庆社会与法" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="地方·重庆",重庆社会与法
+http://113.205.167.56:8012/udp/225.0.4.190:7980
 #EXTINF:-1 tvg-id="重庆时尚生活" tvg-name="重庆时尚生活" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆时尚生活.png" group-title="地方·重庆",重庆时尚生活
+http://113.205.167.56:8012/udp/225.0.4.196:7980
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆文体娱乐.png" group-title="地方·重庆",重庆文体娱乐
+http://113.205.167.56:8012/udp/225.0.4.194:7980
 #EXTINF:-1 tvg-id="重庆新农村" tvg-name="重庆新农村" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新农村.png" group-title="地方·重庆",重庆新农村
+http://113.205.167.56:8012/udp/225.0.4.189:7980
 #EXTINF:-1 tvg-id="重庆少儿" tvg-name="重庆少儿" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆少儿.png" group-title="地方·重庆",重庆少儿
+http://113.205.167.56:8012/udp/225.0.4.191:7980
 #EXTINF:-1 tvg-id="重庆科教" tvg-name="重庆科教" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆科教.png" group-title="地方·重庆",重庆科教
+http://113.205.167.56:8012/udp/225.0.4.193:7980
 #EXTINF:-1 tvg-id="重庆汽摩" tvg-name="重庆汽摩" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆汽摩.png" group-title="地方·重庆",重庆汽摩
+http://113.205.167.56:8012/udp/225.0.4.195:7980
 #EXTINF:-1 tvg-id="重庆移动" tvg-name="重庆移动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="地方·重庆",重庆移动
+http://113.205.167.56:8012/udp/225.0.4.215:7980
 #EXTINF:-1 tvg-id="重广融媒" tvg-name="重广融媒" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重广融媒.png" group-title="地方·重庆",重广融媒
 #EXTINF:-1 tvg-id="爱看导视" tvg-name="爱看导视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱看导视.png" group-title="地方·重庆",爱看导视
 #EXTINF:-1 tvg-id="璧山综合" tvg-name="璧山综合" tvg-logo="" group-title="地方·重庆",璧山综合
