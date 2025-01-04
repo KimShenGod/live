@@ -1,12 +1,5 @@
 [
 	{
-		"id":"150de7cf-f8ed-413b-8906-33dc24581033",
-		"Search":false,
-		"Adult":true,
-		"name":"森林资源",
-		"api":"https://slapibf.com/api.php/provide/vod/at/xml"
-	},
-	{
 		"id":"78b17363-ba01-4592-ac96-b2dfac25102c",
 		"Search":false,
 		"Adult":true,
@@ -45,52 +38,10 @@
 		"api":"https://apiyutu.com/api.php/provide/vod/at/xml"
 	},
 	{
-		"id":"19498840-a996-4522-ab63-3823308e8424",
-		"Adult":true,
-		"name":"甜蜜资源",
-		"api":"https://timizy10.cc/api.php/provide/vod/at/xml"
-	},
-	{
-		"id":"29ca8f4e-23c2-4615-a645-c3c90a9c3cf9",
-		"Adult":true,
-		"name":"辣椒资源",
-		"api":"http://apilj.com/api.php/provide/vod/at/xml"
-	},
-	{
 		"id":"a4bdf6c2-dcf6-4906-b968-9b08a067ed85",
 		"Adult":true,
 		"name":"大地资源",
 		"api":"http://dadiapi.com/api.php"
-	},
-	{
-		"id":"4a2d7b98-10ff-42fc-a43f-69d45cad02d1",
-		"Adult":true,
-		"name":"天美传媒",
-		"api":"http://91md.me/api.php/provide/vod/at/xml"
-	},
-	{
-		"id":"8189acd3-12c1-4fc2-8705-09a5aaacd300",
-		"Adult":true,
-		"name":"博天堂",
-		"api":"http://bttcj.com/inc/sapi.php"
-	},
-	{
-		"id":"0bc687a8-f40a-4d47-a321-141d2fda1633",
-		"Adult":true,
-		"name":"JAV名优馆",
-		"api":"http://cjmygzy.com/inc/sapi.php"
-	},
-	{
-		"id":"b20e8a05-922f-49df-9f6a-884038b0d7d8",
-		"Adult":true,
-		"name":"sexnguon",
-		"api":"http://api.sexnguon.com/api.php/provide/vod/at/xml"
-	},
-	{
-		"id":"8c343e35-d1c5-49fb-8baf-2485b191d023",
-		"Adult":true,
-		"name":"利来",
-		"api":"http://llzxcj.com/inc/sck.php"
 	},
 	{
 		"id":"f996b80b-a0da-4986-b9fc-166b4355c8b5",
@@ -135,129 +86,27 @@
 		"api":"https://www.pgxdy.com/api/xml.php"
 	},
 	{
-		"id":"78bf7cb4-cafa-402b-90cc-d7f3c7f60820",
-		"Adult":true,
-		"name":"小湿妹",
-		"api":"https://www.afasu.com/api/xml.php"
-	},
-	{
-		"id":"9a109ab8-a438-441f-9fe5-3029bf1b8f59",
-		"Adult":true,
-		"name":"KK写真资源",
-		"api":"https://kkzy.me/api.php/provide/vod/at/xml"
-	},
-	{
-		"id":"de014082-3127-46b0-81b9-c9297b513299",
-		"Adult":true,
-		"name":"78乐播",
-		"api":"https://lbapi9.com/api.php/provide/vod/at/xml"
-	},
-	{
 		"id":"5b3accdd-91e0-4542-9a22-53bf61e1dbb7",
 		"Adult":true,
 		"name":"麻豆视频",
 		"api":"https://91md.me/api.php/provide/vod/at/xml"
 	},
 	{
-		"id": "620c5ffc-010b-4936-9cab-3ad2bd764bd3",
-		"Adult":true,
-		"name":"皇冠资源",
-		"api":"https://hghhh.com/api.php/provide/vod/"
-	},
-	{
-		"id": "f909ebbb-8411-4077-a442-f373f5d01988",
-		"Adult":true,
-		"name":"易看资源",
-		"api":"https://api.yikanapi.com/api.php/provide/vod/"
-	},
-	{
-		"id": "a24c2761-31fb-4c98-9c8e-a2dddf32245f",
-		"Adult":true,
-		"name":"番号资源",
-		"api":"http://fhapi9.com/api.php/provide/vod/"
-	},
-	{
-		"id": "7283b9cb-ff72-4344-b2c3-9220f8d1ef63",
-		"Adult":true,
-		"name":"鲨鱼资源",
-		"api":"https://shayuapi.com/api.php/provide/vod/"
-	},
-	{
 		"id": "5d463871-14e9-4c62-babe-4860cb50d20b",
 		"Adult":true,
 		"name":"老色逼资源",
-		"api":"https://apilsbzy1.com/api.php/provide/vod/"
-	},
-	{
-		"id": "c64e2b56-7ddf-4d74-a72a-89adb3ffdb21",
-		"Adult":true,
-		"name":"草榴资源",
-		"api":"https://www.caoliuzyw.com/api.php/prodao/vod/"
+		"api":"https://apilsbzy1.com/api.php/provide/vod/at/xml"
 	},
 	{
 		"id": "31642cd2-951d-4f49-9b02-c4aba58091ec",
 		"Adult":true,
 		"name":"精品资源",
-		"api":"https://www.jingpinx.com/api.php/provide/vod/"
-	},
-	{
-		"id": "0bd783d0-8339-495f-80db-bbc78238c114",
-		"Adult":true,
-		"name":"奶香香",
-		"api":"https://Naixxzy.com/api.php/provide/vod/"
-	},
-	{
-		"id": "e713e913-fc88-4a71-86b8-0d329d8f1d43",
-		"Adult":true,
-		"name":"52AVAV",
-		"api":"https://52zyapi.com/home/cjapi/asda/mc/vod/xml"
-	},
-	{
-		"id": "cb793b67-c404-44f5-bdf7-4d86a54a974d",
-		"Adult":true,
-		"name":"水帘洞资源",
-		"api":"https://www.sldcaiji.com/home/cjapi/s6da/mc/vod/xml"
-	},
-	{
-		"id": "44c9c8f1-ed2b-41d8-afd4-c7428be6dce7",
-		"Adult":true,
-		"name":"精工厂资源",
-		"api":"https://jgczyapi.com/home/cjapi/kld2/mc/vod/xml"
-	},
-	{
-		"id": "7c1334ae-0dc9-4abd-bb14-0859e318386d",
-		"Adult":true,
-		"name":"99资源",
-		"api":"http://99zy.pw/api.php/provide/vod/at/xml"
-	},
-	{
-		"id": "aa29a236-aa0d-4772-9b5e-92516b64b7dc",
-		"Adult":true,
-		"name":"抖阴视频",
-		"api":"https://www.888dav.com/api.php/provide/vod/at/xml"
-	},
-	{
-		"id": "1ef550ad-432a-43d6-b1b9-23c4625a1b3d",
-		"Adult":true,
-		"name":"酷豆资源",
-		"api":"https://kudouzy.com/api.php/provide/vod/at/xml"
-	},
-	{
-		"id": "f46bf745-0f5e-46b6-8530-128ad9009d79",
-		"Adult":true,
-		"name":"青青草视频",
-		"api":"https://www.caiji05.com/home/cjapi/cfda/mc/vod/xml"
-	},
-	{
-		"id": "e6f570ec-ddff-498c-b268-2c1d8cb67923",
-		"Adult":true,
-		"name":"秀色资源",
-		"api":"https://api.xiuseapi.com/api.php/provide/vod/at/xml"
+		"api":"https://www.jingpinx.com/api.php/provide/vod/at/xml"
 	},
 	{
 		"id": "bfbab7aa-36fc-4bc8-b3c2-b9daffa315f4",
 		"Adult":true,
 		"name":"玉兔资源",
-		"api":"https://apiyutu.com/api.php/provide/vod/"
+		"api":"https://apiyutu.com/api.php/provide/vod/at/xml"
 	}
 ]
