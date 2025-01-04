@@ -102,11 +102,5 @@
 		"Adult":true,
 		"name":"精品资源",
 		"api":"https://www.jingpinx.com/api.php/provide/vod/at/xml"
-	},
-	{
-		"id": "bfbab7aa-36fc-4bc8-b3c2-b9daffa315f4",
-		"Adult":true,
-		"name":"玉兔资源",
-		"api":"https://apiyutu.com/api.php/provide/vod/at/xml"
 	}
 ]
