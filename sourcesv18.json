@@ -5,13 +5,7 @@
 		"Adult":true,
 		"name":"探探资源",
 		"api":"https://apittzy.com/api.php/provide/vod/at/xml"
-	},
-	{
-		"id":"a1d375c1-36fc-485c-a4e9-e87055f92c87",
-		"Adult":true,
-		"name":"老鸭资源采集",
-		"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml"
-	},
+	},	
 	{
 		"id":"35d75165-50ec-420a-9e66-b19af5e0abe2",
 		"Adult":true,
