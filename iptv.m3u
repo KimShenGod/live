@@ -7,7 +7,7 @@
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱上4K.png" group-title="4K",爱上4K 「IPV6」
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华数4K.png" group-title="4K",华数4K 「IPV6」
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/华数4K.png" group-title="4K",华数4K 「IPV6」
 http://[2409:8087:5e00:24::029]:6610/000000001000/2000000004000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000014&IASHttpSessionId=OTT19019320240419154124000281
 
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4K.png" group-title="4K",CCTV4K「IPV6」
