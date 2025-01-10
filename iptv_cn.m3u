@@ -18,7 +18,7 @@ http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010006/1.m3u8
 
 
 #EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="央视IPV6",重温经典
-http://120.76.248.139/live/bfgd/4200000635.m3u8
+http://cdn3.132.us.kg/live/cwjd/stream.m3u8
 #EXTINF:-1,tvg-id="CHC华诚影视" tvg-name="CHC华诚影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC华诚影视
 http://120.76.248.139/live/bfgd/4200000289.m3u8
 #EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC家庭影院
@@ -417,3 +417,8 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="海南公共" tvg-name="海南公共" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南公共.png" group-title="地方·其它",海南公共
 
 #EXTINF:-1 tvg-id="内蒙古农牧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古农牧.png" group-title="地方·其它",内蒙古农牧
+
+#EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/广东体育.png" group-title="地方·其它",广东体育
+http://cdn2.132.us.kg/live/gdty/stream.m3u8
+#EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/广东珠江.png" group-title="地方·其它",广东珠江
+http://cdn2.132.us.kg/live/gdzj/stream.m3u8
