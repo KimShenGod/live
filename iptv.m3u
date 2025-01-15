@@ -262,7 +262,7 @@ http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 #EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="地方·重庆",重庆新闻
 http://183.66.15.146:60901/tsfile/live/0019_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="地方·重庆",重庆影视
-http://27.10.79.119:8003/udp/225.0.4.192:7980
+
 #EXTINF:-1 tvg-id="重庆社会与法" tvg-name="重庆社会与法" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="地方·重庆",重庆社会与法
 http://183.66.15.146:60901/tsfile/live/1001_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="重庆时尚生活" tvg-name="重庆时尚生活" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆时尚生活.png" group-title="地方·重庆",重庆时尚生活
