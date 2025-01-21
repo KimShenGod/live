@@ -159,7 +159,7 @@ https://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CETV1.png" group-title="卫视频道",CETV-1
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227021/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ELlgU9sgTT7iMtFgKHFa-dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CETV2.png" group-title="卫视频道",CETV-2
-
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
 #EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/tv/CETV4.png" group-title="卫视频道",CETV-4
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="山东教育" tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="数字频道",山东教育
@@ -172,6 +172,20 @@ http://120.76.248.139/live/bfgd/4200000289.m3u8
 http://z.b.bkpcp.top/m.php?id=jtyy
 #EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="数字频道",CHC影迷电影
 #EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC动作电影.png" group-title="数字频道",CHC动作电影
+#EXTINF:-1,tvg-id="IPTV淘电影" tvg-name="IPTV淘电影" tvg-logo="" group-title="数字频道",IPTV淘电影
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
+#EXTINF:-1,tvg-id="IPTV淘剧场" tvg-name="IPTV淘剧场" tvg-logo="" group-title="数字频道",IPTV淘剧场
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQaJ92NID2SpQlY6_VJVogg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOuQYJeiYEeFWTkFfE86Vq-%2CEND
+#EXTINF:-1,tvg-id="IPTV淘娱乐" tvg-name="IPTV淘娱乐" tvg-logo="" group-title="数字频道",IPTV淘娱乐
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ex0efg9fpenP8E8lWJUb5Lg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
+#EXTINF:-1,tvg-id="IPTV淘BABY" tvg-name="IPTV淘BABY" tvg-logo="" group-title="数字频道",IPTV淘BABY
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EN0sbBMpQv4sLsW5foy3YfA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
+#EXTINF:-1,tvg-id="IPTV电影" tvg-name="IPTV电影" tvg-logo="https://live.fanmingming.cn/tv/未知.png" group-title="数字频道",IPTV电影
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226982/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E3-4ssTWVRRSna2CFQXnugg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN38RosDJrflrS3TJSXwz6L%2CEND
+#EXTINF:-1 tvg-name="IPTV电影2" tvg-logo="https://live.fanmingming.cn/tv/未知2.png" group-title="数字频道",IPTV电影2
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227008/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EfLBCW0GUL1k986fkoE_7hA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="IPTV重温经典" tvg-logo="https://live.fanmingming.cn/tv/未知2.png" group-title="数字频道",IPTV重温经典
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226556/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eg58chGORQFpH6J3zm0kF5g%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPAP4UJ9bY8mj3RcXbpDq31%2CEND
 #EXTINF:-1,tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索动物.png" group-title="数字频道",求索动物
 #EXTINF:-1,tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索记录.png" group-title="数字频道",求索记录
 #EXTINF:-1,tvg-id="求索科学" tvg-name="求索科学" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/求索科学.png" group-title="数字频道",求索科学
@@ -239,9 +253,11 @@ http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226970/1.m3u8?GuardEncType
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226985/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EqRd0uU_hKSUti2u5P6u77Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="newtv明星大片" tvg-name="newtv明星大片" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV明星大片.png" group-title="数字频道",明星大片
 #EXTINF:-1 tvg-id="newtv欢乐剧场" tvg-name="newtv欢乐剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV欢乐剧场.png" group-title="数字频道",欢乐剧场
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226969/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eopki56l9Hks18kOzEToNUQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPt5W7-RovMDpE-7B-0PhHw%2CEND
 #EXTINF:-1 tvg-id="newtv精品萌宠" tvg-name="newtv精品萌宠" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品萌宠.png" group-title="数字频道",精品萌宠
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226976/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EvfRMC51wpBEwf_3ooIvthw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="newtv超级综艺" tvg-name="newtv超级综艺" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级综艺.png" group-title="数字频道",超级综艺
+http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226231/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ejm-KqHfTZezbm9C-325YiA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNnfpAUC20DSCXUyGpDggnK%2CEND
 #EXTINF:-1 tvg-id="newtv金牌综艺" tvg-name="newtv金牌综艺" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV金牌综艺.png" group-title="数字频道",金牌综艺
 http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221227004/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkcfszuSJNo6WZ8h7xrIswA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-id="newtv古装剧场" tvg-name="newtv古装剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV古装剧场.png" group-title="数字频道",古装剧场
