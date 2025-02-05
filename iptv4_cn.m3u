@@ -14,41 +14,41 @@ http://117.144.58.42:35455/gaoma/cctv4k.m3u8
 #EXTINF:-1 tvg-id="A20" tvg-name="CCTV8K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8K.png" group-title="4K",CCTV-8K 超高清
 
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视频道",CCTV1
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-1-HQ/G_CCTV-1-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视频道",CCTV2
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-2-HQ/G_CCTV-2-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV3.png" group-title="央视频道",CCTV3
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-3-HQ/G_CCTV-3-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4.png" group-title="央视频道",CCTV4
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-4-HQ/G_CCTV-4-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5.png" group-title="央视频道",CCTV5
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-5-HQ/G_CCTV-5-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5+.png" group-title="央视频道",CCTV5+
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV6.png" group-title="央视频道",CCTV6
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-6-HQ/G_CCTV-6-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265006.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV7.png" group-title="央视频道",CCTV7
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-7-HQ/G_CCTV-7-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV8.png" group-title="央视频道",CCTV8
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-8-HQ/G_CCTV-8-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265008.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV9.png" group-title="央视频道",CCTV9
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-9-HQ/G_CCTV-9-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV10.png" group-title="央视频道",CCTV10
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-10-HQ/G_CCTV-10-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV11.png" group-title="央视频道",CCTV11
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-11-HQ/G_CCTV-11-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV12.png" group-title="央视频道",CCTV12
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-12-HQ/G_CCTV-12-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV13.png" group-title="央视频道",CCTV13
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-13-HQ/G_CCTV-13-HQ.m3u8
+http://z.b.bkpcp.top/m.php?id=cctv13
 #EXTINF:-1,tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV14.png" group-title="央视频道",CCTV14
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-14-HQ/G_CCTV-14-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV15.png" group-title="央视频道",CCTV15
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-15-HQ/G_CCTV-15-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV16.png" group-title="央视频道",CCTV16
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-16-HQ/G_CCTV-16-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV17.png" group-title="央视频道",CCTV17
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_CCTV-17-HQ/G_CCTV-17-HQ.m3u8
+http://www.terrykang.xyz:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道",CGTN英语
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CGTN纪录.png" group-title="央视频道",CGTN记录
@@ -56,7 +56,7 @@ https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="央视频道",CCTV兵器科技
 #EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/第一剧场.png" group-title="央视频道",CCTV第一剧场
 #EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="央视频道",CCTV女性时尚
-http://hegd-livod.tx-cdn.gitv.tv/gitv_live/G_NVXINGSS/G_NVXINGSS.m3u8
+
 #EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/怀旧剧场.png" group-title="央视频道",CCTV怀旧剧场
 #EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/电视指南.png" group-title="央视频道",CCTV电视指南
 #EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云剧场.png" group-title="央视频道",CCTV风云剧场
