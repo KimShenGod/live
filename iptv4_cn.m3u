@@ -115,9 +115,9 @@ http://148.135.93.213:81/live.php?id=重庆卫视
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://148.135.93.213:81/live.php?id=黑龙江卫视
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视
-http://148.135.93.213:81/live.php?id=内蒙古卫视
+http://111.29.9.33:6410/200000001898/460000089800010109/1.m3u8?
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/宁夏卫视.png" group-title="卫视频道",宁夏卫视
-
+http://111.29.9.33:6410/200000001898/460000089800010110/1.m3u8?
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/陕西卫视.png" group-title="卫视频道",陕西卫视
 http://148.135.93.213:81/live.php?id=陕西卫视
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/吉林卫视.png" group-title="卫视频道",吉林卫视
@@ -125,7 +125,7 @@ http://148.135.93.213:81/live.php?id=吉林卫视
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/甘肃卫视.png" group-title="卫视频道",甘肃卫视
 http://148.135.93.213:81/live.php?id=甘肃卫视
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/云南卫视.png" group-title="卫视频道",云南卫视
-http://cssbyd.imwork.net:8082/hls/36/index.m3u8
+https://hwapi.yntv.net/62hdvf/41hse3.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/三沙卫视.png" group-title="卫视频道",三沙卫视
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/青海卫视.png" group-title="卫视频道",青海卫视
 http://stream.qhbtv.com/qhws/sd/live.m3u8
@@ -147,12 +147,14 @@ https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="亚洲卫视" tvg-name="亚洲卫视" tvg-logo="https://epg.112114.xyz/logo/亚洲卫视.png" group-title="卫视频道",亚洲卫视
 
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视资讯台.png" group-title="卫视IPV6",凤凰资讯
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视资讯台.png" group-title="卫视频道",凤凰资讯
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视中文台.png" group-title="卫视IPV6",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视中文台.png" group-title="卫视频道",凤凰中文
 http://cdn.132.us.kg/live/fhzw/stream.m3u8
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="卫视IPV6",凤凰香港
-http://148.135.93.213:81/phenix.php?id=fhhk
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="卫视频道",凤凰香港
+https://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
+#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="卫视频道",凤凰香港线路2
+http://extraott.com:80/live/6772191932/1654508883/473557.m3u8
 
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CETV1.png" group-title="卫视频道",CETV-1
 #EXTINF:-1 tvg-name="中国教育2台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CETV2.png" group-title="卫视频道",CETV-2
@@ -287,23 +289,24 @@ http://z.b.bkpcp.top/m.php?id=shys
 #EXTINF:-1 tvg-id="上海外语" tvg-name="上海外语" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上海外语.png" group-title="地方·其它",上海外语
 
 #EXTINF:-1 tvg-id="湖南爱晚" tvg-name="湖南爱晚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南爱晚.png" group-title="地方·其它",湖南爱晚
-http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-9.m3u8
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNGGMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南电视剧" tvg-name="湖南电视剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南电视剧.png" group-title="地方·其它",湖南视剧
-http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-10.m3u8
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNDSJMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南电影" tvg-name="湖南电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南电影.png" group-title="地方·其它",湖南电影
 http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNDYMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南都市" tvg-name="湖南都市" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南都市.png" group-title="地方·其它",湖南都市
-http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-6.m3u8
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNDSMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南国际" tvg-name="湖南国际" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南国际.png" group-title="地方·其它",湖南国际
-http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-4.m3u8
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNGJMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南经视" tvg-name="湖南经视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南经视.png" group-title="地方·其它",湖南经视
-http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-2.m3u8
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNJSMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南娱乐" tvg-name="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南娱乐.png" group-title="地方·其它",湖南娱乐
-http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-13.m3u8
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNYLMPP360.m3u8
 #EXTINF:-1 tvg-id="湖南教育" tvg-name="湖南教育台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南教育.png" group-title="地方·其它",湖南教育
 
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金鹰纪实.png" group-title="地方·其它",金鹰纪实
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金鹰卡通.png" group-title="地方·其它",金鹰卡通
+http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/JYKTMPP360.m3u8
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/快乐垂钓.png" group-title="地方·其它",快乐垂钓
 #EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/茶.png" group-title="地方·其它",茶
 #EXTINF:-1 tvg-id="黑龙江新闻" tvg-name="黑龙江新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江新闻.png" group-title="地方·其它",黑龙江新闻
@@ -319,8 +322,6 @@ http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-13.m3u8
 #EXTINF:-1 tvg-id="海南少儿" tvg-name="海南少儿" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南少儿.png" group-title="地方·其它",海南少儿 
 
 #EXTINF:-1 tvg-id="海南公共" tvg-name="海南公共" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南公共.png" group-title="地方·其它",海南公共
-
-#EXTINF:-1 tvg-id="内蒙古农牧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古农牧.png" group-title="地方·其它",内蒙古农牧
 
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/广东体育.png" group-title="地方·其它",广东体育
 http://cdn2.163189.xyz/live/gdty/stream.m3u8
@@ -342,11 +343,29 @@ https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.cn/tv/浙江少儿.png" group-title="地方·其它",浙江少儿
 http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 tvg-name="之江记录" tvg-logo="https://live.fanmingming.cn/tv/之江记录.png" group-title="地方·其它",之江记录
+#EXTINF:-1 tvg-name="之江记录" tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="地方·其它",之江记录
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江国际" tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="地方·其它",浙江国际
 https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江民生休闲" tvg-logo="https://live.fanmingming.cn/tv/浙江民生休闲.png" group-title="地方·其它",浙江民生休闲
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江影视" tvg-logo="https://live.fanmingming.cn/tv/浙江民生休闲.png" group-title="地方·其它",浙江影视
-https://ali-m-l.cztv.com/channels/lantian/channel005/1080p.m3u8
+#EXTINF:-1 tvg-name="内蒙古新闻综合" tvg-logo="https://live.fanmingming.cn/tv/内蒙古新闻综合.png" group-title="地方·其它",内蒙古新闻综合
+http://play1-qk.nmtv.cn:80/live/1686560423879174.m3u8
+#EXTINF:-1 tvg-name="内蒙古文体娱乐" tvg-logo="https://live.fanmingming.cn/tv/内蒙古文体娱乐.png" group-title="地方·其它",内蒙古文体娱乐
+http://play1-qk.nmtv.cn:80/live/1686561195713372.m3u8
+#EXTINF:-1 tvg-id="内蒙古农牧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古农牧.png" group-title="地方·其它",内蒙古农牧
+http://play1-qk.nmtv.cn:80/live/1686561299036179.m3u8
+#EXTINF:-1 tvg-id="内蒙古经济生活" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古经济生活.png" group-title="地方·其它",内蒙古经济生活
+http://play1-qk.nmtv.cn:80/live/1686562470947181.m3u8
+#EXTINF:-1 tvg-name="呼和浩特新闻综合" tvg-logo="https://live.fanmingming.cn/tv/呼和浩特新闻综合.png" group-title="地方·其它",呼市新闻综合
+https://livestream-bt.nmtv.cn/nmtv/2331general.m3u8?txSecret=4d7342ca5cd74480526ab6d292247aff&txTime=771E8800
+#EXTINF:-1 tvg-name="包头新闻综合" tvg-logo="https://live.fanmingming.cn/tv/包头新闻综合.png" group-title="地方·其它",包头新闻综合
+https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=98390a77c143a68f0fd64bfe6e181dcb&txTime=771E8800
+#EXTINF:-1 tvg-name="鄂尔多斯新闻综合" tvg-logo="https://live.fanmingming.cn/tv/鄂尔多斯新闻综合.png" group-title="地方·其它",鄂尔多斯新闻
+https://livestream-bt.nmtv.cn/nmtv/2349general.m3u8?txSecret=e44477052aba305cadeea45aaf1c674a&txTime=771E8800
+#EXTINF:-1 tvg-name="巴彦淖尔新闻综合" tvg-logo="https://live.fanmingming.cn/tv/巴彦淖尔新闻综合.png" group-title="地方·其它",巴彦淖尔新闻
+https://livestream-bt.nmtv.cn/nmtv/2348general.m3u8?txSecret=6a4ddce077e41b976fe33619fbef2b30&txTime=771E8800
+#EXTINF:-1 tvg-name="赤峰新闻综合" tvg-logo="https://live.fanmingming.cn/tv/赤峰新闻综合.png" group-title="地方·其它",赤峰新闻综合
+https://livestream-bt.nmtv.cn/nmtv/2351general.m3u8?txSecret=8857087aeec2cec44d178a18550fdb8a&txTime=771E8800
+#EXTINF:-1 tvg-name="乌兰察布新闻综合" tvg-logo="https://live.fanmingming.cn/tv/乌兰察布.png" group-title="地方·其它",乌兰察布新闻
+https://livestream-bt.nmtv.cn/nmtv/2354general.m3u8?txSecret=cf5f71d0000862b18f5813607b3dfd5b&txTime=771E8800
