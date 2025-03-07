@@ -157,7 +157,7 @@ https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 #EXTINF:-1,tvg-id="" tvg-name="延边卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/延边卫视.png" group-title="卫视频道",延边卫视
 https://tv.bfsu.edu.cn/hls/ybtv.m3u8
 #EXTINF:-1 tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.com/tv/康巴卫视.png" group-title="卫视频道",康巴卫视
-
+http://119.8.186.1:50001/TVOD/1000000005000266002/ystenlive/index.m3u8
 #EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/香港卫视.png" group-title="卫视频道",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="亚洲卫视" tvg-name="亚洲卫视" tvg-logo="https://epg.112114.xyz/logo/亚洲卫视.png" group-title="卫视频道",亚洲卫视
@@ -167,7 +167,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视中文台.png" group-title="卫视频道",凤凰中文
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="卫视频道",凤凰香港
-https://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="卫视频道",凤凰香港线路2
 http://extraott.com:80/live/6772191932/1654508883/473557.m3u8
 
@@ -237,7 +237,7 @@ http://119.8.186.1:50001/TVOD/2000000002000000061/hnbblive/index.m3u8
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="数字频道",乐游频道
 http://119.8.186.1:50001/TVOD/2000000002000000092/hnbblive/index.m3u8
 #EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纪实人文.png" group-title="数字频道",纪实人文
-
+http://119.8.186.1:50001/TVOD/1000000001000010606/ystenlive/index.m3u8
 
 #EXTINF:-1 tvg-id="纪实科教8K" tvg-name="纪实科教8K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/北京纪实科教.png" group-title="数字频道",纪实科教8K
 http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
@@ -308,6 +308,7 @@ http://119.8.186.1:50001/TVOD/2000000003000000003/hnbblive/index.m3u8
 #EXTINF:-1 tvg-id="newtv武搏世界" tvg-name="newtv武搏世界" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV武搏世界.png" group-title="数字频道",武搏世界
 
 #EXTINF:-1 tvg-id="newtv爱情喜剧" tvg-name="newtv爱情喜剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV爱情喜剧.png" group-title="数字频道",爱情喜剧
+http://119.8.186.1:50001/TVOD/2000000003000000010/hnbblive/index.m3u8
 #EXTINF:-1 tvg-id="newtv魅力潇湘" tvg-name="newtv魅力潇湘" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",魅力潇湘
 http://119.8.186.1:50001/TVOD/1000000001000006197/ystenlive/index.m3u8
 #EXTINF:-1 tvg-id="newtv热播精选" tvg-name="newtv热播精选" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",热播精选
@@ -316,11 +317,13 @@ http://119.8.186.1:50001/TVOD/1000000001000006197/ystenlive/index.m3u8
 http://z.b.bkpcp.top/m.php?id=mlzq
 http://119.8.186.1:50001/TVOD/2000000002000000068/hnbblive/index.m3u8
 #EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="数字频道",睛彩竞技
+http://119.8.186.1:50001/TVOD/1000000006000270001/ystenlive/index.m3u8
 #EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="数字频道",睛彩篮球
 http://119.8.186.1:50001/TVOD/1000000006000270006/ystenlive/index.m3u8
 #EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="数字频道",睛彩青少
+http://119.8.186.1:50001/TVOD/3000000020000031315/FifastbLive/index.m3u8
 #EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="数字频道",睛彩广场舞
-
+http://119.8.186.1:50001/TVOD/1000000006000270003/ystenlive/index.m3u8
 #EXTINF:-1,tvg-id="精彩影视" tvg-name="精彩影视" tvg-logo="https://live.fanmingming.com/tv/睛彩影视.png" group-title="数字频道",精彩影视
 http://119.8.186.1:50001/TVOD/2000000004000000063/hnbblive/index.m3u8
 #EXTINF:-1,tvg-id="Hot风尚音乐" tvg-name="Hot风尚音乐" tvg-logo="" group-title="数字频道",Hot风尚音乐
