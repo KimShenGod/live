@@ -15,18 +15,10 @@
 #EXTINF:-1 tvg-name="纯享4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纯享4K.png" group-title="4K",纯享 4K「IPV6」
 #EXTINF:-1 tvg-id="A20" tvg-name="CCTV8K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8K.png" group-title="4K",CCTV-8K 超高清
 
-
-#EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="央视IPV6",重温经典
-http://cdn3.132.us.kg/live/cwjd/stream.m3u8
-#EXTINF:-1,tvg-id="CHC华诚影视" tvg-name="CHC华诚影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC华诚影视
-http://120.76.248.139/live/bfgd/4200000289.m3u8
-#EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="央视IPV6",CHC家庭影院
-#EXTINF:-1,tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="央视IPV6",CHC影迷电影
-#EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC动作电影.png" group-title="央视IPV6",CHC动作电影
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EI0Rkc6neBYgfpoJ1yud8Fw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPpqgHe3PQ5GNQoO-yUgA8C%2CEND
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视IPV6",CCTV2
-
+http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226990/index.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EF6vUFjwUtPIVYF_Bo7_fMQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPcNOC-4DOncKoQXayPQfxo%2CEND
 #EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV3.png" group-title="央视IPV6",CCTV3
 http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E_6GNVcVOz9Xub8CclyMRUg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOIR_8g_qYRqpV5wTQqRILi%2CEND
 #EXTINF:-1,tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4.png" group-title="央视IPV6",CCTV4
