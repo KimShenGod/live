@@ -59,15 +59,17 @@ http://cdn5.163189.xyz/live/hoy/stream.m3u8
 #EXTINF:-1,tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB 经典台.png" group-title="港澳台[HK]",TVB经典
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
 #EXTINF:-1,tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB 经典台.png" group-title="港澳台[HK]",TVB经典线路2
-http://cdn9.163189.xyz/smt3.1.1.php?id=Tvbclassic
+
 #EXTINF:-1,tvg-id="TVB粤语" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB粤语片台.png" group-title="港澳台[HK]",TVB粤语
 
 #EXTINF:-1,tvg-id="TVB1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB1.png" group-title="港澳台[HK]",TVB1
-
+http://extraott.com:80/live/6772191932/1654508883/473567.m3u8
+#EXTINF:-1,tvg-id="TVB1(B)" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB1.png" group-title="港澳台[HK]",TVB1(B)
+http://extraott.com:80/live/6772191932/1654508883/473571.m3u8
 #EXTINF:-1,tvg-id="TVBE" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBe.png" group-title="港澳台[HK]",TVBE
-
+http://extraott.com:80/live/6772191932/1654508883/473569.m3u8
 #EXTINF:-1,tvg-id="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBDRAMA.png" group-title="港澳台[HK]",TVB DRAMA
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-18/AKTV.m3u8
+http://extraott.com:80/live/6772191932/1654508883/473568.m3u8
 #EXTINF:-1,tvg-id="明珠剧集台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB_Pearl_DRAMA.png" group-title="港澳台[HK]",明珠剧集台
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-19/AKTV.m3u8
 
@@ -94,7 +96,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
 #EXTINF:-1,tvg-id="416" tvg-name="J2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ2.png" group-title="港澳台[HK]",TVB J2
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映频道" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="港澳台[HK]",天映频道
-http://aktv_stream1.m16tv.cfd/stream/astro_a1/celestialmovies/AKTV.m3u8
+http://php.jdshipin.com/smt.php?id=Celestial
 #EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台[HK]",天映经典
 http://php.jdshipin.com/smt.php?id=Celestial2
 #EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台[HK]",天映经典备
@@ -113,7 +115,7 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/mytvsuper18/AKTV.m3u8
 
 
 #EXTINF:-1,tvg-id="145" tvg-name="美亚高清电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[HK]",美亚电影
-http://aktv_stream1.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
+http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
 #EXTINF:-1,tvg-id="Animax" tvg-name="Animax" tvg-logo="" group-title="港澳台[HK]",Animax
 http://aktv_stream1.m16tv.cfd/stream/aktv3/animaxhk/AKTV.m3u8
 #EXTINF:-1,tvg-id="channel8hd" tvg-name="channel8hd" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Channel8.png" group-title="港澳台[HK]",Channel 8
@@ -144,7 +146,7 @@ http://extraott.com:80/live/6772191932/1654508883/473538.m3u8
 #EXTINF:-1,tvg-id="6051" tvg-name="东森超视34.5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="港澳台[TW]",东森超视34.5
 
 #EXTINF:-1,tvg-id="6058" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="港澳台[TW]",东森戏剧
-http://122.117.71.103:8529/http/61.222.53.250:8081/hls/64/803/ch13.m3u8
+
 #EXTINF:-1,tvg-id="6080" tvg-name="东森电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCMovies.png" group-title="港澳台[TW]",东森电影
 #EXTINF:-1,tvg-id="6084" tvg-name="东森洋片台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCWesternMovies.png" group-title="港澳台[TW]",东森洋片
 #EXTINF:-1,tvg-id="6050" tvg-name="东森综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCVariety.png" group-title="港澳台[TW]",东森综合
@@ -186,7 +188,7 @@ http://extraott.com:80/live/6772191932/1654508883/33015.m3u8
 #EXTINF:-1,tvg-id="6101" tvg-name="靖洋戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖洋戏剧.png" group-title="港澳台[TW]",靖洋戏剧
 #EXTINF:-1,tvg-id="6191" tvg-name="靖洋卡通台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖洋卡通.png" group-title="港澳台[TW]",靖洋卡通
 #EXTINF:-1,tvg-id="6095" tvg-name="纬来日本台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandJapanese.png" group-title="港澳台[TW]",纬来日本
-http://108.181.21.27:27347/livehttpplay?channel_id=200303
+
 #EXTINF:-1,tvg-id="6081" tvg-name="纬来电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandMovies.png" group-title="港澳台[TW]",纬来电影
 http://122.117.71.103:8554/http/220.130.87.218:8081/hls/69/811/ch035.m3u8
 #EXTINF:-1,tvg-id="6044" tvg-name="纬来综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandOnTV.png" group-title="港澳台[TW]",纬来综合
