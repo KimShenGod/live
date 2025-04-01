@@ -6,28 +6,25 @@
 #EXTINF:-1,tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/星空卫视.png" group-title="港澳台[HK]",星空卫视
 
 #EXTINF:-1,tvg-id="126" tvg-name="TVB Jade" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",TVB Jade
-http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
+http://php.jdshipin.com:8880/smt.php?id=jade_twn
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
-#EXTINF:-1,tvg-id="126" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台备1
-http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠台4k" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台4k
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠台4k" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠台4k(备)
-http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
+https://cdn.163189.xyz/live/fct4k/stream.m3u8
 #EXTINF:-1,tvg-id="126" tvg-name="翡翠综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",翡翠综合台
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-17/AKTV.m3u8
+http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 #EXTINF:-1,tvg-id="126" tvg-name="TVB无线华丽" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",TVB无线华丽
 http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
 #EXTINF:-1,tvg-id="126" tvg-name="TVB无线华丽" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/翡翠台.png" group-title="港澳台[HK]",TVB无线华丽2
 http://php.jdshipin.com/TVOD/iptv.php?id=huali
 #EXTINF:-1 tvg-name="TVB娛樂新聞" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="港澳台[HK]",[HD]tvb娱乐新闻
 http://php.jdshipin.com/smt.php?id=Tvbentertainment
-http://aktv_stream1.m16tv.cfd/stream/aktv/hk/AKTV.m3u8
 #EXTINF:-1,tvg-id="127" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/明珠台.png" group-title="港澳台[HK]",TVB明珠
-https://aktv_stream1.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 tvg-name="環球電視臺" tvg-id="11040" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/03/18/large/20220318090803853591_56.png" group-title="港澳台[HK]",[SD]环球电视台
-http://zb.xzxwhcb.com:9999/hls/world.m3u8
+
 #EXTINF:-1 tvg-name="港臺電影" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2019/04/05/large/20190405224938849843_83.jpg" group-title="港澳台[HK]",[HD]港台电影
 
 #EXTINF:-1 tvg-name="RTHK31" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719083758215404_92.png" group-title="港澳台[HK]",[HD]rthk 31
@@ -37,9 +34,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
 #EXTINF:-1 tvg-name="RTHK34" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/08/22/large/20220822225312895053_10.png" group-title="港澳台[HK]",[HD]rthk 34
 
 #EXTINF:-1,tvg-id="VIU TV" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台[HK]",VIU TV
-http://aktv_stream1.m16tv.cfd/stream/useradd1/viutv/AKTV.m3u8
-#EXTINF:-1,tvg-id="VIU TV" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台[HK]",VIU TV备
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 #EXTINF:-1,tvg-id="NowViu剧集台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/viutv.png" group-title="港澳台[HK]",NowViu剧集台
 
 #EXTINF:-1 tvg-name="ViuTVsix" tvg-id="10954" tvg-country="香港" tvg-language="英文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720193559298867_98.png" group-title="港澳台[HK]",[BD]viutv six
@@ -47,7 +42,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1,tvg-id="130" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线新闻台.png" group-title="港澳台[HK]",无线新闻台
 http://php.jdshipin.com:8880/smt.php?id=inews_twn
 #EXTINF:-1,tvg-id="130" tvg-name="无线新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线新闻台.png" group-title="港澳台[HK]",无线新闻线路2
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 #EXTINF:-1,tvg-id="133" tvg-name="无线财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/无线财经台.png" group-title="港澳台[HK]",财经资讯台
 
 #EXTINF:-1,tvg-id="HOY 77台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/HOY 78.png" group-title="港澳台[HK]",HOY 77台
@@ -59,38 +54,33 @@ http://cdn5.163189.xyz/live/hoy/stream.m3u8
 #EXTINF:-1,tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB 经典台.png" group-title="港澳台[HK]",TVB经典
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
 #EXTINF:-1,tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB 经典台.png" group-title="港澳台[HK]",TVB经典线路2
-
+http://php.jdshipin.com/smt.php?id=Tvbclassic
 #EXTINF:-1,tvg-id="TVB粤语" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB粤语片台.png" group-title="港澳台[HK]",TVB粤语
 
 #EXTINF:-1,tvg-id="TVB1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB1.png" group-title="港澳台[HK]",TVB1
-http://extraott.com:80/live/6772191932/1654508883/473567.m3u8
+
 #EXTINF:-1,tvg-id="TVB1(B)" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB1.png" group-title="港澳台[HK]",TVB1(B)
-http://extraott.com:80/live/6772191932/1654508883/473571.m3u8
+
 #EXTINF:-1,tvg-id="TVBE" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBe.png" group-title="港澳台[HK]",TVBE
-http://extraott.com:80/live/6772191932/1654508883/473569.m3u8
+
 #EXTINF:-1,tvg-id="TVB DRAMA" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBDRAMA.png" group-title="港澳台[HK]",TVB DRAMA
-http://extraott.com:80/live/6772191932/1654508883/473568.m3u8
+http://aktv-stream.m16tv.cfd/stream/aktv/null-18/AKTV.m3u8
 #EXTINF:-1,tvg-id="明珠剧集台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB_Pearl_DRAMA.png" group-title="港澳台[HK]",明珠剧集台
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-19/AKTV.m3u8
+http://aktv-stream.m16tv.cfd/stream/aktv/null-19/AKTV.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB直播台.png" group-title="港澳台[HK]",TVB直播
 https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist.m3u8
-#EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="粤語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台[HK]",[HD]tvb星河
-http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbxinghe/AKTV.m3u8
+
 #EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台[HK]",[HD]tvb星河(国)
-http://php.jdshipin.com:8880/smt.php?id=Xinhe
+http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="港澳台[HK]",[HD]tvb星河(备)
-http://cdn9.163189.xyz/smt1.1.php?id=Xinhe
+http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 #EXTINF:-1,tvg-id="TVB亚洲剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB精选亚洲剧台.png" group-title="港澳台[HK]",TVB亚洲剧
 
 #EXTINF:-1,tvg-id="TVB功夫台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB功夫台.png" group-title="港澳台[HK]",TVB功夫台
 http://v2h.jdshipin.com/asia_action1/1asia_action.stream/chunklist_w101.m3u8
 #EXTINF:-1,tvg-id="TVB PLUS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB+.png" group-title="港澳台[HK]",TVB PLUS
-http://aktv_stream1.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
-#EXTINF:-1,tvg-id="TVB PLUS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB+.png" group-title="港澳台[HK]",TVB PLUS线路2
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbp
-#EXTINF:-1,tvg-id="翡翠综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ1.png" group-title="港澳台[HK]",翡翠综合台
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-17/AKTV.m3u8
 #EXTINF:-1,tvg-id="TVB J1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ1.png" group-title="港澳台[HK]",TVB J1
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
 #EXTINF:-1,tvg-id="416" tvg-name="J2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBJ2.png" group-title="港澳台[HK]",TVB J2
@@ -99,40 +89,41 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 http://php.jdshipin.com/smt.php?id=Celestial
 #EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台[HK]",天映经典
 http://php.jdshipin.com/smt.php?id=Celestial2
-#EXTINF:-1,tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="港澳台[HK]",天映经典备
-http://extraott.com:80/live/6772191932/1654508883/191896.m3u8
+
 #EXTINF:-1,tvg-id="凤凰电影" tvg-name="凤凰电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰电影.png" group-title="港澳台[HK]",凤凰电影
 
 #EXTINF:-1,tvg-id="myTV SUPER" tvg-name="myTV SUPER" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB_MYTVSUPER.png" group-title="港澳台[HK]",myTV SUPER
-https://aktv_stream1.m16tv.cfd/stream/aktv/null-15/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="黄金翡翠台" tvg-name="黄金翡翠台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB_MYTVSUPER.png" group-title="港澳台[HK]",黄金翡翠台
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-21/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="" tvg-name="myTV SUPER2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB_MYTVSUPER.png" group-title="港澳台[HK]",myTV SUPER2
-http://aktv_stream1.m16tv.cfd/stream/aktv/mytvsuper18/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="Now星影台" tvg-name="Now星影台" tvg-logo="" group-title="港澳台[HK]",Now星影台
 
 #EXTINF:-1,tvg-id="Now爆谷台" tvg-name="Now爆谷台" tvg-logo="" group-title="港澳台[HK]",Now爆谷台
 
 
-#EXTINF:-1,tvg-id="145" tvg-name="美亚高清电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[HK]",美亚电影
+#EXTINF:-1,tvg-id="145" tvg-name="美亚高清电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[HK]",美亚电影(台)
 http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
+#EXTINF:-1,tvg-id="145" tvg-name="美亚高清电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/meiyamovie.png" group-title="港澳台[HK]",美亚电影(HK)
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
 #EXTINF:-1,tvg-id="Animax" tvg-name="Animax" tvg-logo="" group-title="港澳台[HK]",Animax
-http://aktv_stream1.m16tv.cfd/stream/aktv3/animaxhk/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="channel8hd" tvg-name="channel8hd" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Channel8.png" group-title="港澳台[HK]",Channel 8
-http://aktv_stream1.m16tv.cfd/stream/aktv/channel8hd/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="channel u" tvg-name="channel u" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/ChannelU.png" group-title="港澳台[HK]",Channel U
-http://aktv_stream1.m16tv.cfd/stream/aktv/channeluhd/AKTV.m3u8
+
 
 #EXTINF:-1,tvg-id="KIX" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/KIX.png" group-title="港澳台[HK]",KIX
-http://aktv_stream1.m16tv.cfd/stream/aktv3/kix/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="香港C+" tvg-name="香港C+" tvg-logo="" group-title="港澳台[HK]",香港C+
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 #EXTINF:-1,tvg-id="PopC" tvg-name="PopC+" tvg-logo="" group-title="港澳台[HK]",PopC+
-http://aktv_stream1.m16tv.cfd/stream/aktv/popc/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="channel 5" tvg-name="channel 5" tvg-logo="" group-title="港澳台[HK]",channel 5
-http://aktv_stream1.m16tv.cfd/stream/aktv/channel5hd/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="港澳台[TW]",东森新闻
-http://aktv_stream1.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
+
 #EXTINF:-1,tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="港澳台[TW]",东森新闻备
 http://122.117.71.103:8539/http/220.130.87.218:8081/hls/63/805/ch010.m3u8
 #EXTINF:-1,tvg-id="东森美洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲.png" group-title="港澳台[TW]",东森美洲
