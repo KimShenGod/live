@@ -127,7 +127,7 @@ http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="港澳台[TW]",东森新闻
 http://108.181.20.197/livehttpplay?channel_id=20082
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="港澳台[TW]",东森新闻备
-http://aktv-stream.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
+https://gdfire2.67890123.cn:8088/live/dsxw.m3u8
 #EXTINF:-1 tvg-id="东森美洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲.png" group-title="港澳台[TW]",东森美洲
 
 #EXTINF:-1 tvg-id="东森美洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲卫视.png" group-title="港澳台[TW]",东森美洲卫视
@@ -250,7 +250,7 @@ http://108.181.20.197/livehttpplay?channel_id=10126
 http://aktv_stream1.m16tv.cfd/stream/taiwan/inews/AKTV.m3u8
 
 #EXTINF:-1 tvg-id="中天新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中天新闻台.png" group-title="港澳台[TW]",中天新闻
-http://aktv-stream.m16tv.cfd/stream/aktv/null-6/AKTV.m3u8
+https://zt.dracwoundshop.eu.org/live/stream.m3u8
 #EXTINF:-1 tvg-id="中天新闻2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中天新闻台.png" group-title="港澳台[TW]",中天新闻2
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="港澳台[TW]",中天新聞[循环直播]
@@ -316,19 +316,19 @@ https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-id="7180" tvg-name="采昌影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/采昌影剧.png" group-title="港澳台[TW]",采昌影剧
 http://108.181.20.197/livehttpplay?channel_id=20141
 #EXTINF:-1 tvg-id="7128" tvg-name="龙华电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华电影.png" group-title="港澳台[TW]",龙华电影
-http://aktv-stream.m16tv.cfd/stream/taiwan/null-8/AKTV.m3u8
+https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-id="7130" tvg-name="龙华经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华经典.png" group-title="港澳台[TW]",龙华经典
-
+https://cdn8.163189.xyz/live/lhjd/stream.m3u8
 #EXTINF:-1 tvg-id="7158" tvg-name="龙华日韩台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华日韩.png" group-title="港澳台[TW]",龙华日韩
-http://aktv-stream.m16tv.cfd/stream/taiwan/null-7/AKTV.m3u8
+https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 #EXTINF:-1 tvg-id="7126" tvg-name="龙华偶像" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华偶像.png" group-title="港澳台[TW]",龙华偶像
-http://108.181.20.197/livehttpplay?channel_id=20023
+https://cdn8.163189.xyz/live/lhox/stream.m3u8
 #EXTINF:-1 tvg-id="7127" tvg-name="龙华戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华戏剧.png" group-title="港澳台[TW]",龙华戏剧
-
+https://cdn8.163189.xyz/live/lhxj/stream.m3u8
 #EXTINF:-1 tvg-id="7132" tvg-name="龙华洋片" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华洋片.png" group-title="港澳台[TW]",龙华洋片
-http://108.181.21.27:27347/livehttpplay?channel_id=20090
+https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 #EXTINF:-1 tvg-id="龙华卡通" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/longhuadonghua.png" group-title="港澳台[TW]",龙华卡通
-http://122.117.71.103:8516/http/220.130.87.218:8068/hls/14/80/cstv14.m3u8
+https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 #EXTINF:-1 tvg-id="龙祥时代" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/LSTIME.png" group-title="港澳台[TW]",龙祥时代
 http://108.181.20.197/livehttpplay?channel_id=20114
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DOX-CINEMAX.png" group-title="港澳台[TW]",CINEMAX
