@@ -96,5 +96,23 @@
 		"Adult":true,
 		"name":"精品资源",
 		"api":"https://www.jingpinx.com/api.php/provide/vod/at/xml"
+	},
+	{
+		"id": "8aeb9c01-fa4c-49a7-ac94-36e84b0d7a4f",
+		"Adult":true,
+		"name":"鸡坤资源",
+		"api":"https://jkunzyapi.com/api.php/provide/vod/at/xml"
+	},
+	{
+		"id": "dbc84f59-6494-415a-bdb9-b0db2afca0b3",
+		"Adult":true,
+		"name":"AIvin",
+		"api":"http://lbapiby.com/api.php/provide/vod/at/xml"
+	},
+	{
+		"id": "f602fc70-767c-4109-b5d1-f2b3ae071781",
+		"Adult":true,
+		"name":"CK资源",
+		"api":"https://ckzy.me/api.php/provide/vod//at/xml"
 	}
 ]

@@ -1,0 +1,155 @@
+[
+	{
+		"id":"ee00fa50-a165-4035-96e2-0c95f6338c9f",
+		"Search":true,
+		"name":"华为吧",
+		"api":"https://hw8.live/api.php/provide/vod/at/xml/"
+	},	
+	
+	{
+		"id":"484b4d88-57fe-4cce-a12e-d859976228c6",
+		"Search":true,
+		"name":"卧龙资源",
+		"api":"https://collect.wolongzy.cc/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"769d2dfb-1e5d-4a0c-a3ae-f8cea78d40b8",
+		"Search":true,
+		"name":"红牛资源",
+		"api":"https://www.hongniuzy2.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"a9ddb205-04a2-4a90-a271-a99182714d36",
+		"Search":true,
+		"name":"百度云资源",
+		"api":"https://api.apibdzy.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"035b044f-91ea-4e0c-be0f-6f2e17b1d04f",
+		"Search":true,
+		"name":"无尽资源",
+		"api":"https://api.wujinapi.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"915ac90d-edfa-4d7b-9052-11395958ddc0",
+		"Search":true,
+		"name":"虎牙资源",
+		"api":"https://www.huyaapi.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"0084d6cd-be37-4619-b230-40ab7dbe4063",
+		"Search":true,
+		"name":"樱花资源",
+		"api":"https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"985dc93e-6a1f-4625-9cc4-54031afb18f9",
+		"Search":true,
+		"name":"四圈资源",
+		"api":"https://pg.fenwe078.cf/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"aa186fcb-d3af-4b87-a044-5d0b3d069097",
+		"Search":true,
+		"name":"新浪资源",
+		"api":"https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/"
+	},
+
+	{
+		"id":"5d53afb4-04cf-4eb8-a1fb-d0a582e5c324",
+		"Search":true,
+		"name":"神马资源",
+		"api":"https://img.smdyw.top/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"8a256ba4-edf4-496a-9834-bbb2cbbe939b",
+		"Search":true,
+		"name":"小猫咪资源",
+		"api":"https://zy.xiaomaomi.cc/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"eba2fa72-f4f7-4dd9-aeaa-5666347eb895",
+		"Search":true,
+		"name":"速播资源",
+		"api":"https://subocaiji.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"8221169e-ea0d-4159-bc4d-61fd065dba51",
+		"Search":true,
+		"name":"金鹰资源",
+		"api":"https://jyzyapi.com/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"40ae27c6-59d7-4494-92f9-db630266e0dc",
+		"Search":true,
+		"name":"最大资源",
+		"api":"https://api.zuidapi.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"89c3328d-2016-441e-bb85-4ec813c7fb1b",
+		"Search":true,
+		"name":"光速资源",
+		"api":"https://api.guangsuapi.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"4a8e2065-3b71-4c4e-9a8a-da612b9fbbac",
+		"Search":true,
+		"name":"天翼资源",
+		"api":"https://www.911ysw.top/tianyi.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"99728ba8-b596-4255-846e-d747ec9d92ee",
+		"Search":true,
+		"name":"飘零影院",
+		"api":"https://p2100.net/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"41ab8dfd-699e-4f0f-b9c8-65881843e05b",
+		"Search":true,
+		"name":"360",
+		"api":"https://360zy.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"e35cb772-8dfe-4ccf-aadf-792330ddbfdf",
+		"Search":true,
+		"name":"墨斗资源",
+		"api":"https://www.mdzyapi.com/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"0c168dc3-0017-4320-ae99-281f2075a9ee",
+		"Search":true,
+		"name":"牛牛资源",
+		"api":"https://api.niuniuzy.me/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"f5a82984-b075-47b9-ac56-3eea2010578f",
+		"Search":true,
+		"name":"丫丫资源",
+		"api":"https://cj.yayazy.net/api.php/provide/vod/at/xml/"
+	},
+
+	{
+		"id":"1959a187-bd6e-4d77-b0b0-2bd344569402",
+		"Search":true,
+		"name":"豪华资源",
+		"api":"https://hhzyapi.com/api.php/provide/vod/at/xml/"
+	}
+]
