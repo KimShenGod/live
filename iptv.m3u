@@ -214,7 +214,7 @@ http://107.174.52.32/itv.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/劲爆体育.png" group-title="数字频道",劲爆体育
 
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育
-
+http://108.181.20.197/livehttpplay?channel_id=20060
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/欢笑剧场.png" group-title="数字频道",欢笑剧场
 
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/法治天地.png" group-title="数字频道",法治天地
@@ -921,7 +921,8 @@ http://108.181.20.197/livehttpplay?channel_id=20082
 #EXTINF:-1 tvg-id="6058" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="港澳台[TW]",东森戏剧
 http://108.181.20.197/livehttpplay?channel_id=20072
 #EXTINF:-1 tvg-id="6080" tvg-name="东森电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCMovies.png" group-title="港澳台[TW]",东森电影
-
+http://108.181.20.197/livehttpplay?channel_id=20077
+http://live4play.uk/livehttpplay?channel_id=20077
 #EXTINF:-1 tvg-id="6084" tvg-name="东森洋片台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCWesternMovies.png" group-title="港澳台[TW]",东森洋片
 http://108.181.20.197/livehttpplay?channel_id=20080
 #EXTINF:-1 tvg-id="6050" tvg-name="东森综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCVariety.png" group-title="港澳台[TW]",东森综合
