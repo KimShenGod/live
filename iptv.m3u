@@ -137,7 +137,7 @@ http://itv.iptv1688.top:2016/itv.php?id=吉林卫视
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/甘肃卫视.png" group-title="卫视频道",甘肃卫视
 http://itv.iptv1688.top:2016/itv.php?id=甘肃卫视
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/云南卫视.png" group-title="卫视频道",云南卫视
-https://hwapi.yntv.net/62hdvf/nqyn7w.m3u8
+http://itv.iptv1688.top:2016/itv.php?id=云南卫视
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/三沙卫视.png" group-title="卫视频道",三沙卫视
 https://livessws.hnntv.cn/live/ssws_01hnntv.m3u8?_upt=626783981743357501
 https://pullsstv90080111.ssws.tv/live/SSTV20230221.m3u8
@@ -234,9 +234,8 @@ http://107.174.52.32/itv.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1
 #EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纪实人文.png" group-title="数字频道",纪实人文
 
 #EXTINF:-1 tvg-id="纪实科教8K" tvg-name="纪实科教8K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/北京纪实科教.png" group-title="数字频道",纪实科教8K
-http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
+
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/卡酷少儿.png" group-title="数字频道",卡酷少儿
-http://itv.iptv1688.top:2016/itv.php?id=北京卡酷少儿
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://live.fanmingming.cn/tv/广东嘉佳卡通.png" group-title="数字频道",嘉佳卡通
 
 #EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵赛事.png" group-title="数字频道",哒啵赛事
@@ -246,80 +245,44 @@ http://itv.iptv1688.top:2016/itv.php?id=北京卡酷少儿
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哈哈炫动.png" group-title="数字频道",哈哈炫动
 http://itv.iptv1688.top:2016/itv.php?id=哈哈炫动
 #EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",黑莓动画
-http://itv.iptv1688.top:2016/itv.php?id=黑莓动画
 #EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓电影.png" group-title="数字频道",黑莓电影
-http://itv.iptv1688.top:2016/itv.php?id=黑莓电影
 #EXTINF:-1 tvg-id="newtv超级体育" tvg-name="NEWTV超级体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级体育.png" group-title="数字频道",超级体育
-http://itv.iptv1688.top:2016/itv.php?id=超级体育
-
 #EXTINF:-1 tvg-id="newtv超级电影" tvg-name="NEWTV超级电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电影.png" group-title="数字频道",超级电影
-http://itv.iptv1688.top:2016/itv.php?id=超级电影
-
 #EXTINF:-1 tvg-id="newtv动作电影" tvg-name="NEWTV动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NewTV动作电影.png" group-title="数字频道",动作电影
-http://itv.iptv1688.top:2016/itv.php?id=动作电影
-
 #EXTINF:-1 tvg-id="newtv超级电视剧" tvg-name="NEWTV超级电视剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电视剧.png" group-title="数字频道",超级视剧
-http://itv.iptv1688.top:2016/itv.php?id=超级电视剧
 #EXTINF:-1 tvg-id="newtv东北热剧" tvg-name="NEWTV东北热剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV东北热剧.png" group-title="数字频道",东北热剧
-http://itv.iptv1688.top:2016/itv.php?id=东北热剧
 #EXTINF:-1 tvg-id="newtv海外剧场" tvg-name="NEWTV海外剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV海外剧场.png" group-title="数字频道",海外剧场
-http://itv.iptv1688.top:2016/itv.php?id=海外剧场
 
 #EXTINF:-1 tvg-id="newtv中国功夫" tvg-name="NEWTV中国功夫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV中国功夫.png" group-title="数字频道",中国功夫
-http://itv.iptv1688.top:2016/itv.php?id=中国功夫
 #EXTINF:-1 tvg-id="newtv军旅剧场" tvg-name="NEWTV军旅剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV军旅剧场.png" group-title="数字频道",军旅剧场
-http://itv.iptv1688.top:2016/itv.php?id=军旅剧场
 #EXTINF:-1 tvg-id="newtv惊悚悬疑" tvg-name="NEWTV惊悚悬疑" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV惊悚悬疑.png" group-title="数字频道",惊悚悬疑
-http://itv.iptv1688.top:2016/itv.php?id=惊悚悬疑
 #EXTINF:-1 tvg-id="newtv潮妈辣婆" tvg-name="NEWTV潮妈辣婆" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV潮妈辣婆.png" group-title="数字频道",潮妈辣婆
-http://itv.iptv1688.top:2016/itv.php?id=潮妈辣婆
 #EXTINF:-1 tvg-id="newtv精品体育" tvg-name="NEWTV精品体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品体育.png" group-title="数字频道",精品体育
-http://itv.iptv1688.top:2016/itv.php?id=精品体育
 #EXTINF:-1 tvg-id="newtv精品纪录" tvg-name="NEWTV精品纪录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品纪录.png" group-title="数字频道",精品纪录
-http://itv.iptv1688.top:2016/itv.php?id=精品纪录
 #EXTINF:-1 tvg-id="newtv家庭剧场" tvg-name="NEWTV家庭剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV家庭剧场.png" group-title="数字频道",家庭剧场
-http://itv.iptv1688.top:2016/itv.php?id=家庭剧场
 #EXTINF:-1 tvg-id="newtv精品大剧" tvg-name="NEWTV精品大剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品大剧.png" group-title="数字频道",精品大剧
-http://itv.iptv1688.top:2016/itv.php?id=精品大剧
 #EXTINF:-1 tvg-id="newtv军事评论" tvg-name="NEWTV军事评论" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV军事评论.png" group-title="数字频道",军事评论
-http://itv.iptv1688.top:2016/itv.php?id=军事评论
 #EXTINF:-1 tvg-id="newtv明星大片" tvg-name="NEWTV明星大片" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV明星大片.png" group-title="数字频道",明星大片
-http://itv.iptv1688.top:2016/itv.php?id=爱情喜剧
 #EXTINF:-1 tvg-id="newtv欢乐剧场" tvg-name="NEWTV欢乐剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV欢乐剧场.png" group-title="数字频道",欢乐剧场
-http://itv.iptv1688.top:2016/itv.php?id=明显大片
 #EXTINF:-1 tvg-id="newtv精品萌宠" tvg-name="NEWTV精品萌宠" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品萌宠.png" group-title="数字频道",精品萌宠
-http://itv.iptv1688.top:2016/itv.php?id=精品萌宠
 #EXTINF:-1 tvg-id="newtv超级综艺" tvg-name="NEWTV超级综艺" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级综艺.png" group-title="数字频道",超级综艺
-http://itv.iptv1688.top:2016/itv.php?id=爱情喜剧
 #EXTINF:-1 tvg-id="newtv金牌综艺" tvg-name="NEWTV金牌综艺" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV金牌综艺.png" group-title="数字频道",金牌综艺
-http://itv.iptv1688.top:2016/itv.php?id=超级综艺
 #EXTINF:-1 tvg-id="newtv古装剧场" tvg-name="NEWTV古装剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV古装剧场.png" group-title="数字频道",古装剧场
-http://itv.iptv1688.top:2016/itv.php?id=古装剧场
 #EXTINF:-1 tvg-id="newtv怡伴健康" tvg-name="NEWTV怡伴健康" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV怡伴健康.png" group-title="数字频道",怡伴健康
-http://itv.iptv1688.top:2016/itv.php?id=怡伴健康
 #EXTINF:-1 tvg-id="newtv炫舞未来" tvg-name="NEWTV炫舞未来" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV炫舞未来.png" group-title="数字频道",炫舞未来
-http://itv.iptv1688.top:2016/itv.php?id=炫舞未来
 #EXTINF:-1 tvg-id="newtv农业致富" tvg-name="NEWTV农业致富" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV农业致富.png" group-title="数字频道",农业致富
-http://itv.iptv1688.top:2016/itv.php?id=农业致富
 #EXTINF:-1 tvg-id="newtv武搏世界" tvg-name="NEWTV武搏世界" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV武搏世界.png" group-title="数字频道",武搏世界
-http://itv.iptv1688.top:2016/itv.php?id=武搏世界
 
 #EXTINF:-1 tvg-id="newtv爱情喜剧" tvg-name="NEWTV爱情喜剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV爱情喜剧.png" group-title="数字频道",爱情喜剧
-http://itv.iptv1688.top:2016/itv.php?id=爱情喜剧
 #EXTINF:-1 tvg-id="newtv魅力潇湘" tvg-name="NEWTV魅力潇湘" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",魅力潇湘
-http://itv.iptv1688.top:2016/itv.php?id=魅力潇湘
 #EXTINF:-1 tvg-id="newtv热播精选" tvg-name="NEWTV热播精选" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",热播精选
 
 #EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://live.fanmingming.com/tv/魅力足球.png" group-title="数字频道",魅力足球
 
 #EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="数字频道",睛彩竞技
 #EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="数字频道",睛彩篮球
-http://itv.iptv1688.top:2016/itv.php?id=睛彩篮球
 #EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="数字频道",睛彩青少
-http://itv.iptv1688.top:2016/itv.php?id=睛彩青少
 #EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="数字频道",睛彩广场舞
-http://itv.iptv1688.top:2016/itv.php?id=睛彩广场舞
-
 #EXTINF:-1 tvg-id="精彩影视" tvg-name="精彩影视" tvg-logo="https://live.fanmingming.com/tv/睛彩影视.png" group-title="数字频道",精彩影视
 #EXTINF:-1 tvg-id="Hot风尚音乐" tvg-name="Hot风尚音乐" tvg-logo="" group-title="数字频道",Hot风尚音乐
 #EXTINF:-1 tvg-id="Hot精品剧场" tvg-name="Hot精品剧场" tvg-logo="" group-title="数字频道",Hot精品剧场
