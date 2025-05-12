@@ -2,7 +2,7 @@
 #EXT-X-APP APTV
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://mirror.ghproxy.com/https://raw.githubusercontent.com/KimShenGod/live/main/iptv.m3u
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml https://live.fanmingming.cn/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml https://epg.112114.xyz/pp.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/苏州4K.png" group-title="4K",苏州4K
 
 
@@ -17,9 +17,11 @@
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://8.138.7.223/tv/ptbtv.php?id=27
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://2.itv.nctv.top:35455/bptv/10000100000000050000000003864351.m3u8
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 http://27.19.219.87:34567/bptv/10000100000000050000000003864351.m3u8
-
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视IPV6",CCTV1
 
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视IPV6",CCTV2
 http://2.itv.nctv.top:35455/bptv/10000100000000050000000003870745.m3u8
@@ -553,7 +555,9 @@ http://27.19.219.87:34567/bptv/10000100000000050000000003887459.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哈哈炫动.png" group-title="数字频道",哈哈炫动
 http://itv.iptv1688.top:2016/itv.php?id=哈哈炫动
 #EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",黑莓动画
+http://107.174.52.32/itv.php?id=%e9%bb%91%e8%8e%93%e5%8a%a8%e7%94%bb
 #EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓电影.png" group-title="数字频道",黑莓电影
+http://107.174.52.32/itv.php?id=%e9%bb%91%e8%8e%93%e7%94%b5%e5%bd%b1
 #EXTINF:-1 tvg-id="newtv超级体育" tvg-name="NEWTV超级体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级体育.png" group-title="数字频道",超级体育
 #EXTINF:-1 tvg-id="newtv超级电影" tvg-name="NEWTV超级电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电影.png" group-title="数字频道",超级电影
 #EXTINF:-1 tvg-id="newtv动作电影" tvg-name="NEWTV动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NewTV动作电影.png" group-title="数字频道",动作电影
