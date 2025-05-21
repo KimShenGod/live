@@ -555,7 +555,7 @@ http://play.cec-tv.com.cn/channel/cec-tv3.m3u8
 #EXTINF:-1 tvg-id="CEC健康" tvg-name="CEC健康" tvg-logo="https://epg.112114.eu.org/logo/CEC国际健康.png" group-title="卫视",CEC健康
 http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
 
-#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="数字频道",山东教育
+#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="卫视",山东教育
 https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="中华美食" tvg-logo="https://live.fanmingming.cn/tv/中华美食.png" group-title="数字频道",中华美食
 #EXTINF:-1 tvg-id="" tvg-name="重温经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="数字频道",重温经典
@@ -798,7 +798,7 @@ http://8.138.7.223/tv/dl/jstv.php?id=ymkt
 
 #EXTINF:-1 tvg-id="" tvg-name="西藏影视文化" tvg-logo="https://epg.112114.eu.org/logo/西藏影视文化.png" group-title="地方·其它",西藏影视文化
 http://php.jdshipin.com:8880/xztv.php?id=ys
-#EXTINF:-1 tvg-id="黑龙江新闻法治" tvg-name="黑龙江新闻法治" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江新闻.png" group-title="地方·其它",黑龙江新闻
+#EXTINF:-1 tvg-id="黑龙江新闻法治" tvg-name="黑龙江新闻法治" tvg-logo="https://epg.112114.xyz/logo/黑龙江新闻法治.png" group-title="地方·其它",黑龙江新闻
 https://idclive.hljtv.com:4430/live/hljxw_hd.m3u8
 #EXTINF:-1 tvg-id="黑龙江都市" tvg-name="黑龙江都市" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江都市.png" group-title="地方·其它",黑龙江都市
 https://idclive.hljtv.com:4430/live/dushi_hd.m3u8
@@ -810,7 +810,7 @@ https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8
 https://idclive.hljtv.com:4430/live/hljys_hd.m3u8
 #EXTINF:-1 tvg-id="黑龙江农业科教" tvg-name="黑龙江农业科教" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江农业科教.png" group-title="地方·其它",黑龙江农业科教
 https://idclive.hljtv.com:4430/live/hljgg_hd.m3u8
-#EXTINF:-1 tvg-id="海南新闻" tvg-name="海南新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南新闻.png" group-title="地方·其它",海南新闻
+#EXTINF:-1 tvg-id="海南新闻" tvg-name="海南新闻" tvg-logo="https://epg.112114.xyz/logo/海南新闻.png" group-title="地方·其它",海南新闻
 http://nn.7x9d.cn/%E5%9C%B0%E6%96%B9%E5%8F%B08563/%E6%B5%B7%E5%8D%97.php?id=xwpd
 #EXTINF:-1 tvg-id="海南自贸" tvg-name="海南自贸" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南自贸.png" group-title="地方·其它",海南自贸
 http://nn.7x9d.cn/%E5%9C%B0%E6%96%B9%E5%8F%B08563/%E6%B5%B7%E5%8D%97.php?id=jjpd
@@ -903,7 +903,7 @@ https://xatv-yt.xiancity.cn/live/3/index.m3u8
 https://xatv-yt.xiancity.cn/live/4/index.m3u8
 #EXTINF:-1 tvg-id="西安丝路" tvg-name="西安丝路" tvg-logo="https://epg.112114.eu.org/logo/西安丝路频道.png" group-title="地方·其它",西安丝路
 https://xatv-yt.xiancity.cn/live/5/index.m3u8
-#EXTINF:-1 tvg-id="西安购物" tvg-name="西安购物" tvg-logo="https://epg.112114.eu.org/logo/西安购物频道.png" group-title="地方·其它",西安购物
+#EXTINF:-1 tvg-id="西安购物" tvg-name="西安购物" tvg-logo="https://epg.112114.eu.org/logo/西安购物.png" group-title="地方·其它",西安购物
 https://xatv-yt.xiancity.cn/live/6/index.m3u8
 #EXTINF:-1 tvg-id="西安移动电视" tvg-name="西安移动电视" tvg-logo="https://epg.112114.eu.org/logo/西安移动电视.png" group-title="地方·其它",西安移动
 https://xatv-yt.xiancity.cn/live/7/index.m3u8
@@ -1217,14 +1217,16 @@ http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 #EXTINF:-1 tvg-id="" tvg-name="翡翠综合台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠综合台
 http://php.jdshipin.com/TVOD/iptv.php?id=huali
 #EXTINF:-1 tvg-id="" tvg-name="翡翠综合台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠综合台
+https://smart.pendy.dpdns.org/Smart.php?id=Wlt
 http://lzoq.serv00.net/daili/Smartv.php?id=Wlt
 #EXTINF:-1 tvg-name="TVB娛樂新聞" tvg-id="" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="💓港澳台📶[HK]",[HD]tvb娱乐新闻
 http://php.jdshipin.com/smt.php?id=Tvbentertainment
+https://smart.pendy.dpdns.org/Smart.php?id=Tvbentertainment
 http://lzoq.serv00.net/daili/Smartv.php?id=Tvbentertainment
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="https://epg.112114.eu.org/logo/TVB明珠.png" group-title="💓港澳台📶[HK]",TVB明珠
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="https://epg.112114.eu.org/logo/TVB明珠.png" group-title="💓港澳台📶[HK]",TVB明珠
-https://smart.pendy.dpdns.org/Smart.php?id=pearl_twn
+https://smart.pendy.dpdns.org/Smart.php?id=pearl_twn 
 http://lzoq.serv00.net/daili/Smartv.php?id=pearl_twn 
 #EXTINF:-1 tvg-name="環球電視臺" tvg-id="11040" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/03/18/large/20220318090803853591_56.png" group-title="💓港澳台📶[HK]",[SD]环球电视台
 
@@ -1272,6 +1274,7 @@ http://cdn5.163189.xyz/live/hoy/stream.m3u8
 http://108.181.20.197/livehttpplay?channel_id=20191
 #EXTINF:-1 tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://epg.112114.eu.org/logo/千禧经典.png" group-title="💓港澳台📶[HK]",TVB经典
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
+https://smart.pendy.dpdns.org/Smart.php?id=Tvbclassic
 http://lzoq.serv00.net/daili/Smartv.php?id=Tvbclassic
 #EXTINF:-1 tvg-id="129" tvg-name="TVB经典台" tvg-logo="https://epg.112114.eu.org/logo/千禧经典.png" group-title="💓港澳台📶[HK]",TVB经典
 http://php.jdshipin.com/smt.php?id=Tvbclassic
@@ -1296,8 +1299,8 @@ http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 #EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="💓港澳台📶[HK]",[HD]tvb星河(备)
 http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 #EXTINF:-1 tvg-name="TVB星河" tvg-id="" tvg-country="香港" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719085717672946_45.png" group-title="💓港澳台📶[HK]",[HD]tvb星河(备)
-http://lzoq.serv00.net/daili/Smartv.php?id=Xinhe
 https://smart.pendy.dpdns.org/Smart.php?id=Xinhe
+http://lzoq.serv00.net/daili/Smartv.php?id=Xinhe
 #EXTINF:-1 tvg-id="" tvg-name="亚洲剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVB精选亚洲剧台.png" group-title="💓港澳台📶[HK]",TVB亚洲剧
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/TVB功夫台.png" group-title="💓港澳台📶[HK]",TVB功夫台
@@ -1312,26 +1315,31 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbp
 #EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="https://epg.112114.eu.org/logo/TVBPLUS.png" group-title="💓港澳台📶[HK]",TVB J2
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
-https://smart.pendy.dpdns.org/Smart.php?id=j2_twn
 #EXTINF:-1 tvg-id="天映马来西亚" tvg-name="天映马来西亚" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="💓港澳台📶[HK]",天映频道
 http://php.jdshipin.com/smt.php?id=Celestial
+https://smart.pendy.dpdns.org/Smart.php?id=Celestial
 http://lzoq.serv00.net/daili/Smartv.php?id=Celestial
 #EXTINF:-1 tvg-id="828" tvg-name="天映经典" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="💓港澳台📶[HK]",天映经典
 http://php.jdshipin.com/smt.php?id=Celestial2
+https://smart.pendy.dpdns.org/Smart.php?id=Celestial2
 http://lzoq.serv00.net/daili/Smartv.php?id=Celestial2
 #EXTINF:-1 tvg-id="" tvg-name="欢喜台" tvg-logo="https://epg.112114.xyz/logo/欢喜台.png" group-title="💓港澳台📶[HK]",Astro欢喜台
 http://php.jdshipin.com/smt.php?id=Huahee
+https://smart.pendy.dpdns.org/Smart.php?id=Huahee
 http://lzoq.serv00.net/daili/Smartv.php?id=Huahee
 #EXTINF:-1 tvg-id="" tvg-name="Astro QJ" tvg-logo="https://epg.112114.xyz/logo/ASTROQUANJIA.png" group-title="💓港澳台📶[HK]",Astro QJ
 http://php.jdshipin.com/smt.php?id=Quanjia
+https://smart.pendy.dpdns.org/Smart.php?id=Quanjia
 http://lzoq.serv00.net/daili/Smartv.php?id=Quanjia
 #EXTINF:-1 tvg-id="" tvg-name="Astro AOD" tvg-logo="https://epg.112114.xyz/logo/ASTROAOD.png" group-title="💓港澳台📶[HK]",Astro AOD
 http://php.jdshipin.com/smt.php?id=Aodhd
+https://smart.pendy.dpdns.org/Smart.php?id=AodHD
 http://lzoq.serv00.net/daili/Smartv.php?id=AodHD
 #EXTINF:-1 tvg-id="" tvg-name="Astro AEC" tvg-logo="https://epg.112114.xyz/logo/ASTROAEC.png" group-title="💓港澳台📶[HK]",Astro AEC
 http://php.jdshipin.com/smt.php?id=AEC
 #EXTINF:-1 tvg-id="" tvg-name="Astro 爱奇艺" tvg-logo="https://epg.112114.xyz/logo/爱奇艺iQiyi.png" group-title="💓港澳台📶[HK]",Astro 爱奇艺
 http://php.jdshipin.com/smt.php?id=Qiyi
+https://smart.pendy.dpdns.org/Smart.php?id=Qiyi
 http://lzoq.serv00.net/daili/Smartv.php?id=Qiyi
 
 #EXTINF:-1 tvg-id="凤凰电影" tvg-name="凤凰电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰电影.png" group-title="💓港澳台📶[HK]",凤凰电影
@@ -1354,6 +1362,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
 #EXTINF:-1 tvg-id="" tvg-name="美亚电影" tvg-logo="https://epg.112114.xyz/logo/美亚电影台.png" group-title="💓港澳台📶[HK]",美亚电影(HK)
 http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
 #EXTINF:-1 tvg-id="7238" tvg-name="Animax" tvg-logo="https://epg.112114.xyz/logo/ANIMAX.png" group-title="💓港澳台📶[HK]",Animax
+https://smart.pendy.dpdns.org/Smart.php?id=Animax
 http://lzoq.serv00.net/daili/Smartv.php?id=Animax
 #EXTINF:-1 tvg-id="" tvg-name="KIX" tvg-logo="https://epg.112114.xyz/logo/KIX.png" group-title="💓港澳台📶[HK]",KIX
 
@@ -1369,6 +1378,7 @@ https://cdn6.163189.xyz/live/ch8/stream.m3u8
 https://cdn6.163189.xyz/live/chu/stream.m3u8
 
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="💓台湾台📶",东森新闻
+https://smart.pendy.dpdns.org/Smart.php?id=ettvnews
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvnews
 http://108.181.20.197/livehttpplay?channel_id=20082
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCNews.png" group-title="💓台湾台📶",东森新闻备
@@ -1380,31 +1390,37 @@ http://108.181.20.197/livehttpplay?channel_id=20082
 #EXTINF:-1 tvg-id="545" tvg-id="东森亚洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="💓台湾台📶",东森亚洲
 
 #EXTINF:-1 tvg-id="6051" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="💓台湾台📶",东森超视
+https://smart.pendy.dpdns.org/Smart.php?id=ettvsuper
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvsuper
 #EXTINF:-1 tvg-id="6051" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="💓台湾台📶",东森超视34.5
 
 #EXTINF:-1 tvg-id="6058" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="💓台湾台📶",东森戏剧
+https://smart.pendy.dpdns.org/Smart.php?id=ettvdrama
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvdrama
 http://108.181.20.197/livehttpplay?channel_id=20072
 #EXTINF:-1 tvg-id="6080" tvg-name="东森电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCMovies.png" group-title="💓台湾台📶",东森电影
-https://smart.pendy.dpdns.org/Smart.php?id=ettvmovie
 http://108.181.20.197/livehttpplay?channel_id=20077
+https://smart.pendy.dpdns.org/Smart.php?id=ettvmovie
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvmovie
 
-#EXTINF:-1 tvg-id="6084" tvg-name="东森洋片台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCWesternMovies.png" group-title="💓台湾台📶",东森洋片
+#EXTINF:-1 tvg-id="6084" tvg-name="东森洋片台" tvg-logo="https://epg.112114.xyz/logo/东森洋片台.png" group-title="💓台湾台📶",东森洋片
 https://smart.pendy.dpdns.org/Smart.php?id=ettvwestern
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvwestern
 http://108.181.20.197/livehttpplay?channel_id=20080
 #EXTINF:-1 tvg-id="6050" tvg-name="东森综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCVariety.png" group-title="💓台湾台📶",东森综合
+https://smart.pendy.dpdns.org/Smart.php?id=ettvzhonghe
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvzhonghe
 http://108.181.20.197/livehttpplay?channel_id=20104
 #EXTINF:-1 tvg-id="6075" tvg-name="东森财经新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCFinancialNews.png" group-title="💓台湾台📶",东森财经
+https://smart.pendy.dpdns.org/Smart.php?id=ettvcaijing_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvcaijing_twn
 #EXTINF:-1 tvg-id="6075" tvg-name="东森财经新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCFinancialNews.png" group-title="💓台湾台📶",东森财经
 http://108.181.20.197/livehttpplay?channel_id=20078
-#EXTINF:-1 tvg-id="6043" tvg-name="东森幼幼台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCYoYoTV.png" group-title="💓台湾台📶",东森幼幼 HD
+#EXTINF:-1 tvg-id="6043" tvg-name="东森幼幼台" tvg-logo="https://epg.112114.xyz/logo/东森幼幼台.png" group-title="💓台湾台📶",东森幼幼 HD
+https://smart.pendy.dpdns.org/Smart.php?id=yoyo_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=yoyo_twn
 #EXTINF:-1 tvg-id="6074" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS.png" group-title="💓台湾台📶",TVBS HD
+https://smart.pendy.dpdns.org/Smart.php?id=tvbs
 http://lzoq.serv00.net/daili/Smartv.php?id=tvbs
 #EXTINF:-1 tvg-id="6074" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS.png" group-title="💓台湾台📶",TVBS 精选
 http://108.181.20.197/livehttpplay?channel_id=20085
@@ -1412,10 +1428,12 @@ http://108.181.20.197/livehttpplay?channel_id=20085
 
 #EXTINF:-1 tvg-id="TVBS NEWS2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS NEWS.png" group-title="💓台湾台📶",TVBS NEWS2
 
-#EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS新闻.png" group-title="💓台湾台📶",TVBS新闻
+#EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="https://epg.112114.xyz/logo/TVBS NEWS.png" group-title="💓台湾台📶",TVBS新闻
+https://smart.pendy.dpdns.org/Smart.php?id=tvbs_n
 http://lzoq.serv00.net/daili/Smartv.php?id=tvbs_n
 
 #EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS欢乐.png" group-title="💓台湾台📶",TVBS欢乐 HD
+https://smart.pendy.dpdns.org/Smart.php?id=tvbshuanle_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=tvbshuanle_twn
 #EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS欢乐.png" group-title="💓台湾台📶",TVBS欢乐 HD
 http://108.181.20.197/livehttpplay?channel_id=20105
@@ -1430,10 +1448,12 @@ http://108.181.20.197/livehttpplay?channel_id=20136
 
 #EXTINF:-1 tvg-id="6098" tvg-name="靖天综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天综合.png" group-title="💓台湾台📶",靖天综合
 
-#EXTINF:-1 tvg-id="6116" tvg-name="靖天映画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天映画.png" group-title="💓台湾台📶",靖天映画
-#EXTINF:-1 tvg-id="6192" tvg-name="靖天卡通台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天卡通.png" group-title="💓台湾台📶",靖天卡通
+#EXTINF:-1 tvg-id="6116" tvg-name="靖天映画" tvg-logo="https://epg.112114.xyz/logo/靖天映畫台.png" group-title="💓台湾台📶",靖天映画
+#EXTINF:-1 tvg-id="6192" tvg-name="靖天卡通台" tvg-logo="https://epg.112114.xyz/logo/靖天卡通.png" group-title="💓台湾台📶",靖天卡通
+https://smart.pendy.dpdns.org/Smart.php?id=jingtiancartoon_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=jingtiancartoon_twn
-#EXTINF:-1 tvg-id="7187" tvg-name="靖天国际" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天国际.png" group-title="💓台湾台📶",靖天国际
+#EXTINF:-1 tvg-id="7187" tvg-name="靖天国际" tvg-logo="https://epg.112114.xyz/logo/靖天國際台.png" group-title="💓台湾台📶",靖天国际
+https://smart.pendy.dpdns.org/Smart.php?id=jingtianintl_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=jingtianintl_twn
 #EXTINF:-1 tvg-id="6151" tvg-name="靖天育乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天育乐.png" group-title="💓台湾台📶",靖天育乐
 http://108.181.20.197/livehttpplay?channel_id=30020
@@ -1444,23 +1464,29 @@ http://108.181.20.197/livehttpplay?channel_id=30021
 #EXTINF:-1 tvg-id="6101" tvg-name="靖洋戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖洋戏剧.png" group-title="💓台湾台📶",靖洋戏剧
 #EXTINF:-1 tvg-id="6191" tvg-name="靖洋卡通台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖洋卡通.png" group-title="💓台湾台📶",靖洋卡通
 #EXTINF:-1 tvg-id="6095" tvg-name="纬来日本台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandJapanese.png" group-title="💓台湾台📶",纬来日本
+https://smart.pendy.dpdns.org/Smart.php?id=videolandjapan
 http://lzoq.serv00.net/daili/Smartv.php?id=videolandjapan
 http://108.181.20.197/livehttpplay?channel_id=20303
 #EXTINF:-1 tvg-id="6081" tvg-name="纬来电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandMovies.png" group-title="💓台湾台📶",纬来电影
+https://smart.pendy.dpdns.org/Smart.php?id=videolandmovie_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=videolandmovie_twn
 http://108.181.20.197/livehttpplay?channel_id=20199
 #EXTINF:-1 tvg-id="6044" tvg-name="纬来综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandOnTV.png" group-title="💓台湾台📶",纬来综合
+https://smart.pendy.dpdns.org/Smart.php?id=videolandzonghe
 http://lzoq.serv00.net/daili/Smartv.php?id=videolandzonghe
 http://108.181.20.197/livehttpplay?channel_id=20201
 #EXTINF:-1 tvg-id="6090" tvg-name="纬来体育台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandSportsHD.png" group-title="💓台湾台📶",纬来体育
+https://smart.pendy.dpdns.org/Smart.php?id=videolandsport
 http://lzoq.serv00.net/daili/Smartv.php?id=videolandsport
 http://108.181.20.197/livehttpplay?channel_id=20120
 #EXTINF:-1 tvg-id="6061" tvg-name="纬来戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandDrama.png" group-title="💓台湾台📶",纬来戏剧
 http://108.181.20.197/livehttpplay?channel_id=20200
 #EXTINF:-1 tvg-id="" tvg-name="纬来育乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandMaxTV.png" group-title="💓台湾台📶",纬来育乐
+https://smart.pendy.dpdns.org/Smart.php?id=videolandyule
 http://lzoq.serv00.net/daili/Smartv.php?id=videolandyule
 http://108.181.20.197/livehttpplay?channel_id=20202
 #EXTINF:-1 tvg-id="7197" tvg-name="纬来精采" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纬来精彩台.png" group-title="💓台湾台📶",纬来精采
+https://smart.pendy.dpdns.org/Smart.php?id=videolandspecial_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=videolandspecial_twn
 
 #EXTINF:-1 tvg-id="7200" tvg-name="台湾戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台湾戏剧台.png" group-title="💓台湾台📶",台湾戏剧台
@@ -1474,25 +1500,30 @@ https://smart.pendy.dpdns.org/Smart.php?id=eltasport2_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=eltasport2_twn
 #EXTINF:-1 tvg-id="7192" tvg-name="爱尔达体育2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_sports2.png" group-title="💓台湾台📶",ELTA体育2
 http://108.181.20.197/livehttpplay?channel_id=20107
-#EXTINF:-1 tvg-id="7213" tvg-name="爱尔达体育3" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eata_sports3.png" group-title="💓台湾台📶",ELTA体育3
+#EXTINF:-1 tvg-id="7213" tvg-name="爱尔达体育3" tvg-logo="https://epg.112114.xyz/logo/爱尔达体育3.png" group-title="💓台湾台📶",ELTA体育3
 https://smart.pendy.dpdns.org/Smart.php?id=eltasport3_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=eltasport3_twn
-#EXTINF:-1 tvg-id="" tvg-name="爱尔达体育4" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eata_sports4.png" group-title="💓台湾台📶",ELTA体育4
+#EXTINF:-1 tvg-id="" tvg-name="爱尔达体育4" tvg-logo="https://epg.112114.xyz/logo/ELTA體育4台.png" group-title="💓台湾台📶",ELTA体育4
 http://smart.pendy.dpdns.org/Smart.php?id=natgeowild_twn
+https://smart.pendy.dpdns.org/Smart.php?id=natgeowild_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=natgeowild_twn
 #EXTINF:-1 tvg-id="7219" tvg-name="爱尔达综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_zonghehd.png" group-title="💓台湾台📶",ELTA综合
+https://smart.pendy.dpdns.org/Smart.php?id=eltazonghe_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=eltazonghe_twn
 #EXTINF:-1 tvg-id="7139" tvg-name="爱尔达娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱尔达娱乐台.png" group-title="💓台湾台📶",ELTA娱乐
 #EXTINF:-1 tvg-id="7201" tvg-name="爱尔达影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_yingju.png" group-title="💓台湾台📶",ELTA影剧
+https://smart.pendy.dpdns.org/Smart.php?id=eltayingju_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=eltayingju_twn
 #EXTINF:-1 tvg-id="" tvg-name="爱尔达生活旅游" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/elta_生活旅游.png" group-title="💓台湾台📶",ELTA生活旅游
 
 #EXTINF:-1 tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="💓台湾台📶",八大戏剧
+https://smart.pendy.dpdns.org/Smart.php?id=badadrama
 http://lzoq.serv00.net/daili/Smartv.php?id=badadrama
 
 #EXTINF:-1 tvg-id="" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="💓台湾台📶",八大精彩
 http://108.181.20.197/livehttpplay?channel_id=20052
 #EXTINF:-1 tvg-id="6045" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVOneHD.png" group-title="💓台湾台📶",八大第一
+https://smart.pendy.dpdns.org/Smart.php?id=badafirst
 http://lzoq.serv00.net/daili/Smartv.php?id=badafirst
 
 #EXTINF:-1 tvg-id="6133" tvg-name="八大娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVEntertainment.png" group-title="💓台湾台📶",八大娱乐
@@ -1501,67 +1532,81 @@ http://lzoq.serv00.net/daili/Smartv.php?id=badafirst
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大电视.png" group-title="💓台湾台📶",八大电视
 
 #EXTINF:-1 tvg-id="6046" tvg-name="八大综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVVarietyHD.png" group-title="💓台湾台📶",八大综合
+https://smart.pendy.dpdns.org/Smart.php?id=badazhonghe
 http://lzoq.serv00.net/daili/Smartv.php?id=badazhonghe
 
 #EXTINF:-1 tvg-id="7221" tvg-name="三立戏剧" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/setxiju.png" group-title="💓台湾台📶",三立戏剧
+https://smart.pendy.dpdns.org/Smart.php?id=sanlixiju_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=sanlixiju_twn
 http://108.181.20.197/livehttpplay?channel_id=10125
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SET international.png" group-title="💓台湾台📶",三立国际
 
 #EXTINF:-1 tvg-id="6047" tvg-name="三立台湾台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETTaiwan.png" group-title="💓台湾台📶",三立台湾
+https://smart.pendy.dpdns.org/Smart.php?id=sanlitaiwan
 http://lzoq.serv00.net/daili/Smartv.php?id=sanlitaiwan
 
 #EXTINF:-1 tvg-id="6048" tvg-name="三立都会台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETCity.png" group-title="💓台湾台📶",三立都会
+https://smart.pendy.dpdns.org/Smart.php?id=sanlidouhui
 http://lzoq.serv00.net/daili/Smartv.php?id=sanlidouhui
 http://108.181.20.197/livehttpplay?channel_id=20100
 
 #EXTINF:-1 tvg-id="6239" tvg-name="三立综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETZonghe.png" group-title="💓台湾台📶",三立综合
+https://smart.pendy.dpdns.org/Smart.php?id=sanlizhonghe
 http://lzoq.serv00.net/daili/Smartv.php?id=sanlizhonghe
 http://108.181.20.197/livehttpplay?channel_id=12038
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETLIVE.png" group-title="💓台湾台📶",LIVE三立
 
-#EXTINF:-1 tvg-id="6072" tvg-name="三立新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETNews.png" group-title="💓台湾台📶",三立新闻
+#EXTINF:-1 tvg-id="6072" tvg-name="三立新闻台" tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" group-title="💓台湾台📶",三立新闻
 http://108.181.20.197/livehttpplay?channel_id=10126
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/SETInews.png" group-title="💓台湾台📶",三立iNEWS
 
 #EXTINF:-1 tvg-id="" tvg-name="中天新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中天新闻台.png" group-title="💓台湾台📶",中天新闻
 https://zt.dracwoundshop.eu.org/live/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="中天新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中天新闻台.png" group-title="💓台湾台📶",中天新闻
+https://smart.pendy.dpdns.org/Smart.php?id=ctinews 
 http://lzoq.serv00.net/daili/Smartv.php?id=ctinews 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="💓台湾台📶",中天新聞[循环直播]
 
 #EXTINF:-1 tvg-id="6054" tvg-name="中天综合台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiVariety.png" group-title="💓台湾台📶",中天综合
+https://smart.pendy.dpdns.org/Smart.php?id=ctizhonghe
 http://lzoq.serv00.net/daili/Smartv.php?id=ctizhonghe
 #EXTINF:-1 tvg-id="6054" tvg-name="中天综合台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiVariety.png" group-title="💓台湾台📶",中天综合
 http://108.181.20.197/livehttpplay?channel_id=20064
 #EXTINF:-1 tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiEntertainment.png" group-title="💓台湾台📶",中天娱乐
+https://smart.pendy.dpdns.org/Smart.php?id=ctient
 http://lzoq.serv00.net/daili/Smartv.php?id=ctient
 #EXTINF:-1 tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiEntertainment.png" group-title="💓台湾台📶",中天娱乐
 http://108.181.20.197/livehttpplay?channel_id=20079
 #EXTINF:-1 tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiEntertainment.png" group-title="💓台湾台📶",中天娱乐-2
 http://122.117.71.103:8526/http/220.130.87.218:8081/hls/67/809/ch026.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="中天亚洲台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中天亚洲台.png" group-title="💓台湾台📶",中天亚洲
+https://smart.pendy.dpdns.org/Smart.php?id=ctiasia_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ctiasia_twn
 #EXTINF:-1 tvg-id="6030" tvg-name="华视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视.png" group-title="💓台湾台📶",华视
+https://smart.pendy.dpdns.org/Smart.php?id=ctshd_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ctshd_twn
 #EXTINF:-1 tvg-id="6030" tvg-name="华视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视.png" group-title="💓台湾台📶",华视
 http://108.181.20.197/livehttpplay?channel_id=20086
 #EXTINF:-1 tvg-id="574" tvg-name="华视新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视新闻.png" group-title="💓台湾台📶",华视新闻
 
 #EXTINF:-1 tvg-id="6028" tvg-name="中视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视.png" group-title="💓台湾台📶",中视
+https://smart.pendy.dpdns.org/Smart.php?id=zhongshihd_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=zhongshihd_twn
 #EXTINF:-1 tvg-id="6028" tvg-name="中视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视.png" group-title="💓台湾台📶",中视
 http://108.181.20.197/livehttpplay?channel_id=20088
-#EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视新闻.png" group-title="💓台湾台📶",中视新闻
+#EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="https://epg.112114.xyz/logo/中视新闻台.png" group-title="💓台湾台📶",中视新闻
+https://smart.pendy.dpdns.org/Smart.php?id=zhongshinews_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=zhongshinews_twn
-#EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视新闻.png" group-title="💓台湾台📶",中视新闻-2
+#EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="https://epg.112114.xyz/logo/中视新闻台.png" group-title="💓台湾台📶",中视新闻-2
 
 #EXTINF:-1 tvg-id="7136" tvg-name="中视菁采台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视菁采.png" group-title="💓台湾台📶",中视菁采
 
 #EXTINF:-1 tvg-id="7172" tvg-name="中视经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视经典.png" group-title="💓台湾台📶",中视经典
+https://smart.pendy.dpdns.org/Smart.php?id=zhongshi_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=zhongshi_twn
 #EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视.png" group-title="💓台湾台📶",民视
+https://smart.pendy.dpdns.org/Smart.php?id=ftvhd_taiwan
 http://lzoq.serv00.net/daili/Smartv.php?id=ftvhd_taiwan
 #EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视.png" group-title="💓台湾台📶",民视
 http://108.181.20.197/livehttpplay?channel_id=20074
@@ -1571,14 +1616,17 @@ http://108.181.20.197/livehttpplay?channel_id=20074
 #EXTINF:-1 tvg-id="" tvg-name="民视旅游台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视旅游台.png" group-title="💓台湾台📶",民视旅游
 
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="💓台湾台📶",民视新闻
+https://smart.pendy.dpdns.org/Smart.php?id=ftvnew_taiwan
 http://lzoq.serv00.net/daili/Smartv.php?id=ftvnew_taiwan
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="💓台湾台📶",民视新闻
 http://108.181.20.197/livehttpplay?channel_id=20097
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="💓台湾台📶",民视新闻 HD
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 tvg-id="7134" tvg-name="民视台湾台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视台湾台.png" group-title="💓台湾台📶",民视台湾
+#EXTINF:-1 tvg-id="7134" tvg-name="民视台湾台" tvg-logo="https://epg.112114.xyz/logo/1855民视台湾台.png" group-title="💓台湾台📶",民视台湾
+https://smart.pendy.dpdns.org/Smart.php?id=ftvtaiwan_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ftvtaiwan_twn
 #EXTINF:-1 tvg-id="6031" tvg-name="公视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="💓台湾台📶",公视
+https://smart.pendy.dpdns.org/Smart.php?id=ctv_taiwan
 http://lzoq.serv00.net/daili/Smartv.php?id=ctv_taiwan
 #EXTINF:-1 tvg-id="6031" tvg-name="公视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="💓台湾台📶",公视
 http://108.181.20.197/livehttpplay?channel_id=20087
@@ -1588,56 +1636,70 @@ http://108.181.20.197/livehttpplay?channel_id=20087
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视台语台.png" group-title="💓台湾台📶",公视台语台
 
 #EXTINF:-1 tvg-id="6026" tvg-name="台视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视.png" group-title="💓台湾台📶",台视
+https://smart.pendy.dpdns.org/Smart.php?id=ttv_taiwan
 http://lzoq.serv00.net/daili/Smartv.php?id=ttv_taiwan
 #EXTINF:-1 tvg-id="6026" tvg-name="台视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视.png" group-title="💓台湾台📶",台视
 http://108.181.20.197/livehttpplay?channel_id=20076
-#EXTINF:-1 tvg-id="6145" tvg-name="台视综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视综合.png" group-title="💓台湾台📶",台视综合
+#EXTINF:-1 tvg-id="6145" tvg-name="台视综合台" tvg-logo="https://epg.112114.xyz/logo/台视综合台.png" group-title="💓台湾台📶",台视综合
+https://smart.pendy.dpdns.org/Smart.php?id=ttvzhonghe_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ttvzhonghe_twn
 #EXTINF:-1 tvg-id="6144" tvg-name="台视财经台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视财经.png" group-title="💓台湾台📶",台视财经
 #EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png" group-title="💓台湾台📶",台视新闻
 https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png" group-title="💓台湾台📶",台视新闻
+https://smart.pendy.dpdns.org/Smart.php?id=ttvnews_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ttvnews_twn
 #EXTINF:-1 tvg-id="" group-title="💓台湾台📶",天才冲冲冲
 
 
-#EXTINF:-1 tvg-id="7190" tvg-name="MTV综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/MTVLIVE.png" group-title="💓台湾台📶",MTV Live
+#EXTINF:-1 tvg-id="7190" tvg-name="MTV综合" tvg-logo="https://epg.112114.xyz/logo/MTV.png" group-title="💓台湾台📶",MTV Live
+https://smart.pendy.dpdns.org/Smart.php?id=mtvhd_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=mtvhd_twn
-#EXTINF:-1 tvg-id="6172" tvg-name="亚洲旅游台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/亚洲旅游台.png" group-title="💓台湾台📶",亚洲旅游
+#EXTINF:-1 tvg-id="6172" tvg-name="亚洲旅游台" tvg-logo="https://epg.112114.xyz/logo/亚洲旅游台.png" group-title="💓台湾台📶",亚洲旅游
+https://smart.pendy.dpdns.org/Smart.php?id=asiatravel_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=asiatravel_twn
 #EXTINF:-1 tvg-id="7180" tvg-name="采昌影剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/采昌影剧.png" group-title="💓台湾台📶",采昌影剧
 http://108.181.20.197/livehttpplay?channel_id=20141
 #EXTINF:-1 tvg-id="7128" tvg-name="龙华电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华电影.png" group-title="💓台湾台📶",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-id="7128" tvg-name="龙华电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华电影.png" group-title="💓台湾台📶",龙华电影
+https://smart.pendy.dpdns.org/Smart.php?id=xingwei_movie
 http://lzoq.serv00.net/daili/Smartv.php?id=xingwei_movie
 #EXTINF:-1 tvg-id="7130" tvg-name="龙华经典" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华经典.png" group-title="💓台湾台📶",龙华经典
 https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuajingdian_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=lunghuajingdian_twn
 #EXTINF:-1 tvg-id="7158" tvg-name="龙华日韩台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华日韩.png" group-title="💓台湾台📶",龙华日韩
 https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 #EXTINF:-1 tvg-id="7126" tvg-name="龙华偶像" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华偶像.png" group-title="💓台湾台📶",龙华偶像
 https://cdn8.163189.xyz/live/lhox/stream.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuaidol_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=lunghuaidol_twn
 #EXTINF:-1 tvg-id="7127" tvg-name="龙华戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华戏剧.png" group-title="💓台湾台📶",龙华戏剧
 https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuaxiju_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=lunghuaxiju_twn
 #EXTINF:-1 tvg-id="7132" tvg-name="龙华洋片" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/龙华洋片.png" group-title="💓台湾台📶",龙华洋片
 https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=lunghuawestern_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=lunghuawestern_twn
 #EXTINF:-1 tvg-id="7188" tvg-name="龙华动画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/longhuadonghua.png" group-title="💓台湾台📶",龙华卡通
 https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 #EXTINF:-1 tvg-id="6082" tvg-name="LSTime电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/LSTIME.png" group-title="💓台湾台📶",龙祥时代
+https://smart.pendy.dpdns.org/Smart.php?id=lungxiangtime_twn  
 http://lzoq.serv00.net/daili/Smartv.php?id=lungxiangtime_twn  
 #EXTINF:-1 tvg-id="6082" tvg-name="LSTime电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/LSTIME.png" group-title="💓台湾台📶",龙祥时代
 http://108.181.20.197/livehttpplay?channel_id=20114
 
-#EXTINF:-1 tvg-id="6089" tvg-name="CINEMAX" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DOX-CINEMAX.png" group-title="💓台湾台📶",CINEMAX
+#EXTINF:-1 tvg-id="6089" tvg-name="CINEMAX" tvg-logo="https://epg.112114.xyz/logo/CINEMAX.png" group-title="💓台湾台📶",CINEMAX
+https://smart.pendy.dpdns.org/Smart.php?id=cinemax_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=cinemax_twn
-#EXTINF:-1 tvg-id="6086" tvg-name="好莱坞电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/好莱坞电影.png" group-title="💓台湾台📶",好莱坞电影
+#EXTINF:-1 tvg-id="6086" tvg-name="好莱坞电影台" tvg-logo="https://epg.112114.xyz/logo/好莱坞电影.png" group-title="💓台湾台📶",好莱坞电影
+https://smart.pendy.dpdns.org/Smart.php?id=hollywoodmovies_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=hollywoodmovies_twn
 http://108.181.20.197/livehttpplay?channel_id=20062
 #EXTINF:-1 tvg-id="6149" tvg-name="WarnerTV" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华纳电影.png" group-title="💓台湾台📶",华纳电影
+https://smart.pendy.dpdns.org/Smart.php?id=WarnerTV
 http://lzoq.serv00.net/daili/Smartv.php?id=WarnerTV
 http://108.181.20.197/livehttpplay?channel_id=20112
 #EXTINF:-1 tvg-id="7165" tvg-name="AMC" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/AMC电影台.png" group-title="💓台湾台📶",AMC电影台
@@ -1645,7 +1707,8 @@ http://108.181.20.197/livehttpplay?channel_id=20112
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="💓台湾台📶",FGM电影
 http://108.181.20.197/livehttpplay?channel_id=10123
 
-#EXTINF:-1 tvg-id="" tvg-name="ROCK Action" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/rockaction.png" group-title="💓台湾台📶",ROCK Action
+#EXTINF:-1 tvg-id="" tvg-name="ROCK Action" tvg-logo="https://epg.112114.xyz/logo/ROCKACTION.png" group-title="💓台湾台📶",ROCK Action
+https://smart.pendy.dpdns.org/Smart.php?id=Rockaction
 http://lzoq.serv00.net/daili/Smartv.php?id=Rockaction
 #EXTINF:-1 tvg-id="1007" tvg-name="HITS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/hitsmovie.png" group-title="💓台湾台📶",HITSMovie
 
@@ -1654,46 +1717,58 @@ http://lzoq.serv00.net/daili/Smartv.php?id=Rockaction
 
 
 #EXTINF:-1 tvg-id="7217" tvg-name="EYE旅游" tvg-country="台灣" tvg-language="國語" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eyelvyou.png" group-title="💓台湾台📶",eyetv旅游
+https://smart.pendy.dpdns.org/Smart.php?id=eyetvtravel_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=eyetvtravel_twn
 #EXTINF:-1 tvg-id="7222" tvg-name="EYE戏剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/eyexiju.png" group-title="💓台湾台📶",eyetv戏剧
+https://smart.pendy.dpdns.org/Smart.php?id=eyetvxiju_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=eyetvxiju_twn
 #EXTINF:-1 tvg-id="6037" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DiscoveryHD.png" group-title="💓台湾台📶",探索频道
+https://smart.pendy.dpdns.org/Smart.php?id=discoveryhd_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=discoveryhd_twn
 #EXTINF:-1 tvg-id="6164" tvg-name="EVE" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EVE.png" group-title="💓台湾台📶",探索EVE
 
-#EXTINF:-1 tvg-id="6166" tvg-name="DiscoveryAsia" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Discovery-Asia.png" group-title="💓台湾台📶",探索亚洲
+#EXTINF:-1 tvg-id="6166" tvg-name="DiscoveryAsia" tvg-logo="https://epg.112114.xyz/logo/DISCOVERYASIA.png" group-title="💓台湾台📶",探索亚洲
+https://smart.pendy.dpdns.org/Smart.php?id=discoverytwn_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=discoverytwn_twn
 
 #EXTINF:-1 tvg-id="6165" tvg-name="Discovery科学" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/Discovery科学.png" group-title="💓台湾台📶",探索科学
 
 #EXTINF:-1 tvg-id="6170" tvg-name="DMAX" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DMAX.png" group-title="💓台湾台📶",探索动力DMAX
+https://smart.pendy.dpdns.org/Smart.php?id=natgeohd_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=natgeohd_twn
-#EXTINF:-1 tvg-id="7147" tvg-name="华艺MBC" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华艺综合台.png" group-title="💓台湾台📶",华艺综合
+#EXTINF:-1 tvg-id="7147" tvg-name="华艺MBC" tvg-logo="https://epg.112114.xyz/logo/华艺中文台.png" group-title="💓台湾台📶",华艺综合
+https://smart.pendy.dpdns.org/Smart.php?id=weishichinese_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=weishichinese_twn
 #EXTINF:-1 tvg-id="6159" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/tvN.png" group-title="💓台湾台📶",TVN台湾版
+https://smart.pendy.dpdns.org/Smart.php?id=TVN
 http://lzoq.serv00.net/daili/Smartv.php?id=TVN
 
 #EXTINF:-1 tvg-id="6085" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/AXN.png" group-title="💓台湾台📶",AXN台灣
+https://smart.pendy.dpdns.org/Smart.php?id=axn_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=axn_twn
 
 #EXTINF:-1 tvg-id="7179" tvg-name="cnex" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/视纳华仁纪实.png" group-title="💓台湾台📶",视纳华仁纪实
 #EXTINF:-1 tvg-id="7178" tvg-name="CI" tvg-logo="https://epg.112114.eu.org/logo/CI罪案侦查频道.png"group-title="💓台湾台📶",CI罪案侦察
+https://smart.pendy.dpdns.org/Smart.php?id=ci_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ci_twn
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/国会频道.png" group-title="💓台湾台📶",国会频道1
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/国会频道.png" group-title="💓台湾台📶",国会频道2
 
 #EXTINF:-1 tvg-id="6038" tvg-name="TLC旅游生活频道" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/tlc.png" group-title="💓台湾台📶",TLC旅游生活
+https://smart.pendy.dpdns.org/Smart.php?id=tlc_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=tlc_twn
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="💓台湾台📶",时尚运动
 #EXTINF:-1 tvg-id="韩国娱乐台" tvg-logo="" group-title="💓台湾台📶",韩国娱乐台
 
 #EXTINF:-1 tvg-id="6186" tvg-name="达文西频道" tvg-logo="" group-title="💓台湾台📶",Da Vinci
 #EXTINF:-1 tvg-id="古典音乐台" tvg-logo="" group-title="💓台湾台📶",古典音乐台
-#EXTINF:-1 tvg-id="7206" tvg-name="CatchPlay电影" tvg-logo="" group-title="💓台湾台📶",CATCHPLAY
+#EXTINF:-1 tvg-id="7206" tvg-name="CatchPlay电影" tvg-logo="https://epg.112114.xyz/logo/CATCHPLAY电影台.png" group-title="💓台湾台📶",CATCHPLAY
+https://smart.pendy.dpdns.org/Smart.php?id=catchplay_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=catchplay_twn
 #EXTINF:-1 tvg-id="988" tvg-name="TraceSports" tvg-logo="" group-title="💓台湾台📶",TraceSports
-#EXTINF:-1 tvg-id="6141" tvg-name="ArirangTV" tvg-logo="" group-title="💓台湾台📶",Arirang
+#EXTINF:-1 tvg-id="6141" tvg-name="ArirangTV" tvg-logo="https://epg.112114.xyz/logo/ARIRANGTV.png" group-title="💓台湾台📶",Arirang
+https://smart.pendy.dpdns.org/Smart.php?id=arirang_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=arirang_twn
 #EXTINF:-1 tvg-id="猪哥会社" tvg-logo="" group-title="💓台湾台📶",猪哥会社
 #EXTINF:-1 tvg-id="7155" tvg-name="Smart知识频道" tvg-logo="" group-title="💓台湾台📶",Smart知识台
@@ -1720,23 +1795,30 @@ https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch
 #EXTINF:-1 tvg-id="6096" tvg-name="国兴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GoldSunTV.png" group-title="💓台湾台📶",国兴卫视
 http://108.181.20.197/livehttpplay?channel_id=20164
 #EXTINF:-1 tvg-id="6039" tvg-name="动物星球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/动物星球.png" group-title="💓台湾台📶",动物星球
+https://smart.pendy.dpdns.org/Smart.php?id=animalplanet_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=animalplanet_twn
 http://108.181.20.197/livehttpplay?channel_id=20106
 #EXTINF:-1 tvg-id="7216" tvg-name="美食星球" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fooldplanet.png" group-title="💓台湾台📶",美食星球
+https://smart.pendy.dpdns.org/Smart.php?id=foodplanet_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=foodplanet_twn
 #EXTINF:-1 tvg-id="6169" tvg-name="亚洲美食频道" tvg-logo="https://epg.112114.eu.org/logo/ASIANFOODNETWORK亚洲美食.png" group-title="💓台湾台📶",亚洲美食
+https://smart.pendy.dpdns.org/Smart.php?id=afc_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=afc_twn
 
 #EXTINF:-1 tvg-id="664" tvg-name="BBCWorldNews" tvg-logo="https://epg.112114.xyz/logo/BBCWORLDNEWS.png" group-title="💓台湾台📶",BBCWorldNews
+https://smart.pendy.dpdns.org/Smart.php?id=bbcnews_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bbcnews_twn
 #EXTINF:-1 tvg-id="" tvg-name="BBC earth" tvg-logo="https://epg.112114.xyz/logo/BBC%20Earth.png" group-title="💓台湾台📶",BBC earth
+https://smart.pendy.dpdns.org/Smart.php?id=bbcearth_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bbcearth_twn
 #EXTINF:-1 tvg-id="6147" tvg-name="BBCLifestyle" tvg-logo="https://epg.112114.xyz/logo/BBCLIFESTYLE.png" group-title="💓台湾台📶",BBCLifestyle
+https://smart.pendy.dpdns.org/Smart.php?id=bbclifestyle_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bbclifestyle_twn
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/城市电视.png" group-title="💓台湾台📶",城市电视
 
 #EXTINF:-1 tvg-id="673" tvg-name="CN卡通频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNCartoon.png" group-title="💓台湾台📶",CN卡通頻道
+https://smart.pendy.dpdns.org/Smart.php?id=Cn
 http://lzoq.serv00.net/daili/Smartv.php?id=Cn
 #EXTINF:-1 tvg-id="673" tvg-name="CN卡通频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CNCartoon.png" group-title="💓台湾台📶",CN卡通頻道
 http://108.181.20.197/livehttpplay?channel_id=20048
@@ -1750,8 +1832,10 @@ http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TaiwanPlus.png" group-title="💓台湾台📶",台灣+
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
 #EXTINF:-1 tvg-id="6027" tvg-name="大爱一台"  tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/大爱一台.png" group-title="💓台湾台📶",大爱1台
+https://smart.pendy.dpdns.org/Smart.php?id=daai_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=daai_twn
 #EXTINF:-1 tvg-id="6142" tvg-name="大爱二台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/daai2.png" group-title="💓台湾台📶",大爱2台
+https://smart.pendy.dpdns.org/Smart.php?id=daai2_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=daai2_twn
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/全佳.png" group-title="💓台湾台📶",全佳
 
@@ -1764,23 +1848,29 @@ http://108.181.20.197/livehttpplay?channel_id=20028
 #EXTINF:-1 tvg-id="609" tvg-name="壹电视电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEXTTVMovie.png" group-title="💓台湾台📶",一电影
 
 #EXTINF:-1 tvg-id="6068" tvg-name="年代新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/年代ERANewsHD.png" group-title="💓台湾台📶",年代新闻
+https://smart.pendy.dpdns.org/Smart.php?id=niandainews_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=niandainews_twn
 http://108.181.20.197/livehttpplay?channel_id=20033
 #EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.xyz/logo/镜新闻.png" group-title="💓台湾台📶",镜新闻
 #EXTINF:-1 tvg-id="6076" tvg-name="非凡新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/UniqueNews.png" group-title="💓台湾台📶",非凡新闻
+https://smart.pendy.dpdns.org/Smart.php?id=feifannews_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=feifannews_twn
 http://108.181.20.197/livehttpplay?channel_id=20034
 #EXTINF:-1 tvg-id="6107" tvg-name="非凡商业台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/UniqueNews.png" group-title="💓台湾台📶",非凡商业
 #EXTINF:-1 tvg-id="6171" tvg-name="寰宇新闻" tvg-logo="https://epg.112114.xyz/logo/寰宇新聞.png" group-title="💓台湾台📶",寰宇新闻
+https://smart.pendy.dpdns.org/Smart.php?id=huanyuxinwen_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=huanyuxinwen_twn
 #EXTINF:-1 tvg-id="寰宇新闻台湾台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/寰宇台湾.png" group-title="💓台湾台📶",寰宇新闻台湾台
 #EXTINF:-1 tvg-id="7204" tvg-name="寰宇财经" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/huanyucaijing.png" group-title="💓台湾台📶",寰宇财经
+https://smart.pendy.dpdns.org/Smart.php?id=huanyutaiwan_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=huanyutaiwan_twn
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/美好2台.png" group-title="💓台湾台📶",美好2台
 
-#EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DW NEWS.png" group-title="💓台湾台📶",「TW」DW News
+#EXTINF:-1 tvg-id="730" tvg-name="DW" tvg-logo="https://epg.112114.xyz/logo/DW-NEWS.png" group-title="💓台湾台📶",「TW」DW News
+https://smart.pendy.dpdns.org/Smart.php?id=dw_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=dw_twn
 #EXTINF:-1 tvg-id="6023" tvg-name="CNN" tvg-logo="https://epg.112114.xyz/logo/CNN.png" group-title="💓台湾台📶",CNN
+https://smart.pendy.dpdns.org/Smart.php?id=cnn_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=cnn_twn
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/123golive.png" group-title="💓台湾台📶",「TW」123 Go Live
 
@@ -1788,22 +1878,29 @@ http://lzoq.serv00.net/daili/Smartv.php?id=cnn_twn
 
 #EXTINF:-1 tvg-id="6179" tvg-name="博斯魅力网" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-trendsport.png" group-title="💓台湾台📶",博斯魅力
 #EXTINF:-1 tvg-id="6176" tvg-name="博斯无限台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_unlimited.png" group-title="💓台湾台📶",博斯无限
+https://smart.pendy.dpdns.org/Smart.php?id=bosiunlimited_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bosiunlimited_twn
 #EXTINF:-1 tvg-id="6181" tvg-name="博斯无限二台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_unlimited2.png" group-title="💓台湾台📶",博斯无限2
 #EXTINF:-1 tvg-id="6180" tvg-name="博斯运动一台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-sports_net.png" group-title="💓台湾台📶",博斯运动1
+https://smart.pendy.dpdns.org/Smart.php?id=bosisport1_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bosisport1_twn
 http://108.181.20.197/livehttpplay?channel_id=10131
 #EXTINF:-1 tvg-id="6174" tvg-name="博斯运动二台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sports_net_2.png" group-title="💓台湾台📶",博斯运动2
+https://smart.pendy.dpdns.org/Smart.php?id=bosisport2_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bosisport2_twn
 http://108.181.20.197/livehttpplay?channel_id=20311
 #EXTINF:-1 tvg-id="6177" tvg-name="博斯高球1台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sports-golfch.png" group-title="💓台湾台📶",博斯高球1
+https://smart.pendy.dpdns.org/Smart.php?id=bosigolf1_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bosigolf1_twn
 #EXTINF:-1 tvg-id="6178" tvg-name="博斯高球2台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-golfplus.png" group-title="💓台湾台📶",博斯高球2
+https://smart.pendy.dpdns.org/Smart.php?id=bosigolf2_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bosigolf2_twn
 http://108.181.20.197/livehttpplay?channel_id=20117
 #EXTINF:-1 tvg-id="6175" tvg-name="博斯网球台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_tennis.png" group-title="💓台湾台📶",博斯网球
+https://smart.pendy.dpdns.org/Smart.php?id=bositennis_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=bositennis_twn
 #EXTINF:-1 tvg-id="7152" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/HHistory.png" group-title="💓台湾台📶",History
+https://smart.pendy.dpdns.org/Smart.php?id=History
 http://lzoq.serv00.net/daili/Smartv.php?id=History
 #EXTINF:-1 tvg-id="" tvg-name="Live ABC英语互动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/liveABC.png" group-title="💓台湾台📶",Live ABC英语互动
 
@@ -1814,6 +1911,7 @@ http://lzoq.serv00.net/daili/Smartv.php?id=History
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/美国中文电视台.png" group-title="💓台湾台📶",美国中文电视
 
 #EXTINF:-1 tvg-id="6152" tvg-name="HBOHD" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOHD.png" group-title="💓台湾台📶",HBO HD
+https://smart.pendy.dpdns.org/Smart.php?id=hbohd_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=hbohd_twn
 #EXTINF:-1 tvg-id="6152" tvg-name="HBOHD" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOHD.png" group-title="💓台湾台📶",HBO HD
 http://108.181.20.197/livehttpplay?channel_id=20093
@@ -1824,10 +1922,12 @@ http://108.181.20.197/livehttpplay?channel_id=20093
 #EXTINF:-1 tvg-id="6154" tvg-name="HBOSignature" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOSignature.png" group-title="💓台湾台📶",HBO Signature
 http://108.181.20.197/livehttpplay?channel_id=20314
 #EXTINF:-1 tvg-id="6155" tvg-name="HBOFamily" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOFamily.png" group-title="💓台湾台📶",HBO Family
+https://smart.pendy.dpdns.org/Smart.php?id=fyi_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=fyi_twn
 #EXTINF:-1 tvg-id="6155" tvg-name="HBOFamily" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOFamily.png" group-title="💓台湾台📶",HBO Family
 http://108.181.20.197/livehttpplay?channel_id=20092
 #EXTINF:-1 tvg-id="6153" tvg-name="HBOHits" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOHits.png" group-title="💓台湾台📶",HBO Hits
+https://smart.pendy.dpdns.org/Smart.php?id=hbohits_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=hbohits_twn
 #EXTINF:-1 tvg-id="6153" tvg-name="HBOHits" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOHits.png" group-title="💓台湾台📶",HBO Hits
 http://108.181.20.197/livehttpplay?channel_id=20091
