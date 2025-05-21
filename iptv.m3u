@@ -483,7 +483,7 @@ http://itv.iptv1688.top:2016/itv.php?id=青海卫视
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海峡卫视.png" group-title="卫视",海峡卫视
 http://nctv.top/IDOEPpiryt/fjtv.php?id=3
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/新疆卫视.png" group-title="卫视",新疆卫视
-http://cici2012.synology.me:35455/bptv/10000100000000050000000003887448.m3u8
+http://156.253.12.5:932/tslive/IPTV.php?id=%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/新疆卫视.png" group-title="卫视",新疆卫视
 http://smjdenny.eu.org:35455/bptv/10000100000000050000000003887448.m3u8
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/新疆卫视.png" group-title="卫视",新疆卫视
@@ -510,7 +510,7 @@ http://8.138.7.223/tv/btws.m3u8
 #EXTINF:-1 tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://epg.112114.eu.org/logo/延边卫视.png" group-title="卫视",延边卫视
 
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.com/tv/康巴卫视.png" group-title="卫视",康巴卫视
-#EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/香港卫视.png" group-title="卫视",香港卫视
+#EXTINF:-1 tvg-id="412" tvg-name="HKS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/香港卫视.png" group-title="卫视",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="亚洲卫视" tvg-name="亚洲卫视" tvg-logo="https://epg.112114.xyz/logo/亚洲卫视.png" group-title="卫视",亚洲卫视
 https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
@@ -605,7 +605,8 @@ http://108.181.20.197/livehttpplay?channel_id=20060
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="数字频道",乐游频道
 #EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纪实人文.png" group-title="数字频道",纪实人文
 
-#EXTINF:-1 tvg-id="BTV科教" tvg-name="BTV科教" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/北京纪实科教.png" group-title="数字频道",纪实科教8K
+#EXTINF:-1 tvg-id="BTV科教" tvg-name="BTV科教" tvg-logo="https://epg.112114.eu.org/logo/BTV纪实科教-8K.png" group-title="数字频道",纪实科教8K
+http://156.253.12.5:932/tslive/IPTV.php?id=%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%998K
 
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/卡酷少儿.png" group-title="数字频道",卡酷少儿
 http://smjdenny.eu.org:35455/bptv/10000100000000050000000003904597.m3u8
@@ -1206,6 +1207,7 @@ https://smart.pendy.dpdns.org/Smart.php?id=Jade_xue
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
 #EXTINF:-1 tvg-id="" tvg-name="翡翠台4K" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台4k
+http://156.253.12.5:932/tslive/IPTV.php?id=TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0%204K
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 #EXTINF:-1 tvg-id="" tvg-name="翡翠台4K" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台4k
 https://cdn3.163189.xyz/live/fct4k/stream.m3u8
@@ -1399,10 +1401,9 @@ https://smart.pendy.dpdns.org/Smart.php?id=ettvdrama
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvdrama
 http://108.181.20.197/livehttpplay?channel_id=20072
 #EXTINF:-1 tvg-id="6080" tvg-name="东森电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCMovies.png" group-title="💓台湾台📶",东森电影
-http://108.181.20.197/livehttpplay?channel_id=20077
 https://smart.pendy.dpdns.org/Smart.php?id=ettvmovie
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvmovie
-
+http://108.181.20.197/livehttpplay?channel_id=20077
 #EXTINF:-1 tvg-id="6084" tvg-name="东森洋片台" tvg-logo="https://epg.112114.xyz/logo/东森洋片台.png" group-title="💓台湾台📶",东森洋片
 https://smart.pendy.dpdns.org/Smart.php?id=ettvwestern
 http://lzoq.serv00.net/daili/Smartv.php?id=ettvwestern
@@ -1618,6 +1619,7 @@ http://108.181.20.197/livehttpplay?channel_id=20074
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="💓台湾台📶",民视新闻
 https://smart.pendy.dpdns.org/Smart.php?id=ftvnew_taiwan
 http://lzoq.serv00.net/daili/Smartv.php?id=ftvnew_taiwan
+http://156.253.12.5:932/tslive/IPTV.php?id=%E5%8F%B0%E6%B9%BE-%E6%B0%91%E8%A7%86%E6%96%B0%E9%97%BB%E5%8F%B0
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="💓台湾台📶",民视新闻
 http://108.181.20.197/livehttpplay?channel_id=20097
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/民视新闻台.png" group-title="💓台湾台📶",民视新闻 HD
@@ -1647,6 +1649,7 @@ http://lzoq.serv00.net/daili/Smartv.php?id=ttvzhonghe_twn
 #EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png" group-title="💓台湾台📶",台视新闻
 https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png" group-title="💓台湾台📶",台视新闻
+http://156.253.12.5:932/tslive/IPTV.php?id=%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB%20HD
 https://smart.pendy.dpdns.org/Smart.php?id=ttvnews_twn
 http://lzoq.serv00.net/daili/Smartv.php?id=ttvnews_twn
 #EXTINF:-1 tvg-id="" group-title="💓台湾台📶",天才冲冲冲
@@ -1828,6 +1831,7 @@ http://108.181.20.197/livehttpplay?channel_id=20048
 
 #EXTINF:-1 tvg-id="6134" tvg-name="大立电视台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DaliTV.png" group-title="💓台湾台📶",大立电视
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+http://156.253.12.5:932/tslive/IPTV.php?id=%E5%A4%A7%E7%AB%8BTV
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TaiwanPlus.png" group-title="💓台湾台📶",台灣+
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
