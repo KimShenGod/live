@@ -412,20 +412,20 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 
 #EXTINF:-1 tvg-id="亚洲卫视" tvg-name="亚洲卫视" tvg-logo="https://epg.112114.xyz/logo/亚洲卫视.png" group-title="📡卫视频道",亚洲卫视
 
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视资讯台.png" group-title="📡卫视频道",凤凰资讯
+#EXTINF:-1 tvg-id="194" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视资讯台.png" group-title="📡卫视频道",凤凰资讯台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236197/index.m3u8?fmt=ts2hls
 https://cdn6.163189.xyz/live/fhzx/stream.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
 
 
 
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视中文台.png" group-title="📡卫视频道",凤凰中文
+#EXTINF:-1 tvg-id="193" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视中文台.png" group-title="📡卫视频道",凤凰中文台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236260/index.m3u8?fmt=ts2hls
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
 http://162.62.120.19/qctv.fengshows.cn/live/0701pcc72.flv
 
 
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="📡卫视频道",凤凰香港
+#EXTINF:-1 tvg-id="284" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/凤凰卫视香港台.png" group-title="📡卫视频道",凤凰香港台
 https://cdn6.163189.xyz/live/fhhk/stream.m3u8
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 
@@ -453,7 +453,7 @@ http://hbhyjq.ufyct.com:1088/hls/60/index.m3u8
 #EXTINF:-1 tvg-id="中华美食" tvg-name="中华美食" tvg-logo="https://live.fanmingming.cn/tv/中华美食.png" group-title="💓专享源🅰️",中华美食
 
 
-#EXTINF:-1 tvg-id="351" tvg-name=" " tvg-url="http://e.erw.cc/e.xml" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="💓专享源🅰️",重温 经典
+#EXTINF:-1 tvg-id="351" tvg-name="重温经典台" tvg-url="http://e.erw.cc/e.xml" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="💓专享源🅰️",重温经典台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236434/1/index.m3u8?fmt=ts2hls
 https://cdn6.163189.xyz/live/cwjd/stream.m3u8
 http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
@@ -493,7 +493,7 @@ https://migu.777189.xyz/?migutoken=f8e586813f0340b8dbc4c64c29bc2911&id=CHC%E5%8A
 
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/劲爆体育.png" group-title="数字频道",劲爆体育
 
-#EXTINF:-1 tvg-id="170" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育
+#EXTINF:-1 tvg-id="170" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育
 http://live.nctv.top/DJlio/dftv.php?id=wxty
 
 
@@ -527,25 +527,25 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://hbhyjq.ufyct.com:1088/hls/51/index.m3u8
 
 
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://live.fanmingming.cn/tv/广东嘉佳卡通.png" group-title="数字频道",嘉佳卡通
+#EXTINF:-1 tvg-id="159" tvg-name="" tvg-logo="https://live.fanmingming.cn/tv/广东嘉佳卡通.png" group-title="数字频道",广东嘉佳卡通
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228593/1/index.m3u8?fmt=ts2hls
 
-#EXTINF:-1 tvg-id="356" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵赛事.png" group-title="数字频道",哒啵 赛事
+#EXTINF:-1 tvg-id="356" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵赛事.png" group-title="数字频道",哒啵赛事台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236207/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="357" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵电竞.png" group-title="数字频道",哒啵 电竞
+#EXTINF:-1 tvg-id="357" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵电竞.png" group-title="数字频道",哒啵电竞台
 
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哈哈炫动.png" group-title="数字频道",哈哈炫动
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236296/index.m3u8?fmt=ts2hls
 
-#EXTINF:-1 tvg-id="345" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",黑莓 动画
+#EXTINF:-1 tvg-id="345" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",黑莓动画台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236261/index.m3u8?fmt=ts2hls
 
-#EXTINF:-1 tvg-id="344" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓电影.png" group-title="数字频道",黑莓 电影
+#EXTINF:-1 tvg-id="344" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓电影.png" group-title="数字频道",黑莓电影台
 
 
-#EXTINF:-1 tvg-id="526" tvg-name="超级体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级体育.png" group-title="数字频道",超级体育
+#EXTINF:-1 tvg-id="526" tvg-name="超级体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级体育.png" group-title="数字频道",NewTV超级体育
 #EXTINF:-1 tvg-id="428" tvg-name="超级电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电影.png" group-title="数字频道",超级电影
-#EXTINF:-1 tvg-id="350" tvg-name="动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NewTV动作电影.png" group-title="数字频道",动作电影
+#EXTINF:-1 tvg-id="350" tvg-name="动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NewTV动作电影.png" group-title="数字频道",NewTV动作电影
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236183/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="429" tvg-name="超级电视剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电视剧.png" group-title="数字频道",超级视剧
 #EXTINF:-1 tvg-id="431" tvg-name="东北热剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV东北热剧.png" group-title="数字频道",东北热剧
