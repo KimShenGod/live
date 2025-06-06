@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url="http://e.erw.cc/e.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
+#EXTM3U x-tvg-url=" " catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="🌐央视频道",CCTV-1综合
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv1HD
@@ -135,13 +135,13 @@ https://iptv.crestekk.cn/php/cqyx.php?id=cetv-1SD
 
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHCYMDY.png" tvg-id="CHC高清电影" tvg-name="CHC高清电影" group-title="💓专享源🅰️",CHC高清电影
 https://iptv.crestekk.cn/php/cqyx.php?id=chcgqdyHD
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHCDZDY.png" tvg-id="6245" tvg-name="CHC动作电影" group-title="💓专享源🅰️",CHC动作电影
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHCDZDY.png" tvg-id="CHC动作电影" tvg-name="CHC动作电影" group-title="💓专享源🅰️",CHC动作电影
 https://iptv.crestekk.cn/php/cqyx.php?id=chcdzdyHD
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHCJTYY.png" tvg-id="6246" tvg-name="CHC家庭影院" group-title="💓专享源🅰️",CHC家庭影院
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHCJTYY.png" tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" group-title="💓专享源🅰️",CHC家庭影院
 https://iptv.crestekk.cn/php/cqyx.php?id=chcjtyyHD
-#EXTINF:-1 tvg-id="351" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/重温经典.png" group-title="💓专享源🅰️",重温经典台
+#EXTINF:-1 tvg-id="351" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/重温经典.png" group-title="💓专享源🅰️",重温 经典
 https://iptv.crestekk.cn/php/cqyx.php?id=cwjdHD
-#EXTINF:-1 tvg-id="7245" tvg-name="中国教育4台" tvg-logo="https://iptv.crestekk.cn/logo/CETV4.png" group-title="📡卫视频道",CETV-4
+#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://iptv.crestekk.cn/logo/CETV4.png" group-title="📡卫视频道",CETV-4
 https://iptv.crestekk.cn/php/cqyx.php?id=cetv-4SD
 
 #EXTINF:-1 tvg-id="136" tvg-name="北京纪实科教" tvg-logo="https://iptv.crestekk.cn/logo/北京纪实.png" group-title="☘️北京频道",北京纪实科教高清
@@ -152,7 +152,7 @@ https://iptv.crestekk.cn/php/cqyx.php?id=sdjiaoyuSD
 
 #EXTINF:-1 tvg-id="188" tvg-name="生活时尚" tvg-logo="https://iptv.crestekk.cn/logo/生活时尚.png" group-title="其他",生活时尚
 https://iptv.crestekk.cn/php/cqyx.php?id=shenghuo
-#EXTINF:-1 tvg-id="6627" tvg-name="百姓健康" tvg-logo="https://iptv.crestekk.cn/logo/百姓健康.png" group-title="其他",百姓健康
+#EXTINF:-1 tvg-id="百姓健康" tvg-name="百姓健康" tvg-logo="https://iptv.crestekk.cn/logo/百姓健康.png" group-title="其他",百姓健康
 https://iptv.crestekk.cn/php/cqyx.php?id=jiankangSD
 #EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://iptv.crestekk.cn/logo/快乐垂钓.png" group-title="其他",快乐垂钓高清
 https://iptv.crestekk.cn/php/cqyx.php?id=klcdHD
@@ -174,34 +174,34 @@ https://iptv.crestekk.cn/php/cqyx.php?id=yxfyHD
 https://iptv.crestekk.cn/php/cqyx.php?id=zaojiaoHD
 #EXTINF:-1 tvg-id="121" tvg-name="重庆新闻" tvg-logo="https://iptv.crestekk.cn/logo/重庆新闻.png" group-title="☘️重庆频道",重庆新闻高清
 https://iptv.crestekk.cn/php/cqyx.php?id=CQTVNewsHD
-#EXTINF:-1 tvg-id="123" tvg-name="重庆影视剧" tvg-logo="https://iptv.crestekk.cn/logo/重庆影视.png" group-title="☘️重庆频道",重庆影视高清
+#EXTINF:-1 tvg-id="123" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆影视.png" group-title="☘️重庆频道",重庆影视高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqyingshiHD
-#EXTINF:-1 tvg-id="127" tvg-name="重庆社会与法" tvg-logo="https://iptv.crestekk.cn/logo/重庆社会与法.png" group-title="☘️重庆频道",重庆社会与法
+#EXTINF:-1 tvg-id="127" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆社会与法.png" group-title="☘️重庆频道",重庆社会与法高清
 https://iptv.crestekk.cn/php/cqyx.php?id=CQTVTrendyHD
-#EXTINF:-1 tvg-id="126" tvg-name="重庆红岩文化" tvg-logo="https://iptv.crestekk.cn/logo/重庆时尚生活.png" group-title="☘️重庆频道",重庆红岩文化
+#EXTINF:-1 tvg-id="126" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆时尚生活.png" group-title="☘️重庆频道",重庆红岩文化高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqssgwHD
-#EXTINF:-1 tvg-id="124" tvg-name="重庆文体娱乐" tvg-logo="https://iptv.crestekk.cn/logo/重庆文体娱乐.png" group-title="☘️重庆频道",重庆文体娱乐
+#EXTINF:-1 tvg-id="124" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆文体娱乐.png" group-title="☘️重庆频道",重庆文体娱乐高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqwtylHD
-#EXTINF:-1 tvg-id="128" tvg-name="重庆新农村" tvg-logo="https://iptv.crestekk.cn/logo/重庆新农村.png" group-title="☘️重庆频道",重庆新农村高清
+#EXTINF:-1 tvg-id="128" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆新农村.png" group-title="☘️重庆频道",重庆新农村高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqggncHD
-#EXTINF:-1 tvg-id="125" tvg-name="重庆少儿" tvg-logo="https://iptv.crestekk.cn/logo/重庆少儿.png" group-title="☘️重庆频道",重庆少儿高清
+#EXTINF:-1 tvg-id="125" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆少儿.png" group-title="☘️重庆频道",重庆少儿高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqseHD
-#EXTINF:-1 tvg-id="122" tvg-name="重庆红叶" tvg-logo="https://iptv.crestekk.cn/logo/重庆科教.png" group-title="☘️重庆频道",重庆红叶
+#EXTINF:-1 tvg-id="122" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆科教.png" group-title="☘️重庆频道",重庆红叶高清
 https://iptv.crestekk.cn/php/cqyx.php?id=CQTVkejiaoHD
-#EXTINF:-1 tvg-id="422" tvg-name="爱看导视" tvg-logo="https://iptv.crestekk.cn/logo/爱看导视.png" group-title="☘️重庆频道",爱看导视高清
+#EXTINF:-1 tvg-id="422" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/爱看导视.png" group-title="☘️重庆频道",爱看导视高清
 https://iptv.crestekk.cn/php/cqyx.php?id=aikanHD
 #EXTINF:-1 tvg-id="6573" tvg-name="汽摩" tvg-logo="https://iptv.crestekk.cn/logo/汽摩.png" group-title="☘️重庆频道",重庆汽摩高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqcarSD
-#EXTINF:-1 tvg-id="129" tvg-name="重庆移动" tvg-logo="https://iptv.crestekk.cn/logo/重庆移动.png" group-title="☘️重庆频道",重庆移动高清
+#EXTINF:-1 tvg-id="129" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆移动.png" group-title="☘️重庆频道",重庆移动高清
 https://iptv.crestekk.cn/php/cqyx.php?id=mryyHD
-#EXTINF:-1 tvg-id="423" tvg-name="重广融媒" tvg-logo="https://iptv.crestekk.cn/logo/重广融媒.png" group-title="☘️重庆频道",重广融媒
+#EXTINF:-1 tvg-id="423" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重广融媒.png" group-title="☘️重庆频道",重广 融媒
 https://iptv.crestekk.cn/php/cqyx.php?id=cqrongmei
 
 
 #EXTINF:-1 tvg-id="174" tvg-name="东方财经" tvg-logo="https://iptv.crestekk.cn/logo/东方财经.png" group-title="其他",东方财经高清
 https://iptv.crestekk.cn/php/cqyx.php?id=dfcj
 
-#EXTINF:-1 tvg-id="6596" tvg-name="书画频道" tvg-logo="https://iptv.crestekk.cn/logo/书画.png" group-title="其他",书画
+#EXTINF:-1 tvg-id="书画" tvg-name="书画" tvg-logo="https://iptv.crestekk.cn/logo/书画.png" group-title="其他",书画
 https://iptv.crestekk.cn/php/cqyx.php?id=shuhua
 
 #EXTINF:-1 tvg-id="6590" tvg-name="国学" tvg-logo="https://iptv.crestekk.cn/logo/国学.png" group-title="其他",国学频道
