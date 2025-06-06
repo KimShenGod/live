@@ -453,7 +453,7 @@ http://hbhyjq.ufyct.com:1088/hls/60/index.m3u8
 #EXTINF:-1 tvg-id="中华美食" tvg-name="中华美食" tvg-logo="https://live.fanmingming.cn/tv/中华美食.png" group-title="💓专享源🅰️",中华美食
 
 
-#EXTINF:-1 tvg-id="351" tvg-name="重温经典台" tvg-url="http://e.erw.cc/e.xml" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="💓专享源🅰️",重温经典台
+#EXTINF:-1 tvg-id="351" tvg-name="" tvg-url="http://e.erw.cc/e.xml" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重温经典.png" group-title="💓专享源🅰️",重温经典台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236434/1/index.m3u8?fmt=ts2hls
 https://cdn6.163189.xyz/live/cwjd/stream.m3u8
 http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
@@ -493,7 +493,7 @@ https://migu.777189.xyz/?migutoken=f8e586813f0340b8dbc4c64c29bc2911&id=CHC%E5%8A
 
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/劲爆体育.png" group-title="数字频道",劲爆体育
 
-#EXTINF:-1 tvg-id="170" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育高清
+#EXTINF:-1 tvg-id="170" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育
 http://live.nctv.top/DJlio/dftv.php?id=wxty
 
 
@@ -518,7 +518,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纪实人文.png" group-title="数字频道",纪实人文
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/BTV纪实科教-8K.png" group-title="数字频道",纪实科教8K
+#EXTINF:-1 tvg-id="" tvg-name="纪实科教8K" tvg-logo="https://epg.112114.eu.org/logo/BTV纪实科教-8K.png" group-title="数字频道",纪实科教8K
 http://8kdown.brtvcloud.com/8klive/8kliveok.m3u8?txSecret=a9cfb6acb08a9fe154a8ba6d0226cfef&txTime=71697CD5
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
 
@@ -537,80 +537,80 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哈哈炫动.png" group-title="数字频道",哈哈炫动
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236296/index.m3u8?fmt=ts2hls
 
-#EXTINF:-1 tvg-id="345" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",NewTV黑莓动画台
+#EXTINF:-1 tvg-id="345" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",黑莓动画台
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236261/index.m3u8?fmt=ts2hls
 
-#EXTINF:-1 tvg-id="344" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓电影.png" group-title="数字频道",NewTV黑莓电影台
+#EXTINF:-1 tvg-id="344" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓电影.png" group-title="数字频道",黑莓电影台
 
 
 #EXTINF:-1 tvg-id="526" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级体育.png" group-title="数字频道",NewTV超级体育
-#EXTINF:-1 tvg-id="428" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电影.png" group-title="数字频道",NewTV超级电影
+#EXTINF:-1 tvg-id="428" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电影.png" group-title="数字频道",超级电影
 #EXTINF:-1 tvg-id="350" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NewTV动作电影.png" group-title="数字频道",NewTV动作电影
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236183/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="429" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电视剧.png" group-title="数字频道",NewTV超级视剧
-#EXTINF:-1 tvg-id="431" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV东北热剧.png" group-title="数字频道",NewTV东北热剧
+#EXTINF:-1 tvg-id="429" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电视剧.png" group-title="数字频道",超级视剧
+#EXTINF:-1 tvg-id="431" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV东北热剧.png" group-title="数字频道",东北热剧
 #EXTINF:-1 tvg-id="海外剧场" tvg-name="海外剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV海外剧场.png" group-title="数字频道",海外剧场
 
-#EXTINF:-1 tvg-id="373" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV中国功夫.png" group-title="数字频道",NewTV中国功夫
+#EXTINF:-1 tvg-id="373" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV中国功夫.png" group-title="数字频道",中国功夫
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236267/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="361" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV军旅剧场.png" group-title="数字频道",NewTV军旅剧场
+#EXTINF:-1 tvg-id="361" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV军旅剧场.png" group-title="数字频道",军旅剧场
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236278/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="366" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV惊悚悬疑.png" group-title="数字频道",NewTV惊悚悬疑
+#EXTINF:-1 tvg-id="366" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV惊悚悬疑.png" group-title="数字频道",惊悚悬疑
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236223/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="355" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV潮妈辣婆.png" group-title="数字频道",NewTV潮妈辣婆
+#EXTINF:-1 tvg-id="355" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV潮妈辣婆.png" group-title="数字频道",潮妈辣婆
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236167/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="370" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品体育.png" group-title="数字频道",NewTV精品体育
+#EXTINF:-1 tvg-id="370" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品体育.png" group-title="数字频道",精品体育
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236300/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="368" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品纪录.png" group-title="数字频道",NewTV精品纪录
+#EXTINF:-1 tvg-id="368" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品纪录.png" group-title="数字频道",精品纪录
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236276/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="362" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV家庭剧场.png" group-title="数字频道",NewTV家庭剧场
+#EXTINF:-1 tvg-id="362" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV家庭剧场.png" group-title="数字频道",家庭剧场
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236206/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="369" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品大剧.png" group-title="数字频道",NewTV精品大剧
+#EXTINF:-1 tvg-id="369" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品大剧.png" group-title="数字频道",精品大剧
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236239/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="358" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV军事评论.png" group-title="数字频道",NewTV军事评论
+#EXTINF:-1 tvg-id="358" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV军事评论.png" group-title="数字频道",军事评论
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236155/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="365" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV明星大片.png" group-title="数字频道",NewTV明星大片
-#EXTINF:-1 tvg-id="432" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV欢乐剧场.png" group-title="数字频道",NewTV欢乐剧场
+#EXTINF:-1 tvg-id="365" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV明星大片.png" group-title="数字频道",明星大片
+#EXTINF:-1 tvg-id="432" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV欢乐剧场.png" group-title="数字频道",欢乐剧场
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236173/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="370" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品萌宠.png" group-title="数字频道",NewTV精品萌宠
-#EXTINF:-1 tvg-id="427" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级综艺.png" group-title="数字频道",NewTV超级综艺
-#EXTINF:-1 tvg-id="367" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV金牌综艺.png" group-title="数字频道",NewTV金牌综艺
+#EXTINF:-1 tvg-id="370" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品萌宠.png" group-title="数字频道",精品萌宠
+#EXTINF:-1 tvg-id="427" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级综艺.png" group-title="数字频道",超级综艺
+#EXTINF:-1 tvg-id="367" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV金牌综艺.png" group-title="数字频道",金牌综艺
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236282/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="360" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV古装剧场.png" group-title="数字频道",NewTV古装剧场
+#EXTINF:-1 tvg-id="360" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV古装剧场.png" group-title="数字频道",古装剧场
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236240/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="374" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV怡伴健康.png" group-title="数字频道",NewTV怡伴健康
-#EXTINF:-1 tvg-id="359" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV炫舞未来.png" group-title="数字频道",NewTV炫舞未来
+#EXTINF:-1 tvg-id="374" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV怡伴健康.png" group-title="数字频道",怡伴健康
+#EXTINF:-1 tvg-id="359" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV炫舞未来.png" group-title="数字频道",炫舞未来
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236230/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="430" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV农业致富.png" group-title="数字频道",NewTV农业致富
+#EXTINF:-1 tvg-id="430" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV农业致富.png" group-title="数字频道",农业致富
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236233/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="363" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV爱情喜剧.png" group-title="数字频道",NewTV爱情喜剧
+#EXTINF:-1 tvg-id="363" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV爱情喜剧.png" group-title="数字频道",爱情喜剧
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236179/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="536" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",NewTV魅力潇湘
-#EXTINF:-1 tvg-id="364" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",NewTV热播精选
+#EXTINF:-1 tvg-id="536" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",魅力潇湘
+#EXTINF:-1 tvg-id="364" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",热播精选
 
 
 #EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://live.fanmingming.com/tv/魅力足球.png" group-title="数字频道",魅力足球
 
-#EXTINF:-1 tvg-id="390" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="数字频道",精彩竞技
+#EXTINF:-1 tvg-id="390" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="数字频道",睛彩 竞技
 http://61.160.112.102:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
 http://61.160.112.102:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive
 
 
-#EXTINF:-1 tvg-id="391" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="数字频道",精彩篮球
+#EXTINF:-1 tvg-id="391" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="数字频道",睛彩 篮球
 http://61.160.112.102:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
 http://61.160.112.102:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive
 
 
-#EXTINF:-1 tvg-id="389" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="数字频道",精彩青少
+#EXTINF:-1 tvg-id="389" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="数字频道",睛彩 青少
 http://61.160.112.102:35455/itv/3000000020000011525.m3u8?cdn=FifastbLive
 
 
-#EXTINF:-1 tvg-id="392" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="数字频道",精彩广场舞
+#EXTINF:-1 tvg-id="392" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="数字频道",睛彩 广场舞
 http://61.160.112.102:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
 http://61.160.112.102:35455/itv/3000000020000011524.m3u8?cdn=FifastbLive
 
 
-#EXTINF:-1 tvg-id="120" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩影视.png" group-title="数字频道",睛彩影视
+#EXTINF:-1 tvg-id="120" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩影视.png" group-title="数字频道",精彩 影视
 #EXTINF:-1 tvg-id="" tvg-name="Hot风尚音乐" tvg-logo="" group-title="数字频道",Hot风尚音乐
 
 #EXTINF:-1 tvg-id="" tvg-name="Hot精品剧场" tvg-logo="" group-title="数字频道",Hot精品剧场
@@ -657,21 +657,21 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235603/396328931.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="爱动漫" tvg-name="iHOT爱动漫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱动漫.png" group-title="IHOT",iHOT爱动漫
 
-#EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="☘️重庆频道",重庆|新闻
+#EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="☘️重庆频道",重庆新闻
 https://cqonsitecdn.cbgcloud.com/qf6jl2/m20256.m3u8
 
 
-#EXTINF:-1 tvg-id="123" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="☘️重庆频道",重庆|影视剧
-#EXTINF:-1 tvg-id="127" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="☘️重庆频道",重庆|社会与法
-#EXTINF:-1 tvg-id="124" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆文体娱乐.png" group-title="☘️重庆频道",重庆|文体娱乐
-#EXTINF:-1 tvg-id="128" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新农村.png" group-title="☘️重庆频道",重庆|新农村
-#EXTINF:-1 tvg-id="125" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆少儿.png" group-title="☘️重庆频道",重庆|少儿
+#EXTINF:-1 tvg-id="123" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="☘️重庆频道",重庆 影视剧
+#EXTINF:-1 tvg-id="127" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="☘️重庆频道",重庆 社会与法
+#EXTINF:-1 tvg-id="124" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆文体娱乐.png" group-title="☘️重庆频道",重庆 文体娱乐
+#EXTINF:-1 tvg-id="128" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新农村.png" group-title="☘️重庆频道",重庆 新农村
+#EXTINF:-1 tvg-id="125" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆少儿.png" group-title="☘️重庆频道",重庆 少儿
 
-#EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆汽摩.png" group-title="☘️重庆频道",重庆|汽摩
+#EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆汽摩.png" group-title="☘️重庆频道",重庆汽摩
 http://hbhyjq.ufyct.com:1088/hls/54/index.m3u8
-#EXTINF:-1 tvg-id="129" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="☘️重庆频道",重庆|移动
-#EXTINF:-1 tvg-id="423" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重广融媒.png" group-title="☘️重庆频道",重广|融媒
-#EXTINF:-1 tvg-id="422" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱看导视.png" group-title="☘️重庆频道",爱看|导视
+#EXTINF:-1 tvg-id="129" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="☘️重庆频道",重庆 移动
+#EXTINF:-1 tvg-id="423" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重广融媒.png" group-title="☘️重庆频道",重广 融媒
+#EXTINF:-1 tvg-id="422" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱看导视.png" group-title="☘️重庆频道",爱看 导视
 #EXTINF:-1 tvg-id="璧山综合" tvg-name="璧山综合" tvg-logo="https://epg.112114.eu.org/logo/重庆璧山.png" group-title="☘️重庆频道",璧山综合
 http://222.179.42.129:8181/hls1.m3u8?zzhongqd
 #EXTINF:-1  tvg-name="垫江综合" tvg-logo="https://epg.112114.eu.org/logo/垫江综合.png" group-title="☘️重庆频道",垫江综合
