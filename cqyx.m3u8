@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTM3U x-tvg-url="http://e.erw.cc/e.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
-
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="🌐央视频道",CCTV-1综合
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv1HD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV2.png" tvg-id="2" tvg-name="CCTV2" group-title="🌐央视频道",CCTV-2财经
