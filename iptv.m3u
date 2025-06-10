@@ -845,7 +845,7 @@ http://39.137.75.230/000000001000/1000000004000019624/index.m3u8?channel-id=yste
 
 #EXTINF:-1 tvg-id="526" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级体育.png" group-title="数字频道",NewTV超级体育
 #EXTINF:-1 tvg-id="428" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电影.png" group-title="数字频道",超级电影
-#EXTINF:-1 tvg-id="350" tvg-name="动作电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NewTV动作电影.png" group-title="数字频道",NewTV动作电影
+#EXTINF:-1 tvg-id="350" tvg-name="动作电影" tvg-logo="https://www.mxd.nuoi.cn/pages/iptv/logo/NEWTV动作电影.png" group-title="数字频道",NewTV动作电影
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236183/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="429" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV超级电视剧.png" group-title="数字频道",超级视剧
 #EXTINF:-1 tvg-id="431" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV东北热剧.png" group-title="数字频道",东北热剧
@@ -881,9 +881,9 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-id="374" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV怡伴健康.png" group-title="数字频道",怡伴健康
 #EXTINF:-1 tvg-id="359" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV炫舞未来.png" group-title="数字频道",炫舞未来
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236230/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="430" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV农业致富.png" group-title="数字频道",农业致富
+#EXTINF:-1 tvg-id="430" tvg-name="" tvg-logo="https://www.mxd.nuoi.cn/pages/iptv/logo/NEWTV农业致富.png" group-title="数字频道",农业致富
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236233/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="363" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV爱情喜剧.png" group-title="数字频道",爱情喜剧
+#EXTINF:-1 tvg-id="363" tvg-name="" tvg-logo="https://www.mxd.nuoi.cn/pages/iptv/logo/NEWTV爱情喜剧.png" group-title="数字频道",爱情喜剧
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236179/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="536" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",魅力潇湘
 #EXTINF:-1 tvg-id="364" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/NEWTV精品综合.png" group-title="数字频道",热播精选
@@ -958,27 +958,27 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235603/396328931.smil/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="爱动漫" tvg-name="iHOT爱动漫" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/IHOT爱动漫.png" group-title="IHOT",iHOT爱动漫
 
-#EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="☘️重庆频道",重庆新闻
+#EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新闻.png" group-title="☘️重庆频道",重庆新闻高清
 http://8.138.7.223/tv/cqyx2.php?id=CQTVNewsHD
 
-#EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="☘️重庆频道",重庆影视
+#EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆影视.png" group-title="☘️重庆频道",重庆影视高清
 http://8.138.7.223/tv/cqyx2.php?id=cqyingshiHD
-#EXTINF:-1 tvg-id="127" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="☘️重庆频道",重庆社会与法
+#EXTINF:-1 tvg-id="127" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆社会与法.png" group-title="☘️重庆频道",重庆社会与法高清
 http://8.138.7.223/tv/cqyx2.php?id=CQTVTrendyHD
-#EXTINF:-1 tvg-id="124" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆文体娱乐.png" group-title="☘️重庆频道",重庆文体娱乐
+#EXTINF:-1 tvg-id="124" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆文体娱乐.png" group-title="☘️重庆频道",重庆文体娱乐高清
 http://8.138.7.223/tv/cqyx2.php?id=cqwtylHD
-#EXTINF:-1 tvg-id="128" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新农村.png" group-title="☘️重庆频道",重庆新农村
+#EXTINF:-1 tvg-id="128" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆新农村.png" group-title="☘️重庆频道",重庆新农村高清
 http://8.138.7.223/tv/cqyx2.php?id=cqggncHD
-#EXTINF:-1 tvg-id="125" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆少儿.png" group-title="☘️重庆频道",重庆少儿
+#EXTINF:-1 tvg-id="125" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆少儿.png" group-title="☘️重庆频道",重庆少儿高清
 http://8.138.7.223/tv/cqyx2.php?id=cqseHD
-#EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆汽摩.png" group-title="☘️重庆频道",重庆汽摩
+#EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆汽摩.png" group-title="☘️重庆频道",重庆汽摩高清
 http://8.138.7.223/tv/cqyx2.php?id=cqcarSD
 http://hbhyjq.ufyct.com:1088/hls/54/index.m3u8
-#EXTINF:-1 tvg-id="129" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="☘️重庆频道",重庆移动
+#EXTINF:-1 tvg-id="129" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="☘️重庆频道",重庆移动高清
 http://8.138.7.223/tv/cqyx2.php?id=mryyHD
 #EXTINF:-1 tvg-id="423" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重广融媒.png" group-title="☘️重庆频道",重广融媒
 http://8.138.7.223/tv/cqyx2.php?id=cqrongmei
-#EXTINF:-1 tvg-id="422" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱看导视.png" group-title="☘️重庆频道",爱看导视
+#EXTINF:-1 tvg-id="422" tvg-name="" tvg-logo="https://www.mxd.nuoi.cn/pages/iptv/logo/爱看导视.png" group-title="☘️重庆频道",爱看导视高清
 http://8.138.7.223/tv/cqyx2.php?id=aikanHD
 #EXTINF:-1 tvg-id="璧山综合" tvg-name="璧山综合" tvg-logo="https://epg.112114.eu.org/logo/重庆璧山.png" group-title="☘️重庆频道",璧山综合
 http://222.179.42.129:8181/hls1.m3u8?zzhongqd
@@ -1607,7 +1607,7 @@ https://live.tvfix.org/live/enews/index.m3u8
 https://smart.pendy.dpdns.org/Smart.php?id=Tvbentertainment
 
 
-#EXTINF:-1 tvg-id="TVBPEARL" tvg-name="TVBPEARL" tvg-logo="https://epg.112114.eu.org/logo/TVB明珠.png" group-title="💓港澳台📶[HK]",TVB明珠
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://www.mxd.nuoi.cn/pages/iptv/logo/明珠.png" group-title="💓港澳台📶[HK]",明珠台
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 https://live.tvfix.org/live/pearl/1/v4000000/index.m3u8
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/pearl_twn/playlist.m3u8
@@ -1792,7 +1792,7 @@ https://smart.pendy.dpdns.org/Smart.php?id=tvbs
 
 #EXTINF:-1 tvg-id="TVBS NEWS2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS NEWS.png" group-title="💓台湾台📶",TVBS NEWS2
 
-#EXTINF:-1 tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://epg.112114.xyz/logo/TVBS%20NEWS.png" group-title="💓台湾台📶",TVBS新闻
+#EXTINF:-1 tvg-id="TVBS新闻台" tvg-name="TVBS新闻台" tvg-logo="https://www.mxdyeah.top/static/tvlogo/TVBS新闻.png" group-title="💓台湾台📶",TVBS新闻
 https://smart.pendy.dpdns.org/Smart.php?id=tvbs_n
 
 #EXTINF:-1 tvg-id="TVBS欢乐台" tvg-name="TVBS欢乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS欢乐.png" group-title="💓台湾台📶",TVBS欢乐 HD
@@ -1964,7 +1964,7 @@ http://8.138.7.223/tv/4gtv.php?id=18
 https://smart.pendy.dpdns.org/Smart.php?id=ttv_taiwan
 
 #EXTINF:-1 tvg-id="台视综合台" tvg-name="台视综合台" tvg-logo="https://epg.112114.xyz/logo/台视综合台.png" group-title="💓台湾台📶",台视综合
-https://smart.pendy.dpdns.org/Smart.php?id=ttvzhonghe_twn
+
 
 #EXTINF:-1 tvg-id="台视财经HD" tvg-name="台视财经HD" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视财经.png" group-title="💓台湾台📶",台视财经
 #EXTINF:-1 tvg-id="台视新闻HD" tvg-name="台视新闻HD" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/台视新闻.png" group-title="💓台湾台📶",台视新闻
