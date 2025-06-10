@@ -1761,7 +1761,7 @@ https://cdn6.163189.xyz/live/chu/stream.m3u8
 https://smart.pendy.dpdns.org/Smart.php?id=ettvnews
 
 #EXTINF:-1 tvg-id="东森美洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲.png" group-title="💓台湾台📶",东森美洲
-
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvnews/playlist.m3u8
 #EXTINF:-1 tvg-id="东森美洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲卫视.png" group-title="💓台湾台📶",东森美洲卫视
 
 #EXTINF:-1 tvg-id="东森亚洲卫视" tvg-id="东森亚洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="💓台湾台📶",东森亚洲
