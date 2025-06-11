@@ -229,35 +229,35 @@ https://0472.org/hls/cgtn.m3u8
 https://0472.org/hls/cgtnd.m3u8
 
 
-#EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="🌐央视频道",CCTV兵器科技
+#EXTINF:-1 tvg-id="143" tvg-name="CCTV兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="🌐央视频道",CCTV兵器科技
 http://8.138.7.223/tv/cqyx2.php?id=bqkjHD
 http://hbhyjq.ufyct.com:1088/hls/101/index.m3u8
-#EXTINF:-1 tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/第一剧场.png" group-title="🌐央视频道",CCTV第一剧场
+#EXTINF:-1 tvg-id="138" tvg-name="CCTV第一剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/第一剧场.png" group-title="🌐央视频道",CCTV第一剧场
 http://8.138.7.223/tv/cqyx2.php?id=diyijuchangHD
 http://hbhyjq.ufyct.com:1088/hls/104/index.m3u8
-#EXTINF:-1 tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="🌐央视频道",CCTV女性时尚
+#EXTINF:-1 tvg-id="146" tvg-name="CCTV女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="🌐央视频道",CCTV女性时尚
 http://8.138.7.223/tv/cqyx2.php?id=nvxing
-#EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/怀旧剧场.png" group-title="🌐央视频道",CCTV怀旧剧场
+#EXTINF:-1 tvg-id="140" tvg-name="CCTV怀旧剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/怀旧剧场.png" group-title="🌐央视频道",CCTV怀旧剧场
 http://8.138.7.223/tv/cqyx2.php?id=hjjcHD
 http://hbhyjq.ufyct.com:1088/hls/105/index.m3u8
-#EXTINF:-1 tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/电视指南.png" group-title="🌐央视频道",CCTV电视指南
+#EXTINF:-1 tvg-id="电视指南" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/电视指南.png" group-title="🌐央视频道",CCTV电视指南
 http://hbhyjq.ufyct.com:1088/hls/103/index.m3u8
-#EXTINF:-1 tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云剧场.png" group-title="🌐央视频道",CCTV风云剧场
+#EXTINF:-1 tvg-id="139" tvg-name="CCTV风云剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云剧场.png" group-title="🌐央视频道",CCTV风云剧场
 http://8.138.7.223/tv/cqyx2.php?id=fyjcHD
 http://hbhyjq.ufyct.com:1088/hls/106/index.m3u8
-#EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云足球.png" group-title="🌐央视频道",CCTV风云足球
+#EXTINF:-1 tvg-id="144" tvg-name="CCTV风云足球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云足球.png" group-title="🌐央视频道",CCTV风云足球
 http://8.138.7.223/tv/cqyx2.php?id=fyzqHD
 http://hbhyjq.ufyct.com:1088/hls/110/index.m3u8
-#EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云音乐.png" group-title="🌐央视频道",CCTV风云音乐
+#EXTINF:-1 tvg-id="142" tvg-name="CCTV风云音乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/风云音乐.png" group-title="🌐央视频道",CCTV风云音乐
 http://8.138.7.223/tv/cqyx2.php?id=fyyyHD
 http://hbhyjq.ufyct.com:1088/hls/112/index.m3u8
-#EXTINF:-1 tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/世界地理.png" group-title="🌐央视频道",CCTV世界地理
+#EXTINF:-1 tvg-id="141" tvg-name="CCTV世界地理" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/世界地理.png" group-title="🌐央视频道",CCTV世界地理
 http://hbhyjq.ufyct.com:1088/hls/107/index.m3u8
 #EXTINF:-1 tvg-id="卫生健康" tvg-name="卫生健康" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/卫生健康.png" group-title="🌐央视频道",CCTV卫生健康
 
-#EXTINF:-1 tvg-id="央视精品" tvg-name="央视精品" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/文化精品.png" group-title="🌐央视频道",CCTV文化精品
+#EXTINF:-1 tvg-id="147" tvg-name="CCTV央视精品" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/文化精品.png" group-title="🌐央视频道",CCTV文化精品
 http://8.138.7.223/tv/cqyx2.php?id=yswhHD
-#EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视台球.png" group-title="🌐央视频道",CCTV央视台球
+#EXTINF:-1 tvg-id="148" tvg-name="CCTV央视台球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视台球.png" group-title="🌐央视频道",CCTV央视台球
 http://8.138.7.223/tv/cqyx2.php?id=ystqHD
 #EXTINF:-1 tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/央视高网.png" group-title="🌐央视频道",CCTV央视高网
 http://8.138.7.223/tv/cqyx2.php?id=golfHD
