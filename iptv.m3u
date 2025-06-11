@@ -5,17 +5,18 @@
 #EXTM3U x-tvg-url=" " catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/苏州4K.png" group-title="4K",苏州4K
 http://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8
-
+https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/hlg4kvideo/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱上4K.png" group-title="4K",爱上4K 「IPV6」
 
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/华数4K.png" group-title="4K",华数4K 「IPV6」
 
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4K.png" group-title="4K",CCTV4K「IPV6」
 http://8.138.7.223/tv/cqyx2.php?id=CCTV4K
+http://www.douzhicloud.site:35455/nptv/cctv4k.m3u8
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/1/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纯享4K.png" group-title="4K",纯享 4K「IPV6」
 #EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8K.png" group-title="4K",CCTV-8K 超高清
-
+http://www.douzhicloud.site:35455/nptv/cctv8k.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="🌐央视频道",CCTV1
 http://8.138.7.223/tv/cqyx2.php?id=cctv1HD
 http://8.138.7.223/tv/ptbtv.php?id=27
@@ -644,7 +645,7 @@ http://58.39.190.143:35455/bptv/10000100000000050000000003887430.m3u8
 
 
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海峡卫视.png" group-title="📡卫视频道",海峡卫视
-
+http://www.douzhicloud.site:35455/mgtv/849119120.m3u8
 
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/新疆卫视.png" group-title="📡卫视频道",新疆卫视
 http://8.138.7.223/tv/cqyx2.php?id=xinjiangSD
@@ -742,7 +743,8 @@ http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 
 #EXTINF:-1 tvg-id="" tvg-name="CHC华诚影视" tvg-logo="https://epg.112114.eu.org/logo/华诚影视.png" group-title="💓专享源🅰️",CHC华诚影视
 http://120.76.248.139/live/bfgd/4200000289.m3u8
-
+#EXTINF:-1 tvg-id="" tvg-name="新片放映厅" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/035/175/202405061742_1714988181593_H169_1080.jpg" group-title="💓专享源🅰️", 新片放映厅
+http://www.douzhicloud.site:35455/mgtv/619495952.m3u8
 
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC家庭影院.png" group-title="💓专享源🅰️",CHC家庭影院
 http://8.138.7.223/tv/cqyx2.php?id=chcjtyyHD
