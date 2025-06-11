@@ -6,18 +6,20 @@
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/苏州4K.png" group-title="4K",苏州4K
 http://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱上4K.png" group-title="4K",爱上4K 「IPV6」
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/爱上4K.png" group-title="4K",爱上4K
 
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/华数4K.png" group-title="4K",华数4K 「IPV6」
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/华数4K.png" group-title="4K",华数4K
 
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4K.png" group-title="4K",CCTV4K「IPV6」
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4K.png" group-title="4K",CCTV-4K
 http://8.138.7.223/tv/cqyx2.php?id=CCTV4K
 http://www.douzhicloud.site:35455/nptv/cctv4k.m3u8
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/1/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纯享4K.png" group-title="4K",纯享 4K「IPV6」
+#EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/纯享4K.png" group-title="4K",纯享4K
 #EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CCTV8K.png" group-title="4K",CCTV-8K 超高清
 http://www.douzhicloud.site:35455/nptv/cctv8k.m3u8
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="🌐央视频道",CCTV1
+
+
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV-1综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="🌐央视频道",CCTV-1综合
 http://8.138.7.223/tv/cqyx2.php?id=cctv1HD
 http://8.138.7.223/tv/ptbtv.php?id=27
 http://8.138.7.223/tv/hot.php?id=1
@@ -29,7 +31,7 @@ http://120.76.248.139/live/bfgd/4200000201.m3u8
 http://58.39.190.143:35455/bptv/10000100000000050000000003864351.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="🌐央视频道",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="🌐央视频道",CCTV-2财经
 http://8.138.7.223/tv/cqyx2.php?id=cctv2HD
 http://8.138.7.223/tv/cctv2.php
 http://8.138.7.223/tv/hot.php?id=2
@@ -39,7 +41,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://148.135.93.213:81/live.php?id=CCTV2
 
 
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV3.png" group-title="🌐央视频道",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV3.png" group-title="🌐央视频道",CCTV-3综艺
 http://8.138.7.223/tv/cqyx2.php?id=cctv3HD
 http://148.135.93.213:81/live.php?id=CCTV3
 http://8.138.7.223/tv/hot.php?id=3
@@ -50,7 +52,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870746.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4.png" group-title="🌐央视频道",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4.png" group-title="🌐央视频道",CCTV-4中文国际
 http://8.138.7.223/tv/cqyx2.php?id=cctv4HD
 http://148.135.93.213:81/live.php?id=CCTV4
 http://8.138.7.223/tv/hot.php?id=4
@@ -61,7 +63,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870747.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5.png" group-title="🌐央视频道",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5.png" group-title="🌐央视频道",CCTV-5体育
 http://8.138.7.223/tv/cqyx2.php?id=cctv5HD
 http://148.135.93.213:81/live.php?id=CCTV5
 http://8.138.7.223/tv/hot.php?id=5
@@ -73,7 +75,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870748.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5+.png" group-title="🌐央视频道",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5+.png" group-title="🌐央视频道",CCTV-5+体育赛事
 http://8.138.7.223/tv/cqyx2.php?id=cctv5SportHD
 http://148.135.93.213/live.php?id=CCTV5p
 http://8.138.7.223/tv/hot.php?id=18
@@ -85,7 +87,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870759.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV6.png" group-title="🌐央视频道",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV6.png" group-title="🌐央视频道",CCTV-6电影
 http://8.138.7.223/tv/cqyx2.php?id=cctv6HD
 http://148.135.93.213:81/live.php?id=CCTV6
 http://8.138.7.223/tv/hot.php?id=6
@@ -95,7 +97,7 @@ http://123.133.163.32:9002/11z.php?id=CCTV6
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236294/index.m3u8?fmt=ts2hls
 
 
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV7.png" group-title="🌐央视频道",CCTV7
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV7.png" group-title="🌐央视频道",CCTV-7国防军事
 http://8.138.7.223/tv/cqyx2.php?id=cctv7HD
 http://8.138.7.223/tv/hot.php?id=7
 http://8.138.7.223/tv/iptv.php?id=7
@@ -106,7 +108,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://148.135.93.213/live.php?id=CCTV7
 http://58.39.190.143:35455/bptv/10000100000000050000000003870750.m3u8
 
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV8.png" group-title="🌐央视频道",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV8.png" group-title="🌐央视频道",CCTV-8电视剧
 http://8.138.7.223/tv/cqyx2.php?id=cctv8HD
 http://148.135.93.213:81/live.php?id=CCTV8
 http://8.138.7.223/tv/hot.php?id=8
@@ -118,7 +120,7 @@ http://58.39.190.143:35455/bptv/10000100000000050000000003870838.m3u8
 http://223.105.252.57/PLTV/3/224/3221228165/index.m3u8?servicetype=1
 
 
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV9.png" group-title="🌐央视频道",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV9.png" group-title="🌐央视频道",CCTV-9纪录
 http://8.138.7.223/tv/cqyx2.php?id=cctv9HD
 http://148.135.93.213:81/live.php?id=CCTV9
 http://8.138.7.223/tv/hot.php?id=9
@@ -129,7 +131,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870752.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV10.png" group-title="🌐央视频道",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV10.png" group-title="🌐央视频道",CCTV-10科教
 http://8.138.7.223/tv/cqyx2.php?id=cctv10HD
 http://148.135.93.213:81/live.php?id=CCTV10
 http://8.138.7.223/tv/hot.php?id=10
@@ -140,7 +142,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870753.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV11.png" group-title="🌐央视频道",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV11.png" group-title="🌐央视频道",CCTV-11戏曲
 http://8.138.7.223/tv/cqyx2.php?id=cctv11HD
 http://148.135.93.213:81/live.php?id=CCTV11
 http://8.138.7.223/tv/hot.php?id=11
@@ -151,7 +153,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870754.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV12.png" group-title="🌐央视频道",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV12.png" group-title="🌐央视频道",CCTV-12社会与法
 http://8.138.7.223/tv/cqyx2.php?id=cctv12HD
 http://148.135.93.213:81/live.php?id=CCTV12
 http://8.138.7.223/tv/hot.php?id=12
@@ -162,7 +164,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870755.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV13.png" group-title="🌐央视频道",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV13.png" group-title="🌐央视频道",CCTV-13新闻
 http://8.138.7.223/tv/cqyx2.php?id=CCTVNewsHD
 http://8.138.7.223/tv/ptbtv.php?id=28
 http://8.138.7.223/tv/hot.php?id=13
@@ -173,7 +175,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000004796248.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV14.png" group-title="🌐央视频道",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV14.png" group-title="🌐央视频道",CCTV-14少儿
 http://8.138.7.223/tv/cqyx2.php?id=cctvseHD
 http://148.135.93.213:81/live.php?id=CCTV14
 http://8.138.7.223/tv/hot.php?id=14
@@ -184,7 +186,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870756.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV15.png" group-title="🌐央视频道",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV15.png" group-title="🌐央视频道",CCTV-15音乐
 http://8.138.7.223/tv/cqyx2.php?id=cctv15HD
 http://148.135.93.213:81/live.php?id=CCTV15
 http://8.138.7.223/tv/hot.php?id=15
@@ -195,7 +197,7 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870757.m3u8
 
 
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV16.png" group-title="🌐央视频道",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV16.png" group-title="🌐央视频道",CCTV16奥林匹克
 http://8.138.7.223/tv/cqyx2.php?id=cctv16HD
 http://8.138.7.223/tv/hot.php?id=16
 http://qwt.zhibotv.top:2016/全网通.php?id=CCT16
@@ -206,7 +208,7 @@ http://58.39.190.143:35455/bptv/10000100000000050000000004972604.m3u8
 
 
 
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV17.png" group-title="🌐央视频道",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV17.png" group-title="🌐央视频道",CCTV-17农村农业
 http://8.138.7.223/tv/cqyx2.php?id=cctv17HD
 http://148.135.93.213:81/live.php?id=CCTV17
 http://8.138.7.223/tv/iptv.php?id=16
@@ -216,11 +218,11 @@ http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221
 http://58.39.190.143:35455/bptv/10000100000000050000000003870758.m3u8
 
 
-#EXTINF:-1 tvg-id="1905电影网" tvg-name="1905电影网" tvg-logo="https://epg.112114.xyz/logo/1905电影网.png" group-title="🌐央视频道",1905电影网
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/1905电影网.png" group-title="🌐央视频道",1905电影网
 http://150.138.77.132:10037/1905电影网.php?id=1905a
 
 
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="🌐央视频道",CGTN英语
+#EXTINF:-1 tvg-id="25" tvg-name="" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="🌐央视频道",CGTN英语
 http://8.138.7.223/tv/cqyx2.php?id=cgtnSD
 https://0472.org/hls/cgtn.m3u8
 
