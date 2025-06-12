@@ -1603,7 +1603,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 #EXTINF:-1 tvg-id="" tvg-name="翡翠台4K" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台4k
 https://cdn3.163189.xyz/live/fct4k/stream.m3u8
 
-#EXTINF:-1 tvg-id="TVB翡翠台" tvg-name="TVB翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠综合台
+#EXTINF:-1 tvg-id="SUPERFREE" tvg-name="SUPERFREE" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",TVB无线华丽
 http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 http://php.jdshipin.com/TVOD/iptv.php?id=huali
 https://smart.pendy.dpdns.org/Smart.php?id=Wlt
@@ -1657,8 +1657,8 @@ https://live.tvfix.org/live/inews/3/v4000000/index.m3u8
 https://smart.pendy.dpdns.org/Smart.php?id=inews_twn
 
 
-#EXTINF:-1 tvg-id="133" tvg-name="无线财经" tvg-logo="https://epg.112114.eu.org/logo/无线财经.png" group-title="💓港澳台📶[HK]",无线财经
-http://8.138.7.223/tv/4gtv.php?id=80
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/无线财经.png" group-title="💓港澳台📶[HK]",无线财经
+
 
 #EXTINF:-1 tvg-id="HOY77" tvg-name="HOY77" tvg-logo="https://epg.112114.eu.org/logo/HOY77.png" group-title="💓港澳台📶[HK]",HOY 77
 http://php.jdshipin.com/TVOD/iptv.php?id=hoytv2
@@ -1666,6 +1666,7 @@ https://smart.pendy.dpdns.org/Smart.php?id=hoycaijing_twn
 http://cdn5.163189.xyz/live/hoy/stream.m3u8
 
 #EXTINF:-1 tvg-id="HOY78" tvg-name="HOY78" tvg-logo="https://epg.112114.eu.org/logo/HOY78.png" group-title="💓港澳台📶[HK]",HOY 78
+https://ali.hlspull.yximgs.com/live/xaigjiaogehoy7801.flv
 
 #EXTINF:-1 tvg-id="千禧经典台" tvg-name="千禧经典台" tvg-logo="https://epg.112114.eu.org/logo/千禧经典.png" group-title="💓港澳台📶[HK]",TVB经典
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
@@ -1770,30 +1771,38 @@ https://cdn6.163189.xyz/live/chu/stream.m3u8
 https://smart.pendy.dpdns.org/Smart.php?id=ettvnews
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvnews/playlist.m3u8
 #EXTINF:-1 tvg-id="东森美洲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲.png" group-title="💓台湾台📶",东森美洲
-
+http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 #EXTINF:-1 tvg-id="东森美洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东森美洲卫视.png" group-title="💓台湾台📶",东森美洲卫视
 
 #EXTINF:-1 tvg-id="东森亚洲卫视" tvg-id="东森亚洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="💓台湾台📶",东森亚洲
 
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="💓台湾台📶",东森超视34.5
-
+http://ali.hlspull.yximgs.com/live/awei_dscs.flv
 #EXTINF:-1 tvg-id="东森戏剧台" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="💓台湾台📶",东森戏剧
 https://smart.pendy.dpdns.org/Smart.php?id=ettvdrama
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvdrama/playlist.m3u8
 
 #EXTINF:-1 tvg-id="东森电影台" tvg-name="东森电影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCMovies.png" group-title="💓台湾台📶",东森电影
 https://smart.pendy.dpdns.org/Smart.php?id=ettvmovie
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvmovie/playlist.m3u8
 
 #EXTINF:-1 tvg-id="东森洋片台" tvg-name="东森洋片台" tvg-logo="https://epg.112114.xyz/logo/东森洋片台.png" group-title="💓台湾台📶",东森洋片
 https://smart.pendy.dpdns.org/Smart.php?id=ettvwestern
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvwestern/playlist.m3u8
 
 #EXTINF:-1 tvg-id="东森综合台" tvg-name="东森综合台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCVariety.png" group-title="💓台湾台📶",东森综合
 https://smart.pendy.dpdns.org/Smart.php?id=ettvzhonghe
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvzhonghe/playlist.m3u8
 
 #EXTINF:-1 tvg-id="东森财经新闻台" tvg-name="东森财经新闻台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCFinancialNews.png" group-title="💓台湾台📶",东森财经
 https://smart.pendy.dpdns.org/Smart.php?id=ettvcaijing_twn
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvcaijing_twn/playlist.m3u8
 
 #EXTINF:-1 tvg-id="东森幼幼台" tvg-name="东森幼幼台" tvg-logo="https://epg.112114.xyz/logo/东森幼幼台.png" group-title="💓台湾台📶",东森幼幼 HD
 https://smart.pendy.dpdns.org/Smart.php?id=yoyo_twn
+http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/yoyo_twn/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS.png" group-title="💓台湾台📶",TVBS HD
 https://smart.pendy.dpdns.org/Smart.php?id=tvbs
 
