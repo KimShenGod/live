@@ -186,7 +186,7 @@ https://iptv.crestekk.cn/php/cqyx.php?id=cqssgwHD
 https://iptv.crestekk.cn/php/cqyx.php?id=cqwtylHD
 #EXTINF:-1 tvg-id="128" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆新农村.png" group-title="☘️重庆频道",重庆新农村高清
 https://iptv.crestekk.cn/php/cqyx.php?id=cqggncHD
-#EXTINF:-1 tvg-id="125" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆少儿.png" group-title="☘️重庆频道",重庆少儿高清
+#EXTINF:-1 tvg-id="重庆少儿" tvg-name="重庆少儿高清" tvg-logo="https://iptv.crestekk.cn/logo/重庆少儿.png" group-title="☘️重庆频道",重庆少儿
 https://iptv.crestekk.cn/php/cqyx.php?id=cqseHD
 #EXTINF:-1 tvg-id="122" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/重庆科教.png" group-title="☘️重庆频道",重庆红叶高清
 https://iptv.crestekk.cn/php/cqyx.php?id=CQTVkejiaoHD
