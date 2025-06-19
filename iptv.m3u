@@ -1046,8 +1046,10 @@ http://hbhyjq.ufyct.com:1088/hls/80/index.m3u8
 
 
 #EXTINF:-1 tvg-id="168" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金鹰卡通.png" group-title="☘️湖南频道",湖南金鹰卡通
+
 http://8.138.7.223/tv/cqyx2.php?id=jinyingSD
 http://8.138.7.223/tv/hot.php?id=63
+http://59.35.185.200:9901/tsfile/live/1046_1.m3u8
 http://www.cdnstv.com:6398/hls/1149/index.m3u8
 http://39.134.183.42:6610/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228362/1/index.m3u8?fmt=ts2hls
 http://hbhyjq.ufyct.com:1088/hls/83/index.m3u8
@@ -1596,8 +1598,7 @@ http://61.160.112.102:35455/itv/3000000010000027691.m3u8?cdn=FifastbLive
 http://61.160.112.102:35455/itv/3000000010000031669.m3u8?cdn=FifastbLive
 
 
-#EXTINF:-1 tvg-id="518" tvg-name="星空卫视台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/星空卫视.png" group-title="💓港澳台📶[HK]",星空卫视台
-http://59.35.185.200:9901/tsfile/live/0133_1.m3u8?key=txiptv&playlive=1&down=1
+#EXTINF:-1 tvg-id="518" tvg-name="星空卫视台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/星空卫视.png" group-title="📡卫视频道",星空卫视台
 http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台
@@ -1807,7 +1808,7 @@ http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 #EXTINF:-1 tvg-id="东森亚洲卫视" tvg-id="东森亚洲卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EbcAsiaWeishi.png" group-title="💓台湾台📶",东森亚洲
 
 #EXTINF:-1 tvg-id="东森超视" tvg-name="东森超视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCSuper.png" group-title="💓台湾台📶",东森超视34.5
-
+http://ali.hlspull.yximgs.com/live/awei_dscs.flv
 #EXTINF:-1 tvg-id="东森戏剧台" tvg-name="东森戏剧台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/EBCDrama.png" group-title="💓台湾台📶",东森戏剧
 https://smart.pendy.dpdns.org/Smart.php?id=ettvdrama
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ettvdrama/playlist.m3u8
@@ -1942,7 +1943,7 @@ http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/badadrama/play
 
 
 #EXTINF:-1 tvg-id="八大精彩台" tvg-name="八大精彩台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVDramaHD.png" group-title="💓台湾台📶",八大精彩
-http://ali.hlspull.yximgs.com/live/awei_bdjc.flv
+
 #EXTINF:-1 tvg-id="八大第一台" tvg-name="八大第一台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVOneHD.png" group-title="💓台湾台📶",八大第一
 http://ali.hlspull.yximgs.com/live/awei_bddy.flv
 https://smart.pendy.dpdns.org/Smart.php?id=badafirst
@@ -1950,7 +1951,7 @@ http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/badafirst/play
 
 
 #EXTINF:-1 tvg-id="八大娱乐台" tvg-name="八大娱乐台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GTVEntertainment.png" group-title="💓台湾台📶",八大娱乐
-http://ali.hlspull.yximgs.com/live/awei_bdyl.flv
+
 #EXTINF:-1 tvg-id="八大综艺台" tvg-name="八大综艺台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大综艺.png" group-title="💓台湾台📶",八大综艺台
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/八大电视.png" group-title="💓台湾台📶",八大电视
 
