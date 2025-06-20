@@ -159,14 +159,14 @@ https://iptv.crestekk.cn/php/cqyx.php?id=jiankangSD
 #EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://iptv.crestekk.cn/logo/快乐垂钓.png" group-title="其他",快乐垂钓高清
 https://iptv.crestekk.cn/php/cqyx.php?id=klcdHD
 
-#EXTINF:-1 tvg-id="178" tvg-name="都市剧场" tvg-logo="https://iptv.crestekk.cn/logo/SITV都市剧场.png" group-title="其他",都市剧场高清
+#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://iptv.crestekk.cn/logo/SITV都市剧场.png" group-title="其他",都市剧场
 https://iptv.crestekk.cn/php/cqyx.php?id=dsjcHD
 #EXTINF:-1 tvg-id="175" tvg-name="动漫秀场" tvg-logo="https://iptv.crestekk.cn/logo/动漫秀场.png" group-title="其他",动漫秀场高清
 https://iptv.crestekk.cn/php/cqyx.php?id=dmxcHD
 #EXTINF:-1 tvg-id="186" tvg-name="魅力足球" tvg-logo="https://iptv.crestekk.cn/logo/魅力足球.png" group-title="其他",魅力足球高清
 https://iptv.crestekk.cn/php/cqyx.php?id=mlzqHD
 
-#EXTINF:-1 tvg-id="149" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/求索纪录.png" group-title="数字频道",求索纪录高清
+#EXTINF:-1 tvg-id="149" tvg-name="求索纪录高清" tvg-logo="https://iptv.crestekk.cn/logo/求索纪录.png" group-title="数字频道",求索纪录高清
 https://iptv.crestekk.cn/php/cqyx.php?id=qsjlHD
 
 #EXTINF:-1 tvg-id="222" tvg-name="游戏风云" tvg-logo="https://iptv.crestekk.cn/logo/游戏风云.png" group-title="其他",游戏风云高清
