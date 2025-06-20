@@ -92,7 +92,7 @@ https://iptv.crestekk.cn/php/cqyx.php?id=tianjinHD
 https://iptv.crestekk.cn/php/cqyx.php?id=chongqingHD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/东南卫视.png" tvg-id="东南卫视" tvg-name="" group-title="📡卫视频道",东南卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=dongnanHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/广西卫视.png" tvg-id="103" tvg-name="" group-title="📡卫视频道",广西卫视HD
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/广西卫视.png" tvg-id="广西卫视" tvg-name="" group-title="📡卫视频道",广西卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=guangxiHD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/贵州卫视.png" tvg-id="贵州卫视" tvg-name="" group-title="📡卫视频道",贵州卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=guizhouHD
@@ -108,7 +108,7 @@ https://iptv.crestekk.cn/php/cqyx.php?id=hubeiSD
 https://iptv.crestekk.cn/php/cqyx.php?id=jiangxiHD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/吉林卫视.png" tvg-id="98" tvg-name="" group-title="📡卫视频道",吉林卫视HD
 https://iptv.crestekk.cn/php/cqyx.php?id=jilinHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/内蒙古卫视.png" tvg-id="101" tvg-name="" group-title="📡卫视频道",内蒙古卫视HD
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/内蒙古卫视.png" tvg-id="内蒙古卫视" tvg-name="" group-title="📡卫视频道",内蒙古卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=neimengkuSD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/宁夏卫视.png" tvg-id="宁夏卫视" tvg-name="" group-title="📡卫视频道",宁夏卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=ningxia
@@ -126,7 +126,7 @@ https://iptv.crestekk.cn/php/cqyx.php?id=qinghaiSD
 https://iptv.crestekk.cn/php/cqyx.php?id=bingtuanSD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/卡酷少儿.png" tvg-id="135" tvg-name="卡酷少儿" group-title="📡卫视频道",卡酷少儿
 https://iptv.crestekk.cn/php/cqyx.php?id=bjkakuSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖南金鹰卡通.png" tvg-id="168" tvg-name="" group-title="📡卫视频道",湖南金鹰卡通
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖南金鹰卡通.png" tvg-id="168" tvg-name="" group-title="☘️湖南频道",湖南金鹰卡通
 https://iptv.crestekk.cn/php/cqyx.php?id=jinyingSD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/西藏卫视.png" tvg-id="106" tvg-name="" group-title="📡卫视频道",西藏卫视HD
 https://iptv.crestekk.cn/php/cqyx.php?id=xizangSD
