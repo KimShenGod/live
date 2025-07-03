@@ -1,138 +1,138 @@
 #EXTM3U
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV1.png" tvg-id="1" tvg-name="CCTV-1综合" group-title="🌐央视频道",CCTV-1综合
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV1.png" tvg-id="1" tvg-name="CCTV-1综合" group-title="央视频道",CCTV-1综合
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv1HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV2.png" tvg-id="CCTV2" tvg-name="" group-title="🌐央视频道",CCTV-2财经
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV2.png" tvg-id="CCTV2" tvg-name="" group-title="央视频道",CCTV-2财经
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv2HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV3.png" tvg-id="CCTV3" tvg-name="" group-title="🌐央视频道",CCTV-3综艺
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV3.png" tvg-id="CCTV3" tvg-name="" group-title="央视频道",CCTV-3综艺
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv3HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV4.png" tvg-id="CCTV4" tvg-name="" group-title="🌐央视频道",CCTV-4中文国际
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV4.png" tvg-id="CCTV4" tvg-name="" group-title="央视频道",CCTV-4中文国际
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv4HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV5.png" tvg-id="CCTV5" tvg-name="" group-title="🌐央视频道",CCTV-5体育
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV5.png" tvg-id="CCTV5" tvg-name="" group-title="央视频道",CCTV-5体育
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv5HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV5+.png" tvg-id="CCTV5+" tvg-name="" group-title="🌐央视频道",CCTV-5+体育赛事
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV5+.png" tvg-id="CCTV5+" tvg-name="" group-title="央视频道",CCTV-5+体育赛事
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv5SportHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV6.png" tvg-id="CCTV6" tvg-name="" group-title="🌐央视频道",CCTV-6电影
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV6.png" tvg-id="CCTV6" tvg-name="" group-title="央视频道",CCTV-6电影
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv6HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV7.png" tvg-id="CCTV7" tvg-name="" group-title="🌐央视频道",CCTV-7国防军事
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV7.png" tvg-id="CCTV7" tvg-name="" group-title="央视频道",CCTV-7国防军事
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv7HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV8.png" tvg-id="CCTV8" tvg-name="" group-title="🌐央视频道",CCTV-8电视剧
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV8.png" tvg-id="CCTV8" tvg-name="" group-title="央视频道",CCTV-8电视剧
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv8HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV9.png" tvg-id="CCTV9" tvg-name="" group-title="🌐央视频道",CCTV-9纪录
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV9.png" tvg-id="CCTV9" tvg-name="" group-title="央视频道",CCTV-9纪录
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv9HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV10.png" tvg-id="CCTV10" tvg-name="" group-title="🌐央视频道",CCTV-10科教
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV10.png" tvg-id="CCTV10" tvg-name="" group-title="央视频道",CCTV-10科教
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv10HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV11.png" tvg-id="CCTV11" tvg-name="" group-title="🌐央视频道",CCTV-11戏曲
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV11.png" tvg-id="CCTV11" tvg-name="" group-title="央视频道",CCTV-11戏曲
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv11HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV12.png" tvg-id="CCTV12" tvg-name="" group-title="🌐央视频道",CCTV-12社会与法
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV12.png" tvg-id="CCTV12" tvg-name="" group-title="央视频道",CCTV-12社会与法
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv12HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV13.png" tvg-id="CCTV13" tvg-name="" group-title="🌐央视频道",CCTV-13新闻
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV13.png" tvg-id="CCTV13" tvg-name="" group-title="央视频道",CCTV-13新闻
 https://iptv.crestekk.cn/php/cqyx.php?id=CCTVNewsHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV14.png" tvg-id="CCTV14" tvg-name="" group-title="🌐央视频道",CCTV-14少儿
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV14.png" tvg-id="CCTV14" tvg-name="" group-title="央视频道",CCTV-14少儿
 https://iptv.crestekk.cn/php/cqyx.php?id=cctvseHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="" group-title="🌐央视频道",CCTV-15音乐
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV15.png" tvg-id="CCTV15" tvg-name="" group-title="央视频道",CCTV-15音乐
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv15HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV16.png" tvg-id="CCTV16" tvg-name="" group-title="🌐央视频道",CCTV16奥林匹克
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV16.png" tvg-id="CCTV16" tvg-name="" group-title="央视频道",CCTV16奥林匹克
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv16HD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV17.png" tvg-id="CCTV17" tvg-name="" group-title="🌐央视频道",CCTV-17农村农业
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CCTV17.png" tvg-id="CCTV17" tvg-name="" group-title="央视频道",CCTV-17农村农业
 https://iptv.crestekk.cn/php/cqyx.php?id=cctv17HD
-#EXTINF:-1 tvg-id="26" tvg-name="CCTV4K超高清" tvg-logo="https://iptv.crestekk.cn/logo/CCTV4K.png" group-title="🌐央视频道",CCTV4K超高清
+#EXTINF:-1 tvg-id="26" tvg-name="CCTV4K超高清" tvg-logo="https://iptv.crestekk.cn/logo/CCTV4K.png" group-title="央视频道",CCTV4K超高清
 https://iptv.crestekk.cn/php/cqyx.php?id=CCTV4K
-#EXTINF:-1 tvg-id="138" tvg-name="CCTV第一剧场" tvg-logo="https://iptv.crestekk.cn/logo/第一剧场.png" group-title="🌐央视频道",第一剧场高清
+#EXTINF:-1 tvg-id="138" tvg-name="CCTV第一剧场" tvg-logo="https://iptv.crestekk.cn/logo/第一剧场.png" group-title="央视频道",第一剧场高清
 https://iptv.crestekk.cn/php/cqyx.php?id=diyijuchangHD
-#EXTINF:-1 tvg-id="139" tvg-name="CCTV风云剧场" tvg-logo="https://iptv.crestekk.cn/logo/风云剧场.png" group-title="🌐央视频道",风云剧场高清
+#EXTINF:-1 tvg-id="139" tvg-name="CCTV风云剧场" tvg-logo="https://iptv.crestekk.cn/logo/风云剧场.png" group-title="央视频道",风云剧场高清
 https://iptv.crestekk.cn/php/cqyx.php?id=fyjcHD
-#EXTINF:-1 tvg-id="143" tvg-name="CCTV兵器科技" tvg-logo="https://iptv.crestekk.cn/logo/兵器科技.png" group-title="🌐央视频道",兵器科技高清
+#EXTINF:-1 tvg-id="143" tvg-name="CCTV兵器科技" tvg-logo="https://iptv.crestekk.cn/logo/兵器科技.png" group-title="央视频道",兵器科技高清
 https://iptv.crestekk.cn/php/cqyx.php?id=bqkjHD
-#EXTINF:-1 tvg-id="140" tvg-name="CCTV怀旧剧场" tvg-logo="https://iptv.crestekk.cn/logo/怀旧剧场.png" group-title="🌐央视频道",怀旧剧场高清
+#EXTINF:-1 tvg-id="140" tvg-name="CCTV怀旧剧场" tvg-logo="https://iptv.crestekk.cn/logo/怀旧剧场.png" group-title="央视频道",怀旧剧场高清
 https://iptv.crestekk.cn/php/cqyx.php?id=hjjcHD
-#EXTINF:-1 tvg-id="142" tvg-name="CCTV风云音乐" tvg-logo="https://iptv.crestekk.cn/logo/风云音乐.png" group-title="🌐央视频道",风云音乐高清
+#EXTINF:-1 tvg-id="142" tvg-name="CCTV风云音乐" tvg-logo="https://iptv.crestekk.cn/logo/风云音乐.png" group-title="央视频道",风云音乐高清
 https://iptv.crestekk.cn/php/cqyx.php?id=fyyyHD
-#EXTINF:-1 tvg-id="148" tvg-name="CCTV央视台球" tvg-logo="https://iptv.crestekk.cn/logo/央视台球.png" group-title="🌐央视频道",央视台球高清
+#EXTINF:-1 tvg-id="148" tvg-name="CCTV央视台球" tvg-logo="https://iptv.crestekk.cn/logo/央视台球.png" group-title="央视频道",央视台球高清
 https://iptv.crestekk.cn/php/cqyx.php?id=ystqHD
-#EXTINF:-1 tvg-id="144" tvg-name="CCTV风云足球" tvg-logo="https://iptv.crestekk.cn/logo/风云足球.png" group-title="🌐央视频道",风云足球高清
+#EXTINF:-1 tvg-id="144" tvg-name="CCTV风云足球" tvg-logo="https://iptv.crestekk.cn/logo/风云足球.png" group-title="央视频道",风云足球高清
 https://iptv.crestekk.cn/php/cqyx.php?id=fyzqHD
-#EXTINF:-1 tvg-id="146" tvg-name="CCTV女性时尚" tvg-logo="https://iptv.crestekk.cn/logo/女性时尚.png" group-title="🌐央视频道",女性时尚
+#EXTINF:-1 tvg-id="146" tvg-name="CCTV女性时尚" tvg-logo="https://iptv.crestekk.cn/logo/女性时尚.png" group-title="央视频道",女性时尚
 https://iptv.crestekk.cn/php/cqyx.php?id=nvxing
-#EXTINF:-1 tvg-id="147" tvg-name="CCTV央视精品" tvg-logo="https://iptv.crestekk.cn/logo/文化精品.png" group-title="🌐央视频道",央视文化精品高清
+#EXTINF:-1 tvg-id="147" tvg-name="CCTV央视精品" tvg-logo="https://iptv.crestekk.cn/logo/文化精品.png" group-title="央视频道",央视文化精品高清
 https://iptv.crestekk.cn/php/cqyx.php?id=yswhHD
-#EXTINF:-1 tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://iptv.crestekk.cn/logo/高尔夫网球.png" group-title="🌐央视频道",高尔夫网球高清
+#EXTINF:-1 tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://iptv.crestekk.cn/logo/高尔夫网球.png" group-title="央视频道",高尔夫网球高清
 https://iptv.crestekk.cn/php/cqyx.php?id=golfHD
-#EXTINF:-1 tvg-id="226" tvg-name="CCTV老故事" tvg-logo="https://iptv.crestekk.cn/logo/老故事.png" group-title="🌐央视频道",CCTV老故事
+#EXTINF:-1 tvg-id="226" tvg-name="CCTV老故事" tvg-logo="https://iptv.crestekk.cn/logo/老故事.png" group-title="央视频道",CCTV老故事
 https://iptv.crestekk.cn/php/cqyx.php?id=gushi
-#EXTINF:-1 tvg-id="437" tvg-name="中央新影中学生" tvg-logo="https://iptv.crestekk.cn/logo/中学生.png" group-title="🌐央视频道",中央新影中学生
+#EXTINF:-1 tvg-id="437" tvg-name="中央新影中学生" tvg-logo="https://iptv.crestekk.cn/logo/中学生.png" group-title="央视频道",中央新影中学生
 https://iptv.crestekk.cn/php/cqyx.php?id=qicai
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CGTN.png" tvg-id="25" tvg-name="CGTN英语" group-title="🌐央视频道",CGTN英语
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CGTN.png" tvg-id="25" tvg-name="CGTN英语" group-title="央视频道",CGTN英语
 https://iptv.crestekk.cn/php/cqyx.php?id=cgtnSD
 
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖南卫视.png" tvg-id="湖南卫视" tvg-name="" group-title="📡卫视频道",湖南卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖南卫视.png" tvg-id="湖南卫视" tvg-name="" group-title="卫视频道",湖南卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=hunanHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/浙江卫视.png" tvg-id="浙江卫视" tvg-name="" group-title="📡卫视频道",浙江卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/浙江卫视.png" tvg-id="浙江卫视" tvg-name="" group-title="卫视频道",浙江卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=zhejiangHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/江苏卫视.png" tvg-id="江苏卫视" tvg-name="" group-title="📡卫视频道",江苏卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/江苏卫视.png" tvg-id="江苏卫视" tvg-name="" group-title="卫视频道",江苏卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=jiangsuHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/北京卫视.png" tvg-id="北京卫视" tvg-name="" group-title="📡卫视频道",北京卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/北京卫视.png" tvg-id="北京卫视" tvg-name="" group-title="卫视频道",北京卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=beijingHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/东方卫视.png" tvg-id="东方卫视" tvg-name="" group-title="📡卫视频道",东方卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/东方卫视.png" tvg-id="东方卫视" tvg-name="" group-title="卫视频道",东方卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=shanghaiHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/安徽卫视.png" tvg-id="安徽卫视" tvg-name="" group-title="📡卫视频道",安徽卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/安徽卫视.png" tvg-id="安徽卫视" tvg-name="" group-title="卫视频道",安徽卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=anhuiSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/广东卫视.png" tvg-id="82" tvg-name="" group-title="📡卫视频道",广东卫视HD
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/广东卫视.png" tvg-id="82" tvg-name="" group-title="卫视频道",广东卫视HD
 https://iptv.crestekk.cn/php/cqyx.php?id=guangdongHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/深圳卫视.png" tvg-id="深圳卫视" tvg-name="" group-title="📡卫视频道",深圳卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/深圳卫视.png" tvg-id="深圳卫视" tvg-name="" group-title="卫视频道",深圳卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=shenzhenHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/辽宁卫视.png" tvg-id="辽宁卫视" tvg-name="" group-title="📡卫视频道",辽宁卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/辽宁卫视.png" tvg-id="辽宁卫视" tvg-name="" group-title="卫视频道",辽宁卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=liaoningHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/海南卫视.png" tvg-id="海南卫视" tvg-name="" group-title="📡卫视频道",海南卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/海南卫视.png" tvg-id="海南卫视" tvg-name="" group-title="卫视频道",海南卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=hainanSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/天津卫视.png" tvg-id="天津卫视" tvg-name="" group-title="📡卫视频道",天津卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/天津卫视.png" tvg-id="天津卫视" tvg-name="" group-title="卫视频道",天津卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=tianjinHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/重庆卫视.png" tvg-id="重庆卫视" tvg-name="" group-title="📡卫视频道",重庆卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/重庆卫视.png" tvg-id="重庆卫视" tvg-name="" group-title="卫视频道",重庆卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=chongqingHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/东南卫视.png" tvg-id="东南卫视" tvg-name="" group-title="📡卫视频道",东南卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/东南卫视.png" tvg-id="东南卫视" tvg-name="" group-title="卫视频道",东南卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=dongnanHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/广西卫视.png" tvg-id="广西卫视" tvg-name="" group-title="📡卫视频道",广西卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/广西卫视.png" tvg-id="广西卫视" tvg-name="" group-title="卫视频道",广西卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=guangxiHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/贵州卫视.png" tvg-id="贵州卫视" tvg-name="" group-title="📡卫视频道",贵州卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/贵州卫视.png" tvg-id="贵州卫视" tvg-name="" group-title="卫视频道",贵州卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=guizhouHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/河北卫视.png" tvg-id="河北卫视" tvg-name="" group-title="📡卫视频道",河北卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/河北卫视.png" tvg-id="河北卫视" tvg-name="" group-title="卫视频道",河北卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=hebeiSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/黑龙江卫视.png" tvg-id="黑龙江卫视" tvg-name="" group-title="📡卫视频道",黑龙江卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/黑龙江卫视.png" tvg-id="黑龙江卫视" tvg-name="" group-title="卫视频道",黑龙江卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=heilongjiangHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/河南卫视.png" tvg-id="河南卫视" tvg-name="" group-title="📡卫视频道",河南卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/河南卫视.png" tvg-id="河南卫视" tvg-name="" group-title="卫视频道",河南卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=henanHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖北卫视.png" tvg-id="湖北卫视" tvg-name="" group-title="📡卫视频道",湖北卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖北卫视.png" tvg-id="湖北卫视" tvg-name="" group-title="卫视频道",湖北卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=hubeiSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/江西卫视.png" tvg-id="江西卫视" tvg-name="" group-title="📡卫视频道",江西卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/江西卫视.png" tvg-id="江西卫视" tvg-name="" group-title="卫视频道",江西卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=jiangxiHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/吉林卫视.png" tvg-id="98" tvg-name="" group-title="📡卫视频道",吉林卫视HD
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/吉林卫视.png" tvg-id="98" tvg-name="" group-title="卫视频道",吉林卫视HD
 https://iptv.crestekk.cn/php/cqyx.php?id=jilinHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/内蒙古卫视.png" tvg-id="内蒙古卫视" tvg-name="" group-title="📡卫视频道",内蒙古卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/内蒙古卫视.png" tvg-id="内蒙古卫视" tvg-name="" group-title="卫视频道",内蒙古卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=neimengkuSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/宁夏卫视.png" tvg-id="宁夏卫视" tvg-name="" group-title="📡卫视频道",宁夏卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/宁夏卫视.png" tvg-id="宁夏卫视" tvg-name="" group-title="卫视频道",宁夏卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=ningxia
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/山西卫视.png" tvg-id="山西卫视" tvg-name="" group-title="📡卫视频道",山西卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/山西卫视.png" tvg-id="山西卫视" tvg-name="" group-title="卫视频道",山西卫视
 
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/四川卫视.png" tvg-id="四川卫视" tvg-name="" group-title="📡卫视频道",四川卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/四川卫视.png" tvg-id="四川卫视" tvg-name="" group-title="卫视频道",四川卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=sichuanHD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/新疆卫视.png" tvg-id="新疆卫视" tvg-name="" group-title="📡卫视频道",新疆卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/新疆卫视.png" tvg-id="新疆卫视" tvg-name="" group-title="卫视频道",新疆卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=xinjiangSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/云南卫视.png" tvg-id="云南卫视" tvg-name="" group-title="📡卫视频道",云南卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/云南卫视.png" tvg-id="云南卫视" tvg-name="" group-title="卫视频道",云南卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=yunnanSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/青海卫视.png" tvg-id="青海卫视" tvg-name="" group-title="📡卫视频道",青海卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/青海卫视.png" tvg-id="青海卫视" tvg-name="" group-title="卫视频道",青海卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=qinghaiSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/兵团卫视.png" tvg-id="兵团卫视" tvg-name="" group-title="📡卫视频道",兵团卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/兵团卫视.png" tvg-id="兵团卫视" tvg-name="" group-title="卫视频道",兵团卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=bingtuanSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/卡酷少儿.png" tvg-id="135" tvg-name="卡酷少儿" group-title="📡卫视频道",卡酷少儿
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/卡酷少儿.png" tvg-id="135" tvg-name="卡酷少儿" group-title="卫视频道",卡酷少儿
 https://iptv.crestekk.cn/php/cqyx.php?id=bjkakuSD
 #EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/湖南金鹰卡通.png" tvg-id="168" tvg-name="" group-title="☘️湖南频道",湖南金鹰卡通
 https://iptv.crestekk.cn/php/cqyx.php?id=jinyingSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/西藏卫视.png" tvg-id="106" tvg-name="" group-title="📡卫视频道",西藏卫视HD
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/西藏卫视.png" tvg-id="106" tvg-name="" group-title="卫视频道",西藏卫视HD
 https://iptv.crestekk.cn/php/cqyx.php?id=xizangSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/三沙卫视.png" tvg-id="三沙卫视" tvg-name="" group-title="📡卫视频道",三沙卫视
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/三沙卫视.png" tvg-id="三沙卫视" tvg-name="" group-title="卫视频道",三沙卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=sanshaSD
-#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CETV1.png" tvg-id="151" tvg-name="CETV-1" group-title="📡卫视频道",CETV-1
+#EXTINF:-1 tvg-logo="https://iptv.crestekk.cn/logo/CETV1.png" tvg-id="151" tvg-name="CETV-1" group-title="卫视频道",CETV-1
 https://iptv.crestekk.cn/php/cqyx.php?id=cetv-1SD
 
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHCYMDY.png" tvg-id="182" tvg-name="CHC 影迷电影" group-title="💓专享源🅰️",CHC 影迷电影
@@ -143,13 +143,13 @@ https://iptv.crestekk.cn/php/cqyx.php?id=chcdzdyHD
 https://iptv.crestekk.cn/php/cqyx.php?id=chcjtyyHD
 #EXTINF:-1 tvg-id="351" tvg-name="" tvg-logo="https://epg.112114.eu.org/logo/重温经典.png" group-title="💓专享源🅰️",重温经典台
 https://iptv.crestekk.cn/php/cqyx.php?id=cwjdHD
-#EXTINF:-1 tvg-id="154" tvg-name="CETV-4" tvg-logo="https://iptv.crestekk.cn/logo/CETV4.png" group-title="📡卫视频道",CETV-4
+#EXTINF:-1 tvg-id="154" tvg-name="CETV-4" tvg-logo="https://iptv.crestekk.cn/logo/CETV4.png" group-title="卫视频道",CETV-4
 https://iptv.crestekk.cn/php/cqyx.php?id=cetv-4SD
 
 #EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://iptv.crestekk.cn/logo/北京纪实.png" group-title="☘️北京频道",北京纪实科教高清
 https://iptv.crestekk.cn/php/cqyx.php?id=bjayjsSD
 
-#EXTINF:-1 tvg-id="221" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/山东教育卫视.png" group-title="📡卫视频道",山东教育卫视
+#EXTINF:-1 tvg-id="221" tvg-name="" tvg-logo="https://iptv.crestekk.cn/logo/山东教育卫视.png" group-title="卫视频道",山东教育卫视
 https://iptv.crestekk.cn/php/cqyx.php?id=sdjiaoyuSD
 
 #EXTINF:-1 tvg-id="188" tvg-name="生活时尚" tvg-logo="https://iptv.crestekk.cn/logo/生活时尚.png" group-title="其他",生活时尚
