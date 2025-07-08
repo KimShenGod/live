@@ -436,10 +436,9 @@ http://qwt.zhibotv.top:2016/全网通.php?id=宁夏卫视
 
 
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/陕西卫视.png" group-title="卫视频道",陕西卫视
-http://audiovisual.vsd.gehua.net.cn/live/ipcdn/ShanXiiHD/ipcdn,ShanXiiHD_1200K_live.m3u8?sign=test&auth_key=1751869056-0-0-3b0b8f91e50ed749fdcc1e864311073c
+http://t.061899.xyz/tl/dq.php?id=sxws
 https://cc06.tv12.xyz/106.m3u8
 http://121.237.204.65:35455/nptv/shanxiws.m3u8
-http://t.061899.xyz/tl/dq.php?id=sxws
 http://8.138.7.223/tv/migu2.php?id=34
 http://qwt.zhibotv.top:2016/全网通.php?id=陕西卫视
 
@@ -1941,6 +1940,7 @@ http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ctiasia_twn/pl
 
 #EXTINF:-1 tvg-id="华视" tvg-name="华视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/华视.png" group-title="💓台湾台📶",华视
 http://150.138.77.132:10037/xxw/Smartv.php?id=ctshd_twn
+http://122.117.71.103:8622/1.m3u8
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ctshd_twn/playlist.m3u8
 
 
@@ -1949,8 +1949,8 @@ http://api.mytv666.top/api/qwt.php?t=%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93&id=%E5
 http://api.mytv666.top/api/qwt.php?t=%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93&id=CTS%E5%8D%8E%E8%A7%86%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF
 
 #EXTINF:-1 tvg-id="中视" tvg-name="中视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/中视.png" group-title="💓台湾台📶",中视
-
 http://150.138.77.132:10037/xxw/Smartv.php?id=zhongshihd_twn
+http://122.117.71.103:8630/1.m3u8
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/zhongshihd_twn/playlist.m3u8
 
 
@@ -1994,6 +1994,7 @@ http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ftvtaiwan_twn/
 
 
 #EXTINF:-1 tvg-id="公视(HD)" tvg-name="公视(HD)" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/公视.png" group-title="💓台湾台📶",公视
+http://122.117.71.103:8624/1.m3u8
 http://api.mytv666.top/api/qwt.php?t=%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93&id=%E5%85%AC%E8%A7%86
 http://150.138.77.132:10037/xxw/Smartv.php?id=ctv_taiwan
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/ctv_taiwan/playlist.m3u8
@@ -2154,6 +2155,7 @@ http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/eyetvxiju_twn/
 
 #EXTINF:-1 tvg-id="DISCOVERY" tvg-name="DISCOVERY" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/DiscoveryHD.png" group-title="💓台湾台📶",探索频道
 http://150.138.77.132:10037/xxw/Smartv.php?id=discoveryhd_twn
+http://122.117.71.103:8627/1.m3u8
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/discoveryhd_twn/playlist.m3u8
 
 
@@ -2220,6 +2222,7 @@ http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/catchplay_twn/
 
 
 #EXTINF:-1 tvg-id="TRACESPORTSTARS" tvg-name="TRACESPORTSTARS" tvg-logo="" group-title="💓台湾台📶",TraceSports
+http://122.117.71.103:8626/1.m3u8
 #EXTINF:-1 tvg-id="ARIRANGTV" tvg-name="ARIRANGTV" tvg-logo="https://epg.112114.xyz/logo/ARIRANGTV.png" group-title="💓台湾台📶",Arirang
 http://150.138.77.132:10037/xxw/Smartv.php?id=arirang_twn
 http://wanjiatv.net/ydmt/smrt.php?playurl=http://50.7.234.10:8278/arirang_twn/playlist.m3u8
@@ -2241,6 +2244,7 @@ http://8.138.7.223/tv/4gtv.php?id=76
 https://dqhxk7sbp7xog.cloudfront.net/osmflivech45.m3u8
 #EXTINF:-1 tvg-id="好消息频道" tvg-name="好消息频道" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GOODTV.png" group-title="💓台湾台📶",好消息
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
+http://122.117.71.103:8625/1.m3u8
 #EXTINF:-1 tvg-id="好消息2台" tvg-name="好消息2台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/GOODTV.png" group-title="💓台湾台📶",好消息2台
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="💓台湾台📶",GOOD劉三講古
