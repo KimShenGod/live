@@ -26,28 +26,28 @@ http://121.237.204.65:35455/nptv/cctv8k.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV1.png" group-title="央视频道",CCTV1
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv1HD
 http://8.138.7.223/tv/ptbtv.php?id=27
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226737/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226737/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=cctv1
 http://8.138.7.223/%E3%80%90%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%9A%E6%A6%B4%E8%8A%92%E7%94%B5%E8%A7%86%E3%80%91/cctv1.m3u8
 http://120.76.248.139/live/bfgd/4200000201.m3u8
 
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV-2财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV2.png" group-title="央视频道",CCTV2
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv2HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226739/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226739/1.m3u8
 http://8.138.7.223/tv/cctv2.php
 http://t.061899.xyz/tl/dq.php?id=cctv2
 http://148.135.93.213:81/live.php?id=CCTV2
 
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV-3综艺" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV3.png" group-title="央视频道",CCTV3
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv3HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226720/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226720/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV3
 http://t.061899.xyz/tl/dq.php?id=cctv3
 
 
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV-4中文国际" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV4.png" group-title="央视频道",CCTV4
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv4HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226725/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226725/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV4
 http://t.061899.xyz/tl/dq.php?id=cctv4
 
@@ -64,7 +64,7 @@ http://go.bkpcp.top/mg/cctv4m
 
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV-5体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5.png" group-title="央视频道",CCTV5
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv5HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV5
 http://t.061899.xyz/tl/dq.php?id=cctv5
 
@@ -72,7 +72,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv5
 
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV-5+体育赛事" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV5+.png" group-title="央视频道",CCTV5+
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv5SportHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226711/1.m3u
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226711/1.m3u
 http://148.135.93.213/live.php?id=CCTV5p
 http://t.061899.xyz/tl/dq.php?id=cctv5p
 
@@ -82,7 +82,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv5p
 
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV-6电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV6.png" group-title="央视频道",CCTV6
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv6HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226699/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226699/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV6
 http://t.061899.xyz/tl/dq.php?id=cctv6
 
@@ -91,14 +91,14 @@ http://t.061899.xyz/tl/dq.php?id=cctv6
 
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV-7国防军事" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV7.png" group-title="央视频道",CCTV7
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv7HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226721/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226721/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=cctv7
 http://148.135.93.213/live.php?id=CCTV7
 
 
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV-8电视剧" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV8.png" group-title="央视频道",CCTV8
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv8HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV8
 http://t.061899.xyz/tl/dq.php?id=cctv8
 
@@ -107,7 +107,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv8
 
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV-9纪录" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV9.png" group-title="央视频道",CCTV9
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv9HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226657/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226657/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV9
 http://t.061899.xyz/tl/dq.php?id=cctv9
 
@@ -116,7 +116,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv9
 
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV-10科教" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV10.png" group-title="央视频道",CCTV10
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv10HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226708/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226708/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV10
 http://t.061899.xyz/tl/dq.php?id=cctv10
 
@@ -125,7 +125,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv10
 
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV-11戏曲" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV11.png" group-title="央视频道",CCTV11
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv11HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226714/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226714/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV11
 http://t.061899.xyz/tl/dq.php?id=cctv11
 
@@ -134,7 +134,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv11
 
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV-12社会与法" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV12.png" group-title="央视频道",CCTV12
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv12HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226748/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226748/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV12
 http://t.061899.xyz/tl/dq.php?id=cctv12
 
@@ -143,7 +143,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv12
 
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV-13新闻" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV13.png" group-title="央视频道",CCTV13
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=CCTVNewsHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226717/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226717/1.m3u8
 http://8.138.7.223/tv/ptbtv.php?id=28
 http://t.061899.xyz/tl/dq.php?id=cctv13
 
@@ -152,7 +152,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv13
 
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV-14少儿" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV14.png" group-title="央视频道",CCTV14
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctvseHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226645/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226645/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV14
 http://t.061899.xyz/tl/dq.php?id=cctv14
 
@@ -161,7 +161,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv14
 
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV-15音乐" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV15.png" group-title="央视频道",CCTV15
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv15HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226663/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226663/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV15
 http://t.061899.xyz/tl/dq.php?id=cctv15
 
@@ -170,7 +170,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv15
 
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16奥林匹克" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV16.png" group-title="央视频道",CCTV16
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv16HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226825/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226825/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=cctv16
 
 
@@ -179,7 +179,7 @@ http://t.061899.xyz/tl/dq.php?id=cctv16
 
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV-17农村农业" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CCTV17.png" group-title="央视频道",CCTV17
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cctv17HD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226660/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226660/1.m3u8
 http://148.135.93.213:81/live.php?id=CCTV17
 http://t.061899.xyz/tl/dq.php?id=cctv17
 
@@ -192,7 +192,7 @@ http://150.138.77.132:10037/1905电影网.php?id=1905a
 
 #EXTINF:-1 tvg-id="25" tvg-name="" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道",CGTN英语
 https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226666/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226666/1.m3u8
 
 #EXTINF:-1 tvg-id="CGTN(中国环球电视网)记录频道" tvg-name="CGTN(中国环球电视网)记录频道" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CGTN纪录.png" group-title="央视频道",CGTN记录
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
@@ -232,17 +232,18 @@ http://8.138.7.223/tv/cqyx2.php?mode=dx&id=ystqHD
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=golfHD
 
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视4K.png" group-title="卫视频道",北京卫视4K
+http://106.53.99.30/tv/api.php?id=bjws4k
 
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/北京卫视.png" group-title="卫视频道",北京卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=beijingHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226719/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226719/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=bjws
 http://120.76.248.139/live/bfgd/4200000083.m3u8
 
 
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖南卫视.png" group-title="卫视频道",湖南卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=hunanHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=hunws
 http://120.76.248.139/live/bfgd/4200000086.m3u8
 http://xg.52sw.top/play/kzb/play.php?id=hunws
@@ -251,26 +252,26 @@ http://xg.52sw.top/play/kzb/play.php?id=hunws
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东方卫视.png" group-title="卫视频道",东方卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=shanghaiHD
 http://8.138.7.223/tv/shtv.php?id=dfws
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226734/1.m3u8 
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226734/1.m3u8 
 http://t.061899.xyz/tl/dq.php?id=dfws
 http://120.76.248.139/live/bfgd/4200000093.m3u8
 http://148.135.93.213:81/live.php?id=东方卫视
 
 
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/四川卫视.png" group-title="卫视频道",四川卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226659/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226659/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=scws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=sichuanHD
 
 
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/天津卫视.png" group-title="卫视频道",天津卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226686/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226686/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=tjws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=tianjinHD
 
 
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/安徽卫视.png" group-title="卫视频道",安徽卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226664/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226664/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=ahws
 http://203.205.191.53/live.ahsx.ahtv.cn/live/ahwssx.m3u8
 http://xg.52sw.top/play/kzb/play.php?id=ahws
@@ -280,7 +281,7 @@ http://8.138.7.223/tv/cqyx2.php?mode=dx&id=anhuiSD
 
 
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/山东卫视.png" group-title="卫视频道",山东卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226693/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226693/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=sdws
 http://xg.52sw.top/play/kzb/play.php?id=sdws
 http://121.237.204.65:35455/nptv/shandong.m3u8
@@ -289,16 +290,18 @@ http://121.237.204.65:35455/nptv/shandong.m3u8
 
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/深圳卫视.png" group-title="卫视频道",深圳卫视
 https://livepull-tcms.sztv.com.cn:443/live/sz4Kpgm.m3u8
+http://106.53.99.30/tv/api.php?id=szws4k
 http://go.bkpcp.top/mg/szws
 http://t.061899.xyz/tl/dq.php?id=szws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=shenzhenHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226688/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226688/1.m3u8
 
 
 
 
 #EXTINF:-1 tvg-id="82" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/广东卫视.png" group-title="卫视频道",广东卫视HD
 http://go.bkpcp.top/mg/gdws
+http://106.53.99.30/tv/api.php?id=gdws
 http://t.061899.xyz/tl/dq.php?id=gdws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=guangdongHD
 http://148.135.93.213:81/live.php?id=广东卫视
@@ -308,7 +311,7 @@ http://148.135.93.213:81/live.php?id=广东卫视
 
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/广西卫视.png" group-title="卫视频道",广西卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=guangxiHD
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226681/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226681/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=gxws
 
 
@@ -317,12 +320,12 @@ http://t.061899.xyz/tl/dq.php?id=gxws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=jiangsuHD
 http://t.061899.xyz/tl/dq.php?id=jsws
 http://8.138.7.223/tv/dl/jstv.php?id=jsws
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226692/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226692/1.m3u8
 http://148.135.93.213/live.php?id=%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86
 
 
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/江西卫视.png" group-title="卫视频道",江西卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226682/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226682/1.m3u8
 http://121.237.204.65:35455/mgtv/783847495.m3u8
 http://t.061899.xyz/tl/dq.php?id=jxws
 http://xg.52sw.top/play/kzb/play.php?id=jxws
@@ -333,7 +336,7 @@ http://148.135.93.213/live.php?id=%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86
 
 
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/河北卫视.png" group-title="卫视频道",河北卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226684/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226684/1.m3u8
 http://zqh2333.top:2222/rtp/239.93.24.132:5140?key=txiptv
 http://xg.52sw.top/play/kzb/play.php?id=hbws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=hebeiSD
@@ -342,7 +345,7 @@ http://8.138.7.223/tv/cqyx2.php?mode=dx&id=hebeiSD
 
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/河南卫视.png" group-title="卫视频道",河南卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=henanHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226668/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226668/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=hnws
 http://1.94.31.214/php/hntv.php?id=hnws
 
@@ -351,20 +354,20 @@ http://1.94.31.214/php/hntv.php?id=hnws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=zhejiangHD
 https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 http://8.138.7.223/tv/zjws.m3u8
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226690/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226690/1.m3u8
 
 
 
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/海南卫视.png" group-title="卫视频道",海南卫视
 http://nn.7x9d.cn/%E5%9C%B0%E6%96%B9%E5%8F%B08563/%E6%B5%B7%E5%8D%97.php?id=hnws
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226679/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226679/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=hinws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=hainanSD
 
 
 
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/湖北卫视.png" group-title="卫视频道",湖北卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226713/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226713/1.m3u8
 http://148.135.93.213:81/live.php?id=%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86
 http://t.061899.xyz/tl/dq.php?id=hubws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=hubeiSD
@@ -373,14 +376,14 @@ http://120.76.248.139/live/bfgd/4200000102.m3u8
 
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/山西卫视.png" group-title="卫视频道",山西卫视
 http://t.061899.xyz/tl/dq.php?id=sxiws
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226704/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226704/1.m3u8
 http://xg.52sw.top/play/kzb/play.php?id=shanxws
 
 
 
 
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东南卫视.png" group-title="卫视频道",东南卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226670/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226670/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=dnws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=dongnanHD
 http://120.76.248.139/live/bfgd/4200000483.m3u8
@@ -389,27 +392,27 @@ http://8.138.7.223/tv/fjtv1.php?id=dnws
 
 
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/贵州卫视.png" group-title="卫视频道",贵州卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226672/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226672/1.m3u8
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=guizhouHD
 http://t.061899.xyz/tl/dq.php?id=gzws
 
 
 
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/辽宁卫视.png" group-title="卫视频道",辽宁卫视
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226689/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226689/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=lnws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=liaoningHD
 
 
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆卫视.png" group-title="卫视频道",重庆卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=chongqingHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226680/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226680/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=cqws
 
 
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=heilongjiangHD
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226716/1.m3u8 
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226716/1.m3u8 
 http://t.061899.xyz/tl/dq.php?id=hljws
 
 
@@ -418,34 +421,34 @@ http://t.061899.xyz/tl/dq.php?id=nmgws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=neimengkuSD
 http://8.138.7.223/tv/nmgws.m3u8
 http://148.135.93.213:81/live.php?id=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226685/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226685/1.m3u8
 
 
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/宁夏卫视.png" group-title="卫视频道",宁夏卫视
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=ningxia
 http://t.061899.xyz/tl/dq.php?id=nxws
 http://zqh2333.top:2222/rtp/239.93.24.247:5140
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226691/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226691/1.m3u8
 
 
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/陕西卫视.png" group-title="卫视频道",陕西卫视
 http://t.061899.xyz/tl/dq.php?id=sxws
 https://cc06.tv12.xyz/106.m3u8
 http://121.237.204.65:35455/nptv/shanxiws.m3u8
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226707/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226707/1.m3u8
 
 
 #EXTINF:-1 tvg-id="98" tvg-name="吉林卫视HD" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/吉林卫视.png" group-title="卫视频道",吉林卫视HD
 http://t.061899.xyz/tl/dq.php?id=jlws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=jilinHD
 http://xg.52sw.top/play/kzb/play.php?id=jlws
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226671/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226671/1.m3u8
 
 
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/甘肃卫视.png" group-title="卫视频道",甘肃卫视
 http://zqh2333.top:2222/rtp/239.93.24.81:5140
 http://t.061899.xyz/tl/dq.php?id=gsws
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226662/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226662/1.m3u8
 http://xg.52sw.top/play/kzb/play.php?id=gsws
 
 
@@ -453,7 +456,7 @@ http://xg.52sw.top/play/kzb/play.php?id=gsws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=yunnanSD
 http://zqh2333.top:2222/rtp/239.93.25.174:5140?key=txiptv
 http://121.237.204.65:35455/nptv/yunnan.m3u8
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226709/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226709/1.m3u8
 
 
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/三沙卫视.png" group-title="卫视频道",三沙卫视
@@ -474,20 +477,20 @@ http://t.061899.xyz/tl/dq.php?id=qhws
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/新疆卫视.png" group-title="卫视频道",新疆卫视
 http://t.061899.xyz/tl/dq.php?id=xjws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=xinjiangSD
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226700/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226700/1.m3u8
 
 #EXTINF:-1 tvg-id="106" tvg-name="西藏卫视HD" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/西藏卫视.png" group-title="卫视频道",西藏卫视HD
 http://php.jdshipin.com:8880/xztv.php?id=ws
 http://t.061899.xyz/tl/dq.php?id=xzws
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=xizangSD
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226710/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226710/1.m3u8
 
 
 #EXTINF:-1 tvg-id="农林卫视" tvg-name="农林卫视" tvg-logo="https://live.fanmingming.com/tv/农林卫视.png" group-title="卫视频道",农林卫视
 
 
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/厦门卫视.png" group-title="卫视频道",厦门卫视
-http://rrs03.hw.gmcc.net:8088/PLTV/81/224/3221226695/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/81/224/3221226695/1.m3u8
 http://sh.lnott.top:880/dx48.m3u8
 
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/大湾区卫视.png" group-title="卫视频道",大湾区卫视
@@ -540,23 +543,23 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 
 #EXTINF:-1 tvg-id="151" tvg-name="CETV-1" tvg-logo="https://epg.112114.eu.org/logo/CETV1.png" group-title="卫视频道",CETV-1
 http://t.061899.xyz/tl/dq.php?id=cetv1
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226673/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226673/1.m3u8
 http://zqh2333.top:2222/rtp/239.93.25.111:5140
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cetv-1SD
 
 #EXTINF:-1 tvg-id="152" tvg-name="CETV-2" tvg-logo="https://epg.112114.eu.org/logo/CETV2.png" group-title="卫视频道",CETV-2
 http://t.061899.xyz/tl/dq.php?id=cetv2
 http://zqh2333.top:2222/rtp/239.93.24.113:5140
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226718/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226718/1.m3u8
 
 #EXTINF:-1 tvg-id="153" tvg-name="CETV-3" tvg-logo="https://epg.112114.eu.org/logo/CETV3.png" group-title="卫视频道",CETV-3
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226722/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226722/1.m3u8
 
 
 #EXTINF:-1 tvg-id="154" tvg-name="CETV-4" tvg-logo="https://epg.112114.eu.org/logo/CETV4.png" group-title="卫视频道",CETV-4
 http://t.061899.xyz/tl/dq.php?id=cetv4
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=cetv-4SD
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
 
 
 #EXTINF:-1 tvg-id="221" tvg-name="" tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="卫视频道",山东教育卫视
@@ -660,9 +663,9 @@ http://t.061899.xyz/tl/dq.php?id=jjkt
 
 
 #EXTINF:-1 tvg-id="356" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵赛事.png" group-title="数字频道",哒啵赛事台
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226905/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226905/1.m3u8
 #EXTINF:-1 tvg-id="357" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵电竞.png" group-title="数字频道",哒啵电竞台
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226891/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226891/1.m3u8
 #EXTINF:-1 tvg-id="209" tvg-name="上海哈哈炫动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哈哈炫动.png" group-title="数字频道",上海哈哈炫动
 
 #EXTINF:-1 tvg-id="345" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/黑莓动画.png" group-title="数字频道",黑莓动画台
@@ -709,23 +712,23 @@ http://8.138.7.223/tv/cqyx2.php?mode=dx&id=mlzqHD
 
 
 #EXTINF:-1 tvg-id="390" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="数字频道",睛彩 竞技
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226988/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226988/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
 
 
 
 #EXTINF:-1 tvg-id="391" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩篮球.png" group-title="数字频道",睛彩 篮球
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226994/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226994/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
 
 
 #EXTINF:-1 tvg-id="389" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩青少.png" group-title="数字频道",睛彩 青少
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226992/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226992/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011525.m3u8?cdn=FifastbLive
 
 
 #EXTINF:-1 tvg-id="392" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="数字频道",睛彩 广场舞
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227036/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227036/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011524.m3u8?cdn=FifastbLive
 
 
@@ -830,7 +833,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnyl
 
 
 #EXTINF:-1 tvg-id="169" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金鹰纪实.png" group-title="☘️湖南频道",湖南金鹰纪实
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226667/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226667/1.m3u8
 
 
 #EXTINF:-1 tvg-id="168" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金鹰卡通.png" group-title="☘️湖南频道",湖南金鹰卡通
@@ -849,7 +852,7 @@ http://8.138.7.223/tv/cqyx2.php?mode=dx&id=klcdHD
 #EXTINF:-1 tvg-id="132" tvg-name="北京文艺" tvg-logo="https://live.fanmingming.cn/tv/北京文艺.png" group-title="☘️北京频道",北京文艺
 http://t.061899.xyz/tl/dq.php?id=bjwy
 #EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://live.fanmingming.cn/tv/北京纪实科教.png" group-title="☘️北京频道",北京纪实科教高清
-http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226658/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226658/1.m3u8
 http://t.061899.xyz/tl/dq.php?id=bjjs
 http://8.138.7.223/tv/cqyx2.php?mode=dx&id=bjayjsSD
 
@@ -1273,129 +1276,129 @@ http://live.dxhmt.cn:9081/tv/11681-1.m3u8
 
 
 #EXTINF:-1 tvg-name="咪咕视频4k-1" tvg-id="咪咕视频4k-1" tvg-logo="https://epg.112114.eu.org/logo/咪咕4k.png" group-title="💓咪咕直播", 咪咕视频4k-1
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226991/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226991/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="咪咕视频4k-2" tvg-id="咪咕视频4k-2" tvg-logo="https://epg.112114.eu.org/logo/咪咕4k.png" group-title="💓咪咕直播", 咪咕视频4k-2
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226938/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226938/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-1
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226923/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226923/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000005308.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-2
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226776/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226776/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000005969.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-3
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226909/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226909/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000007218.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-4
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226912/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226912/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000008001.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-5
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226918/1.m3u8 
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226918/1.m3u8 
 http://www.youwojipin.com:35455/itv/3000000001000008176.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-6
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226929/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226929/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000008379.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-7
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226935/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226935/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000010129.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-8
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226951/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226951/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000010948.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-9
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226954/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226954/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000028638.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-10
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226982/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226982/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000001000031494.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-11
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226985/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226985/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000005837.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-12
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226995/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226995/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011518.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-13
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227024/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227024/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011519.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-14
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227027/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227027/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011520.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-15
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227030/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227030/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011521.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-16
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226915/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226915/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011522.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-17
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226921/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226921/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-18
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226924/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226924/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011524.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-19
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226926/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226926/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011525.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-20
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226927/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226927/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000000097.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-21
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226932/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226932/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000002019.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-22
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226936/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226936/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-23
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226941/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226941/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-24
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226944/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226944/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-25
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226947/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226947/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-26
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226950/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226950/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000002809.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-27
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226953/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226953/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000003915.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-28
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221226997/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226997/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000004193.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-29
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227000/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227000/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000006077.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-30
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227003/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227003/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000006658.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-31
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227006/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227006/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000009788.m3u8?cdn=FifastbLive
 
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-32
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227009/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227009/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000010833.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-33
-http://rrs03.hw.gmcc.net/PLTV/651/224/3221227012/1.m3u8
+http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221227012/1.m3u8
 http://www.youwojipin.com:35455/itv/3000000010000011297.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://epg.112114.eu.org/logo/咪咕视频.png" group-title="💓咪咕直播", 咪咕视频-34
 http://www.youwojipin.com:35455/itv/3000000010000011518.m3u8?cdn=FifastbLive
