@@ -1,0 +1,57 @@
+name: Daily Download and Run
+
+on:
+  schedule:
+    # 每天凌晨2点执行（UTC时间，对应北京时间10点）
+    # 如需北京时间凌晨执行，请相应调整cron表达式
+    - cron: '0 9 * * *'  # UTC时间09:00，北京时间17:00
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  download-and-run:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # 1. 检出当前仓库
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    # 2. 设置Python环境
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    # 3. 下载指定仓库的特定文件
+    - name: Download target file
+      run: |
+        # 下载指定文件（示例：下载README.md文件）
+        curl -H "Accept: application/vnd.github.v3.raw" \
+        -o bbxx.m3u \
+        https://api.github.com/repos/kimwang/collect-txt/contents
+        
+        # 或者使用GitHub CLI下载
+        # gh api repos/目标用户名/目标仓库名/contents/目标文件路径 \
+        # --jq '.content' | base64 --decode > downloaded_file.md
+        
+    # 4. 安装Python依赖
+    - name: Install dependencies
+      run: |
+        if [ -f requirements.txt ]; then
+          pip install -r requirements.txt
+        fi
+        
+    # 5. 运行Python脚本
+    - name: Run Python script
+      run: |
+        python ${{ github.workspace }}/src/sort_m3u.py bbxx.m3u -o bbxx_iptv.m3u
+        
+    # 6. 提交下载的文件（可选）
+    - name: Commit downloaded file
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add bbxx.m3u
+        git add bbxx_iptv.m3u
+        git diff --staged --quiet || git commit -m "Auto download file [$(date +'%Y-%m-%d %H:%M:%S')"
+        git push
