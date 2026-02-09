@@ -25,20 +25,28 @@ jobs:
         python-version: '3.10'
 
     # 3. 下载指定仓库的特定文件（修复：正确的API路径 + 认证）
+    # 3. 下载指定仓库的特定文件
     - name: Download target file
       run: |
-        # 下载指定文件（修复：直接指定文件路径 + 使用GITHUB_TOKEN认证）
-        curl -L -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-             -H "Accept: application/vnd.github.v3.raw" \
-             -o bbxx.m3u \
-             https://api.github.com/repos/kimwang/collect-txt/contents/bbxx.m3u
+        # 修复：明确指定文件路径（假设目标文件名为 bbxx.m3u,位于仓库根目录)
+        # 注意：替换为实际文件路径
+        TARGET_FILE="bbxx.m3u"
+        API_URL="https://api.github.com/repos/kimwang/collect-txt/contents/$TARGET_FILE"
         
-        # 验证文件是否下载成功
-        if [ ! -f bbxx.m3u ]; then
-          echo "Error: File download failed!"
+        # 使用 curl 下载（添加认证头 + 正确文件路径 + 正确媒体类型）
+        curl -L \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3.raw" \
+          -o "$TARGET_FILE" \
+          "$API_URL"
+        
+        # 验证文件是否下载成功（非空）
+        if [ ! -s "$TARGET_FILE" ]; then
+          echo "Error: Failed to download valid file! File is empty or download failed."
+          cat "$TARGET_FILE"  # 打印文件内容便于调试
           exit 1
         fi
-        echo "File downloaded successfully: $(ls -la bbxx.m3u)"
+        echo "✅ File downloaded successfully: $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
 
     # 4. 安装Python依赖
     - name: Install dependencies
