@@ -31,7 +31,7 @@ jobs:
         # 修复：明确指定文件路径（假设目标文件名为 bbxx.m3u,位于仓库根目录)
         # 注意：替换为实际文件路径
         TARGET_FILE="bbxx.m3u"
-        API_URL="https://api.github.com/repos/kimwang/collect-txt/contents/$TARGET_FILE"
+        API_URL="https://api.github.com/repos/kimwang1978/collect-txt/contents/$TARGET_FILE"
         
         # 使用 curl 下载（添加认证头 + 正确文件路径 + 正确媒体类型）
         curl -L \
