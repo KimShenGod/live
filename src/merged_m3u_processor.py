@@ -176,56 +176,61 @@ class M3UProcessor:
 
     def get_stream_info(self, url: str) -> Optional[Tuple[str, str, str, str]]:
         """使用FFmpeg获取码流信息，返回(分辨率, 码率, 延迟, 缓冲状态)"""
-        # 检查ffprobe是否可用，优先使用用户提供的已知路径
+        # 检查ffprobe是否可用
         ffprobe_path = None
         
-        # 用户提供的已知路径
-        known_path = r"C:\Program Files (x86)\ffmpeg\bin\ffprobe.exe"
-        logger.debug(f"优先使用用户提供的已知路径: {known_path}")
-        
-        # 验证已知路径是否可用
+        # 首先尝试直接调用命令名（跨平台兼容）
+        logger.debug("尝试直接使用ffprobe命令名...")
         try:
             result = subprocess.run(
-                [known_path, '-version'],
+                ['ffprobe', '-version'],
                 capture_output=True,
                 text=True,
                 check=True,
                 timeout=5
             )
-            logger.debug(f"成功使用已知路径: {known_path}")
-            logger.debug(f"ffprobe版本信息: {result.stdout[:100]}...")
-            ffprobe_path = known_path
+            logger.debug(f"成功直接调用ffprobe命令")
+            logger.debug(f"ffprobe版本信息: {result.stdout[:50]}...")
+            ffprobe_path = 'ffprobe'
         except FileNotFoundError:
-            logger.error(f"已知路径不存在: {known_path}")
+            logger.debug("直接调用ffprobe命令失败")
         except Exception as e:
-            logger.error(f"已知路径访问失败: {e}")
+            logger.error(f"直接调用ffprobe时发生异常: {e}")
         
-        # 如果已知路径不可用，尝试直接调用命令名
+        # 如果直接调用失败，尝试不同平台的常见路径
         if not ffprobe_path:
-            logger.debug("尝试直接使用ffprobe命令名...")
-            try:
-                result = subprocess.run(
-                    ['ffprobe', '-version'],
-                    capture_output=True,
-                    text=True,
-                    check=True,
-                    timeout=5
-                )
-                logger.debug(f"成功直接调用ffprobe命令")
-                logger.debug(f"ffprobe版本信息: {result.stdout[:50]}...")
-                ffprobe_path = 'ffprobe'
-            except FileNotFoundError:
-                logger.error("直接调用ffprobe命令失败")
-            except Exception as e:
-                logger.error(f"直接调用ffprobe时发生异常: {e}")
+            # 尝试Linux/Mac路径
+            common_paths = [
+                '/usr/bin/ffprobe',
+                '/usr/local/bin/ffprobe',
+                '/opt/homebrew/bin/ffprobe',
+                r'C:\Program Files\ffmpeg\bin\ffprobe.exe',
+                r'C:\Program Files (x86)\ffmpeg\bin\ffprobe.exe'
+            ]
+            
+            for path in common_paths:
+                try:
+                    result = subprocess.run(
+                        [path, '-version'],
+                        capture_output=True,
+                        text=True,
+                        check=True,
+                        timeout=5
+                    )
+                    logger.debug(f"成功使用路径: {path}")
+                    ffprobe_path = path
+                    break
+                except (FileNotFoundError, subprocess.CalledProcessError):
+                    continue
+                except Exception as e:
+                    logger.error(f"访问路径 {path} 时发生异常: {e}")
         
         # 如果仍然找不到ffprobe
         if not ffprobe_path:
             logger.error("无法找到ffprobe命令")
             logger.debug(f"当前PATH环境变量: {os.environ.get('PATH', '')}")
             logger.debug(f"当前工作目录: {os.getcwd()}")
-            logger.debug(f"尝试过的路径: {known_path}, ffprobe")
-            logger.error("请确保FFmpeg已安装并添加到系统PATH中，或修改脚本中的known_path变量")
+            logger.error("请确保FFmpeg已安装并添加到系统PATH中")
             return None
         
         # 构建FFprobe命令 - 优化参数以更快获取码流信息

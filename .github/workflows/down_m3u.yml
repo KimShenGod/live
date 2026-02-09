@@ -25,7 +25,6 @@ jobs:
         python-version: '3.10'
 
     # 3. 下载指定仓库的特定文件（修复：正确的API路径 + 认证）
-    # 3. 下载指定仓库的特定文件
     - name: Download target file
       run: |
         # 修复：明确指定文件路径（假设目标文件名为 bbxx.m3u,位于仓库根目录)
@@ -48,10 +47,11 @@ jobs:
         fi
         echo "✅ File downloaded successfully: $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
 
-    # 4. 安装Python依赖
+    # 4. 安装FFmpeg
     - name: Install FFmpeg (for FFprobe)
       run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
+    # 5. 安装Python依赖
     - name: Install dependencies
       run: |
         pip install --upgrade pip
@@ -59,7 +59,7 @@ jobs:
           pip install -r requirements.txt
         fi
 
-    # 5. 运行Python脚本（修复：检查脚本是否存在）
+    # 6. 运行Python脚本（修复：检查脚本是否存在）
     - name: Run Python script
       run: |
         # 检查脚本是否存在
@@ -71,7 +71,7 @@ jobs:
         # 运行脚本
         python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
 
-    # 6. 提交文件到仓库（修复：闭合引号 + 检查修改）
+    # 7. 提交文件到仓库（修复：闭合引号 + 检查修改）
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
