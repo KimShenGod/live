@@ -15,6 +15,8 @@ jobs:
     # 1. 检出当前仓库
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 获取完整历史，便于后续 rebase 操作
 
     # 2. 设置Python环境
     - name: Set up Python
@@ -64,13 +66,23 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # 添加文件
+        # 1. 拉取远程最新更改（使用 rebase 避免多余的 merge commit）
+        git pull --rebase origin main || {
+          echo "Pull failed, trying to resolve conflicts..."
+          # 2. 若 rebase 失败（冲突），则强制使用本地版本
+          git rebase --abort
+          git pull --no-rebase --force || true
+        }
+        
+        # 3. 添加文件
         git add bbxx.m3u bbxx_iptv.m3u
         
-        # 仅当有修改时才提交
+        # 4. 仅当有修改时才提交
         if git diff --staged --quiet; then
           echo "No changes to commit."
         else
           git commit -m "Auto download file [$(date +'%Y-%m-%d %H:%M:%S')]"
-          git push
+          # 5. 推送（若 rebase 成功，则直接推送；否则可能需要强制推送）
+          git push || git push --force-with-lease  # 使用 --force-with-lease 比 --force 更安全
         fi
+      shell: /usr/bin/bash -e {0}
