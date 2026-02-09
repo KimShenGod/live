@@ -233,7 +233,7 @@ class M3UProcessor:
             logger.error("请确保FFmpeg已安装并添加到系统PATH中")
             return None
         
-        # 构建FFprobe命令 - 优化参数以更快获取码流信息
+        # 构建FFprobe命令 - 优化参数以更快获取码流信息，增加超时时间
         cmd = [
             ffprobe_path,
             '-v', 'warning',  # 显示警告信息以便调试
@@ -241,13 +241,14 @@ class M3UProcessor:
             '-show_entries', 'stream=width,height,bit_rate,avg_bit_rate,start_time,duration,codec_time_base',  # 添加延迟相关字段
             '-show_entries', 'format=bit_rate,start_time,duration,probe_score',  # 添加格式延迟和缓冲相关字段
             '-of', 'csv=p=0',
-            '-timeout', '3000000',  # 3秒超时（单位：微秒）
+            '-timeout', '5000000',  # 5秒超时（单位：微秒）
             '-reconnect', '1',  # 允许重连
-            '-reconnect_delay_max', '2',  # 最大重连延迟2秒
-            '-probesize', '1000000',  # 优化探针大小（1MB）
-            '-analyzeduration', '2000000',  # 优化分析时长（2秒）
-            '-rw_timeout', '3000000',  # 读写超时
-            '-max_delay', '3000000',  # 最大延迟
+            '-reconnect_delay_max', '3',  # 最大重连延迟3秒
+            '-reconnect_at_eof', '1',  # 允许在EOF时重连
+            '-probesize', '2000000',  # 增加探针大小（2MB）
+            '-analyzeduration', '5000000',  # 增加分析时长（5秒）
+            '-rw_timeout', '5000000',  # 读写超时5秒
+            '-max_delay', '5000000',  # 最大延迟5秒
             url
         ]
         
@@ -258,7 +259,7 @@ class M3UProcessor:
                 cmd,
                 capture_output=True,
                 text=True,
-                timeout=15,  # 增加超时时间
+                timeout=20,  # 增加超时时间到20秒
                 check=False  # 不使用check=True，避免非零退出码抛出异常
             )
             
@@ -283,18 +284,21 @@ class M3UProcessor:
                     '-show_entries', 'stream=width,height,bit_rate,avg_bit_rate,start_time,duration,codec_time_base',  # 添加延迟相关字段
                     '-show_entries', 'format=bit_rate,start_time,duration,probe_score',  # 添加格式延迟和缓冲相关字段
                     '-of', 'json',
-                    '-timeout', '3000000',  # 3秒超时
-                    '-probesize', '1000000',  # 1MB探针大小
-                    '-analyzeduration', '2000000',  # 2秒分析时长
-                    '-rw_timeout', '3000000',  # 读写超时
-                    '-max_delay', '3000000'  # 最大延迟
+                    '-timeout', '5000000',  # 5秒超时
+                    '-reconnect', '1',  # 允许重连
+                    '-reconnect_delay_max', '3',  # 最大重连延迟3秒
+                    '-reconnect_at_eof', '1',  # 允许在EOF时重连
+                    '-probesize', '2000000',  # 2MB探针大小
+                    '-analyzeduration', '5000000',  # 5秒分析时长
+                    '-rw_timeout', '5000000',  # 读写超时5秒
+                    '-max_delay', '5000000'  # 最大延迟5秒
                 ]
                 
                 json_result = subprocess.run(
                     json_cmd,
                     capture_output=True,
                     text=True,
-                    timeout=10
+                    timeout=20  # 增加超时时间到20秒
                 )
                 
                 if json_result.stdout:
