@@ -49,6 +49,9 @@ jobs:
         echo "✅ File downloaded successfully: $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
 
     # 4. 安装Python依赖
+    - name: Install FFmpeg (for FFprobe)
+      run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
     - name: Install dependencies
       run: |
         pip install --upgrade pip
@@ -60,13 +63,13 @@ jobs:
     - name: Run Python script
       run: |
         # 检查脚本是否存在
-        SCRIPT_PATH="${{ github.workspace }}/src/sort_m3u.py"
+        SCRIPT_PATH="${{ github.workspace }}/src/merged_m3u_processor.py"
         if [ ! -f "$SCRIPT_PATH" ]; then
           echo "Error: Script not found at $SCRIPT_PATH!"
           exit 1
         fi
         # 运行脚本
-        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u
+        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
 
     # 6. 提交文件到仓库（修复：闭合引号 + 检查修改）
     - name: Commit and push changes
