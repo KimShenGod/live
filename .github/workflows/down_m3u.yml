@@ -2,56 +2,75 @@ name: Daily Download and Run
 
 on:
   schedule:
-    # 每天凌晨2点执行（UTC时间，对应北京时间10点）
-    # 如需北京时间凌晨执行，请相应调整cron表达式
     - cron: '0 9 * * *'  # UTC时间09:00，北京时间17:00
   workflow_dispatch:  # 允许手动触发
 
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write  # 允许修改仓库内容（用于git push）
+
     steps:
     # 1. 检出当前仓库
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+
     # 2. 设置Python环境
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-        
-    # 3. 下载指定仓库的特定文件
+
+    # 3. 下载指定仓库的特定文件（修复：正确的API路径 + 认证）
     - name: Download target file
       run: |
-        # 下载指定文件（示例：下载README.md文件）
-        curl -H "Accept: application/vnd.github.v3.raw" \
-        -o bbxx.m3u \
-        https://api.github.com/repos/kimwang/collect-txt/contents
+        # 下载指定文件（修复：直接指定文件路径 + 使用GITHUB_TOKEN认证）
+        curl -L -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+             -H "Accept: application/vnd.github.v3.raw" \
+             -o bbxx.m3u \
+             https://api.github.com/repos/kimwang/collect-txt/contents/bbxx.m3u
         
-        # 或者使用GitHub CLI下载
-        # gh api repos/目标用户名/目标仓库名/contents/目标文件路径 \
-        # --jq '.content' | base64 --decode > downloaded_file.md
-        
+        # 验证文件是否下载成功
+        if [ ! -f bbxx.m3u ]; then
+          echo "Error: File download failed!"
+          exit 1
+        fi
+        echo "File downloaded successfully: $(ls -la bbxx.m3u)"
+
     # 4. 安装Python依赖
     - name: Install dependencies
       run: |
+        pip install --upgrade pip
         if [ -f requirements.txt ]; then
           pip install -r requirements.txt
         fi
-        
-    # 5. 运行Python脚本
+
+    # 5. 运行Python脚本（修复：检查脚本是否存在）
     - name: Run Python script
       run: |
-        python ${{ github.workspace }}/src/sort_m3u.py bbxx.m3u -o bbxx_iptv.m3u
-        
-    # 6. 提交下载的文件（可选）
-    - name: Commit downloaded file
+        # 检查脚本是否存在
+        SCRIPT_PATH="${{ github.workspace }}/src/sort_m3u.py"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          exit 1
+        fi
+        # 运行脚本
+        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u
+
+    # 6. 提交文件到仓库（修复：闭合引号 + 检查修改）
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add bbxx.m3u
-        git add bbxx_iptv.m3u
-        git diff --staged --quiet || git commit -m "Auto download file [$(date +'%Y-%m-%d %H:%M:%S')"
-        git push
+        
+        # 添加文件
+        git add bbxx.m3u bbxx_iptv.m3u
+        
+        # 仅当有修改时才提交
+        if git diff --staged --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Auto download file [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+        fi
