@@ -69,12 +69,12 @@ jobs:
           exit 1
         fi
         # 运行脚本
-        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
+        # python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
     # 7. 运行Python脚本（修复：检查脚本是否存在）
     - name: Run channel merge script
       run: |
         # 检查脚本是否存在
-        SCRIPT_PATH="${{ github.workspace }}/src/merged_channels.py"
+        SCRIPT_PATH="${{ github.workspace }}/src/merge_channels.py"
         if [ ! -f "$SCRIPT_PATH" ]; then
           echo "Error: Script not found at $SCRIPT_PATH!"
           exit 1
