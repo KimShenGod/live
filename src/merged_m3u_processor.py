@@ -162,6 +162,10 @@ class M3UProcessor:
 
     def check_url_accessibility(self, url: str, timeout: int = 5) -> bool:
         """检查URL是否可访问"""
+        # 跳过已知无效域名
+        if "iptv.catvod.com" in url:
+            logger.debug(f"跳过已知无效域名: {url}")
+            return False
         try:
             # 使用HEAD请求快速检查
             response = requests.head(url, timeout=timeout, allow_redirects=True)
