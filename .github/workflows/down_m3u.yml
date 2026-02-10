@@ -70,8 +70,18 @@ jobs:
         fi
         # 运行脚本
         python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
-
-    # 7. 提交文件到仓库（修复：闭合引号 + 检查修改）
+    # 7. 运行Python脚本（修复：检查脚本是否存在）
+    - name: Run channel merge script
+      run: |
+        # 检查脚本是否存在
+        SCRIPT_PATH="${{ github.workspace }}/src/merged_channels.py"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          exit 1
+        fi
+        # 运行脚本
+        python "$SCRIPT_PATH" bbxx_iptv.m3u
+    # 8. 提交文件到仓库（修复：闭合引号 + 检查修改）
     - name: Commit and push changes 
       run: | 
         git config --local user.email "action@github.com" 
@@ -93,7 +103,7 @@ jobs:
         git stash pop || true
         
         # 4. Add only the specific files we modified
-        git add bbxx.m3u bbxx_iptv.m3u 
+        git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u
         
         # 5. Only commit if there are changes
         if git diff --staged --quiet; then 
