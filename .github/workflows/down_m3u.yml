@@ -69,7 +69,7 @@ jobs:
           exit 1
         fi
         # 运行脚本
-        # python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
+        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
     # 7. 运行Python脚本（修复：检查脚本是否存在）
     - name: Run channel merge script
       run: |
