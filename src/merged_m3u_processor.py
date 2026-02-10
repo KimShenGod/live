@@ -154,10 +154,7 @@ class M3UProcessor:
             current_channel.original_lines = current_channel_lines
             channels.append(current_channel)
         
-        # 按group-title排序
-        channels.sort(key=lambda x: x.group_title or '')
-        
-        # 更新类属性
+        # 更新类属性 - 保留原始顺序，不进行排序
         self.channels = channels
         self.header_lines = header_lines
         
@@ -714,29 +711,49 @@ class M3UProcessor:
         valid_url_count = 0
         
         for channel in self.channels:
-            # 初始化valid_lines，添加#EXTINF行和其他非URL行
+            # 初始化变量
             channel.valid_lines = []
-            
-            # 遍历原始行，处理每个行
+            has_valid_url = False
             url_index = 0
+            
+            # 第一遍：收集有效URL的索引
+            valid_url_indices = []
+            if hasattr(channel, 'quality_info_list'):
+                for i, quality_info in enumerate(channel.quality_info_list):
+                    if quality_info['resolution'] not in ['未知', '不可访问'] and quality_info['buffer_status'] == '良好':
+                        valid_url_indices.append(i)
+                        has_valid_url = True
+                        valid_url_count += 1
+            
+            # 如果没有有效URL，跳过该频道
+            if not has_valid_url:
+                channel.valid_lines = []
+                continue
+            
+            # 第二遍：构建valid_lines，先添加所有非URL行，再添加有效URL行
+            # 收集非URL行
+            non_url_lines = []
+            # 收集URL行及其对应索引
+            url_lines = []
+            current_url_idx = 0
+            
             for original_line in channel.original_lines:
                 stripped_line = original_line.strip()
-                
-                # 非URL行直接保留（包括#EXTINF行和注释行等）
-                if not (stripped_line.startswith('http://') or stripped_line.startswith('https://')):
-                    channel.valid_lines.append(original_line)
+                if stripped_line.startswith('http://') or stripped_line.startswith('https://'):
+                    # 这是URL行，保存起来以便后续筛选
+                    url_lines.append((current_url_idx, original_line))
+                    current_url_idx += 1
                 else:
-                    # 这是一个URL行，需要检查是否符合条件
-                    if url_index < len(channel.urls):
-                        # 获取该URL的质量信息
-                        url_quality = channel.quality_info_list[url_index] if hasattr(channel, 'quality_info_list') else channel.quality_info
-                        
-                        # 检查条件：分辨率不是未知/不可访问，且缓冲状态为良好
-                        if url_quality['resolution'] not in ['未知', '不可访问'] and url_quality['buffer_status'] == '良好':
-                            channel.valid_lines.append(original_line)
-                            valid_url_count += 1
-                        
-                        url_index += 1
+                    # 非URL行直接添加到valid_lines
+                    non_url_lines.append(original_line)
+            
+            # 构建最终的valid_lines
+            channel.valid_lines = non_url_lines
+            
+            # 添加有效URL行
+            for idx, line in url_lines:
+                if idx in valid_url_indices:
+                    channel.valid_lines.append(line)
         
         # 4. 打印结果统计
         print(f"\n==========================================")
