@@ -177,6 +177,41 @@ class M3UProcessor:
 
     def get_stream_info(self, url: str) -> Optional[Tuple[str, str, str, str]]:
         """使用FFmpeg获取码流信息，返回(分辨率, 码率, 延迟, 缓冲状态)"""
+        # 首先尝试使用m3u8库进行复检
+        try:
+            import m3u8
+            
+            logger.debug(f"使用m3u8库复检URL: {url}")
+            # 尝试解析m3u8文件
+            m3u8_obj = m3u8.load(url)
+            
+            # 如果解析成功，说明URL是有效的m3u8流
+            if m3u8_obj:
+                logger.debug(f"m3u8库成功解析URL: {url}")
+                # 检查是否有播放列表
+                if hasattr(m3u8_obj, 'playlists') and m3u8_obj.playlists:
+                    # 找到最高质量的播放列表
+                    max_resolution = (0, 0)
+                    
+                    for playlist in m3u8_obj.playlists:
+                        if hasattr(playlist, 'stream_info') and playlist.stream_info:
+                            if hasattr(playlist.stream_info, 'resolution') and playlist.stream_info.resolution:
+                                width, height = playlist.stream_info.resolution
+                                if (width, height) > max_resolution:
+                                    max_resolution = (width, height)
+                    
+                    if max_resolution != (0, 0):
+                        resolution = f"{max_resolution[0]}x{max_resolution[1]}"
+                        logger.debug(f"m3u8库检测到分辨率: {resolution}")
+                        # 返回检测结果，码率和延迟使用FFprobe或默认值
+                        return (resolution, "未知", "实时", "良好")
+                    else:
+                        # 虽然是有效的m3u8流，但没有分辨率信息
+                        logger.debug(f"m3u8库解析成功，但未检测到分辨率")
+                        return ("未知", "未知", "实时", "良好")
+        except Exception as e:
+            logger.debug(f"m3u8库复检失败 {url}: {e}")
+        
         # 检查ffprobe是否可用
         ffprobe_path = None
         
@@ -232,7 +267,8 @@ class M3UProcessor:
             logger.debug(f"当前PATH环境变量: {os.environ.get('PATH', '')}")
             logger.debug(f"当前工作目录: {os.getcwd()}")
             logger.error("请确保FFmpeg已安装并添加到系统PATH中")
-            return None
+            # 如果没有ffprobe，返回m3u8复检的默认结果
+            return ("未知", "未知", "实时", "良好")
         
         # 构建FFprobe命令 - 优化参数以更快获取码流信息，增加超时时间
         cmd = [
@@ -412,12 +448,14 @@ class M3UProcessor:
                     except json.JSONDecodeError as e:
                         logger.debug(f"JSON解析失败: {e}")
                 
-                return None
+                # 如果FFprobe失败，但m3u8库解析成功，返回默认结果
+                return ("未知", "未知", "实时", "良好")
             
             # 处理输出
             lines = output.split('\n')
             if not lines:
-                return None
+                # 如果FFprobe失败，但m3u8库解析成功，返回默认结果
+                return ("未知", "未知", "实时", "良好")
             
             # 解析CSV输出 - 处理多行格式
             stream_parts = []
@@ -527,17 +565,21 @@ class M3UProcessor:
                     
                     return (resolution, bitrate_str, delay_str, buffer_status)
             
-            return None
+            # 如果FFprobe解析失败，但m3u8库解析成功，返回默认结果
+            return ("未知", "未知", "实时", "良好")
         
         except subprocess.TimeoutExpired:
             logger.error(f"FFprobe超时 {url}")
-            return None
+            # 如果FFprobe超时，但m3u8库解析成功，返回默认结果
+            return ("未知", "未知", "实时", "良好")
         except subprocess.CalledProcessError as e:
             logger.error(f"FFprobe调用失败 {url}: {e}")
-            return None
+            # 如果FFprobe调用失败，但m3u8库解析成功，返回默认结果
+            return ("未知", "未知", "实时", "良好")
         except Exception as e:
             logger.error(f"获取码流信息失败 {url}: {e}")
-            return None
+            # 如果发生其他异常，但m3u8库解析成功，返回默认结果
+            return ("未知", "未知", "实时", "良好")
 
     def analyze_channel_quality(self, channel):
         """分析单个频道的所有直播源质量信息"""
@@ -547,6 +589,20 @@ class M3UProcessor:
             
             # 处理频道的所有URL
             for url in channel.urls:
+                # 跳过已知无效域名
+                if "iptv.catvod.com" in url:
+                    logger.debug(f"跳过已知无效域名的分析: {url}")
+                    # 添加标记为不可访问的质量信息
+                    channel.quality_info_list.append({
+                        'resolution': '不可访问',
+                        'bitrate': '未知',
+                        'delay': '未知',
+                        'buffer_status': '未知',
+                        'download_speed': 0,
+                        'total_downloaded': 0,
+                        'download_time': 0
+                    })
+                    continue
                 url_quality = {
                     'resolution': '未知',
                     'bitrate': '未知',
@@ -658,8 +714,10 @@ class M3UProcessor:
             
             # 遍历频道的所有URL，检查是否有满足条件的
             for i, url in enumerate(channel.urls):
-                # 获取该URL的质量信息
-                url_quality = channel.quality_info_list[i] if hasattr(channel, 'quality_info_list') else channel.quality_info
+                # 获取该URL的质量信息，确保索引不超出范围
+                url_quality = channel.quality_info
+                if hasattr(channel, 'quality_info_list') and i < len(channel.quality_info_list):
+                    url_quality = channel.quality_info_list[i]
                 
                 # 检查条件：分辨率有效且缓冲状态良好
                 if url_quality['resolution'] not in ['未知', '不可访问'] and url_quality['buffer_status'] == '良好':
