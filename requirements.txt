@@ -3,3 +3,4 @@ eventlet>=0.33.0
 requests>=2.25.0
 m3u8>=1.0.0
 selenium>=4.0.0
+lxml>=6.0.2
