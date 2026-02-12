@@ -692,10 +692,10 @@ class M3UProcessor:
                     logger.error(f"下载速度测试失败 {url}: {e}")
                 
                 # 对于可访问但分辨率和缓冲状态都是未知的URL，尝试作为有效媒体段处理
-                if url_quality['resolution'] == '未知' and url_quality['buffer_status'] == '未知' and url_quality['download_speed'] > 0:
-                    logger.debug(f"URL {url} 可访问且有下载速度，但无法获取分辨率和缓冲状态，标记为有效媒体段")
-                    url_quality['resolution'] = '有效媒体段'
-                    url_quality['buffer_status'] = '良好'
+                # if url_quality['resolution'] == '未知' and url_quality['buffer_status'] == '未知' and url_quality['download_speed'] > 0:
+                #     logger.debug(f"URL {url} 可访问且有下载速度，但无法获取分辨率和缓冲状态，标记为有效媒体段")
+                #     url_quality['resolution'] = '有效媒体段'
+                #     url_quality['buffer_status'] = '良好'
                 
                 channel.quality_info_list.append(url_quality)
             
