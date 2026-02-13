@@ -94,7 +94,18 @@ jobs:
         fi
         # 运行脚本
         python "$SCRIPT_PATH" bbxx_iptv.m3u
-    # 9. 提交文件到仓库（修复：闭合引号 + 检查修改）
+    # 9. 运行Python脚本（将m3u文件中的频道名改成epg中读取到的名字）
+    - name: Run modify channel name script
+      run: |
+        # 检查脚本是否存在
+        SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          exit 1
+        fi
+        # 运行脚本
+        python "$SCRIPT_PATH" -a alias2.txt -i bbxx_lite.m3u -o bbxx_lite_new.m3u
+    # 10. 提交文件到仓库（修复：闭合引号 + 检查修改）
     - name: Commit and push changes 
       run: | 
         git config --local user.email "action@github.com" 
@@ -116,7 +127,7 @@ jobs:
         git stash pop || true
         
         # 4. Add only the specific files we modified
-        git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u merged_epg.xml
+        git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u merged_epg.xml bbxx_lite_new.m3u
         
         # 5. Only commit if there are changes
         if git diff --staged --quiet; then 
