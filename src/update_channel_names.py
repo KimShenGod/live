@@ -176,7 +176,16 @@ def update_m3u_channels(m3u_file, alias_map, output_file):
         with open(output_file, 'w', encoding='utf-8') as f:
             for line in updated_lines:
                 f.write(f"{line}\n")
+        # 删除原始M3U文件
+        if os.path.exists(m3u_file):
+            os.remove(m3u_file)
+            print(f"🗑️  已删除原始文件: {m3u_file}")
         
+        # 将输出文件重命名为原始文件的名字
+        if os.path.exists(output_file):
+            os.rename(output_file, m3u_file)
+            print(f"🔄 已将输出文件重命名为: {m3u_file}")
+
         # 打印统计信息
         print(f"\n📊 统计信息:")
         print(f"   总频道数: {total_channels}")
@@ -190,7 +199,7 @@ def update_m3u_channels(m3u_file, alias_map, output_file):
                 print(f"   - {channel}")
         
         print(f"\n✅ 更新完成")
-        print(f"✅ 结果已保存到: {output_file}")
+        print(f"✅ 最终结果已保存到: {m3u_file}")
         return True
         
     except Exception as e:

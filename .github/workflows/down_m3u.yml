@@ -127,7 +127,7 @@ jobs:
         git stash pop || true
         
         # 4. Add only the specific files we modified
-        git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u merged_epg.xml bbxx_lite_new.m3u
+        git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u merged_epg.xml
         
         # 5. Only commit if there are changes
         if git diff --staged --quiet; then 

@@ -329,7 +329,7 @@ http://38.75.136.137:98/gslb/dsdqpub/xjws.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="106" tvg-name="西藏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/西藏卫视.png" group-title="卫视频道",西藏卫视
 http://120.76.248.139/live/bfgd/4200000121.m3u8
 
-#EXTINF:-1 tvg-id="农林卫视" tvg-name="农林卫视" tvg-logo="https://live.fanmingming.com/tv/农林卫视.png" group-title="卫视频道",农林卫视
+#EXTINF:-1 tvg-id="陕西农林卫视" tvg-name="陕西农林卫视" tvg-logo="https://live.fanmingming.com/tv/陕西农林卫视.png" group-title="卫视频道",陕西农林卫视
 http://43.251.226.89:8080/play/49.m3u8
 
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/厦门卫视.png" group-title="卫视频道",厦门卫视
@@ -531,7 +531,7 @@ https://migu.188766.xyz/?migutoken=a1dd4d4fec8cc909073a1520aa6245d8&id=%E5%98%89
 #EXTINF:-1 tvg-id="392" tvg-name="睛彩广场舞" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="数字频道",睛彩广场舞
 
 
-#EXTINF:-1 tvg-id="120" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/睛彩影视.png" group-title="数字频道",精彩影视
+#EXTINF:-1 tvg-id="120" tvg-name="精彩影视" tvg-logo="https://live.fanmingming.com/tv/睛彩影视.png" group-title="数字频道",精彩影视
 #EXTINF:-1 tvg-id="" tvg-name="Hot风尚音乐" tvg-logo="" group-title="数字频道",Hot风尚音乐
 
 #EXTINF:-1 tvg-id="" tvg-name="Hot精品剧场" tvg-logo="" group-title="数字频道",Hot精品剧场
@@ -569,7 +569,7 @@ https://migu.188766.xyz/?migutoken=a1dd4d4fec8cc909073a1520aa6245d8&id=%E5%98%89
 #EXTINF:-1 tvg-id="重庆少儿" tvg-name="重庆少儿" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆少儿.png" group-title="☘️重庆频道",重庆少儿
 #EXTINF:-1 tvg-id="汽摩" tvg-name="汽摩" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆汽摩.png" group-title="☘️重庆频道",汽摩
 
-#EXTINF:-1 tvg-id="129" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="☘️重庆频道",重庆移动高清
+#EXTINF:-1 tvg-id="129" tvg-name="重庆移动" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重庆移动.png" group-title="☘️重庆频道",重庆移动
 #EXTINF:-1 tvg-id="423" tvg-name="" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/重广融媒.png" group-title="☘️重庆频道",重广融媒高清
 #EXTINF:-1 tvg-id="422" tvg-name="" tvg-logo="https://www.mxd.nuoi.cn/pages/iptv/logo/爱看导视.png" group-title="☘️重庆频道",爱看导视高清
 #EXTINF:-1 tvg-id="璧山综合" tvg-name="璧山综合" tvg-logo="https://epg.112114.eu.org/logo/重庆璧山.png" group-title="☘️重庆频道",璧山综合
@@ -586,7 +586,7 @@ http://222.179.155.21:1935/ch1.m3u8
 #EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上海第一财经.png" group-title="☘️上海频道",第一财经
 http://43.251.226.89:8080/play/56.m3u8
 
-#EXTINF:-1 tvg-id="上视上视东方影视" tvg-name="上视东方影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上视东方影视.png" group-title="☘️上海频道",上视东方影视
+#EXTINF:-1 tvg-id="上视东方影视" tvg-name="东方影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东方影视.png" group-title="☘️上海频道",东方影视
 http://43.251.226.89:8080/play/55.m3u8
 
 #EXTINF:-1 tvg-id="263" tvg-name="上海都市" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上海都市.png" group-title="☘️上海频道",上海都市
@@ -624,7 +624,7 @@ http://43.251.226.89:8080/play/31.m3u8
 
 #EXTINF:-1 tvg-id="132" tvg-name="北京文艺" tvg-logo="https://live.fanmingming.cn/tv/北京文艺.png" group-title="☘️北京频道",北京文艺
 http://m.061899.xyz/mg/bjwy
-#EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://live.fanmingming.cn/tv/北京纪实科教.png" group-title="☘️北京频道",北京纪实科教高清
+#EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://live.fanmingming.cn/tv/北京纪实科教.png" group-title="☘️北京频道",北京纪实
 http://m.061899.xyz/mg/bjjs
 #EXTINF:-1 tvg-id="131" tvg-name="北京影视" tvg-logo="https://live.fanmingming.cn/tv/北京影视.png" group-title="☘️北京频道",北京影视
 http://m.061899.xyz/mg/bjys
@@ -639,18 +639,18 @@ http://m.061899.xyz/mg/bjxw
 #EXTINF:-1 tvg-id="137" tvg-name="北京体育休闲" tvg-logo="https://live.fanmingming.cn/tv/北京体育休闲休闲.png" group-title="☘️北京频道",北京体育休闲
 http://m.061899.xyz/mg/bjty
 
-#EXTINF:-1 tvg-id="" tvg-name="北京IPTV 4K超清" tvg-logo="https://live.fanmingming.cn/tv/北京IPTV4K.png" group-title="☘️北京频道",北京IPTV 4K超清
+#EXTINF:-1 tvg-id="" tvg-name="北京IPTV4K超清" tvg-logo="https://live.fanmingming.cn/tv/北京IPTV4K.png" group-title="☘️北京频道",北京IPTV4K超清
 
-#EXTINF:-1 tvg-id="377" tvg-name="北京淘电影" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘电影.png" group-title="☘️北京频道",北京IPTV 淘电影
+#EXTINF:-1 tvg-id="377" tvg-name="淘电影" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘电影.png" group-title="☘️北京频道",淘电影
 
 
-#EXTINF:-1 tvg-id="380" tvg-name="北京淘剧场" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘剧场.png" group-title="☘️北京频道",北京IPTV 淘剧场
+#EXTINF:-1 tvg-id="380" tvg-name="淘剧场" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘剧场.png" group-title="☘️北京频道",淘剧场
 
-#EXTINF:-1 tvg-id="378" tvg-name="北京淘娱乐" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘娱乐.png" group-title="☘️北京频道",北京IPTV 淘娱乐
+#EXTINF:-1 tvg-id="378" tvg-name="淘娱乐" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘娱乐.png" group-title="☘️北京频道",淘娱乐
 
-#EXTINF:-1 tvg-id="376" tvg-name="北京淘BABY" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘BABY.png" group-title="☘️北京频道",北京IPTV 淘BABY
+#EXTINF:-1 tvg-id="376" tvg-name="淘BABY" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV淘BABY.png" group-title="☘️北京频道",淘BABY
 
-#EXTINF:-1 tvg-id="" tvg-name="北京IPTV 萌宠TV" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV萌宠TV.png" group-title="☘️北京频道",北京IPTV 萌宠TV
+#EXTINF:-1 tvg-id="" tvg-name="萌宠TV" tvg-logo="https://epg.112114.eu.org/logo/北京IPTV萌宠TV.png" group-title="☘️北京频道",萌宠TV
 
 #EXTINF:-1 tvg-id="219" tvg-name="江苏新闻频道" tvg-logo="https://epg.112114.eu.org/logo/江苏新闻.png" group-title="☘️江苏频道",江苏新闻频道
 #EXTINF:-1 tvg-id="214" tvg-name="江苏城市" tvg-logo="https://epg.112114.eu.org/logo/江苏城市.png" group-title="☘️江苏频道",江苏城市
@@ -801,13 +801,13 @@ http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 https://liveout.xntv.tv/a65jur/90p2i1.m3u8
 #EXTINF:-1 tvg-id="西宁综合" tvg-name="西宁综合" tvg-logo="https://epg.112114.eu.org/logo/西宁新闻综合.png" group-title="☘️青海频道",西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
-#EXTINF:-1 tvg-id="厦门一套" tvg-name="厦门一套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视1套.png" group-title="☘️福建频道",厦门1套
+#EXTINF:-1 tvg-id="厦门一套" tvg-name="厦门一套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视1套.png" group-title="☘️福建频道",厦门一套
 
-#EXTINF:-1 tvg-id="厦门一套" tvg-name="厦门一套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视1套.png" group-title="☘️福建频道",厦门1套
+#EXTINF:-1 tvg-id="厦门一套" tvg-name="厦门一套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视1套.png" group-title="☘️福建频道",厦门一套
 
-#EXTINF:-1 tvg-id="厦门二套" tvg-name="厦门二套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视1套.png" group-title="☘️福建频道",厦门2套
+#EXTINF:-1 tvg-id="厦门二套" tvg-name="厦门二套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视1套.png" group-title="☘️福建频道",厦门二套
 
-#EXTINF:-1 tvg-id="厦门二套" tvg-name="厦门二套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视2套.png" group-title="☘️福建频道",厦门2套
+#EXTINF:-1 tvg-id="厦门二套" tvg-name="厦门二套" tvg-logo="https://epg.112114.eu.org/logo/厦门卫视2套.png" group-title="☘️福建频道",厦门二套
 
 #EXTINF:-1 tvg-id="474" tvg-name="西安新闻综合" tvg-logo="https://epg.112114.eu.org/logo/西安新闻综合.png" group-title="☘️陕西频道",西安新闻综合
 https://xatv-yt.xiancity.cn/live/1/index.m3u8
@@ -1130,7 +1130,7 @@ http://iptv.4666888.xyz/iptv2A.php?id=26
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://epg.112114.eu.org/logo/TVB Plus.png" group-title="💓港澳台📶[HK]",TVB Plus
 https://o11.163189.xyz/stream/tvb/tvbp/
 
-#EXTINF:-1 tvg-id="507" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/天映频道.png" group-title="💓港澳台📶[HK]",天映频道
+#EXTINF:-1 tvg-id="507" tvg-name="天映马来西亚" tvg-logo="https://epg.112114.xyz/logo/天映马来西亚.png" group-title="💓港澳台📶[HK]",天映马来西亚
 https://o11.163189.xyz/stream/live/typd/
 #EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映經典頻道" tvg-logo="https://epg.112114.xyz/logo/天映经典.png" group-title="💓港澳台📶[HK]",天映經典頻道
 https://o11.163189.xyz/stream/live/ccm/
@@ -1643,7 +1643,7 @@ http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 #EXTINF:-1 tvg-id="HBOHITS" tvg-name="HBO Hits" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOHits.png" group-title="💓台湾台📶",HBO Hits
 
 
-#EXTINF:-1 tvg-id="澳门莲花" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/澳门莲花.png" group-title="💓港澳台📶[MO]",澳门莲花
+#EXTINF:-1 tvg-id="澳门莲花电视台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/澳门莲花电视台.png" tvg-name="澳门莲花电视台" group-title="💓港澳台📶[MO]",澳门莲花电视台
 
 
 #EXTINF:-1 tvg-name="澳视澳门" tvg-id="澳视澳门" tvg-country="澳門" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2016/07/19/large/20160719142956282911_66.png" group-title="💓港澳台📶[MO]",澳视澳门
