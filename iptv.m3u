@@ -230,8 +230,6 @@ http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 http://1.94.31.214/php/hntv.php?id=hnws
 
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/浙江卫视.png" group-title="卫视频道",浙江卫视
-https://migu.188766.xyz/?migutoken=6a5709545cc24e0e51034ab1a57e687e&id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%864K&pp=1
-https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 http://iptv.4666888.xyz/iptv2A.php?id=14
 http://8.138.7.223/tv/zjws.m3u8
 http://69.30.246.194/live/zjws.m3u8
@@ -278,7 +276,7 @@ http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
 
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视
 http://106.53.99.30/tv/nmg.php?id=1
-https://migu.188766.xyz/?migutoken=702313a562cf2954c172c9486360319f&id=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86&pp=1
+
 
 
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/宁夏卫视.png" group-title="卫视频道",宁夏卫视
@@ -375,7 +373,7 @@ http://r.jdshipin.com/yDoTN
 
 
 #EXTINF:-1 tvg-id="154" tvg-name="CETV4" tvg-logo="https://live.fanmingming.cn/tv/CETV4.png" group-title="卫视频道",CETV4
-https://migu.188766.xyz/?migutoken=a57ef784e1f58e7817f181ff72b4098f&id=CETV4&type=yy
+
 
 
 #EXTINF:-1 tvg-id="221" tvg-name="山东教育卫视" tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="卫视频道",山东教育卫视
@@ -396,7 +394,7 @@ http://8.138.7.223/tv/cwjd.php
 #EXTINF:-1 tvg-id="" tvg-name="星光影院" tvg-logo="" group-title="💓专享源🅰️",星光影院
 
 #EXTINF:-1 tvg-id="新片放映厅" tvg-name="新片放映厅" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/035/175/202405061742_1714988181593_H169_1080.jpg" group-title="💓专享源🅰️", 新片放映厅
-https://migu.188766.xyz/?migutoken=7485b86f2c738a5eb8e54549733ad2d0&id=%E6%96%B0%E7%89%87%E6%94%BE%E6%98%A0%E5%8E%85&type=yy
+
 #EXTINF:-1 tvg-id="高清大片" tvg-name="高清大片" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/315/684/202204010048_5101034200_H169_1080.jpg" group-title="💓专享源🅰️", 高清大片
 
 
@@ -407,6 +405,7 @@ http://m.061899.xyz/mg/jtyy
 
 
 #EXTINF:-1 tvg-id="182" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/CHC影迷电影.png" group-title="💓专享源🅰️",CHC影迷电影
+http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
 http://go.bkpcp.top/mg/ymdy
 
 
@@ -426,7 +425,7 @@ http://m.061899.xyz/mg/dzdy
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/劲爆体育.png" group-title="数字频道",劲爆体育
 
 #EXTINF:-1 tvg-id="170" tvg-name="五星体育" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/五星体育.png" group-title="数字频道",五星体育
-https://migu.188766.xyz/?migutoken=d23add4209427378ba98b32186820eaf&id=%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2&pp=1
+
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/欢笑剧场.png" group-title="数字频道",欢笑剧场
 
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/法治天地.png" group-title="数字频道",法治天地
@@ -458,7 +457,7 @@ http://m.061899.xyz/mg/bjkk
 
 
 #EXTINF:-1 tvg-id="159" tvg-name="嘉佳卡通" tvg-logo="https://live.fanmingming.cn/tv/嘉佳卡通.png" group-title="数字频道",嘉佳卡通
-https://migu.188766.xyz/?migutoken=a1dd4d4fec8cc909073a1520aa6245d8&id=%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A&type=yy
+
 
 #EXTINF:-1 tvg-id="356" tvg-name="哒啵赛事" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/哒啵赛事.png" group-title="数字频道",哒啵赛事
 
@@ -575,14 +574,14 @@ http://222.179.155.21:1935/ch1.m3u8
 #EXTINF:-1 tvg-id="174" tvg-name="东方财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东方财经.png" group-title="☘️上海频道",东方财经
 
 #EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上海第一财经.png" group-title="☘️上海频道",第一财经
-http://43.251.226.89:8080/play/56.m3u8
+
 
 #EXTINF:-1 tvg-id="上视东方影视" tvg-name="东方影视" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/东方影视.png" group-title="☘️上海频道",东方影视
-http://43.251.226.89:8080/play/55.m3u8
+
 
 #EXTINF:-1 tvg-id="263" tvg-name="上海都市" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上海都市.png" group-title="☘️上海频道",上海都市
 #EXTINF:-1 tvg-id="199" tvg-name="上海新闻综合" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/上视新闻.png" group-title="☘️上海频道",上海新闻综合
-http://43.251.226.89:8080/play/54.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="新纪实" tvg-logo="https://epg.112114.eu.org/logo/新纪实频道.png" group-title="☘️上海频道",新纪实
 #EXTINF:-1 tvg-id="179" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="☘️上海频道",乐游
 #EXTINF:-1 tvg-id="" tvg-name="魔都眼" tvg-logo="https://epg.112114.xyz/logo/魔都眼.png" group-title="☘️上海频道",魔都眼
@@ -604,11 +603,9 @@ http://gfr.x3322.net:9901/tsfile/live/1103_1.m3u8
 
 #EXTINF:-1 tvg-id="168" tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/金鹰卡通.png" group-title="☘️湖南频道",金鹰卡通
 
-http://8.138.7.223/tv/hot.php?id=63
-
 
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/快乐垂钓.png" group-title="☘️湖南频道",快乐垂钓
-http://43.251.226.89:8080/play/31.m3u8
+
 #EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/茶.png" group-title="☘️湖南频道",茶
 
 
@@ -1034,19 +1031,20 @@ http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 
 
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台
-http://iptv.4666888.xyz/iptv2A.php?id=28
+http://iptv.4666888.xyz/iptv2A.php?id=34
 http://hls.168.us.kg/u/81/master.m3u8
 https://o11.163189.xyz/stream/tvb/fct/
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台
-http://iptv.4666888.xyz/iptv2A.php?id=34
-https://o11.163189.xyz/stream/live/jade/
+
+
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台
 https://o11.163189.xyz/stream/tvb/fct4k/
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",翡翠台
 
 #EXTINF:-1 tvg-id="" tvg-name="TVB无线华丽" tvg-logo="https://epg.112114.eu.org/logo/TVB翡翠-LIGHT.png" group-title="💓港澳台📶[HK]",TVB无线华丽
+http://iptv.4666888.xyz/iptv2A.php?id=28
 https://o11.163189.xyz/stream/live/hlt/
-
+https://o11.163189.xyz/stream/live/jade/
 #EXTINF:-1 tvg-name="娛樂新聞台" tvg-id="娛樂新聞台" tvg-country="香港" tvg-language="粵語" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720201805684067_14.png" group-title="💓港澳台📶[HK]",娛樂新聞台
 http://iptv.4666888.xyz/iptv2A.php?id=36
 http://tl.061833.xyz/tl/null-14
@@ -1136,7 +1134,7 @@ http://tl.061833.xyz/tl/null-1
 #EXTINF:-1 tvg-id="" tvg-name="欢喜台" tvg-logo="https://epg.112114.xyz/logo/欢喜台.png" group-title="💓港澳台📶[HK]",Astro欢喜台
 
 #EXTINF:-1 tvg-id="" tvg-name="Astro QJ" tvg-logo="https://epg.112114.xyz/logo/ASTROQUANJIA.png" group-title="💓港澳台📶[HK]",Astro QJ
-https://o11.163189.xyz/stream/live/qj/
+
 #EXTINF:-1 tvg-id="" tvg-name="Astro AOD" tvg-logo="https://epg.112114.xyz/logo/ASTROAOD.png" group-title="💓港澳台📶[HK]",Astro AOD
 https://o11.163189.xyz/stream/live/aod/
 #EXTINF:-1 tvg-id="" tvg-name="Astro AEC" tvg-logo="https://epg.112114.xyz/logo/ASTROAEC.png" group-title="💓港澳台📶[HK]",Astro AEC
@@ -1250,7 +1248,7 @@ http://208.87.242.79/livehttpplay?channel_id=20165
 #EXTINF:-1 tvg-id="TVBS Asia" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS亚洲.png" group-title="💓台湾台📶",TVBS Asia (TVBS亚洲)
 
 #EXTINF:-1 tvg-id="TVBS精采台台" tvg-name="TVBS精采台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/TVBS精采台.png" group-title="💓台湾台📶",TVBS精采台
-http://iptv.4666888.xyz/iptv2A.php?id=47
+
 #EXTINF:-1 tvg-id="靖天電影台HD" tvg-name="靖天電影台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/靖天電影台.png" group-title="💓台湾台📶",靖天電影台
 http://iptv.4666888.xyz/iptv2A.php?id=56
 
@@ -1285,7 +1283,7 @@ http://208.87.242.79/livehttpplay?channel_id=20303
 
 #EXTINF:-1 tvg-id="緯來戲劇台台" tvg-name="緯來戲劇台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandDrama.png" group-title="💓台湾台📶",緯來戲劇台
 
-#EXTINF:-1 tvg-id="緯來育樂台台" tvg-name="緯來育樂台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandMaxTV.png" group-title="💓台湾台📶",緯來育樂台
+#EXTINF:-1 tvg-id="緯來育樂台" tvg-name="緯來育樂台" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/VideolandMaxTV.png" group-title="💓台湾台📶",緯來育樂台
 rtmp://f13h.mine.nu/sat/tv701
 
 
