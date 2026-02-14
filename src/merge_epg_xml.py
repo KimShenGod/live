@@ -62,9 +62,9 @@ def convert_utc_to_cst(time_str: str) -> str:
     try:
         # 解析时间字符串
         dt = datetime.strptime(time_str[:14], "%Y%m%d%H%M%S")
-        # 添加8小时
-        dt_cst = dt + timedelta(hours=8)
-        # 格式化为字符串并添加时区
+
+        dt_cst = dt + timedelta(hours=0)
+        # 格式化为字符串并添加+0800时区标识
         return dt_cst.strftime("%Y%m%d%H%M%S") + " +0800"
     except Exception as e:
         print(f"时间转换失败: {time_str}，错误: {e}")
