@@ -19,7 +19,7 @@ BBC Earth HD
 BBC Lifestyle,BBCLifestyle
 BBC Lifestyle HD
 BBC NEWS HD
-BBC News,BBCWorldNews
+BBC News,BBCWorldNews,BBC
 BRTV体育休闲
 BRTV卡酷少儿
 Bloomberg
@@ -346,8 +346,8 @@ SBN全球财经台
 SCTV1
 STAR PLUS
 SUPER EYT
-SUPER FREE
-SUPER Kids Channel
+SUPER FREE,SUPERFREE
+SUPER Kids Channel,SUPERKIDSCHANNEL
 SUPER Music
 SUPER Sports
 SUPER劇場
@@ -406,7 +406,7 @@ Zee News
 Zee TV
 ZooMoo
 Z頻道
-amc電影台
+amc電影台,AMC电影,AMC
 beIN SPORTS 1
 beIN SPORTS 2
 beIN SPORTS 3
@@ -578,7 +578,7 @@ wedotv Movies HD
 内蒙古综合
 内蒙古文体娱乐,内蒙古文体娱乐频道,内蒙古文体娱乐台
 内蒙古新闻综合,内蒙古新闻综合台,内蒙古新闻综合频道
-内蒙古经济生活,内蒙古经济生活台,内蒙古经济生活频道
+内蒙古经济生活,内蒙古经济生活台,内蒙古经济生活频道,内蒙经济
 冠軍夢想台
 冠軍電視台
 冬奥纪实
@@ -1162,7 +1162,7 @@ wedotv Movies HD
 海南新闻,海南新闻频道
 海南自贸,海南自贸频道
 海口电视台
-海峡卫视
+海峡卫视,福建海峡卫视
 海豚綜合台
 淄博电视台
 淮北电视台

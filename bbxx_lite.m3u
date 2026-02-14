@@ -612,7 +612,7 @@ http://120.76.248.139/live/bfgd/4200000110.m3u8
 http://111.61.236.247:9081/hls/48/index.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 http://23.237.228.134/live8/neimenggu.m3u8
-#EXTINF:-1  tvg-name="陕西农林卫视" tvg-logo="https://live.fanmingming.cn/tv/陕西农林卫视.png"  group-title="📡卫视频道",陕西农林卫视
+#EXTINF:-1  tvg-name="农林卫视" tvg-logo="https://live.fanmingming.cn/tv/农林卫视.png"  group-title="📡卫视频道",农林卫视
 http://120.76.248.139/live/bfgd/4200000122.m3u8
 http://124.116.183.146:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://124.116.183.146:9901/tsfile/live/1004_1.m3u8
@@ -1262,7 +1262,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 #EXTINF:-1 group-title="💓港澳台📶",TVB无线华丽
 http://php.jdshipin.com/TVOD/iptv.php?id=huali
 http://php.jdshipin.com/PLTV/iptv.php?id=huali
-#EXTINF:-1 group-title="💓港澳台📶",TVB无线新闻
+#EXTINF:-1 tvg-name="無綫新聞台" group-title="💓港澳台📶",無綫新聞台
 http://bxtv.3a.ink/api.php?id=wxxw
 http://php.jdshipin.com:8880/smt.php?id=inews_twn
 http://hls.168.us.kg/u/83/master.m3u8
@@ -1339,7 +1339,7 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
 http://php.jdshipin.com/PLTV/iptv.php?id=viutv2
-#EXTINF:-1 group-title="💓港澳台📶",VIUTV粤
+#EXTINF:-1 tvg-name="ViuTV" group-title="💓港澳台📶",ViuTV
 https://cdn.163189.xyz/163189/viu
 #EXTINF:-1 tvg-name="ViuTVsix" group-title="💓港澳台📶",ViuTVsix
 http://hls.168.us.kg/u/96/master.m3u8
@@ -1486,7 +1486,7 @@ http://222.128.55.152:9080/live/hy.m3u8
 http://php.jdshipin.com/smt.php?id=Tvbjade
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
 http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
-#EXTINF:-1  tvg-name="无线新闻" tvg-logo="https://live.fanmingming.cn/tv/无线新闻台.png"  group-title="💓港澳台📶",无线新闻
+#EXTINF:-1  tvg-name="無綫新聞台" tvg-logo="https://live.fanmingming.cn/tv/無綫新聞台台.png"  group-title="💓港澳台📶",無綫新聞台
 http://hls.168.us.kg/u/83/master.m3u8
 https://cdn6.101.qzz.io/163189/wxxw
 #EXTINF:-1 tvg-name="無綫新聞台" group-title="💓港澳台📶",無綫新聞台
@@ -1554,9 +1554,9 @@ http://103.233.191.134:1935/ch6/hd_ch6.live/playlist.m3u8
 http://103.233.191.134:1935/ch2/ch2.live/playlist.m3u8
 #EXTINF:-1 tvg-name="澳视资讯" group-title="💓港澳台📶",澳视资讯
 http://103.233.191.134:1935/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 group-title="💓港澳台📶",澳门Mac
+#EXTINF:-1 tvg-name="澳视卫星" group-title="💓港澳台📶",澳视卫星
 http://php.jdshipin.com/PLTV/iptv.php?id=as
-#EXTINF:-1 group-title="💓港澳台📶",澳门资讯
+#EXTINF:-1 tvg-name="澳视资讯" group-title="💓港澳台📶",澳视资讯
 https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
 #EXTINF:-1 group-title="💓港澳台📶",环球电视
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
@@ -1706,22 +1706,22 @@ http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/4012/playlist.m3u8
 #EXTINF:-1 group-title="💓台湾台📶",生命电视
 http://61.216.67.119:1935/lifetv/lifetv.stream/manifest.m3u8
-#EXTINF:-1 group-title="💓台湾台📶",龙华偶像台
+#EXTINF:-1 tvg-name="龍華偶像HD" group-title="💓台湾台📶",龍華偶像HD
 http://cdn8.163189.xyz/163189/lhox
-#EXTINF:-1 group-title="💓台湾台📶",龙华戏剧台
+#EXTINF:-1 tvg-name="龍華戲劇HD" group-title="💓台湾台📶",龍華戲劇HD
 http://cdn8.163189.xyz/163189/lhxj
-#EXTINF:-1 group-title="💓台湾台📶",龙华日韩台
+#EXTINF:-1 tvg-name="龍華日韓HD" group-title="💓台湾台📶",龍華日韓HD
 http://cdn8.163189.xyz/163189/lhrh
-#EXTINF:-1 group-title="💓台湾台📶",龙华电影台
+#EXTINF:-1 tvg-name="龍華電影HD" group-title="💓台湾台📶",龍華電影HD
 http://cdn8.163189.xyz/163189/lhdy
 http://cdn8.163189.xyz/163189/lhdy
-#EXTINF:-1 group-title="💓台湾台📶",龙华经典台
+#EXTINF:-1 tvg-name="龍華經典HD" group-title="💓台湾台📶",龍華經典HD
 http://cdn8.163189.xyz/163189/lhjd
 #EXTINF:-1 group-title="电影频道",1905国内电影
 http://php.jdshipin.com:8880/1905.php?id=1905dy
 #EXTINF:-1 group-title="电影频道",1905国外电影
 http://php.jdshipin.com:8880/1905.php?id=1905dy2
-#EXTINF:-1 group-title="电影频道",AMC电影
+#EXTINF:-1 tvg-name="amc電影台" group-title="电影频道",amc電影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1  tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.cn/tv/CHC动作电影.png"  group-title="电影频道",CHC动作电影
 http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
@@ -1916,7 +1916,7 @@ http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv?zyund
 https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
 #EXTINF:-1 group-title="☘️云南频道",陇川综合
 https://zb-live.ynurl.com/longchuan/58f88df3-605e-4c57-865c-8e8f85241ca1.m3u8
-#EXTINF:-1 group-title="☘️内蒙频道",内蒙经济
+#EXTINF:-1 tvg-name="内蒙古经济生活" group-title="☘️内蒙频道",内蒙古经济生活
 https://ls.qingting.fm/live/1885/64k.m3u8
 #EXTINF:-1 tvg-name="北京新闻" group-title="☘️北京频道",北京新闻
 http://114.242.62.109:888/hls/25/index.m3u8
@@ -2741,7 +2741,7 @@ http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 tvg-name="福建新闻" group-title="☘️福建频道",福建新闻
 http://live.xmcdn.com/live/792/64.m3u8
-#EXTINF:-1 group-title="☘️福建频道",福建海峡卫视
+#EXTINF:-1 tvg-name="海峡卫视" group-title="☘️福建频道",海峡卫视
 http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
 http://8.138.7.223/tv/hxws.m3u8
@@ -3077,7 +3077,7 @@ http://61.184.46.85:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
 http://58.57.40.22:9901/tsfile/live/1059_1.m3u8
 http://218.15.183.23:9901/tsfile/live/23041_1.m3u8
 http://124.228.160.14:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="国际台",BBC
+#EXTINF:-1 tvg-name="BBC News" group-title="国际台",BBC News
 http://fl2.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-name="CNN" group-title="国际台",CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
