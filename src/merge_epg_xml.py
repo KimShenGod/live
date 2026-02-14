@@ -12,6 +12,7 @@ import os
 import requests
 from lxml import etree
 from typing import List
+from datetime import datetime, timedelta
 
 
 def download_xml(url: str, save_path: str, timeout: int = 30, retries: int = 3) -> bool:
@@ -46,6 +47,28 @@ def download_xml(url: str, save_path: str, timeout: int = 30, retries: int = 3) 
                 print(f"❌ 下载最终失败: {e}")
     
     return False
+
+
+def convert_utc_to_cst(time_str: str) -> str:
+    """
+    将UTC时间转换为UTC+8（中国标准时间）
+    
+    Args:
+        time_str: 时间字符串，格式为 "YYYYMMDDHHMMSS +0000"
+        
+    Returns:
+        str: 转换后的时间字符串，格式为 "YYYYMMDDHHMMSS +0800"
+    """
+    try:
+        # 解析时间字符串
+        dt = datetime.strptime(time_str[:14], "%Y%m%d%H%M%S")
+        # 添加8小时
+        dt_cst = dt + timedelta(hours=8)
+        # 格式化为字符串并添加时区
+        return dt_cst.strftime("%Y%m%d%H%M%S") + " +0800"
+    except Exception as e:
+        print(f"时间转换失败: {time_str}，错误: {e}")
+        return time_str
 
 
 def merge_xml_files(xml_files: List[str], output_file: str) -> bool:
@@ -99,6 +122,11 @@ def merge_xml_files(xml_files: List[str], output_file: str) -> bool:
                     if child.tag == 'channel':
                         channel_elements[region].append(child)
                     elif child.tag == 'programme':
+                        # 转换节目开始时间和结束时间从UTC到UTC+8
+                        if 'start' in child.attrib:
+                            child.attrib['start'] = convert_utc_to_cst(child.attrib['start'])
+                        if 'stop' in child.attrib:
+                            child.attrib['stop'] = convert_utc_to_cst(child.attrib['stop'])
                         programme_elements[region].append(child)
         
         # 4. 按指定顺序添加元素到根节点
