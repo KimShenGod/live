@@ -61,11 +61,14 @@ class Channel:
 
 
 class M3UProcessor:
-    def __init__(self, input_file, output_file="output.m3u", max_threads=5, download_duration=15):
+    def __init__(self, input_file, output_file="output.m3u", max_threads=5,
+                 download_duration=15, channel_workers=8):
         self.input_file = input_file
         self.output_file = output_file
         self.max_threads = max_threads
         self.download_duration = download_duration
+        # 单频道内多源并行检测的并发数（与外层频道级并发相互独立）
+        self.channel_workers = max(1, channel_workers)
         self.channels = []
         self.header_lines = []
         self._ffprobe_path = None  # 缓存 ffprobe 可执行文件路径，供轻量探测复用
@@ -795,8 +798,8 @@ class M3UProcessor:
             # 为每个URL存储质量信息
             channel.quality_info_list = []
             
-            # 处理频道的所有URL
-            for url in channel.urls:
+            # 频道内多源并行检测：将单源分析提取为闭包，结果顺序与 channel.urls 对齐
+            def _analyze_url(url):
                 url_quality = {
                     'resolution': '未知',
                     'bitrate': '未知',
@@ -814,8 +817,7 @@ class M3UProcessor:
                 # 首先检查URL可访问性
                 if not self.check_url_accessibility(url):
                     url_quality['resolution'] = '不可访问'
-                    channel.quality_info_list.append(url_quality)
-                    continue
+                    return url_quality
                 
                 # URL可访问，设置初始状态为未知，而不是不可访问
                 url_quality['resolution'] = '未知'
@@ -1033,12 +1035,23 @@ class M3UProcessor:
                 #     url_quality['resolution'] = '有效媒体段'
                 #     url_quality['buffer_status'] = '良好'
                 
-                channel.quality_info_list.append(url_quality)
-            
+                return url_quality
+
+            # 频道内多源并行检测，结果顺序与 channel.urls 保持一致
+            urls = list(channel.urls)
+            results: list = [None] * len(urls)
+            if urls:
+                with concurrent.futures.ThreadPoolExecutor(
+                        max_workers=min(self.channel_workers, len(urls))) as ex:
+                    for idx, q in ex.map(
+                            lambda iu: (iu[0], _analyze_url(iu[1])), enumerate(urls)):
+                        results[idx] = q
+            channel.quality_info_list = results
+
             # 设置默认的quality_info为第一个URL的信息（兼容旧代码）
             if channel.quality_info_list:
                 channel.quality_info = channel.quality_info_list[0]
-            
+
             return channel.quality_info_list
             
         except Exception as e:
@@ -1262,6 +1275,8 @@ def main():
     parser.add_argument('-o', '--output', default='output.m3u', help='输出的M3U文件路径')
     parser.add_argument('-t', '--threads', type=int, default=5, help='最大线程数')
     parser.add_argument('-d', '--duration', type=int, default=15, help='下载测试时长(秒)')
+    parser.add_argument('-c', '--channel-workers', type=int, default=8,
+                        help='单频道内多源并行检测的并发数（与 -t 相互独立）')
     args = parser.parse_args()
     
     try:
@@ -1269,7 +1284,8 @@ def main():
             input_file=args.input_file,
             output_file=args.output,
             max_threads=args.threads,
-            download_duration=args.duration
+            download_duration=args.duration,
+            channel_workers=args.channel_workers
         )
         processor.process()
         

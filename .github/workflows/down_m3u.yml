@@ -105,6 +105,54 @@ jobs:
         fi
         # 运行脚本
         python "$SCRIPT_PATH" -a alias2.txt -i bbxx_lite.m3u -o bbxx_lite_new.m3u
+    # 9.5 搜索 tonkiang 直播源（Chrome 已预装于 ubuntu-latest，uc 自动配驱动）
+    - name: Search tonkiang sources
+      continue-on-error: true  # 站点被 Cloudflare 拦截时不阻断整个工作流
+      run: |
+        SCRIPT_PATH="${{ github.workspace }}/src/search_tonkiang.py"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          exit 1
+        fi
+        python "$SCRIPT_PATH" -i alias2.txt -o tonkiang_channels.m3u --days 30 --headless --no-save-cookies
+
+    # 9.6 检测 tonkiang 直播源（与 bbxx.m3u 同流程，仅跳过下载步骤）
+    #      search_tonkiang 可能被 Cloudflare 拦截（step 9.5 为 continue-on-error），
+    #      故先判断产物是否存在，缺失则跳过本步，不阻断工作流。
+    - name: Check tonkiang channels accessibility
+      continue-on-error: true
+      run: |
+        SRC="tonkiang_channels.m3u"
+        OUT="tonkiang_channels_checked.m3u"
+        if [ ! -s "$SRC" ]; then
+          echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 检测。"
+          exit 0
+        fi
+        SCRIPT_PATH="${{ github.workspace }}/src/merged_m3u_processor.py"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          exit 1
+        fi
+        # -t 15 频道级并发；-c 8 频道内多源并行（已在脚本中实现）
+        python "$SCRIPT_PATH" "$SRC" -o "$OUT" -t 15 -d 15 -c 8
+
+    # 9.7 修正 tonkiang 频道名（与 bbxx_lite 同流程）
+    - name: Rename tonkiang channel names
+      continue-on-error: true
+      run: |
+        SRC="tonkiang_channels_checked.m3u"
+        OUT="tonkiang_channels_checked_lite.m3u"
+        if [ ! -s "$SRC" ]; then
+          echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 频道名修正。"
+          exit 0
+        fi
+        SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          exit 1
+        fi
+        python "$SCRIPT_PATH" -a alias2.txt -i "$SRC" -o "$OUT"
+
     # 10. 提交文件到仓库（修复：闭合引号 + 检查修改）
     - name: Commit and push changes 
       run: | 
@@ -128,6 +176,8 @@ jobs:
         
         # 4. Add only the specific files we modified
         git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u merged_epg.xml
+        git add tonkiang_channels.m3u || true
+        git add tonkiang_channels_checked.m3u tonkiang_channels_checked_lite.m3u tonkiang_channels_checked.m3u.stability.csv || true
         
         # 5. Only commit if there are changes
         if git diff --staged --quiet; then 
