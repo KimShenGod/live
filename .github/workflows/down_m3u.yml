@@ -68,8 +68,9 @@ jobs:
           echo "Error: Script not found at $SCRIPT_PATH!"
           exit 1
         fi
-        # 运行脚本
-        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u -t 15 -d 15
+        # 运行脚本（--fast 快速模式：跳过15s稳定性流式测试、缩短超时与死源重试、
+        # m3u8仅验证首分片，单源耗时从~25s降到~7s，使每日数万源可在 runner 时限内跑完）
+        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u --fast -t 20 -c 8 --fast-sample 3
 
     # 7. 运行Python脚本（合成EPG文件）
     - name: Run Python script
@@ -133,8 +134,8 @@ jobs:
           echo "Error: Script not found at $SCRIPT_PATH!"
           exit 1
         fi
-        # -t 15 频道级并发；-c 8 频道内多源并行（已在脚本中实现）
-        python "$SCRIPT_PATH" "$SRC" -o "$OUT" -t 15 -d 15 -c 8
+        # -t 15 频道级并发；-c 8 频道内多源并行；--fast 快速模式（跳过15s流式测试）
+        python "$SCRIPT_PATH" "$SRC" -o "$OUT" --fast -t 15 -c 8 --fast-sample 3
 
     # 9.7 修正 tonkiang 频道名（与 bbxx_lite 同流程）
     - name: Rename tonkiang channel names
