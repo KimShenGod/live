@@ -63,13 +63,16 @@ class Channel:
 class M3UProcessor:
     def __init__(self, input_file, output_file="output.m3u", max_threads=5,
                  download_duration=15, channel_workers=8, fast=False, fast_sample=3,
-                 max_live_duration: int | None = None):
+                 max_live_duration: int | None = None, max_channels: int = 0,
+                 ffprobe_timeout: int | None = None):
         self.input_file = input_file
         self.output_file = output_file
         self.max_threads = max_threads
         self.download_duration = download_duration
         # 单频道内多源并行检测的并发数（与外层频道级并发相互独立）
         self.channel_workers = max(1, channel_workers)
+        # CI 分块处理：最多处理前 N 个频道（0=不限制）
+        self.max_channels = max(0, int(max_channels))
         # 快速模式：跳过 15s 流式稳定性测试、缩短超时与死源重试、m3u8 仅验证首分片，
         # 单源耗时从 ~25s 降到 ~7s，适合每日数万源的大规模检测；过滤效果保持不变
         # （仅放弃深度卡顿/限速指标，仍通过分片可达性 + 直链采样字节门禁剔除死源）。
@@ -304,11 +307,15 @@ class M3UProcessor:
             logger.debug(f"验证m3u8媒体失败 {playlist_url}: {e}")
             return (False, None)
 
-    def _probe_media_duration(self, url: str, timeout: int = 12):
+    def _probe_media_duration(self, url: str, timeout: int | None = None):
         """用 ffprobe 轻量探测媒体总时长（秒）。
         真直播流没有有限总时长（ffprobe 返回 N/A 或空），此时返回 None；
         循环播放的广告/宣传短片本质是普通视频文件，会返回有限的短时长。"""
         ffprobe = getattr(self, '_ffprobe_path', None) or 'ffprobe'
+        # 未显式传超时则跟随 CI/ffprobe 超时策略（避免 timeout=None 永久阻塞）
+        if timeout is None:
+            timeout = self.ffprobe_timeout if self.ffprobe_timeout else (
+                8 if getattr(self, 'fast', False) else 20)
         try:
             result = subprocess.run(
                 [ffprobe, '-v', 'error', '-show_entries', 'format=duration',
@@ -510,6 +517,13 @@ class M3UProcessor:
             return None
         # 缓存 ffprobe 路径，供 _probe_media_duration 等轻量探测复用
         self._ffprobe_path = ffprobe_path
+
+        # ffprobe 子进程超时：显式参数 > fast 模式(8s) > 默认(20s)。
+        # fast 模式下 CI 跑数万源，死源应尽早放弃，避免 20s 超时拖垮整体时长。
+        _ff_timeout = self.ffprobe_timeout if self.ffprobe_timeout else (
+            8 if getattr(self, 'fast', False) else 20)
+        # ffprobe 内部协议超时（微秒），跟随子进程超时略留余量
+        _ff_micro = int(_ff_timeout * 1_000_000)
         
         # 构建FFprobe命令 - 优化参数以更快获取码流信息，增加超时时间
         cmd = [
@@ -519,14 +533,14 @@ class M3UProcessor:
             '-show_entries', 'stream=width,height,bit_rate,avg_bit_rate,start_time,duration,codec_time_base',  # 添加延迟相关字段
             '-show_entries', 'format=bit_rate,start_time,duration,probe_score',  # 添加格式延迟和缓冲相关字段
             '-of', 'csv=p=0',
-            '-timeout', '5000000',  # 5秒超时（单位：微秒）
+            '-timeout', str(_ff_micro),  # 协议超时（单位：微秒）
             '-reconnect', '1',  # 允许重连
             '-reconnect_delay_max', '3',  # 最大重连延迟3秒
             '-reconnect_at_eof', '1',  # 允许在EOF时重连
             '-probesize', '2000000',  # 增加探针大小（2MB）
             '-analyzeduration', '5000000',  # 增加分析时长（5秒）
-            '-rw_timeout', '5000000',  # 读写超时5秒
-            '-max_delay', '5000000',  # 最大延迟5秒
+            '-rw_timeout', str(_ff_micro),  # 读写超时
+            '-max_delay', str(_ff_micro),  # 最大延迟
             url
         ]
         
@@ -537,7 +551,7 @@ class M3UProcessor:
                 cmd,
                 capture_output=True,
                 text=True,
-                timeout=20,  # 增加超时时间到20秒
+                timeout=_ff_timeout,  # ffprobe 子进程超时（秒）
                 check=False  # 不使用check=True，避免非零退出码抛出异常
             )
             
@@ -568,15 +582,15 @@ class M3UProcessor:
                     '-reconnect_at_eof', '1',  # 允许在EOF时重连
                     '-probesize', '2000000',  # 2MB探针大小
                     '-analyzeduration', '5000000',  # 5秒分析时长
-                    '-rw_timeout', '5000000',  # 读写超时5秒
-                    '-max_delay', '5000000'  # 最大延迟5秒
+                    '-rw_timeout', str(_ff_micro),  # 读写超时
+                    '-max_delay', str(_ff_micro)  # 最大延迟
                 ]
                 
                 json_result = subprocess.run(
                     json_cmd,
                     capture_output=True,
                     text=True,
-                    timeout=20  # 增加超时时间到20秒
+                    timeout=_ff_timeout  # 跟随同一超时
                 )
                 
                 if json_result.stdout:
@@ -1229,7 +1243,13 @@ class M3UProcessor:
         self.header_lines, self.channels = self.parse_m3u_file()
         original_channel_count = len(self.channels)
         print(f"解析到 {original_channel_count} 个频道")
-        
+
+        # 1.5 CI 分块处理：仅保留前 N 个频道，避免单次运行处理数万源导致 runner 超时
+        if self.max_channels and self.max_channels > 0 and len(self.channels) > self.max_channels:
+            print(f"--max-channels={self.max_channels}：仅处理前 {self.max_channels} 个频道"
+                  f"（其余 {len(self.channels) - self.max_channels} 个本次跳过）")
+            self.channels = self.channels[:self.max_channels]
+
         if not self.channels:
             print("未找到任何频道，程序退出")
             return
@@ -1330,11 +1350,20 @@ def main():
                         help='伪直播(固定时长点播:VOD/电影/MTV/风景/广告)剔除开关(秒)。'
                              '>0 时凡 ffprobe 探测到“有限总时长”的源一律剔除(真24/7直播无有限时长不受影响)；'
                              '默认开启(3600占位)；设为0可关闭该剔除')
+    parser.add_argument('--max-channels', type=int, default=0,
+                        help='最多处理前 N 个频道(0=不限制)。用于 CI 分块处理，'
+                             '避免单次运行处理数万源导致 runner 超时')
+    parser.add_argument('--ffprobe-timeout', type=int, default=0,
+                        help='ffprobe 调用超时秒数(0=沿用脚本默认)。CI 中建议设小(如8)以快速放弃死源')
     args = parser.parse_args()
 
     # --max-live-duration 为 0 表示关闭固定时长剔除
     _max_live = None if (args.max_live_duration is None or args.max_live_duration <= 0) \
         else args.max_live_duration
+
+    # --ffprobe-timeout 为 0 表示沿用脚本内部默认；显式传入时覆盖
+    _ffprobe_timeout = args.ffprobe_timeout if args.ffprobe_timeout and args.ffprobe_timeout > 0 \
+        else None
 
     try:
         processor = M3UProcessor(
@@ -1345,7 +1374,9 @@ def main():
             channel_workers=args.channel_workers,
             fast=args.fast,
             fast_sample=args.fast_sample,
-            max_live_duration=_max_live
+            max_live_duration=_max_live,
+            max_channels=args.max_channels,
+            ffprobe_timeout=_ffprobe_timeout
         )
         processor.process()
         

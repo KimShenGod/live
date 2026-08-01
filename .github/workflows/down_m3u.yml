@@ -5,187 +5,370 @@ on:
     - cron: '0 9 * * *'  # UTC时间09:00，北京时间17:00
   workflow_dispatch:  # 允许手动触发
 
-jobs:
-  download-and-run:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write  # 允许修改仓库内容（用于git push）
+# 全局默认 shell
+defaults:
+  run:
+    shell: /usr/bin/bash -e {0}
 
+jobs:
+  # =========================================================================
+  # Job 1: 下载/生成源文件 + 切成 N 个块（每块带完整文件头），上传为 artifact
+  #        同时处理 bbxx.m3u 与 tonkiang_channels.m3u 两种输入
+  # =========================================================================
+  split:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: read
+    outputs:
+      chunks: ${{ steps.gen-chunks.outputs.chunks }}   # JSON 数组，供 matrix 使用
     steps:
-    # 1. 检出当前仓库
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # 获取完整历史，便于后续 rebase 操作
+        fetch-depth: 0
 
-    # 2. 设置Python环境
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
-    # 3. 下载指定仓库的特定文件（修复：正确的API路径 + 认证）
-    - name: Download target file
+    - name: Install dependencies
       run: |
-        # 修复：明确指定文件路径（假设目标文件名为 bbxx.m3u,位于仓库根目录)
-        # 注意：替换为实际文件路径
+        pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Download target file (bbxx.m3u)
+      run: |
         TARGET_FILE="bbxx.m3u"
         API_URL="https://api.github.com/repos/kimwang1978/collect-txt/contents/$TARGET_FILE"
-        
-        # 使用 curl 下载（添加认证头 + 正确文件路径 + 正确媒体类型）
         curl -L \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github.v3.raw" \
           -o "$TARGET_FILE" \
           "$API_URL"
-        
-        # 验证文件是否下载成功（非空）
         if [ ! -s "$TARGET_FILE" ]; then
           echo "Error: Failed to download valid file! File is empty or download failed."
-          cat "$TARGET_FILE"  # 打印文件内容便于调试
+          cat "$TARGET_FILE"
           exit 1
         fi
         echo "✅ File downloaded successfully: $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
 
-    # 4. 安装FFmpeg
+    # 9.5 搜索 tonkiang 直播源（前置到 split，使其能进入分块矩阵；Cloudflare 拦截时不阻断）
+    - name: Search tonkiang sources
+      continue-on-error: true
+      run: |
+        SCRIPT_PATH="${{ github.workspace }}/src/search_tonkiang.py"
+        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" -i alias2.txt -o tonkiang_channels.m3u --days 30 --headless --no-save-cookies
+        if [ -s tonkiang_channels.m3u ]; then
+          echo "✅ tonkiang_channels.m3u 生成成功 ($(stat -c%s tonkiang_channels.m3u) bytes)"
+        else
+          echo "⚠️ tonkiang_channels.m3u 未生成或为空（可能被 Cloudflare 拦截），将跳过 tonkiang 分块"
+        fi
+
+    # 切分：bbxx → bbxx_chunk_XX.m3u；tonkiang → tonkiang_chunk_XX.m3u（均带各自完整头部）
+    - name: Split into chunks (each with full header)
+      id: gen-chunks
+      env:
+        CHUNK: "2000"   # 每块频道数；bbxx 约 2 万源 → ~11 块，tonkiang 若上万同理；单块约 13 分钟
+      run: |
+        python - <<'PY'
+        import json, os
+        CHUNK = int(os.environ["CHUNK"])
+
+        def split_file(src, prefix):
+            """把 src 切成若干带完整头部的块，返回块名列表（空文件返回 []）。"""
+            if not os.path.exists(src) or os.path.getsize(src) == 0:
+                print(f"⚠️ {src} 不存在或为空，跳过分块")
+                return []
+            lines = open(src, encoding="utf-8", errors="replace").readlines()
+            first_inf = next((i for i, l in enumerate(lines) if l.strip().startswith("#EXTINF:")), len(lines))
+            header = lines[:first_inf]
+            # 按 #EXTINF 切成频道块
+            blocks, cur = [], []
+            for l in lines[first_inf:]:
+                if l.strip().startswith("#EXTINF:") and cur:
+                    blocks.append(cur); cur = []
+                cur.append(l)
+            if cur:
+                blocks.append(cur)
+            # 按 CHUNK 合并成最终分块
+            chunks, buf, n = [], [], 0
+            for b in blocks:
+                buf.extend(b); n += 1
+                if n >= CHUNK:
+                    chunks.append(buf); buf, n = [], 0
+            if buf:
+                chunks.append(buf)
+            names = []
+            for i, ch in enumerate(chunks):
+                name = f"{prefix}_chunk_{i:02d}.m3u"
+                with open(os.path.join("chunks", name), "w", encoding="utf-8") as f:
+                    f.writelines(header)
+                    f.writelines(ch)
+                names.append(name)
+            print(f"{src}: {len(blocks)} 频道 → {len(chunks)} 块")
+            return names
+
+        os.makedirs("chunks", exist_ok=True)
+        names = split_file("bbxx.m3u", "bbxx")
+        names += split_file("tonkiang_channels.m3u", "tonkiang")
+        with open("chunks/manifest.json", "w") as f:
+            json.dump(names, f)
+        # 输出给 matrix（单行 JSON）
+        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+            f.write("chunks=" + json.dumps(names) + "\n")
+        PY
+
+    - name: Upload chunks artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: chunks
+        path: |
+          chunks/
+          bbxx.m3u
+        if-no-files-found: error
+
+  # =========================================================================
+  # Job 2: 矩阵并行处理每个块（各自独立 runner，互不干扰）
+  #        块名含前缀 bbxx_ / tonkiang_，输出名随之区分
+  # =========================================================================
+  process:
+    needs: split
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false          # 单块失败不连累其他块
+      max-parallel: 20          # 同时并行的块数上限
+      matrix:
+        chunk: ${{ fromJson(needs.split.outputs.chunks) }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
     - name: Install FFmpeg (for FFprobe)
       run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-    # 5. 安装Python依赖
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        if [ -f requirements.txt ]; then
-          pip install -r requirements.txt
-        fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    # 6. 运行Python脚本（修复：检查脚本是否存在）
-    - name: Run Python script
+    - name: Download chunk artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: chunks
+        path: .
+
+    - name: Process chunk ${{ matrix.chunk }}
       run: |
-        # 检查脚本是否存在
         SCRIPT_PATH="${{ github.workspace }}/src/merged_m3u_processor.py"
         if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
+          echo "Error: Script not found at $SCRIPT_PATH!"; exit 1
         fi
-        # 运行脚本（--fast 快速模式：跳过15s稳定性流式测试、缩短超时与死源重试、
-        # m3u8仅验证首分片，单源耗时从~25s降到~7s，使每日数万源可在 runner 时限内跑完）
-        python "$SCRIPT_PATH" bbxx.m3u -o bbxx_iptv.m3u --fast -t 20 -c 8 --fast-sample 3
+        CHUNK_NAME="${{ matrix.chunk }}"          # 如 bbxx_chunk_00.m3u 或 tonkiang_chunk_03.m3u
+        CHUNK_ID="${CHUNK_NAME%.m3u}"             # 去掉 .m3u
+        # 根据前缀决定输出名：bbxx → bbxx_iptv_chunk_XX.m3u；tonkiang → tonkiang_channels_checked_chunk_XX.m3u
+        if [[ "$CHUNK_ID" == bbxx_* ]]; then
+          OUT="bbxx_iptv_${CHUNK_ID}.m3u"
+          CONCURRENCY=20
+        else
+          OUT="tonkiang_channels_checked_${CHUNK_ID}.m3u"
+          CONCURRENCY=15
+        fi
+        echo "OUT=$OUT" >> "$GITHUB_ENV"
+        # --fast 快速模式；--ffprobe-timeout 8 死源 8 秒内放弃。
+        # 单块仅 2000 频道，最坏 2000×8s/并发 ≈ 13 分钟，无需 --max-channels 安全阀。
+        python "$SCRIPT_PATH" "${{ matrix.chunk }}" -o "$OUT" --fast -t "$CONCURRENCY" -c 8 --fast-sample 3 --ffprobe-timeout 8
 
-    # 7. 运行Python脚本（合成EPG文件）
-    - name: Run Python script
+    - name: Upload part result
+      uses: actions/upload-artifact@v4
+      with:
+        name: part-${{ matrix.chunk }}
+        path: |
+          ${{ env.OUT }}
+          ${{ env.OUT }}.stability.csv
+        if-no-files-found: warn
+
+  # =========================================================================
+  # Job 3a: 合并 bbxx 分块 → 执行 EPG/merge/改名 → 独立提交（不受 tonkiang 影响）
+  # =========================================================================
+  finalize-bbxx:
+    needs: [split, process]
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
       run: |
-        # 检查脚本是否存在
-        SCRIPT_PATH="${{ github.workspace }}/src/merge_epg_xml.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
-        fi
-        # 运行脚本
-        python "$SCRIPT_PATH"
+        pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    # 8. 运行Python脚本（修复：检查脚本是否存在）
+    - name: Download bbxx.m3u (for commit) and all part results
+      uses: actions/download-artifact@v4
+      with:
+        pattern: part-*        # 下载所有 part-* artifact 到各自目录
+        path: parts
+        merge-multiple: false
+
+    - name: Merge bbxx chunks into bbxx_iptv.m3u
+      run: |
+        python - <<'PY'
+        import os, glob, csv
+        part_dir = "parts"
+        part_files = sorted(glob.glob(os.path.join(part_dir, "**", "bbxx_iptv_chunk_*.m3u"), recursive=True))
+        if not part_files:
+            raise SystemExit("未找到任何 bbxx 分块产物，合并失败")
+        print(f"合并 {len(part_files)} 个分块 → bbxx_iptv.m3u")
+        header_written = False
+        with open("bbxx_iptv.m3u", "w", encoding="utf-8") as out:
+            for pf in part_files:
+                lines = open(pf, encoding="utf-8", errors="replace").readlines()
+                if not header_written:
+                    out.writelines(lines); header_written = True
+                else:
+                    start = next((i for i, l in enumerate(lines) if l.strip().startswith("#EXTINF:")), 0)
+                    out.writelines(lines[start:])
+        # 合并 stability.csv
+        csv_parts = sorted(glob.glob(os.path.join(part_dir, "**", "bbxx_iptv_chunk_*.stability.csv"), recursive=True))
+        if csv_parts:
+            with open("bbxx_iptv.m3u.stability.csv", "w", encoding="utf-8-sig", newline="") as out:
+                wrote_head = False
+                for cf in csv_parts:
+                    with open(cf, encoding="utf-8-sig", newline="") as f:
+                        rows = list(csv.reader(f))
+                    if not rows:
+                        continue
+                    if not wrote_head:
+                        out.write(",".join(rows[0]) + "\n"); wrote_head = True
+                    for r in rows[1:]:
+                        out.write(",".join(r) + "\n")
+            print("✅ 合并 bbxx stability.csv 完成")
+        PY
+
+    - name: Run EPG merge script
+      run: |
+        SCRIPT_PATH="${{ github.workspace }}/src/merge_epg_xml.py"
+        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH"
+
     - name: Run channel merge script
       run: |
-        # 检查脚本是否存在
         SCRIPT_PATH="${{ github.workspace }}/src/merge_channels.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
-        fi
-        # 运行脚本
-        python "$SCRIPT_PATH" bbxx_iptv.m3u
-    # 9. 运行Python脚本（将m3u文件中的频道名改成epg中读取到的名字）
-    - name: Run modify channel name script
+        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" bbxx_iptv.m3u
+
+    - name: Run modify channel name script (bbxx)
       run: |
-        # 检查脚本是否存在
         SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
-        fi
-        # 运行脚本
-        python "$SCRIPT_PATH" -a alias2.txt -i bbxx_lite.m3u -o bbxx_lite_new.m3u
-    # 9.5 搜索 tonkiang 直播源（Chrome 已预装于 ubuntu-latest，uc 自动配驱动）
-    - name: Search tonkiang sources
-      continue-on-error: true  # 站点被 Cloudflare 拦截时不阻断整个工作流
-      run: |
-        SCRIPT_PATH="${{ github.workspace }}/src/search_tonkiang.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
-        fi
-        python "$SCRIPT_PATH" -i alias2.txt -o tonkiang_channels.m3u --days 30 --headless --no-save-cookies
+        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" -a alias2.txt -i bbxx_lite.m3u -o bbxx_lite_new.m3u
 
-    # 9.6 检测 tonkiang 直播源（与 bbxx.m3u 同流程，仅跳过下载步骤）
-    #      search_tonkiang 可能被 Cloudflare 拦截（step 9.5 为 continue-on-error），
-    #      故先判断产物是否存在，缺失则跳过本步，不阻断工作流。
-    - name: Check tonkiang channels accessibility
-      continue-on-error: true
+    - name: Commit and push bbxx results
       run: |
-        SRC="tonkiang_channels.m3u"
-        OUT="tonkiang_channels_checked.m3u"
-        if [ ! -s "$SRC" ]; then
-          echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 检测。"
-          exit 0
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git stash push -m "workflow-temp-stash-bbxx" || true
+        git pull --rebase origin main || { echo "Rebase failed, trying merge..."; git pull origin main || { echo "Merge also failed, aborting..."; exit 1; }; }
+        git stash pop || true
+        git add bbxx.m3u bbxx_iptv.m3u bbxx_iptv.m3u.stability.csv bbxx_lite.m3u merged_epg.xml
+        if git diff --staged --quiet; then
+          echo "No bbxx changes to commit."
+        else
+          git commit -m "Auto update bbxx IPTV [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push origin HEAD:main || git push --force-with-lease origin HEAD:main
         fi
-        SCRIPT_PATH="${{ github.workspace }}/src/merged_m3u_processor.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
-        fi
-        # -t 15 频道级并发；-c 8 频道内多源并行；--fast 快速模式（跳过15s流式测试）
-        python "$SCRIPT_PATH" "$SRC" -o "$OUT" --fast -t 15 -c 8 --fast-sample 3
 
-    # 9.7 修正 tonkiang 频道名（与 bbxx_lite 同流程）
+  # =========================================================================
+  # Job 3b: 合并 tonkiang 分块 → 改名 → 独立提交（即使慢/失败不影响 bbxx 已提交结果）
+  # =========================================================================
+  finalize-tonkiang:
+    needs: [split, process]
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Download all part results
+      uses: actions/download-artifact@v4
+      with:
+        pattern: part-*
+        path: parts
+        merge-multiple: false
+
+    - name: Merge tonkiang chunks into tonkiang_channels_checked.m3u
+      continue-on-error: true   # 无 tonkiang 分块（被 Cloudflare 拦截）时不阻断
+      run: |
+        python - <<'PY'
+        import os, glob
+        part_dir = "parts"
+        part_files = sorted(glob.glob(os.path.join(part_dir, "**", "tonkiang_channels_checked_chunk_*.m3u"), recursive=True))
+        if not part_files:
+            print("⚠️ 未找到 tonkiang 分块产物（可能被 Cloudflare 拦截），跳过合并")
+            raise SystemExit(0)
+        print(f"合并 {len(part_files)} 个分块 → tonkiang_channels_checked.m3u")
+        header_written = False
+        with open("tonkiang_channels_checked.m3u", "w", encoding="utf-8") as out:
+            for pf in part_files:
+                lines = open(pf, encoding="utf-8", errors="replace").readlines()
+                if not header_written:
+                    out.writelines(lines); header_written = True
+                else:
+                    start = next((i for i, l in enumerate(lines) if l.strip().startswith("#EXTINF:")), 0)
+                    out.writelines(lines[start:])
+        PY
+
     - name: Rename tonkiang channel names
       continue-on-error: true
       run: |
-        SRC="tonkiang_channels_checked.m3u"
-        OUT="tonkiang_channels_checked_lite.m3u"
-        if [ ! -s "$SRC" ]; then
-          echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 频道名修正。"
-          exit 0
-        fi
+        SRC="tonkiang_channels_checked.m3u"; OUT="tonkiang_channels_checked_lite.m3u"
+        if [ ! -s "$SRC" ]; then echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 频道名修正。"; exit 0; fi
         SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"
-          exit 1
-        fi
-        python "$SCRIPT_PATH" -a alias2.txt -i "$SRC" -o "$OUT"
+        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" -a alias2.txt -i "$SRC" -o "$OUT"
 
-    # 10. 提交文件到仓库（修复：闭合引号 + 检查修改）
-    - name: Commit and push changes 
-      run: | 
-        git config --local user.email "action@github.com" 
-        git config --local user.name "GitHub Action" 
-        
-        # 1. Stash any unstaged changes to clean the working directory
-        git stash push -m "workflow-temp-stash" || true
-        
-        # 2. Pull with rebase to get latest changes
-        git pull --rebase origin main || { 
-          echo "Rebase failed, trying merge..." 
-          git pull origin main || {
-            echo "Merge also failed, aborting..."
-            exit 1
-          }
-        }
-        
-        # 3. Apply the stash if there was one
+    - name: Commit and push tonkiang results
+      continue-on-error: true   # tonkiang 提交失败不应影响 bbxx 已完成的提交
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git stash push -m "workflow-temp-stash-tonkiang" || true
+        git pull --rebase origin main || { echo "Rebase failed, trying merge..."; git pull origin main || { echo "Merge also failed, aborting..."; exit 1; }; }
         git stash pop || true
-        
-        # 4. Add only the specific files we modified
-        git add bbxx.m3u bbxx_iptv.m3u  bbxx_lite.m3u merged_epg.xml
         git add tonkiang_channels.m3u || true
         git add tonkiang_channels_checked.m3u tonkiang_channels_checked_lite.m3u tonkiang_channels_checked.m3u.stability.csv || true
-        
-        # 5. Only commit if there are changes
-        if git diff --staged --quiet; then 
-          echo "No changes to commit." 
-        else 
-          git commit -m "Auto download file [$(date +'%Y-%m-%d %H:%M:%S')]" 
-          # 6. Push changes safely
-          git push origin HEAD:main || git push --force-with-lease origin HEAD:main 
-        fi 
-      shell: /usr/bin/bash -e {0}
+        if git diff --staged --quiet; then
+          echo "No tonkiang changes to commit."
+        else
+          git commit -m "Auto update tonkiang IPTV [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push origin HEAD:main || git push --force-with-lease origin HEAD:main
+        fi
