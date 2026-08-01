@@ -28,6 +28,27 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Checkout collect-txt and copy target file
+      uses: actions/checkout@v4
+      with:
+        repository: kimwang1978/collect-txt
+        path: collect-txt
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 1
+
+    - name: Copy target file into workspace and verify
+      run: |
+        TARGET_FILE="bbxx.m3u"
+        SRC_PATH="${{ github.workspace }}/collect-txt/$TARGET_FILE"
+        if [ ! -f "$SRC_PATH" ]; then
+          echo "Error: Source file not found at $SRC_PATH"
+          ls -la "${{ github.workspace }}/collect-txt" || true
+          exit 1
+        fi
+        cp "$SRC_PATH" "$TARGET_FILE"
+        echo "✅ Copied $SRC_PATH -> $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
+        head -n 20 "$TARGET_FILE" || true
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -38,21 +59,14 @@ jobs:
         pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Download target file (bbxx.m3u)
+    - name: Debug - show workspace and src contents
       run: |
-        TARGET_FILE="bbxx.m3u"
-        API_URL="https://api.github.com/repos/kimwang1978/collect-txt/contents/$TARGET_FILE"
-        curl -L \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3.raw" \
-          -o "$TARGET_FILE" \
-          "$API_URL"
-        if [ ! -s "$TARGET_FILE" ]; then
-          echo "Error: Failed to download valid file! File is empty or download failed."
-          cat "$TARGET_FILE"
-          exit 1
-        fi
-        echo "✅ File downloaded successfully: $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        pwd
+        ls -la .
+        echo "Listing src/"
+        ls -la src || true
+        which tree >/dev/null 2>&1 && tree -a -L 2 || true
 
     # 9.5 搜索 tonkiang 直播源（前置到 split，使其能进入分块矩阵；Cloudflare 拦截时不阻断）
     - name: Search tonkiang sources
@@ -171,22 +185,25 @@ jobs:
       run: |
         SCRIPT_PATH="${{ github.workspace }}/src/merged_m3u_processor.py"
         if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"; exit 1
+          echo "Error: Script not found at $SCRIPT_PATH!"
+          echo "Files in src/:"
+          ls -la "${{ github.workspace }}/src" || true
+          exit 1
         fi
         CHUNK_NAME="${{ matrix.chunk }}"          # 如 bbxx_chunk_00.m3u 或 tonkiang_chunk_03.m3u
         CHUNK_ID="${CHUNK_NAME%.m3u}"             # 去掉 .m3u
         # 根据前缀决定输出名：bbxx → bbxx_iptv_chunk_XX.m3u；tonkiang → tonkiang_channels_checked_chunk_XX.m3u
         if [[ "$CHUNK_ID" == bbxx_* ]]; then
           OUT="bbxx_iptv_${CHUNK_ID}.m3u"
-          CONCURRENCY=20
+          CONCURRENCY=8
         else
           OUT="tonkiang_channels_checked_${CHUNK_ID}.m3u"
-          CONCURRENCY=15
+          CONCURRENCY=8
         fi
         echo "OUT=$OUT" >> "$GITHUB_ENV"
         # --fast 快速模式；--ffprobe-timeout 8 死源 8 秒内放弃。
-        # 单块仅 2000 频道，最坏 2000×8s/并发 ≈ 13 分钟，无需 --max-channels 安全阀。
-        python "$SCRIPT_PATH" "${{ matrix.chunk }}" -o "$OUT" --fast -t "$CONCURRENCY" -c 8 --fast-sample 3 --ffprobe-timeout 8
+        # 降低并发（t=8/c=4）减少 FFprobe 超时与整体运行时长，避免触碰 runner 上限。
+        python "$SCRIPT_PATH" "${{ matrix.chunk }}" -o "$OUT" --fast -t "$CONCURRENCY" -c 4 --fast-sample 2 --ffprobe-timeout 8
 
     - name: Upload part result
       uses: actions/upload-artifact@v4
@@ -211,6 +228,14 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+
+    - name: Debug - show workspace and src contents
+      run: |
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        pwd
+        ls -la .
+        echo "Listing src/"
+        ls -la src || true
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -267,17 +292,26 @@ jobs:
     - name: Run EPG merge script
       run: |
         SCRIPT_PATH="${{ github.workspace }}/src/merge_epg_xml.py"
-        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"; ls -la "${{ github.workspace }}/src" || true; exit 1
+        fi
+        python "$SCRIPT_PATH"
 
     - name: Run channel merge script
       run: |
         SCRIPT_PATH="${{ github.workspace }}/src/merge_channels.py"
-        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" bbxx_iptv.m3u
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"; ls -la "${{ github.workspace }}/src" || true; exit 1
+        fi
+        python "$SCRIPT_PATH" bbxx_iptv.m3u
 
     - name: Run modify channel name script (bbxx)
       run: |
         SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
-        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" -a alias2.txt -i bbxx_lite.m3u -o bbxx_lite_new.m3u
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"; ls -la "${{ github.workspace }}/src" || true; exit 1
+        fi
+        python "$SCRIPT_PATH" -a alias2.txt -i bbxx_lite.m3u -o bbxx_lite_new.m3u
 
     - name: Commit and push bbxx results
       run: |
@@ -308,6 +342,14 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
+
+    - name: Debug - show workspace and src contents
+      run: |
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        pwd
+        ls -la .
+        echo "Listing src/"
+        ls -la src || true
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -354,7 +396,10 @@ jobs:
         SRC="tonkiang_channels_checked.m3u"; OUT="tonkiang_channels_checked_lite.m3u"
         if [ ! -s "$SRC" ]; then echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 频道名修正。"; exit 0; fi
         SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
-        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" -a alias2.txt -i "$SRC" -o "$OUT"
+        if [ ! -f "$SCRIPT_PATH" ]; then
+          echo "Error: Script not found at $SCRIPT_PATH!"; ls -la "${{ github.workspace }}/src" || true; exit 1
+        fi
+        python "$SCRIPT_PATH" -a alias2.txt -i "$SRC" -o "$OUT"
 
     - name: Commit and push tonkiang results
       continue-on-error: true   # tonkiang 提交失败不应影响 bbxx 已完成的提交
