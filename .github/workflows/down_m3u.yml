@@ -12,8 +12,7 @@ defaults:
 
 jobs:
   # =========================================================================
-  # Job 1: 下载/生成源文件 + 切成 N 个块（每块带完整文件头），上传为 artifact
-  #        同时处理 bbxx.m3u 与 tonkiang_channels.m3u 两种输入
+  # Job 1: 下载 bbxx.m3u 源文件 + 切成 N 个块（每块带完整文件头），上传为 artifact
   # =========================================================================
   split:
     runs-on: ubuntu-latest
@@ -68,23 +67,11 @@ jobs:
         ls -la src || true
         which tree >/dev/null 2>&1 && tree -a -L 2 || true
 
-    # 9.5 搜索 tonkiang 直播源（前置到 split，使其能进入分块矩阵；Cloudflare 拦截时不阻断）
-    - name: Search tonkiang sources
-      continue-on-error: true
-      run: |
-        SCRIPT_PATH="${{ github.workspace }}/src/search_tonkiang.py"
-        [ -f "$SCRIPT_PATH" ] && python "$SCRIPT_PATH" -i alias2.txt -o tonkiang_channels.m3u --days 30 --headless --no-save-cookies
-        if [ -s tonkiang_channels.m3u ]; then
-          echo "✅ tonkiang_channels.m3u 生成成功 ($(stat -c%s tonkiang_channels.m3u) bytes)"
-        else
-          echo "⚠️ tonkiang_channels.m3u 未生成或为空（可能被 Cloudflare 拦截），将跳过 tonkiang 分块"
-        fi
-
-    # 切分：bbxx → bbxx_chunk_XX.m3u；tonkiang → tonkiang_chunk_XX.m3u（均带各自完整头部）
+    # 切分：bbxx → bbxx_chunk_XX.m3u（每块带完整头部）
     - name: Split into chunks (each with full header)
       id: gen-chunks
       env:
-        CHUNK: "2000"   # 每块频道数；bbxx 约 2 万源 → ~11 块，tonkiang 若上万同理；单块约 13 分钟
+        CHUNK: "2000"   # 每块频道数；bbxx 约 2 万源 → ~11 块；单块约 13 分钟
       run: |
         python - <<'PY'
         import json, os
@@ -126,7 +113,6 @@ jobs:
 
         os.makedirs("chunks", exist_ok=True)
         names = split_file("bbxx.m3u", "bbxx")
-        names += split_file("tonkiang_channels.m3u", "tonkiang")
         with open("chunks/manifest.json", "w") as f:
             json.dump(names, f)
         # 输出给 matrix（单行 JSON）
@@ -145,7 +131,7 @@ jobs:
 
   # =========================================================================
   # Job 2: 矩阵并行处理每个块（各自独立 runner，互不干扰）
-  #        块名含前缀 bbxx_ / tonkiang_，输出名随之区分
+  #        块名前缀为 bbxx_，输出名 bbxx_iptv_chunk_XX.m3u
   # =========================================================================
   process:
     needs: split
@@ -190,16 +176,11 @@ jobs:
           ls -la "${{ github.workspace }}/src" || true
           exit 1
         fi
-        CHUNK_NAME="${{ matrix.chunk }}"          # 如 bbxx_chunk_00.m3u 或 tonkiang_chunk_03.m3u
+        CHUNK_NAME="${{ matrix.chunk }}"          # 如 bbxx_chunk_00.m3u
         CHUNK_ID="${CHUNK_NAME%.m3u}"             # 去掉 .m3u
-        # 根据前缀决定输出名：bbxx → bbxx_iptv_chunk_XX.m3u；tonkiang → tonkiang_channels_checked_chunk_XX.m3u
-        if [[ "$CHUNK_ID" == bbxx_* ]]; then
-          OUT="bbxx_iptv_${CHUNK_ID}.m3u"
-          CONCURRENCY=8
-        else
-          OUT="tonkiang_channels_checked_${CHUNK_ID}.m3u"
-          CONCURRENCY=8
-        fi
+        # 输出名：bbxx → bbxx_iptv_chunk_XX.m3u
+        OUT="bbxx_iptv_${CHUNK_ID}.m3u"
+        CONCURRENCY=8
         echo "OUT=$OUT" >> "$GITHUB_ENV"
         # --fast 快速模式；--ffprobe-timeout 8 死源 8 秒内放弃。
         # 降低并发（t=8/c=4）减少 FFprobe 超时与整体运行时长，避免触碰 runner 上限。
@@ -215,7 +196,7 @@ jobs:
         if-no-files-found: warn
 
   # =========================================================================
-  # Job 3a: 合并 bbxx 分块 → 执行 EPG/merge/改名 → 独立提交（不受 tonkiang 影响）
+  # Job 3a: 合并 bbxx 分块 → 执行 EPG/merge/改名 → 提交
   # =========================================================================
   finalize-bbxx:
     needs: [split, process]
@@ -328,92 +309,3 @@ jobs:
           git push origin HEAD:main || git push --force-with-lease origin HEAD:main
         fi
 
-  # =========================================================================
-  # Job 3b: 合并 tonkiang 分块 → 改名 → 独立提交（即使慢/失败不影响 bbxx 已提交结果）
-  # =========================================================================
-  finalize-tonkiang:
-    needs: [split, process]
-    runs-on: ubuntu-latest
-    timeout-minutes: 120
-    permissions:
-      contents: write
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-
-    - name: Debug - show workspace and src contents
-      run: |
-        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
-        pwd
-        ls -la .
-        echo "Listing src/"
-        ls -la src || true
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: |
-        pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-    - name: Download all part results
-      uses: actions/download-artifact@v4
-      with:
-        pattern: part-*
-        path: parts
-        merge-multiple: false
-
-    - name: Merge tonkiang chunks into tonkiang_channels_checked.m3u
-      continue-on-error: true   # 无 tonkiang 分块（被 Cloudflare 拦截）时不阻断
-      run: |
-        python - <<'PY'
-        import os, glob
-        part_dir = "parts"
-        part_files = sorted(glob.glob(os.path.join(part_dir, "**", "tonkiang_channels_checked_chunk_*.m3u"), recursive=True))
-        if not part_files:
-            print("⚠️ 未找到 tonkiang 分块产物（可能被 Cloudflare 拦截），跳过合并")
-            raise SystemExit(0)
-        print(f"合并 {len(part_files)} 个分块 → tonkiang_channels_checked.m3u")
-        header_written = False
-        with open("tonkiang_channels_checked.m3u", "w", encoding="utf-8") as out:
-            for pf in part_files:
-                lines = open(pf, encoding="utf-8", errors="replace").readlines()
-                if not header_written:
-                    out.writelines(lines); header_written = True
-                else:
-                    start = next((i for i, l in enumerate(lines) if l.strip().startswith("#EXTINF:")), 0)
-                    out.writelines(lines[start:])
-        PY
-
-    - name: Rename tonkiang channel names
-      continue-on-error: true
-      run: |
-        SRC="tonkiang_channels_checked.m3u"; OUT="tonkiang_channels_checked_lite.m3u"
-        if [ ! -s "$SRC" ]; then echo "⚠️ $SRC 不存在或为空，跳过 tonkiang 频道名修正。"; exit 0; fi
-        SCRIPT_PATH="${{ github.workspace }}/src/update_channel_names.py"
-        if [ ! -f "$SCRIPT_PATH" ]; then
-          echo "Error: Script not found at $SCRIPT_PATH!"; ls -la "${{ github.workspace }}/src" || true; exit 1
-        fi
-        python "$SCRIPT_PATH" -a alias2.txt -i "$SRC" -o "$OUT"
-
-    - name: Commit and push tonkiang results
-      continue-on-error: true   # tonkiang 提交失败不应影响 bbxx 已完成的提交
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git stash push -m "workflow-temp-stash-tonkiang" || true
-        git pull --rebase origin main || { echo "Rebase failed, trying merge..."; git pull origin main || { echo "Merge also failed, aborting..."; exit 1; }; }
-        git stash pop || true
-        git add tonkiang_channels.m3u || true
-        git add tonkiang_channels_checked.m3u tonkiang_channels_checked_lite.m3u tonkiang_channels_checked.m3u.stability.csv || true
-        if git diff --staged --quiet; then
-          echo "No tonkiang changes to commit."
-        else
-          git commit -m "Auto update tonkiang IPTV [$(date +'%Y-%m-%d %H:%M:%S')]"
-          git push origin HEAD:main || git push --force-with-lease origin HEAD:main
-        fi
