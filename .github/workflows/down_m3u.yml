@@ -215,6 +215,8 @@ jobs:
   # =========================================================================
   finalize-bbxx:
     needs: [split, process]
+    # 即使个别 process chunk 失败(超时/崩溃)，也合并已完成的分块，避免一损俱损
+    if: always() && needs.split.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     permissions:

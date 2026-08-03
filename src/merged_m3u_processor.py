@@ -1414,6 +1414,7 @@ def main():
     _ffprobe_timeout = args.ffprobe_timeout if args.ffprobe_timeout and args.ffprobe_timeout > 0 \
         else None
 
+    _exit_code = 0
     try:
         processor = M3UProcessor(
             input_file=args.input_file,
@@ -1429,9 +1430,19 @@ def main():
             source_timeout=args.source_timeout
         )
         processor.process()
-        
+
     except Exception as e:
         print(f"处理失败: {e}")
+        _exit_code = 1
+
+    # ThreadPoolExecutor 的 atexit handler(_python_exit)会 join 所有 worker 线程，
+    # 包括 shutdown(wait=False) 留下的、卡在 requests 慢滴答源上的孤儿线程，
+    # 导致工作已完成、产物已落盘(.m3u/.stability.csv 均经 with open() 写闭)但
+    # 进程无法退出，后续 workflow 步骤(Show files / Upload)永远不执行。
+    # os._exit 绕过 atexit 与解释器清理，确保产物落盘后立即退出。
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(_exit_code)
 
 if __name__ == "__main__":
     main()
