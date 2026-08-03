@@ -86,6 +86,8 @@ class M3UProcessor:
         self.channels = []
         self.header_lines = []
         self._ffprobe_path = None  # 缓存 ffprobe 可执行文件路径，供轻量探测复用
+        # ffprobe 子进程超时（秒）；None/0 表示沿用 fast(8s)/默认(20s) 策略
+        self.ffprobe_timeout = ffprobe_timeout if ffprobe_timeout and ffprobe_timeout > 0 else None
         
     def parse_m3u_file(self):
         """加载并解析m3u文件，返回频道列表，支持非标准IPTV扩展格式"""
