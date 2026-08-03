@@ -64,7 +64,7 @@ class M3UProcessor:
     def __init__(self, input_file, output_file="output.m3u", max_threads=5,
                  download_duration=15, channel_workers=8, fast=False, fast_sample=3,
                  max_live_duration: int | None = None, max_channels: int = 0,
-                 ffprobe_timeout: int | None = None):
+                 ffprobe_timeout: int | None = None, source_timeout: int = 60):
         self.input_file = input_file
         self.output_file = output_file
         self.max_threads = max_threads
@@ -88,7 +88,19 @@ class M3UProcessor:
         self._ffprobe_path = None  # 缓存 ffprobe 可执行文件路径，供轻量探测复用
         # ffprobe 子进程超时（秒）；None/0 表示沿用 fast(8s)/默认(20s) 策略
         self.ffprobe_timeout = ffprobe_timeout if ffprobe_timeout and ffprobe_timeout > 0 else None
-        
+        # 单源检测总时长上限（秒）；None 表示不限制。杜绝慢滴答源卡在非流式 GET
+        # 上导致频道线程无限挂死（8 个慢源即可耗光外层频道槽位使整个 chunk 停转）
+        self.source_timeout = source_timeout if source_timeout and source_timeout > 0 else None
+
+    def _unreachable_quality(self):
+        """单源检测超时/异常时的兜底质量信息，确保被 _is_url_playable 判为不可用。"""
+        return {
+            'resolution': '不可访问', 'bitrate': '未知', 'delay': '未知',
+            'buffer_status': '未知', 'download_speed': 0, 'total_downloaded': 0,
+            'download_time': 0, 'stall_events': 0, 'max_gap': 0.0,
+            'verified_via_m3u8': False, 'vod_clip': False
+        }
+
     def parse_m3u_file(self):
         """加载并解析m3u文件，返回频道列表，支持非标准IPTV扩展格式"""
         channels = []
@@ -1097,11 +1109,44 @@ class M3UProcessor:
             urls = list(channel.urls)
             results: list[object] = [None] * len(urls)
             if urls:
-                with concurrent.futures.ThreadPoolExecutor(
-                        max_workers=min(self.channel_workers, len(urls))) as ex:
-                    for idx, q in ex.map(
-                            lambda iu: (iu[0], _analyze_url(iu[1])), enumerate(urls)):
-                        results[idx] = q
+                # 单源总时长兜底：用 submit + as_completed(timeout) 给整个频道一个硬上限，
+                # 杜绝慢滴答源卡在非流式 GET 上导致频道线程无限挂死。超时/异常的源填入
+                # 不可访问兜底，被 _is_url_playable 自然剔除，不影响同频道其他源。
+                _src_to = self.source_timeout
+                ex = concurrent.futures.ThreadPoolExecutor(
+                    max_workers=min(self.channel_workers, len(urls)))
+                try:
+                    future_to_idx = {ex.submit(_analyze_url, u): i for i, u in enumerate(urls)}
+                    if _src_to:
+                        pending = set(future_to_idx)
+                        try:
+                            for fut in concurrent.futures.as_completed(future_to_idx, timeout=_src_to):
+                                i = future_to_idx[fut]
+                                try:
+                                    results[i] = fut.result()
+                                except Exception as e:
+                                    logger.error(f"单源检测异常 {urls[i]}: {e}")
+                                    results[i] = self._unreachable_quality()
+                                pending.discard(fut)
+                        except concurrent.futures.TimeoutError:
+                            if pending:
+                                logger.warning(
+                                    f"频道 {channel.name or ''} 有 {len(pending)} 个源检测超时"
+                                    f"({_src_to}s)，按不可访问跳过")
+                        for fut in pending:
+                            results[future_to_idx[fut]] = self._unreachable_quality()
+                    else:
+                        for fut, i in future_to_idx.items():
+                            try:
+                                results[i] = fut.result()
+                            except Exception as e:
+                                logger.error(f"单源检测异常 {urls[i]}: {e}")
+                                results[i] = self._unreachable_quality()
+                finally:
+                    # wait=False 不阻塞频道线程；cancel_futures 取消未启动任务。
+                    # 仍卡在 requests 的孤儿线程会因各 recv 超时(4-15s)自行退出，
+                    # 最终由 GitHub job 超时兜底，绝不会再阻塞频道并发槽位。
+                    ex.shutdown(wait=False, cancel_futures=True)
             channel.quality_info_list = results
 
             # 设置默认的quality_info为第一个URL的信息（兼容旧代码）
@@ -1357,6 +1402,8 @@ def main():
                              '避免单次运行处理数万源导致 runner 超时')
     parser.add_argument('--ffprobe-timeout', type=int, default=0,
                         help='ffprobe 调用超时秒数(0=沿用脚本默认)。CI 中建议设小(如8)以快速放弃死源')
+    parser.add_argument('--source-timeout', type=int, default=60,
+                        help='单源检测总时长上限秒数(0=不限制)；杜绝慢滴答源卡死频道并发槽位')
     args = parser.parse_args()
 
     # --max-live-duration 为 0 表示关闭固定时长剔除
@@ -1378,7 +1425,8 @@ def main():
             fast_sample=args.fast_sample,
             max_live_duration=_max_live,
             max_channels=args.max_channels,
-            ffprobe_timeout=_ffprobe_timeout
+            ffprobe_timeout=_ffprobe_timeout,
+            source_timeout=args.source_timeout
         )
         processor.process()
         

@@ -192,7 +192,7 @@ jobs:
         echo "OUT=$OUT" >> "$GITHUB_ENV"
         # --fast 快速模式；--ffprobe-timeout 8 死源 8 秒内放弃。
         # 降低并发（t=8/c=4）减少 FFprobe 超时与整体运行时长，避免触碰 runner 上限。
-        python "$SCRIPT_PATH" "$IN" -o "$OUT" --fast -t "$CONCURRENCY" -c 4 --fast-sample 2 --ffprobe-timeout 8
+        python "$SCRIPT_PATH" "$IN" -o "$OUT" --fast -t "$CONCURRENCY" -c 4 --fast-sample 2 --ffprobe-timeout 8 --source-timeout 60
 
     - name: Show generated files (debug)
       run: |
