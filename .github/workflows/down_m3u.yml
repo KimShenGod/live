@@ -179,8 +179,8 @@ jobs:
         CHUNK_NAME="${{ matrix.chunk }}"          # 如 bbxx_chunk_00.m3u
         CHUNK_ID="${CHUNK_NAME%.m3u}"             # 去掉 .m3u → bbxx_chunk_00
         CHUNK_NUM="${CHUNK_ID#bbxx_}"             # 去掉 bbxx_ 前缀 → chunk_00
-        # 输出名：bbxx → bbxx_iptv_chunk_XX.m3u
-        OUT="bbxx_iptv_${CHUNK_NUM}"
+        # 输出名：bbxx → bbxx_iptv_chunk_XX.m3u（必须带 .m3u，与 finalize 的 glob 对齐）
+        OUT="bbxx_iptv_${CHUNK_NUM}.m3u"
         # 输入名：artifact 下载到 . 后，chunk 文件位于 chunks/ 下
         IN="chunks/${CHUNK_NAME}"
         if [ ! -f "$IN" ]; then
@@ -194,6 +194,13 @@ jobs:
         # 降低并发（t=8/c=4）减少 FFprobe 超时与整体运行时长，避免触碰 runner 上限。
         python "$SCRIPT_PATH" "$IN" -o "$OUT" --fast -t "$CONCURRENCY" -c 4 --fast-sample 2 --ffprobe-timeout 8
 
+    - name: Show generated files (debug)
+      run: |
+        echo "OUT=$OUT"
+        echo "Listing workspace root:"; pwd; ls -la .
+        echo "Generated outputs:"; ls -la "${OUT}"* 2>/dev/null || true
+        find . -maxdepth 4 -type f -name "${OUT}*" -print 2>/dev/null || true
+
     - name: Upload part result
       uses: actions/upload-artifact@v5
       with:
@@ -201,7 +208,7 @@ jobs:
         path: |
           ${{ env.OUT }}
           ${{ env.OUT }}.stability.csv
-        if-no-files-found: warn
+        if-no-files-found: error
 
   # =========================================================================
   # Job 3a: 合并 bbxx 分块 → 执行 EPG/merge/改名 → 提交
@@ -242,6 +249,12 @@ jobs:
         pattern: part-*        # 下载所有 part-* artifact 到各自目录
         path: parts
         merge-multiple: false
+
+    - name: Show downloaded parts (debug)
+      run: |
+        echo "Listing parts/:"; ls -la parts/ || true
+        echo "All files under parts/ (max depth 4):"
+        find parts -maxdepth 4 -type f -print 2>/dev/null || true
 
     - name: Merge bbxx chunks into bbxx_iptv.m3u
       run: |
