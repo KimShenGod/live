@@ -248,6 +248,43 @@ class M3UProcessor:
         except requests.RequestException:
             return False
 
+    def _fetch_text(self, url: str, timeout: int = 10, max_bytes: int = 2 * 1024 * 1024):
+        """流式抓取 URL 文本，带总时长帽和字节帽，杜绝慢滴答源无限挂起。
+
+        非流式 requests.get(timeout=N) 的 N 仅约束每次 recv，不约束 body 总下载
+        时长；慢滴答源(每 N-1 秒吐 1 字节)能让 body 下载无限拖长，进而卡死线程、
+        耗光并发槽位。本方法用 stream=True + wall-clock deadline + 字节帽彻底封堵。
+        connect/header 阶段由 requests timeout 约束；body 下载阶段独立计时(timeout)，
+        总最坏 ~2*timeout 但绝不无限。成功返回解码文本，失败返回 None。
+        """
+        try:
+            resp = requests.get(url, timeout=timeout, stream=True, allow_redirects=True)
+            try:
+                if not (200 <= resp.status_code < 400):
+                    return None
+                # body 下载阶段独立计时，杜绝慢滴答源 iter_content 无限拖长
+                deadline = time.time() + timeout
+                buf = bytearray()
+                for chunk in resp.iter_content(chunk_size=8192):
+                    if chunk:
+                        buf.extend(chunk)
+                        if len(buf) >= max_bytes:
+                            break  # 字节帽：超大响应(非真正播放列表)截断，防 OOM/拖时
+                    if time.time() >= deadline:
+                        break  # 总时长帽：慢滴答源到点即停
+            finally:
+                resp.close()
+            if not buf:
+                return None
+            for enc in ('utf-8', 'gbk', 'latin-1'):
+                try:
+                    return buf.decode(enc)
+                except UnicodeDecodeError:
+                    continue
+            return buf.decode('latin-1', errors='replace')
+        except Exception:
+            return None
+
     # 真直播不应有“总时长”；若播放列表为 VOD（含 ENDLIST）且总时长低于该阈值（秒），
     # 判定为“伪直播”——循环播放的短片/广告，予以剔除。
     # 固定时长源（电影/MTV/风景/广告短片）剔除开关。真 24/7 直播流没有有限总时长
@@ -266,14 +303,7 @@ class M3UProcessor:
             timeout = 5 if getattr(self, 'fast', False) else 8
         try:
             import m3u8
-            resp = requests.get(playlist_url, timeout=timeout)
-            content = None
-            for enc in ['utf-8', 'gbk', 'latin-1']:
-                try:
-                    content = resp.content.decode(enc)
-                    break
-                except UnicodeDecodeError:
-                    continue
+            content = self._fetch_text(playlist_url, timeout=timeout)
             if not content:
                 return (False, None)
             obj = m3u8.loads(content)
@@ -395,15 +425,7 @@ class M3UProcessor:
         """解析播放列表，返回其媒体分片的绝对 URL 列表（支持一层主/子播放列表嵌套）。"""
         try:
             import m3u8
-            import requests
-            content = None
-            resp = requests.get(url, timeout=10)
-            for enc in ('utf-8', 'gbk', 'latin-1'):
-                try:
-                    content = resp.content.decode(enc)
-                    break
-                except UnicodeDecodeError:
-                    continue
+            content = self._fetch_text(url, timeout=10)
             if not content:
                 return []
             obj = m3u8.loads(content)
@@ -901,18 +923,9 @@ class M3UProcessor:
                     logger.debug(f"对URL {url} 进行m3u库复检")
                     try:
                         import m3u8
-                        import requests
 
-                        # 尝试获取内容，处理编码问题，设置10秒超时
-                        response = requests.get(url, timeout=10)
-                        # 尝试不同编码
-                        content = None
-                        for encoding in ['utf-8', 'gbk', 'latin-1']:
-                            try:
-                                content = response.content.decode(encoding)
-                                break
-                            except UnicodeDecodeError:
-                                continue
+                        # 流式抓取，带总时长帽和字节帽，杜绝慢滴答源卡死
+                        content = self._fetch_text(url, timeout=10)
 
                         if content:
                             # 使用已解码的内容创建m3u8对象
@@ -1414,7 +1427,6 @@ def main():
     _ffprobe_timeout = args.ffprobe_timeout if args.ffprobe_timeout and args.ffprobe_timeout > 0 \
         else None
 
-    _exit_code = 0
     try:
         processor = M3UProcessor(
             input_file=args.input_file,
@@ -1433,16 +1445,7 @@ def main():
 
     except Exception as e:
         print(f"处理失败: {e}")
-        _exit_code = 1
-
-    # ThreadPoolExecutor 的 atexit handler(_python_exit)会 join 所有 worker 线程，
-    # 包括 shutdown(wait=False) 留下的、卡在 requests 慢滴答源上的孤儿线程，
-    # 导致工作已完成、产物已落盘(.m3u/.stability.csv 均经 with open() 写闭)但
-    # 进程无法退出，后续 workflow 步骤(Show files / Upload)永远不执行。
-    # os._exit 绕过 atexit 与解释器清理，确保产物落盘后立即退出。
-    sys.stdout.flush()
-    sys.stderr.flush()
-    os._exit(_exit_code)
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
