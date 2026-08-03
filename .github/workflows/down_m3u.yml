@@ -23,12 +23,12 @@ jobs:
       chunks: ${{ steps.gen-chunks.outputs.chunks }}   # JSON 数组，供 matrix 使用
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0
 
     - name: Checkout collect-txt and copy target file
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         repository: kimwang1978/collect-txt
         path: collect-txt
@@ -49,7 +49,7 @@ jobs:
         head -n 20 "$TARGET_FILE" || true
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.10'
 
@@ -121,7 +121,7 @@ jobs:
         PY
 
     - name: Upload chunks artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: chunks
         path: |
@@ -144,12 +144,12 @@ jobs:
         chunk: ${{ fromJson(needs.split.outputs.chunks) }}
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.10'
 
@@ -162,7 +162,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Download chunk artifact
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       with:
         name: chunks
         path: .
@@ -181,14 +181,21 @@ jobs:
         CHUNK_NUM="${CHUNK_ID#bbxx_}"             # 去掉 bbxx_ 前缀 → chunk_00
         # 输出名：bbxx → bbxx_iptv_chunk_XX.m3u
         OUT="bbxx_iptv_${CHUNK_NUM}"
+        # 输入名：artifact 下载到 . 后，chunk 文件位于 chunks/ 下
+        IN="chunks/${CHUNK_NAME}"
+        if [ ! -f "$IN" ]; then
+          echo "Error: Input chunk not found at $IN"
+          echo "Listing chunks/:"; ls -la chunks/ || true
+          exit 1
+        fi
         CONCURRENCY=8
         echo "OUT=$OUT" >> "$GITHUB_ENV"
         # --fast 快速模式；--ffprobe-timeout 8 死源 8 秒内放弃。
         # 降低并发（t=8/c=4）减少 FFprobe 超时与整体运行时长，避免触碰 runner 上限。
-        python "$SCRIPT_PATH" "${{ matrix.chunk }}" -o "$OUT" --fast -t "$CONCURRENCY" -c 4 --fast-sample 2 --ffprobe-timeout 8
+        python "$SCRIPT_PATH" "$IN" -o "$OUT" --fast -t "$CONCURRENCY" -c 4 --fast-sample 2 --ffprobe-timeout 8
 
     - name: Upload part result
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: part-${{ matrix.chunk }}
         path: |
@@ -207,7 +214,7 @@ jobs:
       contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0
 
@@ -220,7 +227,7 @@ jobs:
         ls -la src || true
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.10'
 
@@ -230,7 +237,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Download bbxx.m3u (for commit) and all part results
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       with:
         pattern: part-*        # 下载所有 part-* artifact 到各自目录
         path: parts
