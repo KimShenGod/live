@@ -177,9 +177,10 @@ jobs:
           exit 1
         fi
         CHUNK_NAME="${{ matrix.chunk }}"          # 如 bbxx_chunk_00.m3u
-        CHUNK_ID="${CHUNK_NAME%.m3u}"             # 去掉 .m3u
+        CHUNK_ID="${CHUNK_NAME%.m3u}"             # 去掉 .m3u → bbxx_chunk_00
+        CHUNK_NUM="${CHUNK_ID#bbxx_}"             # 去掉 bbxx_ 前缀 → chunk_00
         # 输出名：bbxx → bbxx_iptv_chunk_XX.m3u
-        OUT="bbxx_iptv_${CHUNK_ID}.m3u"
+        OUT="bbxx_iptv_${CHUNK_NUM}"
         CONCURRENCY=8
         echo "OUT=$OUT" >> "$GITHUB_ENV"
         # --fast 快速模式；--ffprobe-timeout 8 死源 8 秒内放弃。
