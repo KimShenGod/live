@@ -1,6 +1,6 @@
 ﻿channel,group,resolution,bitrate,speed_kbps,stall_events,max_gap_s,stable,vod_clip,url
 20260812 09:46:48,更新时间,未知,未知,0,0,0.0,True,False,https://gitee.com/kabigo/tv/raw/master/assets/about1080p.mp4
-（地）关于本源(iptv365.org),更新时间,1920x1080,128 kbps,320827.6,0,0.0,True,True,https://gitlab.com/p2v5/wangtv/-/raw/main/about1080p.mp4
+（地）关于本源(iptv365.org),更新时间,1920x1080,128 kbps,135787.9,0,0.0,True,True,https://gitlab.com/p2v5/wangtv/-/raw/main/about1080p.mp4
 （址）(百)每日一首,更新时间,不可访问,未知,0,0,0.0,True,False,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000crdl34vog65v7e9of17g&ratio=720p&line=0
 （已）(宝)MovieMusic欣赏,更新时间,有效媒体段,未知,0,0,0.0,True,False,https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/dee3e3af-2706-3e77-a952-91b99f6d1819/5711200/manifest.m3u8
 （变）(箱)AMC音乐,更新时间,不可访问,未知,0,0,0.0,True,False,https://AMChls.wns.live/hls/stream.m3u8
