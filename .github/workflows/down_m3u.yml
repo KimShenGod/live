@@ -12,7 +12,7 @@ defaults:
 
 jobs:
   # =========================================================================
-  # Job 1: 下载 bbxx.m3u 源文件 + 切成 N 个块（每块带完整文件头），上传为 artifact
+  # Job 1: 下载 collect-txt 的 bbxx365.m3u 源文件（本地存为 bbxx.m3u） + 切成 N 个块（每块带完整文件头），上传为 artifact
   # =========================================================================
   split:
     runs-on: ubuntu-latest
@@ -37,16 +37,17 @@ jobs:
 
     - name: Copy target file into workspace and verify
       run: |
-        TARGET_FILE="bbxx.m3u"
-        SRC_PATH="${{ github.workspace }}/collect-txt/$TARGET_FILE"
+        SRC_FILE="bbxx365.m3u"   # collect-txt 上游文件名
+        DEST_FILE="bbxx.m3u"     # 本地后续流程统一使用的文件名
+        SRC_PATH="${{ github.workspace }}/collect-txt/$SRC_FILE"
         if [ ! -f "$SRC_PATH" ]; then
           echo "Error: Source file not found at $SRC_PATH"
           ls -la "${{ github.workspace }}/collect-txt" || true
           exit 1
         fi
-        cp "$SRC_PATH" "$TARGET_FILE"
-        echo "✅ Copied $SRC_PATH -> $TARGET_FILE (size: $(stat -c%s "$TARGET_FILE") bytes)"
-        head -n 20 "$TARGET_FILE" || true
+        cp "$SRC_PATH" "$DEST_FILE"
+        echo "✅ Copied $SRC_PATH -> $DEST_FILE (size: $(stat -c%s "$DEST_FILE") bytes)"
+        head -n 20 "$DEST_FILE" || true
 
     - name: Set up Python
       uses: actions/setup-python@v6
