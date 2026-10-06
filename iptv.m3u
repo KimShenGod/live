@@ -161,7 +161,7 @@ https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
 
 #EXTINF:-1 tvg-id="143" tvg-name="兵器科技" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/兵器科技.png" group-title="央视频道",兵器科技
-http://43.152.31.17:843/hlslive-tx-cdn.ysp.cctv.cn/ysp/2026874603_dlna.m3u8
+http://43.175.120.172/outlivecloud-cdn.ysp.cctv.cn/ysp/2026874603_dlna.m3u8
 
 http://198.204.228.26/live/gfjs.m3u8?ysp
 http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
@@ -170,9 +170,9 @@ http://43.175.120.172/outlivecloud-cdn.ysp.cctv.cn/ysp/2026874203_dlna.m3u8
 
 http://198.204.228.26/live/dyjc.m3u8?ysp
 http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
-http://43.152.31.17:843/hlslive-tx-cdn.ysp.cctv.cn/ysp/2026874203_dlna.m3u8
+
 #EXTINF:-1 tvg-id="146" tvg-name="女性时尚" tvg-logo="https://raw.githubusercontent.com/KimShenGod/live/main/images/女性时尚.png" group-title="央视频道",女性时尚
-http://43.152.31.17:843/hlslive-tx-cdn.ysp.cctv.cn/ysp/2026874803_dlna.m3u8
+http://43.175.120.172/outlivecloud-cdn.ysp.cctv.cn/ysp/2026874803_dlna.m3u8
 
 http://198.204.228.26/live/nxss.m3u8?ysp
 http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
